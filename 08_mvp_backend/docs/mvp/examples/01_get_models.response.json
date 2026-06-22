@@ -1,0 +1,11 @@
+{
+  "items": [
+    {
+      "id": "90e881ff-f080-4c40-ba16-616b93a7b3f8",
+      "provider": "openai",
+      "model_key": "gpt-4.1-mini-2025-04-14",
+      "display_name": "GPT-4.1 Mini (2025-04-14)",
+      "is_active": true
+    }
+  ]
+}

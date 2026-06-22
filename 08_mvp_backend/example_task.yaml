@@ -1,0 +1,31 @@
+task_id: "l_bracket_001"
+version: "1.0"
+description: >
+  Create a single connected L-bracket in mm. Right-handed XYZ. Origin at the outer bottom corner where legs meet.
+  Leg A: 80x30x8 (XxYxZ), X=0..80, Y=0..30, Z=0..8.
+  Leg B: 30x8x60, X=0..30, Y=0..8, Z=0..60.
+  Through-holes on Leg A: diameter 8 at centers (20,15,4) and (60,15,4), axis +Z.
+  Rounded slot on Leg B: length 24 width 8, center (15,4,35), long axis +Z, through Y thickness.
+  Exactly one connected solid component.
+reference_step: "reference/l_bracket_001.step"
+reference_stl: "reference/l_bracket_001.stl"
+units: "mm"
+manual_operations: 9
+difficulty: "medium"
+tags: ["bracket", "holes", "slot", "single_component"]
+requirements:
+  bounding_box: [80, 30, 60]
+  topology_requirements:
+    expected_component_count: 1
+    must_be_watertight: true
+  metric_thresholds_override:
+    chamfer_threshold_mm: 1.0
+    hausdorff_threshold_mm: 1.2
+    volume_threshold_percent: 2.0
+    bounding_box_tolerance_mm: 1.0
+metadata:
+  author: "Isidor AI"
+  source: "internal_cad_set_v1"
+  license: "internal-use"
+  created_at: "2026-02-18T10:00:00Z"
+  notes: "Pilot benchmark task"

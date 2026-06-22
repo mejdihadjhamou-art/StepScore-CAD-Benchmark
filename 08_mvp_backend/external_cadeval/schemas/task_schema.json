@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CadEval Task Schema",
+  "description": "Schema for validating CadEval task definition files",
+  "type": "object",
+  "required": ["task_id", "description", "reference_stl", "requirements"],
+  "properties": {
+    "task_id": {
+      "type": "string",
+      "description": "Unique identifier for the task"
+    },
+    "description": {
+      "type": "string",
+      "description": "Descriptive text for the task that will be provided to the LLM"
+    },
+    "reference_stl": {
+      "type": "string",
+      "description": "Path to the reference STL model file"
+    },
+    "requirements": {
+      "type": "object",
+      "required": ["bounding_box"],
+      "properties": {
+        "bounding_box": {
+          "type": "array",
+          "description": "Required dimensions [length, width, height] in mm",
+          "minItems": 3,
+          "maxItems": 3,
+          "items": {
+            "type": "number",
+            "minimum": 0
+          }
+        },
+        "topology_requirements": {
+          "type": "object",
+          "description": "Requirements related to the topology of the 3D model",
+          "properties": {
+            "expected_component_count": {
+              "type": "integer",
+              "description": "Number of separate components expected in the model",
+              "minimum": 1
+            }
+          }
+        }
+      }
+    },
+    "manual_operations": {
+      "type": ["integer", "null"],
+      "description": "Manually tallied number of operations required for the task (optional)",
+      "minimum": 1
+    }
+  },
+  "additionalProperties": false
+} 

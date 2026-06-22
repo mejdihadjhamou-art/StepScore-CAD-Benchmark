@@ -1,0 +1,28 @@
+{
+  "run_id": "845bf8b3-fde2-4e61-a37e-d17d3722ac3e",
+  "status": "SUCCEEDED",
+  "aggregate": {
+    "requested_replicates": 3,
+    "completed_replicates": 3,
+    "passed_replicates": 2,
+    "pass_rate": 0.6667,
+    "avg_chamfer_mm": 0.91,
+    "avg_hausdorff_p95_mm": 1.12,
+    "avg_volume_delta_percent": 0.74
+  },
+  "replicates": [
+    {
+      "id": "b2fa4ce0-73db-4d1b-bcb4-9d9d9528ef2d",
+      "run_id": "845bf8b3-fde2-4e61-a37e-d17d3722ac3e",
+      "replicate_index": 1,
+      "seed": 101,
+      "status": "SUCCEEDED",
+      "started_at": "2026-02-13T14:43:18.000Z",
+      "completed_at": "2026-02-13T14:44:10.000Z",
+      "error_message": null,
+      "checks": [],
+      "metrics": []
+    }
+  ]
+}
+

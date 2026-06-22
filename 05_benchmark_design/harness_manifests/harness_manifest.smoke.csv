@@ -1,0 +1,2473 @@
+job_id,part_id,family,prompt_level,provider,model,generation_mode,reference_path,base_step_path,prompt_text,grading_profile,replicate,sample_points,voxel_pitch_mm,fast_mode,timeout_seconds,threshold_overrides_json,status,enabled,notes
+box_hole_0001__L2__openai__gpt-5.2__r1,box_hole_0001,box_hole,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/box_hole_0001.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered through hole
+Units:
+Millimeters (mm).
+Geometry:
+- Base block size: X=132, Y=54, Z=14.
+- Add one centered vertical through hole, diameter=16, axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+box_hole_0001__L2__openai__gpt-5.2__r1,box_hole_0001,box_hole,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/box_hole_0001.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered through hole
+Units:
+Millimeters (mm).
+Geometry:
+- Base block size: X=132, Y=54, Z=14.
+- Add one centered vertical through hole, diameter=16, axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+stepped_shaft_0002__L2__openai__gpt-5.2__r1,stepped_shaft_0002,stepped_shaft,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0002.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft
+Units:
+Millimeters (mm).
+Geometry:
+- Segment 1: diameter=14, length=26.
+- Segment 2: diameter=24, length=50, attached coaxially after segment 1.
+- Segment 3: diameter=10, length=24, attached coaxially after segment 2.
+- Overall shaft length=100.
+- Shaft axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+stepped_shaft_0002__L2__openai__gpt-5.2__r1,stepped_shaft_0002,stepped_shaft,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0002.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft
+Units:
+Millimeters (mm).
+Geometry:
+- Segment 1: diameter=14, length=26.
+- Segment 2: diameter=24, length=50, attached coaxially after segment 1.
+- Segment 3: diameter=10, length=24, attached coaxially after segment 2.
+- Overall shaft length=100.
+- Shaft axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+flange_0003__L2__openai__gpt-5.2__r1,flange_0003,flange,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/flange_0003.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange with bore and bolt pattern
+Units:
+Millimeters (mm).
+Geometry:
+- Flange outer diameter=136, thickness=22.
+- Center through bore diameter=14.
+- Add 4 equally spaced through bolt holes, each diameter=6.
+- Bolt holes are on bolt circle diameter=82.107.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+flange_0003__L2__openai__gpt-5.2__r1,flange_0003,flange,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/flange_0003.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange with bore and bolt pattern
+Units:
+Millimeters (mm).
+Geometry:
+- Flange outer diameter=136, thickness=22.
+- Center through bore diameter=14.
+- Add 4 equally spaced through bolt holes, each diameter=6.
+- Bolt holes are on bolt circle diameter=82.107.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+ring_spacer_0004__L2__openai__gpt-5.2__r1,ring_spacer_0004,ring_spacer,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/ring_spacer_0004.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (hollow cylinder)
+Units:
+Millimeters (mm).
+Geometry:
+- Outer diameter=100.
+- Inner diameter=16 (through bore).
+- Height=24.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+ring_spacer_0004__L2__openai__gpt-5.2__r1,ring_spacer_0004,ring_spacer,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/ring_spacer_0004.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (hollow cylinder)
+Units:
+Millimeters (mm).
+Geometry:
+- Outer diameter=100.
+- Inner diameter=16 (through bore).
+- Height=24.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+slotted_plate_0005__L2__openai__gpt-5.2__r1,slotted_plate_0005,slotted_plate,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0005.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular plate with a centered through slot
+Units:
+Millimeters (mm).
+Geometry:
+- Plate dimensions: X=116, Y=90, thickness Z=16.
+- One centered slot with rounded ends: length=74, width=22.
+- Slot goes fully through thickness.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+slotted_plate_0005__L2__openai__gpt-5.2__r1,slotted_plate_0005,slotted_plate,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0005.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular plate with a centered through slot
+Units:
+Millimeters (mm).
+Geometry:
+- Plate dimensions: X=116, Y=90, thickness Z=16.
+- One centered slot with rounded ends: length=74, width=22.
+- Slot goes fully through thickness.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+l_bracket_0006__L2__openai__gpt-5.2__r1,l_bracket_0006,l_bracket,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/l_bracket_0006.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket with base, vertical web, and holes
+Units:
+Millimeters (mm).
+Geometry:
+- Base plate: length=88, width=58, thickness=16.
+- Vertical web near one base edge: thickness=10, height=82, full base width.
+- Add two top through holes in the base, each diameter=12.
+- Add one side through hole in the web, diameter=6.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+l_bracket_0006__L2__openai__gpt-5.2__r1,l_bracket_0006,l_bracket,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/l_bracket_0006.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket with base, vertical web, and holes
+Units:
+Millimeters (mm).
+Geometry:
+- Base plate: length=88, width=58, thickness=16.
+- Vertical web near one base edge: thickness=10, height=82, full base width.
+- Add two top through holes in the base, each diameter=12.
+- Add one side through hole in the web, diameter=6.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+pillow_block_0007__L2__openai__gpt-5.2__r1,pillow_block_0007,pillow_block,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pillow_block_0007.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Pillow-block style mount with central bore and 4 mounting holes
+Units:
+Millimeters (mm).
+Geometry:
+- Block dimensions: X=100, Y=90, Z=54.
+- One centered vertical through bore, diameter=22.
+- Four mounting through holes, each diameter=8, arranged symmetrically on base footprint.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+pillow_block_0007__L2__openai__gpt-5.2__r1,pillow_block_0007,pillow_block,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pillow_block_0007.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Pillow-block style mount with central bore and 4 mounting holes
+Units:
+Millimeters (mm).
+Geometry:
+- Block dimensions: X=100, Y=90, Z=54.
+- One centered vertical through bore, diameter=22.
+- Four mounting through holes, each diameter=8, arranged symmetrically on base footprint.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+pulley_0008__L2__openai__gpt-5.2__r1,pulley_0008,pulley,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pulley_0008.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step pulley with centered through bore
+Units:
+Millimeters (mm).
+Geometry:
+- Coaxial step 1: radius=26, height=8.
+- Coaxial step 2 on top: radius=20, height=10.
+- Coaxial step 3 on top: radius=16, height=12.
+- Center through bore diameter=8.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+pulley_0008__L2__openai__gpt-5.2__r1,pulley_0008,pulley,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pulley_0008.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step pulley with centered through bore
+Units:
+Millimeters (mm).
+Geometry:
+- Coaxial step 1: radius=26, height=8.
+- Coaxial step 2 on top: radius=20, height=10.
+- Coaxial step 3 on top: radius=16, height=12.
+- Center through bore diameter=8.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+u_channel_0009__L2__openai__gpt-5.2__r1,u_channel_0009,u_channel,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/u_channel_0009.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+U-channel with open top and two holes
+Units:
+Millimeters (mm).
+Geometry:
+- Outer envelope: X=126, Y=58, Z=44.
+- Hollow interior to form a U-channel: wall thickness=6, floor thickness=10, top open.
+- Two through holes on the top side, each diameter=6, mirrored along X.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+u_channel_0009__L2__openai__gpt-5.2__r1,u_channel_0009,u_channel,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/u_channel_0009.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+U-channel with open top and two holes
+Units:
+Millimeters (mm).
+Geometry:
+- Outer envelope: X=126, Y=58, Z=44.
+- Hollow interior to form a U-channel: wall thickness=6, floor thickness=10, top open.
+- Two through holes on the top side, each diameter=6, mirrored along X.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+box_hole_0010__L2__openai__gpt-5.2__r1,box_hole_0010,box_hole,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/box_hole_0010.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered through hole
+Units:
+Millimeters (mm).
+Geometry:
+- Base block size: X=108, Y=108, Z=20.
+- Add one centered vertical through hole, diameter=32, axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+box_hole_0010__L2__openai__gpt-5.2__r1,box_hole_0010,box_hole,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/box_hole_0010.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered through hole
+Units:
+Millimeters (mm).
+Geometry:
+- Base block size: X=108, Y=108, Z=20.
+- Add one centered vertical through hole, diameter=32, axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+stepped_shaft_0011__L2__openai__gpt-5.2__r1,stepped_shaft_0011,stepped_shaft,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0011.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft
+Units:
+Millimeters (mm).
+Geometry:
+- Segment 1: diameter=12, length=60.
+- Segment 2: diameter=32, length=40, attached coaxially after segment 1.
+- Segment 3: diameter=10, length=54, attached coaxially after segment 2.
+- Overall shaft length=154.
+- Shaft axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+stepped_shaft_0011__L2__openai__gpt-5.2__r1,stepped_shaft_0011,stepped_shaft,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0011.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft
+Units:
+Millimeters (mm).
+Geometry:
+- Segment 1: diameter=12, length=60.
+- Segment 2: diameter=32, length=40, attached coaxially after segment 1.
+- Segment 3: diameter=10, length=54, attached coaxially after segment 2.
+- Overall shaft length=154.
+- Shaft axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+flange_0012__L2__openai__gpt-5.2__r1,flange_0012,flange,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/flange_0012.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange with bore and bolt pattern
+Units:
+Millimeters (mm).
+Geometry:
+- Flange outer diameter=84, thickness=10.
+- Center through bore diameter=14.
+- Add 8 equally spaced through bolt holes, each diameter=8.
+- Bolt holes are on bolt circle diameter=60.0275.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+flange_0012__L2__openai__gpt-5.2__r1,flange_0012,flange,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/flange_0012.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange with bore and bolt pattern
+Units:
+Millimeters (mm).
+Geometry:
+- Flange outer diameter=84, thickness=10.
+- Center through bore diameter=14.
+- Add 8 equally spaced through bolt holes, each diameter=8.
+- Bolt holes are on bolt circle diameter=60.0275.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+ring_spacer_0013__L2__openai__gpt-5.2__r1,ring_spacer_0013,ring_spacer,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/ring_spacer_0013.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (hollow cylinder)
+Units:
+Millimeters (mm).
+Geometry:
+- Outer diameter=46.
+- Inner diameter=20 (through bore).
+- Height=10.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+ring_spacer_0013__L2__openai__gpt-5.2__r1,ring_spacer_0013,ring_spacer,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/ring_spacer_0013.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (hollow cylinder)
+Units:
+Millimeters (mm).
+Geometry:
+- Outer diameter=46.
+- Inner diameter=20 (through bore).
+- Height=10.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+slotted_plate_0014__L2__openai__gpt-5.2__r1,slotted_plate_0014,slotted_plate,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0014.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular plate with a centered through slot
+Units:
+Millimeters (mm).
+Geometry:
+- Plate dimensions: X=138, Y=62, thickness Z=14.
+- One centered slot with rounded ends: length=88, width=20.
+- Slot goes fully through thickness.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+slotted_plate_0014__L2__openai__gpt-5.2__r1,slotted_plate_0014,slotted_plate,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0014.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular plate with a centered through slot
+Units:
+Millimeters (mm).
+Geometry:
+- Plate dimensions: X=138, Y=62, thickness Z=14.
+- One centered slot with rounded ends: length=88, width=20.
+- Slot goes fully through thickness.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+l_bracket_0015__L2__openai__gpt-5.2__r1,l_bracket_0015,l_bracket,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/l_bracket_0015.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket with base, vertical web, and holes
+Units:
+Millimeters (mm).
+Geometry:
+- Base plate: length=80, width=54, thickness=12.
+- Vertical web near one base edge: thickness=10, height=72, full base width.
+- Add two top through holes in the base, each diameter=8.
+- Add one side through hole in the web, diameter=10.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+l_bracket_0015__L2__openai__gpt-5.2__r1,l_bracket_0015,l_bracket,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/l_bracket_0015.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket with base, vertical web, and holes
+Units:
+Millimeters (mm).
+Geometry:
+- Base plate: length=80, width=54, thickness=12.
+- Vertical web near one base edge: thickness=10, height=72, full base width.
+- Add two top through holes in the base, each diameter=8.
+- Add one side through hole in the web, diameter=10.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+pillow_block_0016__L2__openai__gpt-5.2__r1,pillow_block_0016,pillow_block,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pillow_block_0016.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Pillow-block style mount with central bore and 4 mounting holes
+Units:
+Millimeters (mm).
+Geometry:
+- Block dimensions: X=90, Y=84, Z=36.
+- One centered vertical through bore, diameter=16.
+- Four mounting through holes, each diameter=8, arranged symmetrically on base footprint.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+pillow_block_0016__L2__openai__gpt-5.2__r1,pillow_block_0016,pillow_block,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pillow_block_0016.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Pillow-block style mount with central bore and 4 mounting holes
+Units:
+Millimeters (mm).
+Geometry:
+- Block dimensions: X=90, Y=84, Z=36.
+- One centered vertical through bore, diameter=16.
+- Four mounting through holes, each diameter=8, arranged symmetrically on base footprint.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+pulley_0017__L2__openai__gpt-5.2__r1,pulley_0017,pulley,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pulley_0017.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step pulley with centered through bore
+Units:
+Millimeters (mm).
+Geometry:
+- Coaxial step 1: radius=36, height=14.
+- Coaxial step 2 on top: radius=28, height=12.
+- Coaxial step 3 on top: radius=18, height=12.
+- Center through bore diameter=14.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+pulley_0017__L2__openai__gpt-5.2__r1,pulley_0017,pulley,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pulley_0017.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step pulley with centered through bore
+Units:
+Millimeters (mm).
+Geometry:
+- Coaxial step 1: radius=36, height=14.
+- Coaxial step 2 on top: radius=28, height=12.
+- Coaxial step 3 on top: radius=18, height=12.
+- Center through bore diameter=14.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+u_channel_0018__L2__openai__gpt-5.2__r1,u_channel_0018,u_channel,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/u_channel_0018.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+U-channel with open top and two holes
+Units:
+Millimeters (mm).
+Geometry:
+- Outer envelope: X=88, Y=50, Z=50.
+- Hollow interior to form a U-channel: wall thickness=4, floor thickness=10, top open.
+- Two through holes on the top side, each diameter=8, mirrored along X.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+u_channel_0018__L2__openai__gpt-5.2__r1,u_channel_0018,u_channel,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/u_channel_0018.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+U-channel with open top and two holes
+Units:
+Millimeters (mm).
+Geometry:
+- Outer envelope: X=88, Y=50, Z=50.
+- Hollow interior to form a U-channel: wall thickness=4, floor thickness=10, top open.
+- Two through holes on the top side, each diameter=8, mirrored along X.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+box_hole_0019__L2__openai__gpt-5.2__r1,box_hole_0019,box_hole,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/box_hole_0019.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered through hole
+Units:
+Millimeters (mm).
+Geometry:
+- Base block size: X=102, Y=74, Z=16.
+- Add one centered vertical through hole, diameter=14, axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+box_hole_0019__L2__openai__gpt-5.2__r1,box_hole_0019,box_hole,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/box_hole_0019.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered through hole
+Units:
+Millimeters (mm).
+Geometry:
+- Base block size: X=102, Y=74, Z=16.
+- Add one centered vertical through hole, diameter=14, axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+stepped_shaft_0020__L2__openai__gpt-5.2__r1,stepped_shaft_0020,stepped_shaft,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0020.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft
+Units:
+Millimeters (mm).
+Geometry:
+- Segment 1: diameter=24, length=40.
+- Segment 2: diameter=36, length=30, attached coaxially after segment 1.
+- Segment 3: diameter=22, length=50, attached coaxially after segment 2.
+- Overall shaft length=120.
+- Shaft axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+stepped_shaft_0020__L2__openai__gpt-5.2__r1,stepped_shaft_0020,stepped_shaft,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0020.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft
+Units:
+Millimeters (mm).
+Geometry:
+- Segment 1: diameter=24, length=40.
+- Segment 2: diameter=36, length=30, attached coaxially after segment 1.
+- Segment 3: diameter=22, length=50, attached coaxially after segment 2.
+- Overall shaft length=120.
+- Shaft axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+flange_0021__L2__openai__gpt-5.2__r1,flange_0021,flange,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/flange_0021.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange with bore and bolt pattern
+Units:
+Millimeters (mm).
+Geometry:
+- Flange outer diameter=110, thickness=22.
+- Center through bore diameter=22.
+- Add 6 equally spaced through bolt holes, each diameter=6.
+- Bolt holes are on bolt circle diameter=67.0258.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+flange_0021__L2__openai__gpt-5.2__r1,flange_0021,flange,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/flange_0021.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange with bore and bolt pattern
+Units:
+Millimeters (mm).
+Geometry:
+- Flange outer diameter=110, thickness=22.
+- Center through bore diameter=22.
+- Add 6 equally spaced through bolt holes, each diameter=6.
+- Bolt holes are on bolt circle diameter=67.0258.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+ring_spacer_0022__L2__openai__gpt-5.2__r1,ring_spacer_0022,ring_spacer,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/ring_spacer_0022.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (hollow cylinder)
+Units:
+Millimeters (mm).
+Geometry:
+- Outer diameter=108.
+- Inner diameter=80 (through bore).
+- Height=14.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+ring_spacer_0022__L2__openai__gpt-5.2__r1,ring_spacer_0022,ring_spacer,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/ring_spacer_0022.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (hollow cylinder)
+Units:
+Millimeters (mm).
+Geometry:
+- Outer diameter=108.
+- Inner diameter=80 (through bore).
+- Height=14.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+slotted_plate_0023__L2__openai__gpt-5.2__r1,slotted_plate_0023,slotted_plate,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0023.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular plate with a centered through slot
+Units:
+Millimeters (mm).
+Geometry:
+- Plate dimensions: X=186, Y=82, thickness Z=12.
+- One centered slot with rounded ends: length=116, width=20.
+- Slot goes fully through thickness.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+slotted_plate_0023__L2__openai__gpt-5.2__r1,slotted_plate_0023,slotted_plate,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0023.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular plate with a centered through slot
+Units:
+Millimeters (mm).
+Geometry:
+- Plate dimensions: X=186, Y=82, thickness Z=12.
+- One centered slot with rounded ends: length=116, width=20.
+- Slot goes fully through thickness.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+l_bracket_0024__L2__openai__gpt-5.2__r1,l_bracket_0024,l_bracket,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/l_bracket_0024.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket with base, vertical web, and holes
+Units:
+Millimeters (mm).
+Geometry:
+- Base plate: length=88, width=38, thickness=14.
+- Vertical web near one base edge: thickness=14, height=36, full base width.
+- Add two top through holes in the base, each diameter=12.
+- Add one side through hole in the web, diameter=6.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+l_bracket_0024__L2__openai__gpt-5.2__r1,l_bracket_0024,l_bracket,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/l_bracket_0024.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket with base, vertical web, and holes
+Units:
+Millimeters (mm).
+Geometry:
+- Base plate: length=88, width=38, thickness=14.
+- Vertical web near one base edge: thickness=14, height=36, full base width.
+- Add two top through holes in the base, each diameter=12.
+- Add one side through hole in the web, diameter=6.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+pillow_block_0025__L2__openai__gpt-5.2__r1,pillow_block_0025,pillow_block,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pillow_block_0025.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Pillow-block style mount with central bore and 4 mounting holes
+Units:
+Millimeters (mm).
+Geometry:
+- Block dimensions: X=94, Y=54, Z=36.
+- One centered vertical through bore, diameter=18.
+- Four mounting through holes, each diameter=10, arranged symmetrically on base footprint.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+pillow_block_0025__L2__openai__gpt-5.2__r1,pillow_block_0025,pillow_block,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pillow_block_0025.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Pillow-block style mount with central bore and 4 mounting holes
+Units:
+Millimeters (mm).
+Geometry:
+- Block dimensions: X=94, Y=54, Z=36.
+- One centered vertical through bore, diameter=18.
+- Four mounting through holes, each diameter=10, arranged symmetrically on base footprint.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+pulley_0026__L2__openai__gpt-5.2__r1,pulley_0026,pulley,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pulley_0026.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step pulley with centered through bore
+Units:
+Millimeters (mm).
+Geometry:
+- Coaxial step 1: radius=24, height=14.
+- Coaxial step 2 on top: radius=20, height=16.
+- Coaxial step 3 on top: radius=16, height=10.
+- Center through bore diameter=12.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+pulley_0026__L2__openai__gpt-5.2__r1,pulley_0026,pulley,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pulley_0026.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step pulley with centered through bore
+Units:
+Millimeters (mm).
+Geometry:
+- Coaxial step 1: radius=24, height=14.
+- Coaxial step 2 on top: radius=20, height=16.
+- Coaxial step 3 on top: radius=16, height=10.
+- Center through bore diameter=12.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+u_channel_0027__L2__openai__gpt-5.2__r1,u_channel_0027,u_channel,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/u_channel_0027.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+U-channel with open top and two holes
+Units:
+Millimeters (mm).
+Geometry:
+- Outer envelope: X=82, Y=44, Z=46.
+- Hollow interior to form a U-channel: wall thickness=8, floor thickness=10, top open.
+- Two through holes on the top side, each diameter=8, mirrored along X.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+u_channel_0027__L2__openai__gpt-5.2__r1,u_channel_0027,u_channel,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/u_channel_0027.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+U-channel with open top and two holes
+Units:
+Millimeters (mm).
+Geometry:
+- Outer envelope: X=82, Y=44, Z=46.
+- Hollow interior to form a U-channel: wall thickness=8, floor thickness=10, top open.
+- Two through holes on the top side, each diameter=8, mirrored along X.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+box_hole_0028__L2__openai__gpt-5.2__r1,box_hole_0028,box_hole,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/box_hole_0028.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered through hole
+Units:
+Millimeters (mm).
+Geometry:
+- Base block size: X=132, Y=84, Z=20.
+- Add one centered vertical through hole, diameter=18, axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+box_hole_0028__L2__openai__gpt-5.2__r1,box_hole_0028,box_hole,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/box_hole_0028.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered through hole
+Units:
+Millimeters (mm).
+Geometry:
+- Base block size: X=132, Y=84, Z=20.
+- Add one centered vertical through hole, diameter=18, axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+stepped_shaft_0029__L2__openai__gpt-5.2__r1,stepped_shaft_0029,stepped_shaft,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0029.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft
+Units:
+Millimeters (mm).
+Geometry:
+- Segment 1: diameter=16, length=20.
+- Segment 2: diameter=24, length=32, attached coaxially after segment 1.
+- Segment 3: diameter=12, length=50, attached coaxially after segment 2.
+- Overall shaft length=102.
+- Shaft axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+stepped_shaft_0029__L2__openai__gpt-5.2__r1,stepped_shaft_0029,stepped_shaft,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0029.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft
+Units:
+Millimeters (mm).
+Geometry:
+- Segment 1: diameter=16, length=20.
+- Segment 2: diameter=24, length=32, attached coaxially after segment 1.
+- Segment 3: diameter=12, length=50, attached coaxially after segment 2.
+- Overall shaft length=102.
+- Shaft axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+flange_0030__L2__openai__gpt-5.2__r1,flange_0030,flange,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/flange_0030.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange with bore and bolt pattern
+Units:
+Millimeters (mm).
+Geometry:
+- Flange outer diameter=82, thickness=24.
+- Center through bore diameter=16.
+- Add 8 equally spaced through bolt holes, each diameter=8.
+- Bolt holes are on bolt circle diameter=59.7234.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+flange_0030__L2__openai__gpt-5.2__r1,flange_0030,flange,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/flange_0030.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange with bore and bolt pattern
+Units:
+Millimeters (mm).
+Geometry:
+- Flange outer diameter=82, thickness=24.
+- Center through bore diameter=16.
+- Add 8 equally spaced through bolt holes, each diameter=8.
+- Bolt holes are on bolt circle diameter=59.7234.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+ring_spacer_0031__L2__openai__gpt-5.2__r1,ring_spacer_0031,ring_spacer,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/ring_spacer_0031.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (hollow cylinder)
+Units:
+Millimeters (mm).
+Geometry:
+- Outer diameter=100.
+- Inner diameter=38 (through bore).
+- Height=10.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+ring_spacer_0031__L2__openai__gpt-5.2__r1,ring_spacer_0031,ring_spacer,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/ring_spacer_0031.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (hollow cylinder)
+Units:
+Millimeters (mm).
+Geometry:
+- Outer diameter=100.
+- Inner diameter=38 (through bore).
+- Height=10.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+slotted_plate_0032__L2__openai__gpt-5.2__r1,slotted_plate_0032,slotted_plate,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0032.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular plate with a centered through slot
+Units:
+Millimeters (mm).
+Geometry:
+- Plate dimensions: X=138, Y=94, thickness Z=8.
+- One centered slot with rounded ends: length=82, width=32.
+- Slot goes fully through thickness.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+slotted_plate_0032__L2__openai__gpt-5.2__r1,slotted_plate_0032,slotted_plate,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0032.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular plate with a centered through slot
+Units:
+Millimeters (mm).
+Geometry:
+- Plate dimensions: X=138, Y=94, thickness Z=8.
+- One centered slot with rounded ends: length=82, width=32.
+- Slot goes fully through thickness.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+l_bracket_0033__L2__openai__gpt-5.2__r1,l_bracket_0033,l_bracket,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/l_bracket_0033.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket with base, vertical web, and holes
+Units:
+Millimeters (mm).
+Geometry:
+- Base plate: length=128, width=30, thickness=16.
+- Vertical web near one base edge: thickness=12, height=62, full base width.
+- Add two top through holes in the base, each diameter=6.
+- Add one side through hole in the web, diameter=6.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+l_bracket_0033__L2__openai__gpt-5.2__r1,l_bracket_0033,l_bracket,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/l_bracket_0033.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket with base, vertical web, and holes
+Units:
+Millimeters (mm).
+Geometry:
+- Base plate: length=128, width=30, thickness=16.
+- Vertical web near one base edge: thickness=12, height=62, full base width.
+- Add two top through holes in the base, each diameter=6.
+- Add one side through hole in the web, diameter=6.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+pillow_block_0034__L2__openai__gpt-5.2__r1,pillow_block_0034,pillow_block,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pillow_block_0034.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Pillow-block style mount with central bore and 4 mounting holes
+Units:
+Millimeters (mm).
+Geometry:
+- Block dimensions: X=126, Y=64, Z=42.
+- One centered vertical through bore, diameter=12.
+- Four mounting through holes, each diameter=8, arranged symmetrically on base footprint.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+pillow_block_0034__L2__openai__gpt-5.2__r1,pillow_block_0034,pillow_block,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pillow_block_0034.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Pillow-block style mount with central bore and 4 mounting holes
+Units:
+Millimeters (mm).
+Geometry:
+- Block dimensions: X=126, Y=64, Z=42.
+- One centered vertical through bore, diameter=12.
+- Four mounting through holes, each diameter=8, arranged symmetrically on base footprint.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+pulley_0035__L2__openai__gpt-5.2__r1,pulley_0035,pulley,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pulley_0035.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step pulley with centered through bore
+Units:
+Millimeters (mm).
+Geometry:
+- Coaxial step 1: radius=50, height=14.
+- Coaxial step 2 on top: radius=22, height=10.
+- Coaxial step 3 on top: radius=12, height=14.
+- Center through bore diameter=8.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+pulley_0035__L2__openai__gpt-5.2__r1,pulley_0035,pulley,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pulley_0035.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step pulley with centered through bore
+Units:
+Millimeters (mm).
+Geometry:
+- Coaxial step 1: radius=50, height=14.
+- Coaxial step 2 on top: radius=22, height=10.
+- Coaxial step 3 on top: radius=12, height=14.
+- Center through bore diameter=8.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+u_channel_0036__L2__openai__gpt-5.2__r1,u_channel_0036,u_channel,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/u_channel_0036.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+U-channel with open top and two holes
+Units:
+Millimeters (mm).
+Geometry:
+- Outer envelope: X=96, Y=66, Z=54.
+- Hollow interior to form a U-channel: wall thickness=8, floor thickness=6, top open.
+- Two through holes on the top side, each diameter=8, mirrored along X.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+u_channel_0036__L2__openai__gpt-5.2__r1,u_channel_0036,u_channel,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/u_channel_0036.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+U-channel with open top and two holes
+Units:
+Millimeters (mm).
+Geometry:
+- Outer envelope: X=96, Y=66, Z=54.
+- Hollow interior to form a U-channel: wall thickness=8, floor thickness=6, top open.
+- Two through holes on the top side, each diameter=8, mirrored along X.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+box_hole_0037__L2__openai__gpt-5.2__r1,box_hole_0037,box_hole,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/box_hole_0037.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered through hole
+Units:
+Millimeters (mm).
+Geometry:
+- Base block size: X=118, Y=94, Z=26.
+- Add one centered vertical through hole, diameter=42, axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+box_hole_0037__L2__openai__gpt-5.2__r1,box_hole_0037,box_hole,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/box_hole_0037.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered through hole
+Units:
+Millimeters (mm).
+Geometry:
+- Base block size: X=118, Y=94, Z=26.
+- Add one centered vertical through hole, diameter=42, axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+stepped_shaft_0038__L2__openai__gpt-5.2__r1,stepped_shaft_0038,stepped_shaft,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0038.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft
+Units:
+Millimeters (mm).
+Geometry:
+- Segment 1: diameter=22, length=32.
+- Segment 2: diameter=36, length=36, attached coaxially after segment 1.
+- Segment 3: diameter=20, length=44, attached coaxially after segment 2.
+- Overall shaft length=112.
+- Shaft axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+stepped_shaft_0038__L2__openai__gpt-5.2__r1,stepped_shaft_0038,stepped_shaft,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0038.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft
+Units:
+Millimeters (mm).
+Geometry:
+- Segment 1: diameter=22, length=32.
+- Segment 2: diameter=36, length=36, attached coaxially after segment 1.
+- Segment 3: diameter=20, length=44, attached coaxially after segment 2.
+- Overall shaft length=112.
+- Shaft axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+flange_0039__L2__openai__gpt-5.2__r1,flange_0039,flange,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/flange_0039.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange with bore and bolt pattern
+Units:
+Millimeters (mm).
+Geometry:
+- Flange outer diameter=108, thickness=22.
+- Center through bore diameter=46.
+- Add 6 equally spaced through bolt holes, each diameter=6.
+- Bolt holes are on bolt circle diameter=65.8348.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+flange_0039__L2__openai__gpt-5.2__r1,flange_0039,flange,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/flange_0039.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange with bore and bolt pattern
+Units:
+Millimeters (mm).
+Geometry:
+- Flange outer diameter=108, thickness=22.
+- Center through bore diameter=46.
+- Add 6 equally spaced through bolt holes, each diameter=6.
+- Bolt holes are on bolt circle diameter=65.8348.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+ring_spacer_0040__L2__openai__gpt-5.2__r1,ring_spacer_0040,ring_spacer,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/ring_spacer_0040.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (hollow cylinder)
+Units:
+Millimeters (mm).
+Geometry:
+- Outer diameter=44.
+- Inner diameter=22 (through bore).
+- Height=6.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+ring_spacer_0040__L2__openai__gpt-5.2__r1,ring_spacer_0040,ring_spacer,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/ring_spacer_0040.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (hollow cylinder)
+Units:
+Millimeters (mm).
+Geometry:
+- Outer diameter=44.
+- Inner diameter=22 (through bore).
+- Height=6.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+slotted_plate_0041__L2__openai__gpt-5.2__r1,slotted_plate_0041,slotted_plate,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0041.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular plate with a centered through slot
+Units:
+Millimeters (mm).
+Geometry:
+- Plate dimensions: X=166, Y=80, thickness Z=10.
+- One centered slot with rounded ends: length=96, width=16.
+- Slot goes fully through thickness.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+slotted_plate_0041__L2__openai__gpt-5.2__r1,slotted_plate_0041,slotted_plate,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0041.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular plate with a centered through slot
+Units:
+Millimeters (mm).
+Geometry:
+- Plate dimensions: X=166, Y=80, thickness Z=10.
+- One centered slot with rounded ends: length=96, width=16.
+- Slot goes fully through thickness.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+l_bracket_0042__L2__openai__gpt-5.2__r1,l_bracket_0042,l_bracket,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/l_bracket_0042.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket with base, vertical web, and holes
+Units:
+Millimeters (mm).
+Geometry:
+- Base plate: length=60, width=34, thickness=16.
+- Vertical web near one base edge: thickness=6, height=44, full base width.
+- Add two top through holes in the base, each diameter=6.
+- Add one side through hole in the web, diameter=6.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+l_bracket_0042__L2__openai__gpt-5.2__r1,l_bracket_0042,l_bracket,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/l_bracket_0042.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket with base, vertical web, and holes
+Units:
+Millimeters (mm).
+Geometry:
+- Base plate: length=60, width=34, thickness=16.
+- Vertical web near one base edge: thickness=6, height=44, full base width.
+- Add two top through holes in the base, each diameter=6.
+- Add one side through hole in the web, diameter=6.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+pillow_block_0043__L2__openai__gpt-5.2__r1,pillow_block_0043,pillow_block,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pillow_block_0043.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Pillow-block style mount with central bore and 4 mounting holes
+Units:
+Millimeters (mm).
+Geometry:
+- Block dimensions: X=122, Y=50, Z=58.
+- One centered vertical through bore, diameter=20.
+- Four mounting through holes, each diameter=8, arranged symmetrically on base footprint.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+pillow_block_0043__L2__openai__gpt-5.2__r1,pillow_block_0043,pillow_block,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pillow_block_0043.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Pillow-block style mount with central bore and 4 mounting holes
+Units:
+Millimeters (mm).
+Geometry:
+- Block dimensions: X=122, Y=50, Z=58.
+- One centered vertical through bore, diameter=20.
+- Four mounting through holes, each diameter=8, arranged symmetrically on base footprint.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+pulley_0044__L2__openai__gpt-5.2__r1,pulley_0044,pulley,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pulley_0044.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step pulley with centered through bore
+Units:
+Millimeters (mm).
+Geometry:
+- Coaxial step 1: radius=44, height=14.
+- Coaxial step 2 on top: radius=32, height=10.
+- Coaxial step 3 on top: radius=16, height=14.
+- Center through bore diameter=10.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+pulley_0044__L2__openai__gpt-5.2__r1,pulley_0044,pulley,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pulley_0044.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step pulley with centered through bore
+Units:
+Millimeters (mm).
+Geometry:
+- Coaxial step 1: radius=44, height=14.
+- Coaxial step 2 on top: radius=32, height=10.
+- Coaxial step 3 on top: radius=16, height=14.
+- Center through bore diameter=10.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+u_channel_0045__L2__openai__gpt-5.2__r1,u_channel_0045,u_channel,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/u_channel_0045.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+U-channel with open top and two holes
+Units:
+Millimeters (mm).
+Geometry:
+- Outer envelope: X=140, Y=62, Z=30.
+- Hollow interior to form a U-channel: wall thickness=4, floor thickness=4, top open.
+- Two through holes on the top side, each diameter=10, mirrored along X.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+u_channel_0045__L2__openai__gpt-5.2__r1,u_channel_0045,u_channel,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/u_channel_0045.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+U-channel with open top and two holes
+Units:
+Millimeters (mm).
+Geometry:
+- Outer envelope: X=140, Y=62, Z=30.
+- Hollow interior to form a U-channel: wall thickness=4, floor thickness=4, top open.
+- Two through holes on the top side, each diameter=10, mirrored along X.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+box_hole_0046__L2__openai__gpt-5.2__r1,box_hole_0046,box_hole,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/box_hole_0046.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered through hole
+Units:
+Millimeters (mm).
+Geometry:
+- Base block size: X=106, Y=86, Z=40.
+- Add one centered vertical through hole, diameter=22, axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+box_hole_0046__L2__openai__gpt-5.2__r1,box_hole_0046,box_hole,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/box_hole_0046.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered through hole
+Units:
+Millimeters (mm).
+Geometry:
+- Base block size: X=106, Y=86, Z=40.
+- Add one centered vertical through hole, diameter=22, axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+stepped_shaft_0047__L2__openai__gpt-5.2__r1,stepped_shaft_0047,stepped_shaft,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0047.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft
+Units:
+Millimeters (mm).
+Geometry:
+- Segment 1: diameter=18, length=24.
+- Segment 2: diameter=22, length=42, attached coaxially after segment 1.
+- Segment 3: diameter=10, length=40, attached coaxially after segment 2.
+- Overall shaft length=106.
+- Shaft axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+stepped_shaft_0047__L2__openai__gpt-5.2__r1,stepped_shaft_0047,stepped_shaft,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0047.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft
+Units:
+Millimeters (mm).
+Geometry:
+- Segment 1: diameter=18, length=24.
+- Segment 2: diameter=22, length=42, attached coaxially after segment 1.
+- Segment 3: diameter=10, length=40, attached coaxially after segment 2.
+- Overall shaft length=106.
+- Shaft axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+flange_0048__L2__openai__gpt-5.2__r1,flange_0048,flange,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/flange_0048.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange with bore and bolt pattern
+Units:
+Millimeters (mm).
+Geometry:
+- Flange outer diameter=74, thickness=16.
+- Center through bore diameter=18.
+- Add 4 equally spaced through bolt holes, each diameter=12.
+- Bolt holes are on bolt circle diameter=48.0795.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+flange_0048__L2__openai__gpt-5.2__r1,flange_0048,flange,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/flange_0048.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange with bore and bolt pattern
+Units:
+Millimeters (mm).
+Geometry:
+- Flange outer diameter=74, thickness=16.
+- Center through bore diameter=18.
+- Add 4 equally spaced through bolt holes, each diameter=12.
+- Bolt holes are on bolt circle diameter=48.0795.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+ring_spacer_0049__L2__openai__gpt-5.2__r1,ring_spacer_0049,ring_spacer,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/ring_spacer_0049.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (hollow cylinder)
+Units:
+Millimeters (mm).
+Geometry:
+- Outer diameter=90.
+- Inner diameter=24 (through bore).
+- Height=14.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+ring_spacer_0049__L2__openai__gpt-5.2__r1,ring_spacer_0049,ring_spacer,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/ring_spacer_0049.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (hollow cylinder)
+Units:
+Millimeters (mm).
+Geometry:
+- Outer diameter=90.
+- Inner diameter=24 (through bore).
+- Height=14.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+slotted_plate_0050__L2__openai__gpt-5.2__r1,slotted_plate_0050,slotted_plate,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0050.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular plate with a centered through slot
+Units:
+Millimeters (mm).
+Geometry:
+- Plate dimensions: X=150, Y=60, thickness Z=20.
+- One centered slot with rounded ends: length=56, width=22.
+- Slot goes fully through thickness.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+slotted_plate_0050__L2__openai__gpt-5.2__r1,slotted_plate_0050,slotted_plate,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0050.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular plate with a centered through slot
+Units:
+Millimeters (mm).
+Geometry:
+- Plate dimensions: X=150, Y=60, thickness Z=20.
+- One centered slot with rounded ends: length=56, width=22.
+- Slot goes fully through thickness.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+l_bracket_0051__L2__openai__gpt-5.2__r1,l_bracket_0051,l_bracket,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/l_bracket_0051.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket with base, vertical web, and holes
+Units:
+Millimeters (mm).
+Geometry:
+- Base plate: length=130, width=36, thickness=6.
+- Vertical web near one base edge: thickness=16, height=64, full base width.
+- Add two top through holes in the base, each diameter=12.
+- Add one side through hole in the web, diameter=6.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+l_bracket_0051__L2__openai__gpt-5.2__r1,l_bracket_0051,l_bracket,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/l_bracket_0051.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket with base, vertical web, and holes
+Units:
+Millimeters (mm).
+Geometry:
+- Base plate: length=130, width=36, thickness=6.
+- Vertical web near one base edge: thickness=16, height=64, full base width.
+- Add two top through holes in the base, each diameter=12.
+- Add one side through hole in the web, diameter=6.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+pillow_block_0052__L2__openai__gpt-5.2__r1,pillow_block_0052,pillow_block,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pillow_block_0052.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Pillow-block style mount with central bore and 4 mounting holes
+Units:
+Millimeters (mm).
+Geometry:
+- Block dimensions: X=92, Y=94, Z=42.
+- One centered vertical through bore, diameter=14.
+- Four mounting through holes, each diameter=10, arranged symmetrically on base footprint.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+pillow_block_0052__L2__openai__gpt-5.2__r1,pillow_block_0052,pillow_block,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pillow_block_0052.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Pillow-block style mount with central bore and 4 mounting holes
+Units:
+Millimeters (mm).
+Geometry:
+- Block dimensions: X=92, Y=94, Z=42.
+- One centered vertical through bore, diameter=14.
+- Four mounting through holes, each diameter=10, arranged symmetrically on base footprint.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+pulley_0053__L2__openai__gpt-5.2__r1,pulley_0053,pulley,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pulley_0053.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step pulley with centered through bore
+Units:
+Millimeters (mm).
+Geometry:
+- Coaxial step 1: radius=38, height=12.
+- Coaxial step 2 on top: radius=32, height=8.
+- Coaxial step 3 on top: radius=16, height=8.
+- Center through bore diameter=12.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+pulley_0053__L2__openai__gpt-5.2__r1,pulley_0053,pulley,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pulley_0053.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step pulley with centered through bore
+Units:
+Millimeters (mm).
+Geometry:
+- Coaxial step 1: radius=38, height=12.
+- Coaxial step 2 on top: radius=32, height=8.
+- Coaxial step 3 on top: radius=16, height=8.
+- Center through bore diameter=12.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+u_channel_0054__L2__openai__gpt-5.2__r1,u_channel_0054,u_channel,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/u_channel_0054.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+U-channel with open top and two holes
+Units:
+Millimeters (mm).
+Geometry:
+- Outer envelope: X=80, Y=60, Z=32.
+- Hollow interior to form a U-channel: wall thickness=10, floor thickness=10, top open.
+- Two through holes on the top side, each diameter=8, mirrored along X.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+u_channel_0054__L2__openai__gpt-5.2__r1,u_channel_0054,u_channel,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/u_channel_0054.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+U-channel with open top and two holes
+Units:
+Millimeters (mm).
+Geometry:
+- Outer envelope: X=80, Y=60, Z=32.
+- Hollow interior to form a U-channel: wall thickness=10, floor thickness=10, top open.
+- Two through holes on the top side, each diameter=8, mirrored along X.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+box_hole_0055__L2__openai__gpt-5.2__r1,box_hole_0055,box_hole,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/box_hole_0055.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered through hole
+Units:
+Millimeters (mm).
+Geometry:
+- Base block size: X=86, Y=94, Z=56.
+- Add one centered vertical through hole, diameter=38, axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+box_hole_0055__L2__openai__gpt-5.2__r1,box_hole_0055,box_hole,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/box_hole_0055.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered through hole
+Units:
+Millimeters (mm).
+Geometry:
+- Base block size: X=86, Y=94, Z=56.
+- Add one centered vertical through hole, diameter=38, axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+stepped_shaft_0056__L2__openai__gpt-5.2__r1,stepped_shaft_0056,stepped_shaft,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0056.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft
+Units:
+Millimeters (mm).
+Geometry:
+- Segment 1: diameter=22, length=52.
+- Segment 2: diameter=36, length=26, attached coaxially after segment 1.
+- Segment 3: diameter=16, length=30, attached coaxially after segment 2.
+- Overall shaft length=108.
+- Shaft axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+stepped_shaft_0056__L2__openai__gpt-5.2__r1,stepped_shaft_0056,stepped_shaft,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0056.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft
+Units:
+Millimeters (mm).
+Geometry:
+- Segment 1: diameter=22, length=52.
+- Segment 2: diameter=36, length=26, attached coaxially after segment 1.
+- Segment 3: diameter=16, length=30, attached coaxially after segment 2.
+- Overall shaft length=108.
+- Shaft axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+flange_0057__L2__openai__gpt-5.2__r1,flange_0057,flange,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/flange_0057.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange with bore and bolt pattern
+Units:
+Millimeters (mm).
+Geometry:
+- Flange outer diameter=98, thickness=14.
+- Center through bore diameter=16.
+- Add 8 equally spaced through bolt holes, each diameter=12.
+- Bolt holes are on bolt circle diameter=56.0748.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+flange_0057__L2__openai__gpt-5.2__r1,flange_0057,flange,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/flange_0057.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange with bore and bolt pattern
+Units:
+Millimeters (mm).
+Geometry:
+- Flange outer diameter=98, thickness=14.
+- Center through bore diameter=16.
+- Add 8 equally spaced through bolt holes, each diameter=12.
+- Bolt holes are on bolt circle diameter=56.0748.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+ring_spacer_0058__L2__openai__gpt-5.2__r1,ring_spacer_0058,ring_spacer,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/ring_spacer_0058.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (hollow cylinder)
+Units:
+Millimeters (mm).
+Geometry:
+- Outer diameter=76.
+- Inner diameter=16 (through bore).
+- Height=8.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+ring_spacer_0058__L2__openai__gpt-5.2__r1,ring_spacer_0058,ring_spacer,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/ring_spacer_0058.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (hollow cylinder)
+Units:
+Millimeters (mm).
+Geometry:
+- Outer diameter=76.
+- Inner diameter=16 (through bore).
+- Height=8.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+slotted_plate_0059__L2__openai__gpt-5.2__r1,slotted_plate_0059,slotted_plate,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0059.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular plate with a centered through slot
+Units:
+Millimeters (mm).
+Geometry:
+- Plate dimensions: X=164, Y=76, thickness Z=14.
+- One centered slot with rounded ends: length=112, width=24.
+- Slot goes fully through thickness.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+slotted_plate_0059__L2__openai__gpt-5.2__r1,slotted_plate_0059,slotted_plate,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0059.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular plate with a centered through slot
+Units:
+Millimeters (mm).
+Geometry:
+- Plate dimensions: X=164, Y=76, thickness Z=14.
+- One centered slot with rounded ends: length=112, width=24.
+- Slot goes fully through thickness.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+l_bracket_0060__L2__openai__gpt-5.2__r1,l_bracket_0060,l_bracket,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/l_bracket_0060.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket with base, vertical web, and holes
+Units:
+Millimeters (mm).
+Geometry:
+- Base plate: length=80, width=34, thickness=14.
+- Vertical web near one base edge: thickness=8, height=84, full base width.
+- Add two top through holes in the base, each diameter=8.
+- Add one side through hole in the web, diameter=6.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+l_bracket_0060__L2__openai__gpt-5.2__r1,l_bracket_0060,l_bracket,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/l_bracket_0060.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket with base, vertical web, and holes
+Units:
+Millimeters (mm).
+Geometry:
+- Base plate: length=80, width=34, thickness=14.
+- Vertical web near one base edge: thickness=8, height=84, full base width.
+- Add two top through holes in the base, each diameter=8.
+- Add one side through hole in the web, diameter=6.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+pillow_block_0061__L2__openai__gpt-5.2__r1,pillow_block_0061,pillow_block,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pillow_block_0061.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Pillow-block style mount with central bore and 4 mounting holes
+Units:
+Millimeters (mm).
+Geometry:
+- Block dimensions: X=156, Y=50, Z=42.
+- One centered vertical through bore, diameter=18.
+- Four mounting through holes, each diameter=6, arranged symmetrically on base footprint.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+pillow_block_0061__L2__openai__gpt-5.2__r1,pillow_block_0061,pillow_block,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pillow_block_0061.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Pillow-block style mount with central bore and 4 mounting holes
+Units:
+Millimeters (mm).
+Geometry:
+- Block dimensions: X=156, Y=50, Z=42.
+- One centered vertical through bore, diameter=18.
+- Four mounting through holes, each diameter=6, arranged symmetrically on base footprint.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+pulley_0062__L2__openai__gpt-5.2__r1,pulley_0062,pulley,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pulley_0062.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step pulley with centered through bore
+Units:
+Millimeters (mm).
+Geometry:
+- Coaxial step 1: radius=50, height=6.
+- Coaxial step 2 on top: radius=32, height=10.
+- Coaxial step 3 on top: radius=28, height=12.
+- Center through bore diameter=18.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+pulley_0062__L2__openai__gpt-5.2__r1,pulley_0062,pulley,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pulley_0062.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step pulley with centered through bore
+Units:
+Millimeters (mm).
+Geometry:
+- Coaxial step 1: radius=50, height=6.
+- Coaxial step 2 on top: radius=32, height=10.
+- Coaxial step 3 on top: radius=28, height=12.
+- Center through bore diameter=18.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+u_channel_0063__L2__openai__gpt-5.2__r1,u_channel_0063,u_channel,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/u_channel_0063.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+U-channel with open top and two holes
+Units:
+Millimeters (mm).
+Geometry:
+- Outer envelope: X=154, Y=70, Z=34.
+- Hollow interior to form a U-channel: wall thickness=6, floor thickness=6, top open.
+- Two through holes on the top side, each diameter=10, mirrored along X.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+u_channel_0063__L2__openai__gpt-5.2__r1,u_channel_0063,u_channel,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/u_channel_0063.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+U-channel with open top and two holes
+Units:
+Millimeters (mm).
+Geometry:
+- Outer envelope: X=154, Y=70, Z=34.
+- Hollow interior to form a U-channel: wall thickness=6, floor thickness=6, top open.
+- Two through holes on the top side, each diameter=10, mirrored along X.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+box_hole_0064__L2__openai__gpt-5.2__r1,box_hole_0064,box_hole,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/box_hole_0064.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered through hole
+Units:
+Millimeters (mm).
+Geometry:
+- Base block size: X=90, Y=70, Z=28.
+- Add one centered vertical through hole, diameter=20, axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+box_hole_0064__L2__openai__gpt-5.2__r1,box_hole_0064,box_hole,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/box_hole_0064.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered through hole
+Units:
+Millimeters (mm).
+Geometry:
+- Base block size: X=90, Y=70, Z=28.
+- Add one centered vertical through hole, diameter=20, axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+stepped_shaft_0065__L2__openai__gpt-5.2__r1,stepped_shaft_0065,stepped_shaft,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0065.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft
+Units:
+Millimeters (mm).
+Geometry:
+- Segment 1: diameter=12, length=40.
+- Segment 2: diameter=36, length=46, attached coaxially after segment 1.
+- Segment 3: diameter=10, length=38, attached coaxially after segment 2.
+- Overall shaft length=124.
+- Shaft axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+stepped_shaft_0065__L2__openai__gpt-5.2__r1,stepped_shaft_0065,stepped_shaft,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0065.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft
+Units:
+Millimeters (mm).
+Geometry:
+- Segment 1: diameter=12, length=40.
+- Segment 2: diameter=36, length=46, attached coaxially after segment 1.
+- Segment 3: diameter=10, length=38, attached coaxially after segment 2.
+- Overall shaft length=124.
+- Shaft axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+flange_0066__L2__openai__gpt-5.2__r1,flange_0066,flange,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/flange_0066.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange with bore and bolt pattern
+Units:
+Millimeters (mm).
+Geometry:
+- Flange outer diameter=70, thickness=8.
+- Center through bore diameter=26.
+- Add 8 equally spaced through bolt holes, each diameter=6.
+- Bolt holes are on bolt circle diameter=40.2257.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+flange_0066__L2__openai__gpt-5.2__r1,flange_0066,flange,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/flange_0066.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange with bore and bolt pattern
+Units:
+Millimeters (mm).
+Geometry:
+- Flange outer diameter=70, thickness=8.
+- Center through bore diameter=26.
+- Add 8 equally spaced through bolt holes, each diameter=6.
+- Bolt holes are on bolt circle diameter=40.2257.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+ring_spacer_0067__L2__openai__gpt-5.2__r1,ring_spacer_0067,ring_spacer,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/ring_spacer_0067.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (hollow cylinder)
+Units:
+Millimeters (mm).
+Geometry:
+- Outer diameter=64.
+- Inner diameter=44 (through bore).
+- Height=14.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+ring_spacer_0067__L2__openai__gpt-5.2__r1,ring_spacer_0067,ring_spacer,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/ring_spacer_0067.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (hollow cylinder)
+Units:
+Millimeters (mm).
+Geometry:
+- Outer diameter=64.
+- Inner diameter=44 (through bore).
+- Height=14.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+slotted_plate_0068__L2__openai__gpt-5.2__r1,slotted_plate_0068,slotted_plate,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0068.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular plate with a centered through slot
+Units:
+Millimeters (mm).
+Geometry:
+- Plate dimensions: X=106, Y=68, thickness Z=20.
+- One centered slot with rounded ends: length=42, width=16.
+- Slot goes fully through thickness.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+slotted_plate_0068__L2__openai__gpt-5.2__r1,slotted_plate_0068,slotted_plate,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0068.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular plate with a centered through slot
+Units:
+Millimeters (mm).
+Geometry:
+- Plate dimensions: X=106, Y=68, thickness Z=20.
+- One centered slot with rounded ends: length=42, width=16.
+- Slot goes fully through thickness.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+l_bracket_0069__L2__openai__gpt-5.2__r1,l_bracket_0069,l_bracket,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/l_bracket_0069.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket with base, vertical web, and holes
+Units:
+Millimeters (mm).
+Geometry:
+- Base plate: length=108, width=48, thickness=8.
+- Vertical web near one base edge: thickness=14, height=84, full base width.
+- Add two top through holes in the base, each diameter=10.
+- Add one side through hole in the web, diameter=10.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+l_bracket_0069__L2__openai__gpt-5.2__r1,l_bracket_0069,l_bracket,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/l_bracket_0069.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket with base, vertical web, and holes
+Units:
+Millimeters (mm).
+Geometry:
+- Base plate: length=108, width=48, thickness=8.
+- Vertical web near one base edge: thickness=14, height=84, full base width.
+- Add two top through holes in the base, each diameter=10.
+- Add one side through hole in the web, diameter=10.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+pillow_block_0070__L2__openai__gpt-5.2__r1,pillow_block_0070,pillow_block,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pillow_block_0070.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Pillow-block style mount with central bore and 4 mounting holes
+Units:
+Millimeters (mm).
+Geometry:
+- Block dimensions: X=118, Y=84, Z=60.
+- One centered vertical through bore, diameter=12.
+- Four mounting through holes, each diameter=12, arranged symmetrically on base footprint.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+pillow_block_0070__L2__openai__gpt-5.2__r1,pillow_block_0070,pillow_block,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pillow_block_0070.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Pillow-block style mount with central bore and 4 mounting holes
+Units:
+Millimeters (mm).
+Geometry:
+- Block dimensions: X=118, Y=84, Z=60.
+- One centered vertical through bore, diameter=12.
+- Four mounting through holes, each diameter=12, arranged symmetrically on base footprint.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+pulley_0071__L2__openai__gpt-5.2__r1,pulley_0071,pulley,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pulley_0071.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step pulley with centered through bore
+Units:
+Millimeters (mm).
+Geometry:
+- Coaxial step 1: radius=48, height=8.
+- Coaxial step 2 on top: radius=34, height=10.
+- Coaxial step 3 on top: radius=20, height=10.
+- Center through bore diameter=10.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+pulley_0071__L2__openai__gpt-5.2__r1,pulley_0071,pulley,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pulley_0071.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step pulley with centered through bore
+Units:
+Millimeters (mm).
+Geometry:
+- Coaxial step 1: radius=48, height=8.
+- Coaxial step 2 on top: radius=34, height=10.
+- Coaxial step 3 on top: radius=20, height=10.
+- Center through bore diameter=10.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+u_channel_0072__L2__openai__gpt-5.2__r1,u_channel_0072,u_channel,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/u_channel_0072.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+U-channel with open top and two holes
+Units:
+Millimeters (mm).
+Geometry:
+- Outer envelope: X=94, Y=46, Z=32.
+- Hollow interior to form a U-channel: wall thickness=6, floor thickness=8, top open.
+- Two through holes on the top side, each diameter=6, mirrored along X.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+u_channel_0072__L2__openai__gpt-5.2__r1,u_channel_0072,u_channel,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/u_channel_0072.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+U-channel with open top and two holes
+Units:
+Millimeters (mm).
+Geometry:
+- Outer envelope: X=94, Y=46, Z=32.
+- Hollow interior to form a U-channel: wall thickness=6, floor thickness=8, top open.
+- Two through holes on the top side, each diameter=6, mirrored along X.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+box_hole_0073__L2__openai__gpt-5.2__r1,box_hole_0073,box_hole,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/box_hole_0073.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered through hole
+Units:
+Millimeters (mm).
+Geometry:
+- Base block size: X=94, Y=66, Z=56.
+- Add one centered vertical through hole, diameter=28, axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+box_hole_0073__L2__openai__gpt-5.2__r1,box_hole_0073,box_hole,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/box_hole_0073.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered through hole
+Units:
+Millimeters (mm).
+Geometry:
+- Base block size: X=94, Y=66, Z=56.
+- Add one centered vertical through hole, diameter=28, axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+stepped_shaft_0074__L2__openai__gpt-5.2__r1,stepped_shaft_0074,stepped_shaft,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0074.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft
+Units:
+Millimeters (mm).
+Geometry:
+- Segment 1: diameter=24, length=52.
+- Segment 2: diameter=30, length=32, attached coaxially after segment 1.
+- Segment 3: diameter=16, length=22, attached coaxially after segment 2.
+- Overall shaft length=106.
+- Shaft axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+stepped_shaft_0074__L2__openai__gpt-5.2__r1,stepped_shaft_0074,stepped_shaft,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0074.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft
+Units:
+Millimeters (mm).
+Geometry:
+- Segment 1: diameter=24, length=52.
+- Segment 2: diameter=30, length=32, attached coaxially after segment 1.
+- Segment 3: diameter=16, length=22, attached coaxially after segment 2.
+- Overall shaft length=106.
+- Shaft axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+flange_0075__L2__openai__gpt-5.2__r1,flange_0075,flange,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/flange_0075.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange with bore and bolt pattern
+Units:
+Millimeters (mm).
+Geometry:
+- Flange outer diameter=72, thickness=22.
+- Center through bore diameter=20.
+- Add 4 equally spaced through bolt holes, each diameter=4.
+- Bolt holes are on bolt circle diameter=45.1232.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+flange_0075__L2__openai__gpt-5.2__r1,flange_0075,flange,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/flange_0075.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange with bore and bolt pattern
+Units:
+Millimeters (mm).
+Geometry:
+- Flange outer diameter=72, thickness=22.
+- Center through bore diameter=20.
+- Add 4 equally spaced through bolt holes, each diameter=4.
+- Bolt holes are on bolt circle diameter=45.1232.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+ring_spacer_0076__L2__openai__gpt-5.2__r1,ring_spacer_0076,ring_spacer,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/ring_spacer_0076.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (hollow cylinder)
+Units:
+Millimeters (mm).
+Geometry:
+- Outer diameter=52.
+- Inner diameter=32 (through bore).
+- Height=14.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+ring_spacer_0076__L2__openai__gpt-5.2__r1,ring_spacer_0076,ring_spacer,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/ring_spacer_0076.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (hollow cylinder)
+Units:
+Millimeters (mm).
+Geometry:
+- Outer diameter=52.
+- Inner diameter=32 (through bore).
+- Height=14.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+slotted_plate_0077__L2__openai__gpt-5.2__r1,slotted_plate_0077,slotted_plate,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0077.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular plate with a centered through slot
+Units:
+Millimeters (mm).
+Geometry:
+- Plate dimensions: X=110, Y=92, thickness Z=14.
+- One centered slot with rounded ends: length=74, width=30.
+- Slot goes fully through thickness.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+slotted_plate_0077__L2__openai__gpt-5.2__r1,slotted_plate_0077,slotted_plate,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0077.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular plate with a centered through slot
+Units:
+Millimeters (mm).
+Geometry:
+- Plate dimensions: X=110, Y=92, thickness Z=14.
+- One centered slot with rounded ends: length=74, width=30.
+- Slot goes fully through thickness.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+l_bracket_0078__L2__openai__gpt-5.2__r1,l_bracket_0078,l_bracket,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/l_bracket_0078.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket with base, vertical web, and holes
+Units:
+Millimeters (mm).
+Geometry:
+- Base plate: length=114, width=66, thickness=6.
+- Vertical web near one base edge: thickness=8, height=34, full base width.
+- Add two top through holes in the base, each diameter=12.
+- Add one side through hole in the web, diameter=6.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+l_bracket_0078__L2__openai__gpt-5.2__r1,l_bracket_0078,l_bracket,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/l_bracket_0078.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket with base, vertical web, and holes
+Units:
+Millimeters (mm).
+Geometry:
+- Base plate: length=114, width=66, thickness=6.
+- Vertical web near one base edge: thickness=8, height=34, full base width.
+- Add two top through holes in the base, each diameter=12.
+- Add one side through hole in the web, diameter=6.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+pillow_block_0079__L2__openai__gpt-5.2__r1,pillow_block_0079,pillow_block,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pillow_block_0079.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Pillow-block style mount with central bore and 4 mounting holes
+Units:
+Millimeters (mm).
+Geometry:
+- Block dimensions: X=150, Y=48, Z=50.
+- One centered vertical through bore, diameter=22.
+- Four mounting through holes, each diameter=10, arranged symmetrically on base footprint.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+pillow_block_0079__L2__openai__gpt-5.2__r1,pillow_block_0079,pillow_block,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pillow_block_0079.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Pillow-block style mount with central bore and 4 mounting holes
+Units:
+Millimeters (mm).
+Geometry:
+- Block dimensions: X=150, Y=48, Z=50.
+- One centered vertical through bore, diameter=22.
+- Four mounting through holes, each diameter=10, arranged symmetrically on base footprint.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+pulley_0080__L2__openai__gpt-5.2__r1,pulley_0080,pulley,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pulley_0080.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step pulley with centered through bore
+Units:
+Millimeters (mm).
+Geometry:
+- Coaxial step 1: radius=26, height=6.
+- Coaxial step 2 on top: radius=22, height=12.
+- Coaxial step 3 on top: radius=12, height=12.
+- Center through bore diameter=8.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
+pulley_0080__L2__openai__gpt-5.2__r1,pulley_0080,pulley,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pulley_0080.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step pulley with centered through bore
+Units:
+Millimeters (mm).
+Geometry:
+- Coaxial step 1: radius=26, height=6.
+- Coaxial step 2 on top: radius=22, height=12.
+- Coaxial step 3 on top: radius=12, height=12.
+- Center through bore diameter=8.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts

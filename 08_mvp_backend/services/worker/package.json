@@ -1,0 +1,12 @@
+{
+  "name": "cadeval-mvp-worker",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/worker.js"
+  },
+  "dependencies": {
+    "pg": "^8.12.0"
+  }
+}

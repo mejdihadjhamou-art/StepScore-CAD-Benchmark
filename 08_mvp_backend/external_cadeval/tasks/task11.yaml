@@ -1,0 +1,16 @@
+task_id: "task11" # e.g., widget_01, bracket_complex_v2
+description: "We're making an eye bolt. The eyebolt is a torus with a cylinder extruded out of it to make the shank of the bolt. 
+
+1: For the torus, the inner diameter is 20mm and the outer diameter is 30mm. 
+
+2: For the cylindrical shank, the length is 50mm and the diameter is 5mm.  
+
+3: At the end of the shank, away from from the torus, add a 1mm chamfer on the bottom edge of the shank. 
+
+Make sure the shank and the circular eyebolt torus are connected. It's all one part."
+reference_stl: "./reference/task11.stl" # Path relative to project root, ensure the STL file exists here.
+requirements:
+  bounding_box: [80,30,5] # Target dimensions [Length, Width, Height] in mm, consistent order. Calculate from reference STL.
+  topology_requirements: # Optional section
+    expected_component_count: 1  # Usually 1 for single parts. Remove if not needed.
+manual_operations: 3

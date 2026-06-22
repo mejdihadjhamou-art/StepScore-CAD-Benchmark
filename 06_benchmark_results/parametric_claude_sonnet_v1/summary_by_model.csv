@@ -1,0 +1,2 @@
+provider,model,grading_profile,jobs_total,jobs_success,jobs_failed,jobs_skipped_completed,overall_pass_count,overall_pass_rate_on_success,avg_quality_score_0_100_success,avg_duration_total_s_success
+anthropic,claude-sonnet-4-20250514,full_44,200,96,1,103,0,0.0,53.93140497440921,8.154364215830961

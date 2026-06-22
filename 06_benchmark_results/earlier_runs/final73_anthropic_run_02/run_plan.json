@@ -1,0 +1,825 @@
+{
+  "run_id": "final73_anthropic_run_02",
+  "manifest": "/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/packages/final_73_manifest_anthropic_fixed.csv",
+  "output_root": "/Users/mejdi/Documents/New project/cad42_platform/.stepscore_harness_runs",
+  "job_count": 146,
+  "max_workers": 2,
+  "max_retries": 1,
+  "resume": true,
+  "dry_run": false,
+  "grading_profiles": {
+    "full_44": {
+      "label": "Full 44 Metrics",
+      "description": "Uses every metric computed by STEPScore.",
+      "metric_names": [
+        "valid_cad_rate",
+        "alignment_quality_icp_fitness",
+        "alignment_inlier_rmse_mm",
+        "chamfer_distance_mm",
+        "edge_chamfer_mm",
+        "hausdorff_95p_mm",
+        "hausdorff_99p_mm",
+        "point_to_surface_mean_mm",
+        "point_to_surface_max_mm",
+        "volume_diff_percent",
+        "signed_volume_diff_percent",
+        "surface_area_diff_percent",
+        "bbox_error_max_mm",
+        "bbox_error_axis_x_mm",
+        "bbox_error_axis_y_mm",
+        "bbox_error_axis_z_mm",
+        "obb_error_max_mm",
+        "centroid_offset_mm",
+        "inertia_tensor_error",
+        "mass_properties_error",
+        "component_count_match",
+        "watertight_manifold_pass",
+        "self_intersection_count",
+        "euler_genus_match",
+        "void_hole_count_match",
+        "feature_count_match",
+        "critical_dimension_error_mm",
+        "tolerance_band_pass_rate",
+        "feature_edge_distance_mm",
+        "normal_consistency",
+        "normal_angle_error_deg",
+        "curvature_distribution_error",
+        "cross_section_iou",
+        "slice_contour_distance_mm",
+        "voxel_iou",
+        "occupancy_precision",
+        "occupancy_recall",
+        "occupancy_f1",
+        "emd_distance",
+        "silhouette_iou",
+        "render_ssim",
+        "render_lpips",
+        "registration_failure_rate",
+        "composite_weighted_score"
+      ]
+    },
+    "refined_metrics": {
+      "label": "Refined Metrics",
+      "description": "Uses a reduced non-redundant subset for grading while still computing all metrics.",
+      "metric_names": [
+        "valid_cad_rate",
+        "component_count_match",
+        "watertight_manifold_pass",
+        "self_intersection_count",
+        "alignment_quality_icp_fitness",
+        "alignment_inlier_rmse_mm",
+        "chamfer_distance_mm",
+        "edge_chamfer_mm",
+        "hausdorff_95p_mm",
+        "hausdorff_99p_mm",
+        "volume_diff_percent",
+        "surface_area_diff_percent",
+        "bbox_error_axis_x_mm",
+        "bbox_error_axis_y_mm",
+        "bbox_error_axis_z_mm",
+        "obb_error_max_mm",
+        "centroid_offset_mm",
+        "euler_genus_match",
+        "feature_count_match",
+        "normal_angle_error_deg",
+        "curvature_distribution_error",
+        "voxel_iou",
+        "emd_distance",
+        "silhouette_iou",
+        "composite_weighted_score"
+      ]
+    }
+  },
+  "row_selection_meta": [
+    {
+      "row_idx": 0,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 1,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 2,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 3,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 4,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 5,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 6,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 7,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 8,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 9,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 10,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 11,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 12,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 13,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 14,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 15,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 16,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 17,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 18,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 19,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 20,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 21,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 22,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 23,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 24,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 25,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 26,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 27,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 28,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 29,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 30,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 31,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 32,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 33,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 34,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 35,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 36,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 37,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 38,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 39,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 40,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 41,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 42,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 43,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 44,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 45,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 46,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 47,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 48,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 49,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 50,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 51,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 52,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 53,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 54,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 55,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 56,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 57,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 58,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 59,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 60,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 61,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 62,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 63,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 64,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 65,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 66,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 67,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 68,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 69,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 70,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 71,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 72,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 73,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 74,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 75,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 76,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 77,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 78,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 79,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 80,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 81,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 82,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 83,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 84,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 85,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 86,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 87,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 88,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 89,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 90,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 91,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 92,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 93,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 94,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 95,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 96,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 97,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 98,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 99,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 100,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 101,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 102,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 103,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 104,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 105,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 106,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 107,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 108,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 109,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 110,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 111,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 112,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 113,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 114,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 115,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 116,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 117,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 118,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 119,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 120,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 121,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 122,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 123,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 124,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 125,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 126,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 127,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 128,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 129,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 130,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 131,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 132,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 133,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 134,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 135,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 136,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 137,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 138,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 139,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 140,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 141,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 142,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 143,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 144,
+      "selected": true,
+      "reason": ""
+    },
+    {
+      "row_idx": 145,
+      "selected": true,
+      "reason": ""
+    }
+  ]
+}

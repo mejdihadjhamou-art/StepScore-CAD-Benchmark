@@ -1,0 +1,272 @@
+{
+  "runs_root": "/Users/mejdi/Documents/New project/cad42_platform/.stepscore_harness_runs/parametric_claude_sonnet_v1/jobs",
+  "rows_written": 199,
+  "metric_names": [
+    "valid_cad_rate",
+    "alignment_quality_icp_fitness",
+    "alignment_inlier_rmse_mm",
+    "chamfer_distance_mm",
+    "edge_chamfer_mm",
+    "hausdorff_95p_mm",
+    "hausdorff_99p_mm",
+    "point_to_surface_mean_mm",
+    "point_to_surface_max_mm",
+    "volume_diff_percent",
+    "signed_volume_diff_percent",
+    "surface_area_diff_percent",
+    "bbox_error_max_mm",
+    "bbox_error_axis_x_mm",
+    "bbox_error_axis_y_mm",
+    "bbox_error_axis_z_mm",
+    "obb_error_max_mm",
+    "centroid_offset_mm",
+    "inertia_tensor_error",
+    "mass_properties_error",
+    "component_count_match",
+    "watertight_manifold_pass",
+    "self_intersection_count",
+    "euler_genus_match",
+    "void_hole_count_match",
+    "feature_count_match",
+    "critical_dimension_error_mm",
+    "tolerance_band_pass_rate",
+    "feature_edge_distance_mm",
+    "normal_consistency",
+    "normal_angle_error_deg",
+    "curvature_distribution_error",
+    "cross_section_iou",
+    "slice_contour_distance_mm",
+    "voxel_iou",
+    "occupancy_precision",
+    "occupancy_recall",
+    "occupancy_f1",
+    "emd_distance",
+    "silhouette_iou",
+    "render_ssim",
+    "render_lpips",
+    "registration_failure_rate",
+    "composite_weighted_score"
+  ],
+  "metrics": {
+    "valid_cad_rate": {
+      "direction": "higher_better",
+      "threshold_default": 1.0,
+      "count_seen": 199
+    },
+    "alignment_quality_icp_fitness": {
+      "direction": "higher_better",
+      "threshold_default": 0.3,
+      "count_seen": 199
+    },
+    "alignment_inlier_rmse_mm": {
+      "direction": "lower_better",
+      "threshold_default": 1.0,
+      "count_seen": 199
+    },
+    "chamfer_distance_mm": {
+      "direction": "lower_better",
+      "threshold_default": 1.0,
+      "count_seen": 199
+    },
+    "edge_chamfer_mm": {
+      "direction": "lower_better",
+      "threshold_default": 0.8,
+      "count_seen": 199
+    },
+    "hausdorff_95p_mm": {
+      "direction": "lower_better",
+      "threshold_default": 1.5,
+      "count_seen": 199
+    },
+    "hausdorff_99p_mm": {
+      "direction": "lower_better",
+      "threshold_default": 2.5,
+      "count_seen": 199
+    },
+    "point_to_surface_mean_mm": {
+      "direction": "lower_better",
+      "threshold_default": 0.8,
+      "count_seen": 199
+    },
+    "point_to_surface_max_mm": {
+      "direction": "lower_better",
+      "threshold_default": 4.0,
+      "count_seen": 199
+    },
+    "volume_diff_percent": {
+      "direction": "lower_better",
+      "threshold_default": 2.0,
+      "count_seen": 199
+    },
+    "signed_volume_diff_percent": {
+      "direction": "lower_better",
+      "threshold_default": 2.0,
+      "count_seen": 199
+    },
+    "surface_area_diff_percent": {
+      "direction": "lower_better",
+      "threshold_default": 3.0,
+      "count_seen": 199
+    },
+    "bbox_error_max_mm": {
+      "direction": "lower_better",
+      "threshold_default": 1.0,
+      "count_seen": 199
+    },
+    "bbox_error_axis_x_mm": {
+      "direction": "lower_better",
+      "threshold_default": 1.0,
+      "count_seen": 199
+    },
+    "bbox_error_axis_y_mm": {
+      "direction": "lower_better",
+      "threshold_default": 1.0,
+      "count_seen": 199
+    },
+    "bbox_error_axis_z_mm": {
+      "direction": "lower_better",
+      "threshold_default": 1.0,
+      "count_seen": 199
+    },
+    "obb_error_max_mm": {
+      "direction": "lower_better",
+      "threshold_default": 1.5,
+      "count_seen": 199
+    },
+    "centroid_offset_mm": {
+      "direction": "lower_better",
+      "threshold_default": 1.0,
+      "count_seen": 199
+    },
+    "inertia_tensor_error": {
+      "direction": "lower_better",
+      "threshold_default": 0.1,
+      "count_seen": 199
+    },
+    "mass_properties_error": {
+      "direction": "lower_better",
+      "threshold_default": 0.1,
+      "count_seen": 199
+    },
+    "component_count_match": {
+      "direction": "higher_better",
+      "threshold_default": 1.0,
+      "count_seen": 199
+    },
+    "watertight_manifold_pass": {
+      "direction": "higher_better",
+      "threshold_default": 1.0,
+      "count_seen": 199
+    },
+    "self_intersection_count": {
+      "direction": "lower_better",
+      "threshold_default": 0.0,
+      "count_seen": 199
+    },
+    "euler_genus_match": {
+      "direction": "higher_better",
+      "threshold_default": 1.0,
+      "count_seen": 199
+    },
+    "void_hole_count_match": {
+      "direction": "higher_better",
+      "threshold_default": 1.0,
+      "count_seen": 199
+    },
+    "feature_count_match": {
+      "direction": "higher_better",
+      "threshold_default": 0.9,
+      "count_seen": 199
+    },
+    "critical_dimension_error_mm": {
+      "direction": "lower_better",
+      "threshold_default": 0.5,
+      "count_seen": 199
+    },
+    "tolerance_band_pass_rate": {
+      "direction": "higher_better",
+      "threshold_default": 0.9,
+      "count_seen": 199
+    },
+    "feature_edge_distance_mm": {
+      "direction": "lower_better",
+      "threshold_default": 0.8,
+      "count_seen": 199
+    },
+    "normal_consistency": {
+      "direction": "higher_better",
+      "threshold_default": 0.95,
+      "count_seen": 199
+    },
+    "normal_angle_error_deg": {
+      "direction": "lower_better",
+      "threshold_default": 12.0,
+      "count_seen": 199
+    },
+    "curvature_distribution_error": {
+      "direction": "lower_better",
+      "threshold_default": 0.15,
+      "count_seen": 199
+    },
+    "cross_section_iou": {
+      "direction": "higher_better",
+      "threshold_default": 0.9,
+      "count_seen": 199
+    },
+    "slice_contour_distance_mm": {
+      "direction": "lower_better",
+      "threshold_default": 0.8,
+      "count_seen": 199
+    },
+    "voxel_iou": {
+      "direction": "higher_better",
+      "threshold_default": 0.88,
+      "count_seen": 199
+    },
+    "occupancy_precision": {
+      "direction": "higher_better",
+      "threshold_default": 0.9,
+      "count_seen": 199
+    },
+    "occupancy_recall": {
+      "direction": "higher_better",
+      "threshold_default": 0.9,
+      "count_seen": 199
+    },
+    "occupancy_f1": {
+      "direction": "higher_better",
+      "threshold_default": 0.9,
+      "count_seen": 199
+    },
+    "emd_distance": {
+      "direction": "lower_better",
+      "threshold_default": 0.02,
+      "count_seen": 199
+    },
+    "silhouette_iou": {
+      "direction": "higher_better",
+      "threshold_default": 0.92,
+      "count_seen": 199
+    },
+    "render_ssim": {
+      "direction": "higher_better",
+      "threshold_default": 0.9,
+      "count_seen": 199
+    },
+    "render_lpips": {
+      "direction": "lower_better",
+      "threshold_default": 0.15,
+      "count_seen": 199
+    },
+    "registration_failure_rate": {
+      "direction": "lower_better",
+      "threshold_default": 0.05,
+      "count_seen": 199
+    },
+    "composite_weighted_score": {
+      "direction": "higher_better",
+      "threshold_default": 0.85,
+      "count_seen": 199
+    }
+  }
+}

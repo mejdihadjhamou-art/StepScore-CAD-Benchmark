@@ -1,0 +1,2079 @@
+part_id,family,step_path,prompt_l2,prompt_l3
+box_hole_0001,box_hole,/Users/mejdi/Desktop/reference_step files/box_hole_0001.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered through hole
+Units:
+Millimeters (mm).
+Geometry:
+- Base block size: X=132, Y=54, Z=14.
+- Add one centered vertical through hole, diameter=16, axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with one centered vertical through-hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin: (0,0,0) at the center of the bottom outer face of the block.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create a rectangular solid with dimensions X=132, Y=54, Z=14.
+- Block is centered in X and Y, with bottom at z=0 and top at z=Z.
+
+Subtractive features:
+- Create one circular through-hole with diameter=16.
+- Hole center at (0,0) in XY and axis parallel to Z.
+- Hole cuts fully through from top to bottom.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+stepped_shaft_0046,stepped_shaft,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0002.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft
+Units:
+Millimeters (mm).
+Geometry:
+- Segment 1: diameter=14, length=26.
+- Segment 2: diameter=24, length=50, attached coaxially after segment 1.
+- Segment 3: diameter=10, length=24, attached coaxially after segment 2.
+- Overall shaft length=100.
+- Shaft axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft with shoulders
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at the shaft center (midpoint of total length on Z-axis).
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/additive geometry:
+- Build three coaxial cylindrical segments along Z with diameters 14, 24, 10.
+- Segment lengths are 26, 50, 24 respectively.
+- Total length is 100.
+- Segment 1 spans z=-50 to z=-24.
+- Segment 2 spans z=-24 to z=26.
+- Segment 3 spans z=26 to z=50.
+- All segments are concentric on X=0, Y=0.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+flange_0010,flange,/Users/mejdi/Desktop/reference_step files/flange_0003.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange with bore and bolt pattern
+Units:
+Millimeters (mm).
+Geometry:
+- Flange outer diameter=136, thickness=22.
+- Center through bore diameter=14.
+- Add 4 equally spaced through bolt holes, each diameter=6.
+- Bolt holes are on bolt circle diameter=82.107.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange disk with central bore and equally spaced bolt holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom circular face; flange axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create a solid cylinder with outer diameter=136 and height=22.
+- Bottom at z=0 and top at z=height.
+
+Subtractive features:
+- Cut one centered through bore, diameter=14, axis=Z.
+- Cut 4 through bolt holes, diameter=6, equally spaced at 360/4 degrees.
+- Bolt hole centers lie on radius=41.0535 from origin (bolt circle diameter=82.107).
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+ring_spacer_0028,ring_spacer,/Users/mejdi/Desktop/reference_step files/ring_spacer_0004.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (hollow cylinder)
+Units:
+Millimeters (mm).
+Geometry:
+- Outer diameter=100.
+- Inner diameter=16 (through bore).
+- Height=24.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (annular cylinder) with through bore
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom annular face, axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/subtractive geometry:
+- Create outer cylinder: diameter=100, height=24.
+- Subtract centered inner cylinder: diameter=16, same full height, axis=Z.
+- Resulting radial wall thickness=42.
+- Bottom at z=0, top at z=height.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+slotted_plate_0037,slotted_plate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0005.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular plate with a centered through slot
+Units:
+Millimeters (mm).
+Geometry:
+- Plate dimensions: X=116, Y=90, thickness Z=16.
+- One centered slot with rounded ends: length=74, width=22.
+- Slot goes fully through thickness.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+Flat rectangular plate with one centered rounded-end through slot
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom plate face; +Z normal to plate.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create rectangular plate, X=116, Y=90, Z=16.
+- Plate centered on X and Y, bottom at z=0.
+
+Subtractive feature:
+- Cut one centered slot2D profile with overall length=74 and width=22.
+- Slot long axis along X.
+- Extrude/cut through full thickness so it is a through-slot.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+l_bracket_0019,l_bracket,/Users/mejdi/Desktop/reference_step files/l_bracket_0006.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket with base, vertical web, and holes
+Units:
+Millimeters (mm).
+Geometry:
+- Base plate: length=88, width=58, thickness=16.
+- Vertical web near one base edge: thickness=10, height=82, full base width.
+- Add two top through holes in the base, each diameter=12.
+- Add one side through hole in the web, diameter=6.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket: horizontal base plus one vertical web with mounting holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of base plate.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/additive geometry:
+- Base plate size: X=88, Y=58, Z=16; bottom at z=0.
+- Add one vertical web block with thickness X=10, width Y=58, height Z=82.
+- Place web near the -X side at web center x=-39 and rising from z=16.
+
+Subtractive features:
+- Two top through holes in base, diameter=12, positioned symmetrically at x=±24.64, y=0.
+- One side hole in web, diameter=6, normal to X direction, centered on web side face.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+,,,,
+,,,,
+,,,,
+box_hole_0002,box_hole,/Users/mejdi/Desktop/reference_step files/box_hole_0010.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered through hole
+Units:
+Millimeters (mm).
+Geometry:
+- Base block size: X=108, Y=108, Z=20.
+- Add one centered vertical through hole, diameter=32, axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with one centered vertical through-hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin: (0,0,0) at the center of the bottom outer face of the block.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create a rectangular solid with dimensions X=108, Y=108, Z=20.
+- Block is centered in X and Y, with bottom at z=0 and top at z=Z.
+
+Subtractive features:
+- Create one circular through-hole with diameter=32.
+- Hole center at (0,0) in XY and axis parallel to Z.
+- Hole cuts fully through from top to bottom.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+stepped_shaft_0047,stepped_shaft,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0011.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft
+Units:
+Millimeters (mm).
+Geometry:
+- Segment 1: diameter=12, length=60.
+- Segment 2: diameter=32, length=40, attached coaxially after segment 1.
+- Segment 3: diameter=10, length=54, attached coaxially after segment 2.
+- Overall shaft length=154.
+- Shaft axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft with shoulders
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at the shaft center (midpoint of total length on Z-axis).
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/additive geometry:
+- Build three coaxial cylindrical segments along Z with diameters 12, 32, 10.
+- Segment lengths are 60, 40, 54 respectively.
+- Total length is 154.
+- Segment 1 spans z=-77 to z=-17.
+- Segment 2 spans z=-17 to z=23.
+- Segment 3 spans z=23 to z=77.
+- All segments are concentric on X=0, Y=0.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+flange_0011,flange,/Users/mejdi/Desktop/reference_step files/flange_0012.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange with bore and bolt pattern
+Units:
+Millimeters (mm).
+Geometry:
+- Flange outer diameter=84, thickness=10.
+- Center through bore diameter=14.
+- Add 8 equally spaced through bolt holes, each diameter=8.
+- Bolt holes are on bolt circle diameter=60.0275.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange disk with central bore and equally spaced bolt holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom circular face; flange axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create a solid cylinder with outer diameter=84 and height=10.
+- Bottom at z=0 and top at z=height.
+
+Subtractive features:
+- Cut one centered through bore, diameter=14, axis=Z.
+- Cut 8 through bolt holes, diameter=8, equally spaced at 360/8 degrees.
+- Bolt hole centers lie on radius=30.0138 from origin (bolt circle diameter=60.0275).
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+ring_spacer_0029,ring_spacer,/Users/mejdi/Desktop/reference_step files/ring_spacer_0013.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (hollow cylinder)
+Units:
+Millimeters (mm).
+Geometry:
+- Outer diameter=46.
+- Inner diameter=20 (through bore).
+- Height=10.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (annular cylinder) with through bore
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom annular face, axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/subtractive geometry:
+- Create outer cylinder: diameter=46, height=10.
+- Subtract centered inner cylinder: diameter=20, same full height, axis=Z.
+- Resulting radial wall thickness=13.
+- Bottom at z=0, top at z=height.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+slotted_plate_0038,slotted_plate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0014.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular plate with a centered through slot
+Units:
+Millimeters (mm).
+Geometry:
+- Plate dimensions: X=138, Y=62, thickness Z=14.
+- One centered slot with rounded ends: length=88, width=20.
+- Slot goes fully through thickness.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+Flat rectangular plate with one centered rounded-end through slot
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom plate face; +Z normal to plate.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create rectangular plate, X=138, Y=62, Z=14.
+- Plate centered on X and Y, bottom at z=0.
+
+Subtractive feature:
+- Cut one centered slot2D profile with overall length=88 and width=20.
+- Slot long axis along X.
+- Extrude/cut through full thickness so it is a through-slot.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+l_bracket_0020,l_bracket,/Users/mejdi/Desktop/reference_step files/l_bracket_0015.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket with base, vertical web, and holes
+Units:
+Millimeters (mm).
+Geometry:
+- Base plate: length=80, width=54, thickness=12.
+- Vertical web near one base edge: thickness=10, height=72, full base width.
+- Add two top through holes in the base, each diameter=8.
+- Add one side through hole in the web, diameter=10.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket: horizontal base plus one vertical web with mounting holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of base plate.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/additive geometry:
+- Base plate size: X=80, Y=54, Z=12; bottom at z=0.
+- Add one vertical web block with thickness X=10, width Y=54, height Z=72.
+- Place web near the -X side at web center x=-35 and rising from z=12.
+
+Subtractive features:
+- Two top through holes in base, diameter=8, positioned symmetrically at x=±22.4, y=0.
+- One side hole in web, diameter=10, normal to X direction, centered on web side face.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+,,,,
+,,,,
+,,,,
+box_hole_0003,box_hole,/Users/mejdi/Desktop/reference_step files/box_hole_0019.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered through hole
+Units:
+Millimeters (mm).
+Geometry:
+- Base block size: X=102, Y=74, Z=16.
+- Add one centered vertical through hole, diameter=14, axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with one centered vertical through-hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin: (0,0,0) at the center of the bottom outer face of the block.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create a rectangular solid with dimensions X=102, Y=74, Z=16.
+- Block is centered in X and Y, with bottom at z=0 and top at z=Z.
+
+Subtractive features:
+- Create one circular through-hole with diameter=14.
+- Hole center at (0,0) in XY and axis parallel to Z.
+- Hole cuts fully through from top to bottom.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+stepped_shaft_0048,stepped_shaft,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0020.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft
+Units:
+Millimeters (mm).
+Geometry:
+- Segment 1: diameter=24, length=40.
+- Segment 2: diameter=36, length=30, attached coaxially after segment 1.
+- Segment 3: diameter=22, length=50, attached coaxially after segment 2.
+- Overall shaft length=120.
+- Shaft axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft with shoulders
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at the shaft center (midpoint of total length on Z-axis).
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/additive geometry:
+- Build three coaxial cylindrical segments along Z with diameters 24, 36, 22.
+- Segment lengths are 40, 30, 50 respectively.
+- Total length is 120.
+- Segment 1 spans z=-60 to z=-20.
+- Segment 2 spans z=-20 to z=10.
+- Segment 3 spans z=10 to z=60.
+- All segments are concentric on X=0, Y=0.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+flange_0012,flange,/Users/mejdi/Desktop/reference_step files/flange_0021.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange with bore and bolt pattern
+Units:
+Millimeters (mm).
+Geometry:
+- Flange outer diameter=110, thickness=22.
+- Center through bore diameter=22.
+- Add 6 equally spaced through bolt holes, each diameter=6.
+- Bolt holes are on bolt circle diameter=67.0258.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange disk with central bore and equally spaced bolt holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom circular face; flange axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create a solid cylinder with outer diameter=110 and height=22.
+- Bottom at z=0 and top at z=height.
+
+Subtractive features:
+- Cut one centered through bore, diameter=22, axis=Z.
+- Cut 6 through bolt holes, diameter=6, equally spaced at 360/6 degrees.
+- Bolt hole centers lie on radius=33.5129 from origin (bolt circle diameter=67.0258).
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+ring_spacer_0030,ring_spacer,/Users/mejdi/Desktop/reference_step files/ring_spacer_0022.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (hollow cylinder)
+Units:
+Millimeters (mm).
+Geometry:
+- Outer diameter=108.
+- Inner diameter=80 (through bore).
+- Height=14.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (annular cylinder) with through bore
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom annular face, axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/subtractive geometry:
+- Create outer cylinder: diameter=108, height=14.
+- Subtract centered inner cylinder: diameter=80, same full height, axis=Z.
+- Resulting radial wall thickness=14.
+- Bottom at z=0, top at z=height.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+slotted_plate_0039,slotted_plate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0023.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular plate with a centered through slot
+Units:
+Millimeters (mm).
+Geometry:
+- Plate dimensions: X=186, Y=82, thickness Z=12.
+- One centered slot with rounded ends: length=116, width=20.
+- Slot goes fully through thickness.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+Flat rectangular plate with one centered rounded-end through slot
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom plate face; +Z normal to plate.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create rectangular plate, X=186, Y=82, Z=12.
+- Plate centered on X and Y, bottom at z=0.
+
+Subtractive feature:
+- Cut one centered slot2D profile with overall length=116 and width=20.
+- Slot long axis along X.
+- Extrude/cut through full thickness so it is a through-slot.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+l_bracket_0021,l_bracket,/Users/mejdi/Desktop/reference_step files/l_bracket_0024.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket with base, vertical web, and holes
+Units:
+Millimeters (mm).
+Geometry:
+- Base plate: length=88, width=38, thickness=14.
+- Vertical web near one base edge: thickness=14, height=36, full base width.
+- Add two top through holes in the base, each diameter=12.
+- Add one side through hole in the web, diameter=6.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket: horizontal base plus one vertical web with mounting holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of base plate.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/additive geometry:
+- Base plate size: X=88, Y=38, Z=14; bottom at z=0.
+- Add one vertical web block with thickness X=14, width Y=38, height Z=36.
+- Place web near the -X side at web center x=-37 and rising from z=14.
+
+Subtractive features:
+- Two top through holes in base, diameter=12, positioned symmetrically at x=±24.64, y=0.
+- One side hole in web, diameter=6, normal to X direction, centered on web side face.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+,,,,
+,,,,
+,,,,
+box_hole_0004,box_hole,/Users/mejdi/Desktop/reference_step files/box_hole_0028.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered through hole
+Units:
+Millimeters (mm).
+Geometry:
+- Base block size: X=132, Y=84, Z=20.
+- Add one centered vertical through hole, diameter=18, axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with one centered vertical through-hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin: (0,0,0) at the center of the bottom outer face of the block.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create a rectangular solid with dimensions X=132, Y=84, Z=20.
+- Block is centered in X and Y, with bottom at z=0 and top at z=Z.
+
+Subtractive features:
+- Create one circular through-hole with diameter=18.
+- Hole center at (0,0) in XY and axis parallel to Z.
+- Hole cuts fully through from top to bottom.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+stepped_shaft_0049,stepped_shaft,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0029.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft
+Units:
+Millimeters (mm).
+Geometry:
+- Segment 1: diameter=16, length=20.
+- Segment 2: diameter=24, length=32, attached coaxially after segment 1.
+- Segment 3: diameter=12, length=50, attached coaxially after segment 2.
+- Overall shaft length=102.
+- Shaft axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft with shoulders
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at the shaft center (midpoint of total length on Z-axis).
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/additive geometry:
+- Build three coaxial cylindrical segments along Z with diameters 16, 24, 12.
+- Segment lengths are 20, 32, 50 respectively.
+- Total length is 102.
+- Segment 1 spans z=-51 to z=-31.
+- Segment 2 spans z=-31 to z=1.
+- Segment 3 spans z=1 to z=51.
+- All segments are concentric on X=0, Y=0.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+flange_0013,flange,/Users/mejdi/Desktop/reference_step files/flange_0030.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange with bore and bolt pattern
+Units:
+Millimeters (mm).
+Geometry:
+- Flange outer diameter=82, thickness=24.
+- Center through bore diameter=16.
+- Add 8 equally spaced through bolt holes, each diameter=8.
+- Bolt holes are on bolt circle diameter=59.7234.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange disk with central bore and equally spaced bolt holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom circular face; flange axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create a solid cylinder with outer diameter=82 and height=24.
+- Bottom at z=0 and top at z=height.
+
+Subtractive features:
+- Cut one centered through bore, diameter=16, axis=Z.
+- Cut 8 through bolt holes, diameter=8, equally spaced at 360/8 degrees.
+- Bolt hole centers lie on radius=29.8617 from origin (bolt circle diameter=59.7234).
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+ring_spacer_0031,ring_spacer,/Users/mejdi/Desktop/reference_step files/ring_spacer_0031.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (hollow cylinder)
+Units:
+Millimeters (mm).
+Geometry:
+- Outer diameter=100.
+- Inner diameter=38 (through bore).
+- Height=10.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (annular cylinder) with through bore
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom annular face, axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/subtractive geometry:
+- Create outer cylinder: diameter=100, height=10.
+- Subtract centered inner cylinder: diameter=38, same full height, axis=Z.
+- Resulting radial wall thickness=31.
+- Bottom at z=0, top at z=height.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+slotted_plate_0040,slotted_plate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0032.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular plate with a centered through slot
+Units:
+Millimeters (mm).
+Geometry:
+- Plate dimensions: X=138, Y=94, thickness Z=8.
+- One centered slot with rounded ends: length=82, width=32.
+- Slot goes fully through thickness.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+Flat rectangular plate with one centered rounded-end through slot
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom plate face; +Z normal to plate.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create rectangular plate, X=138, Y=94, Z=8.
+- Plate centered on X and Y, bottom at z=0.
+
+Subtractive feature:
+- Cut one centered slot2D profile with overall length=82 and width=32.
+- Slot long axis along X.
+- Extrude/cut through full thickness so it is a through-slot.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+l_bracket_0022,l_bracket,/Users/mejdi/Desktop/reference_step files/l_bracket_0033.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket with base, vertical web, and holes
+Units:
+Millimeters (mm).
+Geometry:
+- Base plate: length=128, width=30, thickness=16.
+- Vertical web near one base edge: thickness=12, height=62, full base width.
+- Add two top through holes in the base, each diameter=6.
+- Add one side through hole in the web, diameter=6.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket: horizontal base plus one vertical web with mounting holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of base plate.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/additive geometry:
+- Base plate size: X=128, Y=30, Z=16; bottom at z=0.
+- Add one vertical web block with thickness X=12, width Y=30, height Z=62.
+- Place web near the -X side at web center x=-58 and rising from z=16.
+
+Subtractive features:
+- Two top through holes in base, diameter=6, positioned symmetrically at x=±35.84, y=0.
+- One side hole in web, diameter=6, normal to X direction, centered on web side face.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+,,,,
+,,,,
+,,,,
+box_hole_0005,box_hole,/Users/mejdi/Desktop/reference_step files/box_hole_0037.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered through hole
+Units:
+Millimeters (mm).
+Geometry:
+- Base block size: X=118, Y=94, Z=26.
+- Add one centered vertical through hole, diameter=42, axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with one centered vertical through-hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin: (0,0,0) at the center of the bottom outer face of the block.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create a rectangular solid with dimensions X=118, Y=94, Z=26.
+- Block is centered in X and Y, with bottom at z=0 and top at z=Z.
+
+Subtractive features:
+- Create one circular through-hole with diameter=42.
+- Hole center at (0,0) in XY and axis parallel to Z.
+- Hole cuts fully through from top to bottom.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+stepped_shaft_0050,stepped_shaft,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0038.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft
+Units:
+Millimeters (mm).
+Geometry:
+- Segment 1: diameter=22, length=32.
+- Segment 2: diameter=36, length=36, attached coaxially after segment 1.
+- Segment 3: diameter=20, length=44, attached coaxially after segment 2.
+- Overall shaft length=112.
+- Shaft axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft with shoulders
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at the shaft center (midpoint of total length on Z-axis).
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/additive geometry:
+- Build three coaxial cylindrical segments along Z with diameters 22, 36, 20.
+- Segment lengths are 32, 36, 44 respectively.
+- Total length is 112.
+- Segment 1 spans z=-56 to z=-24.
+- Segment 2 spans z=-24 to z=12.
+- Segment 3 spans z=12 to z=56.
+- All segments are concentric on X=0, Y=0.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+flange_0014,flange,/Users/mejdi/Desktop/reference_step files/flange_0039.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange with bore and bolt pattern
+Units:
+Millimeters (mm).
+Geometry:
+- Flange outer diameter=108, thickness=22.
+- Center through bore diameter=46.
+- Add 6 equally spaced through bolt holes, each diameter=6.
+- Bolt holes are on bolt circle diameter=65.8348.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange disk with central bore and equally spaced bolt holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom circular face; flange axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create a solid cylinder with outer diameter=108 and height=22.
+- Bottom at z=0 and top at z=height.
+
+Subtractive features:
+- Cut one centered through bore, diameter=46, axis=Z.
+- Cut 6 through bolt holes, diameter=6, equally spaced at 360/6 degrees.
+- Bolt hole centers lie on radius=32.9174 from origin (bolt circle diameter=65.8348).
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+ring_spacer_0032,ring_spacer,/Users/mejdi/Desktop/reference_step files/ring_spacer_0040.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (hollow cylinder)
+Units:
+Millimeters (mm).
+Geometry:
+- Outer diameter=44.
+- Inner diameter=22 (through bore).
+- Height=6.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (annular cylinder) with through bore
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom annular face, axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/subtractive geometry:
+- Create outer cylinder: diameter=44, height=6.
+- Subtract centered inner cylinder: diameter=22, same full height, axis=Z.
+- Resulting radial wall thickness=11.
+- Bottom at z=0, top at z=height.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+slotted_plate_0041,slotted_plate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0041.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular plate with a centered through slot
+Units:
+Millimeters (mm).
+Geometry:
+- Plate dimensions: X=166, Y=80, thickness Z=10.
+- One centered slot with rounded ends: length=96, width=16.
+- Slot goes fully through thickness.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+Flat rectangular plate with one centered rounded-end through slot
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom plate face; +Z normal to plate.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create rectangular plate, X=166, Y=80, Z=10.
+- Plate centered on X and Y, bottom at z=0.
+
+Subtractive feature:
+- Cut one centered slot2D profile with overall length=96 and width=16.
+- Slot long axis along X.
+- Extrude/cut through full thickness so it is a through-slot.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+l_bracket_0023,l_bracket,/Users/mejdi/Desktop/reference_step files/l_bracket_0042.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket with base, vertical web, and holes
+Units:
+Millimeters (mm).
+Geometry:
+- Base plate: length=60, width=34, thickness=16.
+- Vertical web near one base edge: thickness=6, height=44, full base width.
+- Add two top through holes in the base, each diameter=6.
+- Add one side through hole in the web, diameter=6.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket: horizontal base plus one vertical web with mounting holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of base plate.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/additive geometry:
+- Base plate size: X=60, Y=34, Z=16; bottom at z=0.
+- Add one vertical web block with thickness X=6, width Y=34, height Z=44.
+- Place web near the -X side at web center x=-27 and rising from z=16.
+
+Subtractive features:
+- Two top through holes in base, diameter=6, positioned symmetrically at x=±16.8, y=0.
+- One side hole in web, diameter=6, normal to X direction, centered on web side face.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+,,,,
+,,,,
+,,,,
+box_hole_0006,box_hole,/Users/mejdi/Desktop/reference_step files/box_hole_0046.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered through hole
+Units:
+Millimeters (mm).
+Geometry:
+- Base block size: X=106, Y=86, Z=40.
+- Add one centered vertical through hole, diameter=22, axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with one centered vertical through-hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin: (0,0,0) at the center of the bottom outer face of the block.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create a rectangular solid with dimensions X=106, Y=86, Z=40.
+- Block is centered in X and Y, with bottom at z=0 and top at z=Z.
+
+Subtractive features:
+- Create one circular through-hole with diameter=22.
+- Hole center at (0,0) in XY and axis parallel to Z.
+- Hole cuts fully through from top to bottom.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+stepped_shaft_0051,stepped_shaft,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0047.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft
+Units:
+Millimeters (mm).
+Geometry:
+- Segment 1: diameter=18, length=24.
+- Segment 2: diameter=22, length=42, attached coaxially after segment 1.
+- Segment 3: diameter=10, length=40, attached coaxially after segment 2.
+- Overall shaft length=106.
+- Shaft axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft with shoulders
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at the shaft center (midpoint of total length on Z-axis).
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/additive geometry:
+- Build three coaxial cylindrical segments along Z with diameters 18, 22, 10.
+- Segment lengths are 24, 42, 40 respectively.
+- Total length is 106.
+- Segment 1 spans z=-53 to z=-29.
+- Segment 2 spans z=-29 to z=13.
+- Segment 3 spans z=13 to z=53.
+- All segments are concentric on X=0, Y=0.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+flange_0015,flange,/Users/mejdi/Desktop/reference_step files/flange_0048.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange with bore and bolt pattern
+Units:
+Millimeters (mm).
+Geometry:
+- Flange outer diameter=74, thickness=16.
+- Center through bore diameter=18.
+- Add 4 equally spaced through bolt holes, each diameter=12.
+- Bolt holes are on bolt circle diameter=48.0795.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange disk with central bore and equally spaced bolt holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom circular face; flange axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create a solid cylinder with outer diameter=74 and height=16.
+- Bottom at z=0 and top at z=height.
+
+Subtractive features:
+- Cut one centered through bore, diameter=18, axis=Z.
+- Cut 4 through bolt holes, diameter=12, equally spaced at 360/4 degrees.
+- Bolt hole centers lie on radius=24.0397 from origin (bolt circle diameter=48.0795).
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+ring_spacer_0033,ring_spacer,/Users/mejdi/Desktop/reference_step files/ring_spacer_0049.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (hollow cylinder)
+Units:
+Millimeters (mm).
+Geometry:
+- Outer diameter=90.
+- Inner diameter=24 (through bore).
+- Height=14.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (annular cylinder) with through bore
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom annular face, axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/subtractive geometry:
+- Create outer cylinder: diameter=90, height=14.
+- Subtract centered inner cylinder: diameter=24, same full height, axis=Z.
+- Resulting radial wall thickness=33.
+- Bottom at z=0, top at z=height.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+slotted_plate_0042,slotted_plate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0050.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular plate with a centered through slot
+Units:
+Millimeters (mm).
+Geometry:
+- Plate dimensions: X=150, Y=60, thickness Z=20.
+- One centered slot with rounded ends: length=56, width=22.
+- Slot goes fully through thickness.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+Flat rectangular plate with one centered rounded-end through slot
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom plate face; +Z normal to plate.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create rectangular plate, X=150, Y=60, Z=20.
+- Plate centered on X and Y, bottom at z=0.
+
+Subtractive feature:
+- Cut one centered slot2D profile with overall length=56 and width=22.
+- Slot long axis along X.
+- Extrude/cut through full thickness so it is a through-slot.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+l_bracket_0024,l_bracket,/Users/mejdi/Desktop/reference_step files/l_bracket_0051.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket with base, vertical web, and holes
+Units:
+Millimeters (mm).
+Geometry:
+- Base plate: length=130, width=36, thickness=6.
+- Vertical web near one base edge: thickness=16, height=64, full base width.
+- Add two top through holes in the base, each diameter=12.
+- Add one side through hole in the web, diameter=6.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket: horizontal base plus one vertical web with mounting holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of base plate.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/additive geometry:
+- Base plate size: X=130, Y=36, Z=6; bottom at z=0.
+- Add one vertical web block with thickness X=16, width Y=36, height Z=64.
+- Place web near the -X side at web center x=-57 and rising from z=6.
+
+Subtractive features:
+- Two top through holes in base, diameter=12, positioned symmetrically at x=±36.4, y=0.
+- One side hole in web, diameter=6, normal to X direction, centered on web side face.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+,,,,
+,,,,
+,,,,
+box_hole_0007,box_hole,/Users/mejdi/Desktop/reference_step files/box_hole_0055.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered through hole
+Units:
+Millimeters (mm).
+Geometry:
+- Base block size: X=86, Y=94, Z=56.
+- Add one centered vertical through hole, diameter=38, axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with one centered vertical through-hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin: (0,0,0) at the center of the bottom outer face of the block.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create a rectangular solid with dimensions X=86, Y=94, Z=56.
+- Block is centered in X and Y, with bottom at z=0 and top at z=Z.
+
+Subtractive features:
+- Create one circular through-hole with diameter=38.
+- Hole center at (0,0) in XY and axis parallel to Z.
+- Hole cuts fully through from top to bottom.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+stepped_shaft_0052,stepped_shaft,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0056.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft
+Units:
+Millimeters (mm).
+Geometry:
+- Segment 1: diameter=22, length=52.
+- Segment 2: diameter=36, length=26, attached coaxially after segment 1.
+- Segment 3: diameter=16, length=30, attached coaxially after segment 2.
+- Overall shaft length=108.
+- Shaft axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft with shoulders
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at the shaft center (midpoint of total length on Z-axis).
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/additive geometry:
+- Build three coaxial cylindrical segments along Z with diameters 22, 36, 16.
+- Segment lengths are 52, 26, 30 respectively.
+- Total length is 108.
+- Segment 1 spans z=-54 to z=-2.
+- Segment 2 spans z=-2 to z=24.
+- Segment 3 spans z=24 to z=54.
+- All segments are concentric on X=0, Y=0.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+flange_0016,flange,/Users/mejdi/Desktop/reference_step files/flange_0057.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange with bore and bolt pattern
+Units:
+Millimeters (mm).
+Geometry:
+- Flange outer diameter=98, thickness=14.
+- Center through bore diameter=16.
+- Add 8 equally spaced through bolt holes, each diameter=12.
+- Bolt holes are on bolt circle diameter=56.0748.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange disk with central bore and equally spaced bolt holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom circular face; flange axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create a solid cylinder with outer diameter=98 and height=14.
+- Bottom at z=0 and top at z=height.
+
+Subtractive features:
+- Cut one centered through bore, diameter=16, axis=Z.
+- Cut 8 through bolt holes, diameter=12, equally spaced at 360/8 degrees.
+- Bolt hole centers lie on radius=28.0374 from origin (bolt circle diameter=56.0748).
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+ring_spacer_0034,ring_spacer,/Users/mejdi/Desktop/reference_step files/ring_spacer_0058.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (hollow cylinder)
+Units:
+Millimeters (mm).
+Geometry:
+- Outer diameter=76.
+- Inner diameter=16 (through bore).
+- Height=8.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (annular cylinder) with through bore
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom annular face, axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/subtractive geometry:
+- Create outer cylinder: diameter=76, height=8.
+- Subtract centered inner cylinder: diameter=16, same full height, axis=Z.
+- Resulting radial wall thickness=30.
+- Bottom at z=0, top at z=height.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+slotted_plate_0043,slotted_plate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0059.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular plate with a centered through slot
+Units:
+Millimeters (mm).
+Geometry:
+- Plate dimensions: X=164, Y=76, thickness Z=14.
+- One centered slot with rounded ends: length=112, width=24.
+- Slot goes fully through thickness.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+Flat rectangular plate with one centered rounded-end through slot
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom plate face; +Z normal to plate.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create rectangular plate, X=164, Y=76, Z=14.
+- Plate centered on X and Y, bottom at z=0.
+
+Subtractive feature:
+- Cut one centered slot2D profile with overall length=112 and width=24.
+- Slot long axis along X.
+- Extrude/cut through full thickness so it is a through-slot.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+l_bracket_0025,l_bracket,/Users/mejdi/Desktop/reference_step files/l_bracket_0060.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket with base, vertical web, and holes
+Units:
+Millimeters (mm).
+Geometry:
+- Base plate: length=80, width=34, thickness=14.
+- Vertical web near one base edge: thickness=8, height=84, full base width.
+- Add two top through holes in the base, each diameter=8.
+- Add one side through hole in the web, diameter=6.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket: horizontal base plus one vertical web with mounting holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of base plate.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/additive geometry:
+- Base plate size: X=80, Y=34, Z=14; bottom at z=0.
+- Add one vertical web block with thickness X=8, width Y=34, height Z=84.
+- Place web near the -X side at web center x=-36 and rising from z=14.
+
+Subtractive features:
+- Two top through holes in base, diameter=8, positioned symmetrically at x=±22.4, y=0.
+- One side hole in web, diameter=6, normal to X direction, centered on web side face.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+,,,,
+,,,,
+,,,,
+box_hole_0008,box_hole,/Users/mejdi/Desktop/reference_step files/box_hole_0064.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered through hole
+Units:
+Millimeters (mm).
+Geometry:
+- Base block size: X=90, Y=70, Z=28.
+- Add one centered vertical through hole, diameter=20, axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with one centered vertical through-hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin: (0,0,0) at the center of the bottom outer face of the block.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create a rectangular solid with dimensions X=90, Y=70, Z=28.
+- Block is centered in X and Y, with bottom at z=0 and top at z=Z.
+
+Subtractive features:
+- Create one circular through-hole with diameter=20.
+- Hole center at (0,0) in XY and axis parallel to Z.
+- Hole cuts fully through from top to bottom.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+stepped_shaft_0053,stepped_shaft,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0065.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft
+Units:
+Millimeters (mm).
+Geometry:
+- Segment 1: diameter=12, length=40.
+- Segment 2: diameter=36, length=46, attached coaxially after segment 1.
+- Segment 3: diameter=10, length=38, attached coaxially after segment 2.
+- Overall shaft length=124.
+- Shaft axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft with shoulders
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at the shaft center (midpoint of total length on Z-axis).
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/additive geometry:
+- Build three coaxial cylindrical segments along Z with diameters 12, 36, 10.
+- Segment lengths are 40, 46, 38 respectively.
+- Total length is 124.
+- Segment 1 spans z=-62 to z=-22.
+- Segment 2 spans z=-22 to z=24.
+- Segment 3 spans z=24 to z=62.
+- All segments are concentric on X=0, Y=0.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+flange_0017,flange,/Users/mejdi/Desktop/reference_step files/flange_0066.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange with bore and bolt pattern
+Units:
+Millimeters (mm).
+Geometry:
+- Flange outer diameter=70, thickness=8.
+- Center through bore diameter=26.
+- Add 8 equally spaced through bolt holes, each diameter=6.
+- Bolt holes are on bolt circle diameter=40.2257.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange disk with central bore and equally spaced bolt holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom circular face; flange axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create a solid cylinder with outer diameter=70 and height=8.
+- Bottom at z=0 and top at z=height.
+
+Subtractive features:
+- Cut one centered through bore, diameter=26, axis=Z.
+- Cut 8 through bolt holes, diameter=6, equally spaced at 360/8 degrees.
+- Bolt hole centers lie on radius=20.1128 from origin (bolt circle diameter=40.2257).
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+ring_spacer_0035,ring_spacer,/Users/mejdi/Desktop/reference_step files/ring_spacer_0067.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (hollow cylinder)
+Units:
+Millimeters (mm).
+Geometry:
+- Outer diameter=64.
+- Inner diameter=44 (through bore).
+- Height=14.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (annular cylinder) with through bore
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom annular face, axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/subtractive geometry:
+- Create outer cylinder: diameter=64, height=14.
+- Subtract centered inner cylinder: diameter=44, same full height, axis=Z.
+- Resulting radial wall thickness=10.
+- Bottom at z=0, top at z=height.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+slotted_plate_0044,slotted_plate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0068.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular plate with a centered through slot
+Units:
+Millimeters (mm).
+Geometry:
+- Plate dimensions: X=106, Y=68, thickness Z=20.
+- One centered slot with rounded ends: length=42, width=16.
+- Slot goes fully through thickness.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+Flat rectangular plate with one centered rounded-end through slot
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom plate face; +Z normal to plate.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create rectangular plate, X=106, Y=68, Z=20.
+- Plate centered on X and Y, bottom at z=0.
+
+Subtractive feature:
+- Cut one centered slot2D profile with overall length=42 and width=16.
+- Slot long axis along X.
+- Extrude/cut through full thickness so it is a through-slot.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+l_bracket_0026,l_bracket,/Users/mejdi/Desktop/reference_step files/l_bracket_0069.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket with base, vertical web, and holes
+Units:
+Millimeters (mm).
+Geometry:
+- Base plate: length=108, width=48, thickness=8.
+- Vertical web near one base edge: thickness=14, height=84, full base width.
+- Add two top through holes in the base, each diameter=10.
+- Add one side through hole in the web, diameter=10.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket: horizontal base plus one vertical web with mounting holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of base plate.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/additive geometry:
+- Base plate size: X=108, Y=48, Z=8; bottom at z=0.
+- Add one vertical web block with thickness X=14, width Y=48, height Z=84.
+- Place web near the -X side at web center x=-47 and rising from z=8.
+
+Subtractive features:
+- Two top through holes in base, diameter=10, positioned symmetrically at x=±30.24, y=0.
+- One side hole in web, diameter=10, normal to X direction, centered on web side face.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+,,,,
+,,,,
+,,,,
+box_hole_0009,box_hole,/Users/mejdi/Desktop/reference_step files/box_hole_0073.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered through hole
+Units:
+Millimeters (mm).
+Geometry:
+- Base block size: X=94, Y=66, Z=56.
+- Add one centered vertical through hole, diameter=28, axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with one centered vertical through-hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin: (0,0,0) at the center of the bottom outer face of the block.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create a rectangular solid with dimensions X=94, Y=66, Z=56.
+- Block is centered in X and Y, with bottom at z=0 and top at z=Z.
+
+Subtractive features:
+- Create one circular through-hole with diameter=28.
+- Hole center at (0,0) in XY and axis parallel to Z.
+- Hole cuts fully through from top to bottom.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+stepped_shaft_0054,stepped_shaft,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0074.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft
+Units:
+Millimeters (mm).
+Geometry:
+- Segment 1: diameter=24, length=52.
+- Segment 2: diameter=30, length=32, attached coaxially after segment 1.
+- Segment 3: diameter=16, length=22, attached coaxially after segment 2.
+- Overall shaft length=106.
+- Shaft axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft with shoulders
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at the shaft center (midpoint of total length on Z-axis).
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/additive geometry:
+- Build three coaxial cylindrical segments along Z with diameters 24, 30, 16.
+- Segment lengths are 52, 32, 22 respectively.
+- Total length is 106.
+- Segment 1 spans z=-53 to z=-1.
+- Segment 2 spans z=-1 to z=31.
+- Segment 3 spans z=31 to z=53.
+- All segments are concentric on X=0, Y=0.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+flange_0018,flange,/Users/mejdi/Desktop/reference_step files/flange_0075.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange with bore and bolt pattern
+Units:
+Millimeters (mm).
+Geometry:
+- Flange outer diameter=72, thickness=22.
+- Center through bore diameter=20.
+- Add 4 equally spaced through bolt holes, each diameter=4.
+- Bolt holes are on bolt circle diameter=45.1232.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange disk with central bore and equally spaced bolt holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom circular face; flange axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create a solid cylinder with outer diameter=72 and height=22.
+- Bottom at z=0 and top at z=height.
+
+Subtractive features:
+- Cut one centered through bore, diameter=20, axis=Z.
+- Cut 4 through bolt holes, diameter=4, equally spaced at 360/4 degrees.
+- Bolt hole centers lie on radius=22.5616 from origin (bolt circle diameter=45.1232).
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+ring_spacer_0036,ring_spacer,/Users/mejdi/Desktop/reference_step files/ring_spacer_0076.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (hollow cylinder)
+Units:
+Millimeters (mm).
+Geometry:
+- Outer diameter=52.
+- Inner diameter=32 (through bore).
+- Height=14.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (annular cylinder) with through bore
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom annular face, axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/subtractive geometry:
+- Create outer cylinder: diameter=52, height=14.
+- Subtract centered inner cylinder: diameter=32, same full height, axis=Z.
+- Resulting radial wall thickness=10.
+- Bottom at z=0, top at z=height.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+slotted_plate_0045,slotted_plate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0077.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular plate with a centered through slot
+Units:
+Millimeters (mm).
+Geometry:
+- Plate dimensions: X=110, Y=92, thickness Z=14.
+- One centered slot with rounded ends: length=74, width=30.
+- Slot goes fully through thickness.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+Flat rectangular plate with one centered rounded-end through slot
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom plate face; +Z normal to plate.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create rectangular plate, X=110, Y=92, Z=14.
+- Plate centered on X and Y, bottom at z=0.
+
+Subtractive feature:
+- Cut one centered slot2D profile with overall length=74 and width=30.
+- Slot long axis along X.
+- Extrude/cut through full thickness so it is a through-slot.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+l_bracket_0027,l_bracket,/Users/mejdi/Desktop/reference_step files/l_bracket_0078.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket with base, vertical web, and holes
+Units:
+Millimeters (mm).
+Geometry:
+- Base plate: length=114, width=66, thickness=6.
+- Vertical web near one base edge: thickness=8, height=34, full base width.
+- Add two top through holes in the base, each diameter=12.
+- Add one side through hole in the web, diameter=6.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.","Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket: horizontal base plus one vertical web with mounting holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of base plate.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/additive geometry:
+- Base plate size: X=114, Y=66, Z=6; bottom at z=0.
+- Add one vertical web block with thickness X=8, width Y=66, height Z=34.
+- Place web near the -X side at web center x=-53 and rising from z=6.
+
+Subtractive features:
+- Two top through holes in base, diameter=12, positioned symmetrically at x=±31.92, y=0.
+- One side hole in web, diameter=6, normal to X direction, centered on web side face.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly."
+,,,,
+,,,,

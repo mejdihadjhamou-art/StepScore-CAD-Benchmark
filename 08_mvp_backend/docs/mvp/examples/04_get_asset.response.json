@@ -1,0 +1,14 @@
+{
+  "id": "b9d34572-4dc7-4336-8f1d-87e8d0905072",
+  "project_id": "a9e5fa9f-7193-4f13-ab97-01a7f3a68d4d",
+  "kind": "REFERENCE_STL",
+  "file_name": "mug_ref.stl",
+  "mime_type": "model/stl",
+  "byte_size": 65432,
+  "sha256": "31d30eea8d0968d6458e0ad0027c9f80c0dc70f6f4f3d4f064f5708fd7690f9f",
+  "metadata_json": {
+    "units": "mm"
+  },
+  "created_at": "2026-02-13T14:41:52.000Z"
+}
+

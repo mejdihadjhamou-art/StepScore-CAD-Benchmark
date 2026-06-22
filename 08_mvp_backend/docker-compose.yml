@@ -1,0 +1,52 @@
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: cadeval
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./db/migrations/0001_init.up.sql:/docker-entrypoint-initdb.d/0001_init.sql:ro
+      - ./db/migrations/0002_asset_contents.up.sql:/docker-entrypoint-initdb.d/0002_asset_contents.sql:ro
+      - ./db/migrations/0003_run_judgments.up.sql:/docker-entrypoint-initdb.d/0003_run_judgments.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d cadeval"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+
+  api:
+    build: ./services/api
+    environment:
+      DATABASE_URL: postgresql://postgres:postgres@postgres:5432/cadeval
+      PORT: 8080
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      OPENAI_MODEL: ${OPENAI_MODEL:-gpt-4.1-mini}
+    ports:
+      - "8080:8080"
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  worker:
+    build:
+      context: .
+      dockerfile: services/worker/Dockerfile
+    environment:
+      DATABASE_URL: postgresql://postgres:postgres@postgres:5432/cadeval
+      WORKER_POLL_MS: 1500
+      WORKER_ID: worker-1
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      OPENAI_MODEL: ${OPENAI_MODEL:-gpt-4.1-mini}
+      ENABLE_ADVANCED_METRICS: ${ENABLE_ADVANCED_METRICS:-true}
+      ADVANCED_METRICS_SCRIPT: /app/tools/advanced_geometry_metrics.py
+      PYTHON_BIN: python3
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+volumes:
+  postgres_data:

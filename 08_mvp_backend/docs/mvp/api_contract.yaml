@@ -1,0 +1,470 @@
+openapi: 3.1.0
+info:
+  title: CadEval Platform API (MVP)
+  version: 1.0.0
+  description: API contract for uploading references, creating evaluation runs, and retrieving results/artifacts.
+servers:
+  - url: https://api.example.com
+paths:
+  /v1/models:
+    get:
+      summary: List available models
+      operationId: listModels
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  items:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Model'
+                required: [items]
+
+  /v1/threshold-profiles:
+    get:
+      summary: List threshold profiles
+      operationId: listThresholdProfiles
+      parameters:
+        - in: query
+          name: project_id
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  items:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/ThresholdProfile'
+                required: [items]
+
+  /v1/assets/uploads:
+    post:
+      summary: Create an upload target for an asset (direct-to-object-storage)
+      operationId: createAssetUpload
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateAssetUploadRequest'
+      responses:
+        '201':
+          description: Created
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CreateAssetUploadResponse'
+
+  /v1/assets/{asset_id}:
+    get:
+      summary: Get asset metadata
+      operationId: getAsset
+      parameters:
+        - $ref: '#/components/parameters/AssetId'
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Asset'
+
+  /v1/assets/{asset_id}/download-url:
+    post:
+      summary: Create a short-lived download URL for an asset
+      operationId: createAssetDownloadUrl
+      parameters:
+        - $ref: '#/components/parameters/AssetId'
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  download_url:
+                    type: string
+                    format: uri
+                  expires_in_seconds:
+                    type: integer
+                required: [download_url, expires_in_seconds]
+
+  /v1/runs:
+    post:
+      summary: Submit a new CAD evaluation run
+      operationId: createRun
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateRunRequest'
+      responses:
+        '201':
+          description: Created
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Run'
+    get:
+      summary: List runs
+      operationId: listRuns
+      parameters:
+        - in: query
+          name: project_id
+          required: true
+          schema:
+            type: string
+            format: uuid
+        - in: query
+          name: status
+          schema:
+            $ref: '#/components/schemas/RunStatus'
+        - in: query
+          name: model_id
+          schema:
+            type: string
+            format: uuid
+        - in: query
+          name: limit
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 100
+            default: 20
+        - in: query
+          name: cursor
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  items:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Run'
+                  next_cursor:
+                    type: string
+                    nullable: true
+                required: [items]
+
+  /v1/runs/{run_id}:
+    get:
+      summary: Get run summary
+      operationId: getRun
+      parameters:
+        - $ref: '#/components/parameters/RunId'
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RunDetail'
+    delete:
+      summary: Cancel a queued/running run
+      operationId: cancelRun
+      parameters:
+        - $ref: '#/components/parameters/RunId'
+      responses:
+        '202':
+          description: Accepted
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    $ref: '#/components/schemas/RunStatus'
+                required: [status]
+
+  /v1/runs/{run_id}/replicates:
+    get:
+      summary: List replicate statuses and check outcomes
+      operationId: listRunReplicates
+      parameters:
+        - $ref: '#/components/parameters/RunId'
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  items:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Replicate'
+                required: [items]
+
+  /v1/runs/{run_id}/results:
+    get:
+      summary: Get normalized run results (aggregate + per-replicate)
+      operationId: getRunResults
+      parameters:
+        - $ref: '#/components/parameters/RunId'
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RunResults'
+
+  /v1/runs/{run_id}/artifacts:
+    get:
+      summary: List artifacts produced by all replicates in a run
+      operationId: listRunArtifacts
+      parameters:
+        - $ref: '#/components/parameters/RunId'
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  items:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/RunArtifact'
+                required: [items]
+
+components:
+  parameters:
+    RunId:
+      in: path
+      name: run_id
+      required: true
+      schema:
+        type: string
+        format: uuid
+    AssetId:
+      in: path
+      name: asset_id
+      required: true
+      schema:
+        type: string
+        format: uuid
+
+  schemas:
+    RunStatus:
+      type: string
+      enum: [QUEUED, RUNNING, SUCCEEDED, FAILED, CANCELLED]
+
+    ReplicateStatus:
+      type: string
+      enum: [PENDING, RUNNING, SUCCEEDED, FAILED, SKIPPED]
+
+    ArtifactKind:
+      type: string
+      enum:
+        - REFERENCE_STL
+        - GENERATED_SCAD
+        - GENERATED_STL
+        - RENDER_PNG
+        - RUN_LOG
+        - RESULT_JSON
+        - DASHBOARD_JSON
+        - OTHER
+
+    Model:
+      type: object
+      properties:
+        id: { type: string, format: uuid }
+        provider: { type: string }
+        model_key: { type: string }
+        display_name: { type: string }
+        is_active: { type: boolean }
+      required: [id, provider, model_key, display_name, is_active]
+
+    ThresholdProfile:
+      type: object
+      properties:
+        id: { type: string, format: uuid }
+        project_id: { type: string, format: uuid }
+        name: { type: string }
+        is_default: { type: boolean }
+        config_json: { type: object, additionalProperties: true }
+        config_hash: { type: string }
+      required: [id, project_id, name, is_default, config_json, config_hash]
+
+    Asset:
+      type: object
+      properties:
+        id: { type: string, format: uuid }
+        project_id: { type: string, format: uuid }
+        kind: { $ref: '#/components/schemas/ArtifactKind' }
+        file_name: { type: string }
+        mime_type: { type: string }
+        byte_size: { type: integer, format: int64 }
+        sha256: { type: string }
+        metadata_json: { type: object, additionalProperties: true }
+        created_at: { type: string, format: date-time }
+      required: [id, project_id, kind, file_name, mime_type, byte_size, sha256, metadata_json, created_at]
+
+    CreateAssetUploadRequest:
+      type: object
+      properties:
+        project_id: { type: string, format: uuid }
+        kind: { $ref: '#/components/schemas/ArtifactKind' }
+        file_name: { type: string }
+        mime_type: { type: string }
+        byte_size: { type: integer, format: int64, minimum: 1 }
+        sha256: { type: string }
+        metadata_json: { type: object, additionalProperties: true }
+      required: [project_id, kind, file_name, mime_type, byte_size, sha256]
+
+    CreateAssetUploadResponse:
+      type: object
+      properties:
+        asset:
+          $ref: '#/components/schemas/Asset'
+        upload_url:
+          type: string
+          format: uri
+        upload_headers:
+          type: object
+          additionalProperties:
+            type: string
+      required: [asset, upload_url, upload_headers]
+
+    CreateRunRequest:
+      type: object
+      properties:
+        project_id: { type: string, format: uuid }
+        model_id: { type: string, format: uuid }
+        threshold_profile_id: { type: string, format: uuid }
+        prompt: { type: string, minLength: 1 }
+        prompt_template: { type: string, default: default }
+        requested_replicates: { type: integer, minimum: 1, maximum: 20, default: 1 }
+        reference_asset_id: { type: string, format: uuid }
+        run_config_json: { type: object, additionalProperties: true }
+        external_id: { type: string }
+      required:
+        [project_id, model_id, threshold_profile_id, prompt, requested_replicates, reference_asset_id]
+
+    Run:
+      type: object
+      properties:
+        id: { type: string, format: uuid }
+        project_id: { type: string, format: uuid }
+        model_id: { type: string, format: uuid }
+        threshold_profile_id: { type: string, format: uuid }
+        status: { $ref: '#/components/schemas/RunStatus' }
+        prompt: { type: string }
+        prompt_template: { type: string, nullable: true }
+        requested_replicates: { type: integer }
+        reference_asset_id: { type: string, format: uuid }
+        run_config_json: { type: object, additionalProperties: true }
+        external_id: { type: string, nullable: true }
+        created_at: { type: string, format: date-time }
+        started_at: { type: string, format: date-time, nullable: true }
+        completed_at: { type: string, format: date-time, nullable: true }
+        error_message: { type: string, nullable: true }
+      required:
+        [id, project_id, model_id, threshold_profile_id, status, prompt, requested_replicates, reference_asset_id, run_config_json, created_at]
+
+    CheckResult:
+      type: object
+      properties:
+        check_key: { type: string }
+        passed: { type: boolean }
+        measured_value: { type: number, nullable: true }
+        threshold_value: { type: number, nullable: true }
+        unit: { type: string, nullable: true }
+        details_json: { type: object, additionalProperties: true }
+      required: [check_key, passed, details_json]
+
+    MetricResult:
+      type: object
+      properties:
+        metric_key: { type: string }
+        value: { type: number }
+        unit: { type: string }
+        details_json: { type: object, additionalProperties: true }
+      required: [metric_key, value, unit, details_json]
+
+    Replicate:
+      type: object
+      properties:
+        id: { type: string, format: uuid }
+        run_id: { type: string, format: uuid }
+        replicate_index: { type: integer }
+        seed: { type: integer, format: int64, nullable: true }
+        status: { $ref: '#/components/schemas/ReplicateStatus' }
+        started_at: { type: string, format: date-time, nullable: true }
+        completed_at: { type: string, format: date-time, nullable: true }
+        error_message: { type: string, nullable: true }
+        checks:
+          type: array
+          items: { $ref: '#/components/schemas/CheckResult' }
+        metrics:
+          type: array
+          items: { $ref: '#/components/schemas/MetricResult' }
+      required:
+        [id, run_id, replicate_index, status, checks, metrics]
+
+    RunArtifact:
+      type: object
+      properties:
+        replicate_id: { type: string, format: uuid }
+        replicate_index: { type: integer }
+        asset: { $ref: '#/components/schemas/Asset' }
+      required: [replicate_id, replicate_index, asset]
+
+    AggregateSummary:
+      type: object
+      properties:
+        requested_replicates: { type: integer }
+        completed_replicates: { type: integer }
+        passed_replicates: { type: integer }
+        pass_rate: { type: number, description: "0..1" }
+        avg_chamfer_mm: { type: number, nullable: true }
+        avg_hausdorff_p95_mm: { type: number, nullable: true }
+        avg_volume_delta_percent: { type: number, nullable: true }
+      required:
+        [requested_replicates, completed_replicates, passed_replicates, pass_rate]
+
+    RunResults:
+      type: object
+      properties:
+        run_id: { type: string, format: uuid }
+        status: { $ref: '#/components/schemas/RunStatus' }
+        aggregate: { $ref: '#/components/schemas/AggregateSummary' }
+        replicates:
+          type: array
+          items: { $ref: '#/components/schemas/Replicate' }
+      required: [run_id, status, aggregate, replicates]
+
+    RunDetail:
+      allOf:
+        - $ref: '#/components/schemas/Run'
+        - type: object
+          properties:
+            model: { $ref: '#/components/schemas/Model' }
+            threshold_profile: { $ref: '#/components/schemas/ThresholdProfile' }
+            reference_asset: { $ref: '#/components/schemas/Asset' }
+            aggregate:
+              $ref: '#/components/schemas/AggregateSummary'
+          required: [model, threshold_profile, reference_asset]

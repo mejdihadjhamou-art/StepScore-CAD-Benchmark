@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+.env
+*.egg-info/
+node_modules/
+.ipynb_checkpoints/
+*.tmp
+~$*

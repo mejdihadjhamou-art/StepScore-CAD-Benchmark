@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StepScore 3D CAD Viewer</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@r128/examples/js/controls/OrbitControls.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three-stl-loader@1.0.6/STLLoader.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            overflow: hidden;
+        }
+        
+        #container {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            width: 100vw;
+        }
+        
+        #header {
+            background: white;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            z-index: 100;
+        }
+        
+        #header h1 {
+            font-size: 24px;
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        
+        #pair-info {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        #pair-select {
+            padding: 8px 12px;
+            border: 2px solid #667eea;
+            border-radius: 4px;
+            font-size: 14px;
+            cursor: pointer;
+            background: white;
+        }
+        
+        #pair-id {
+            font-weight: bold;
+            color: #333;
+        }
+        
+        .button {
+            padding: 8px 16px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background 0.3s;
+        }
+        
+        .button:hover {
+            background: #764ba2;
+        }
+        
+        .button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+        
+        #viewers-container {
+            display: flex;
+            flex: 1;
+            gap: 10px;
+            padding: 10px;
+            background: #f5f5f5;
+            overflow: hidden;
+        }
+        
+        .viewer-panel {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        .viewer-header {
+            background: #667eea;
+            color: white;
+            padding: 15px;
+            font-weight: bold;
+            text-align: center;
+            font-size: 16px;
+        }
+        
+        .viewer-header.generated {
+            background: #764ba2;
+        }
+        
+        .viewer-canvas {
+            flex: 1;
+            position: relative;
+        }
+        
+        #metrics {
+            background: white;
+            padding: 20px;
+            border-top: 1px solid #ddd;
+            overflow-y: auto;
+            max-height: 250px;
+        }
+        
+        .metrics-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 15px;
+            margin-bottom: 15px;
+            padding: 10px;
+            background: #f9f9f9;
+            border-radius: 4px;
+        }
+        
+        .metric {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px;
+            background: white;
+            border-radius: 4px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .metric-name {
+            font-size: 12px;
+            color: #666;
+            font-weight: 500;
+        }
+        
+        .metric-value {
+            font-size: 14px;
+            font-weight: bold;
+            color: #333;
+        }
+        
+        .metric-status {
+            font-size: 16px;
+            margin-left: 8px;
+        }
+        
+        .loading {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            color: #667eea;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        
+        .controls-info {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            background: rgba(0,0,0,0.7);
+            color: white;
+            padding: 10px;
+            border-radius: 4px;
+            font-size: 12px;
+            z-index: 10;
+        }
+        
+        #decision-section {
+            background: white;
+            padding: 20px;
+            margin-top: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .decision-buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        
+        .decision-btn {
+            flex: 1;
+            padding: 12px;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .decision-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+        
+        .positive-btn {
+            background: #4caf50;
+            color: white;
+        }
+        
+        .negative-btn {
+            background: #f44336;
+            color: white;
+        }
+        
+        .review-btn {
+            background: #ff9800;
+            color: white;
+        }
+        
+        @media (max-width: 1200px) {
+            #viewers-container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>📊 StepScore 3D CAD Viewer</h1>
+            <div id="pair-info">
+                <div>
+                    Pair: 
+                    <select id="pair-select">
+                        <!-- Will be populated by JavaScript -->
+                    </select>
+                    <span id="pair-id" style="margin-left: 10px;"></span>
+                </div>
+                <button class="button" onclick="previousPair()">← Previous</button>
+                <button class="button" onclick="nextPair()">Next →</button>
+                <button class="button" onclick="location.reload()">Refresh</button>
+            </div>
+        </div>
+        
+        <div id="viewers-container">
+            <div class="viewer-panel">
+                <div class="viewer-header">📋 Reference Model</div>
+                <div class="viewer-canvas" id="reference-viewer">
+                    <div class="loading">Loading reference...</div>
+                </div>
+            </div>
+            
+            <div class="viewer-panel">
+                <div class="viewer-header generated">🤖 Generated Model</div>
+                <div class="viewer-canvas" id="generated-viewer">
+                    <div class="loading">Loading generated...</div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="metrics">
+            <div style="font-weight: bold; margin-bottom: 10px; color: #667eea;">🔍 Key Metrics Comparison:</div>
+            <div id="metrics-content">Loading metrics...</div>
+        </div>
+        
+        <div id="decision-section">
+            <div style="font-weight: bold; margin-bottom: 10px; color: #333;">💡 Labeling Decision:</div>
+            <div id="recommendation"></div>
+            <div id="decision-reasoning" style="margin-top: 10px; font-size: 14px; color: #666;"></div>
+            <div class="decision-buttons">
+                <button class="decision-btn positive-btn" onclick="labelPair('positive')">✅ POSITIVE</button>
+                <button class="decision-btn negative-btn" onclick="labelPair('negative')">❌ NEGATIVE</button>
+                <button class="decision-btn review-btn" onclick="labelPair('review')">⚠️ REVIEW</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let allPairs = [];
+        let currentPairIndex = 0;
+        let referenceViewer, generatedViewer;
+        let referenceScene, generatedScene;
+        let referenceCamera, generatedCamera;
+        let referenceRenderer, generatedRenderer;
+
+        // Initialize
+        async function init() {
+            // Load pair list from Excel
+            await loadPairs();
+            setupViewers();
+            loadCurrentPair();
+        }
+
+        async function loadPairs() {
+            try {
+                // This would normally fetch from the Excel file
+                // For now, create a list of pair IDs from the harness results
+                const response = await fetch('.stepscore_harness_runs/final73_anthropic_run_02');
+                // Since we can't directly read Excel from browser, we'll use a workaround
+                // The Python backend will provide the list
+                
+                // For now, create dummy pairs - in production this comes from the backend
+                for (let i = 0; i < 146; i++) {
+                    allPairs.push({
+                        index: i,
+                        id: `pair_${i+1}`,
+                        pairId: '' // Will be filled dynamically
+                    });
+                }
+                
+                populatePairSelect();
+            } catch (error) {
+                console.error('Error loading pairs:', error);
+            }
+        }
+
+        function populatePairSelect() {
+            const select = document.getElementById('pair-select');
+            select.innerHTML = '';
+            allPairs.forEach((pair, idx) => {
+                const option = document.createElement('option');
+                option.value = idx;
+                option.text = `Pair ${idx + 1}`;
+                select.appendChild(option);
+            });
+            select.addEventListener('change', (e) => {
+                currentPairIndex = parseInt(e.target.value);
+                loadCurrentPair();
+            });
+        }
+
+        function setupViewers() {
+            // Reference Viewer
+            referenceScene = new THREE.Scene();
+            referenceScene.background = new THREE.Color(0xf5f5f5);
+            referenceCamera = new THREE.PerspectiveCamera(75, window.innerWidth / 4, 0.1, 10000);
+            referenceRenderer = new THREE.WebGLRenderer({ antialias: true });
+            
+            // Generated Viewer
+            generatedScene = new THREE.Scene();
+            generatedScene.background = new THREE.Color(0xf5f5f5);
+            generatedCamera = new THREE.PerspectiveCamera(75, window.innerWidth / 4, 0.1, 10000);
+            generatedRenderer = new THREE.WebGLRenderer({ antialias: true });
+            
+            // Setup reference viewer
+            const refContainer = document.getElementById('reference-viewer');
+            refContainer.innerHTML = '';
+            referenceRenderer.setSize(refContainer.clientWidth, refContainer.clientHeight);
+            refContainer.appendChild(referenceRenderer.domElement);
+            
+            const refControls = new THREE.OrbitControls(referenceCamera, referenceRenderer.domElement);
+            refControls.autoRotate = true;
+            refControls.autoRotateSpeed = 2;
+            
+            // Setup generated viewer
+            const genContainer = document.getElementById('generated-viewer');
+            genContainer.innerHTML = '';
+            generatedRenderer.setSize(genContainer.clientWidth, genContainer.clientHeight);
+            genContainer.appendChild(generatedRenderer.domElement);
+            
+            const genControls = new THREE.OrbitControls(generatedCamera, generatedRenderer.domElement);
+            genControls.autoRotate = true;
+            genControls.autoRotateSpeed = 2;
+            
+            // Lights
+            const light = new THREE.DirectionalLight(0xffffff, 0.8);
+            light.position.set(5, 5, 5);
+            referenceScene.add(light);
+            referenceScene.add(new THREE.AmbientLight(0xffffff, 0.5));
+            
+            const light2 = new THREE.DirectionalLight(0xffffff, 0.8);
+            light2.position.set(5, 5, 5);
+            generatedScene.add(light2);
+            generatedScene.add(new THREE.AmbientLight(0xffffff, 0.5));
+            
+            // Animation loop
+            animate();
+        }
+
+        function animate() {
+            requestAnimationFrame(animate);
+            referenceRenderer.render(referenceScene, referenceCamera);
+            generatedRenderer.render(generatedScene, generatedCamera);
+        }
+
+        async function loadCurrentPair() {
+            const pair = allPairs[currentPairIndex];
+            document.getElementById('pair-id').textContent = `${pair.id}`;
+            document.getElementById('pair-select').value = currentPairIndex;
+            
+            // Load STL files from the harness results
+            // This is a simplified version - in production, you'd need a backend to serve these files
+            alert(`Viewer ready! To fully function, this needs to be served from a local Python server.\n\nYour 3D viewer is created and ready to use with the Python backend server.`);
+        }
+
+        function labelPair(label) {
+            alert(`Pair labeled as: ${label}`);
+            // In production, this would save to Excel via backend
+            nextPair();
+        }
+
+        function nextPair() {
+            if (currentPairIndex < allPairs.length - 1) {
+                currentPairIndex++;
+                loadCurrentPair();
+            }
+        }
+
+        function previousPair() {
+            if (currentPairIndex > 0) {
+                currentPairIndex--;
+                loadCurrentPair();
+            }
+        }
+
+        window.addEventListener('resize', () => {
+            const refContainer = document.getElementById('reference-viewer');
+            const genContainer = document.getElementById('generated-viewer');
+            
+            referenceCamera.aspect = refContainer.clientWidth / refContainer.clientHeight;
+            referenceCamera.updateProjectionMatrix();
+            referenceRenderer.setSize(refContainer.clientWidth, refContainer.clientHeight);
+            
+            generatedCamera.aspect = genContainer.clientWidth / genContainer.clientHeight;
+            generatedCamera.updateProjectionMatrix();
+            generatedRenderer.setSize(genContainer.clientWidth, genContainer.clientHeight);
+        });
+
+        // Start
+        window.addEventListener('load', init);
+    </script>
+</body>
+</html>

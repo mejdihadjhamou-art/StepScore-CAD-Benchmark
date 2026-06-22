@@ -1,0 +1,10 @@
+family,grading_profile,jobs_total,jobs_success,jobs_failed,jobs_skipped_completed,overall_pass_count,overall_pass_rate_on_success,avg_quality_score_0_100_success,avg_duration_total_s_success
+box_hole,full_44,18,0,0,18,0,,,
+flange,full_44,18,0,0,18,0,,,
+keyed_shaft_hub,full_44,12,0,12,0,0,,,
+l_bracket,full_44,18,0,0,18,0,,,
+manifold_block,full_44,14,0,14,0,0,,,
+ring_spacer,full_44,18,0,0,18,0,,,
+shell_enclosure,full_44,12,0,12,0,0,,,
+slotted_plate,full_44,18,0,0,18,0,,,
+stepped_shaft,full_44,18,0,4,14,0,,,

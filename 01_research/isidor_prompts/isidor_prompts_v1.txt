@@ -1,0 +1,2562 @@
+
+
+Part ID: box_hole_0001
+Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered vertical hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of the block.
+- +Z is upward; X and Y define the base plane.
+
+Base geometry:
+- Create a block: X=100.0, Y=70.0, Z=35.0, bottom at z=0.
+
+Subtractive features:
+- Cut a centered vertical through hole along +Z: diameter=None, depth=through (z=0 to z=35.0).
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: box_hole_0002
+Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered vertical hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of the block.
+- +Z is upward; X and Y define the base plane.
+
+Base geometry:
+- Create a block: X=80.0, Y=60.0, Z=30.0, bottom at z=0.
+
+Subtractive features:
+- Cut a centered vertical through hole along +Z: diameter=None, depth=through (z=0 to z=30.0).
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: box_hole_0003
+Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered vertical hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of the block.
+- +Z is upward; X and Y define the base plane.
+
+Base geometry:
+- Create a block: X=120.0, Y=80.0, Z=40.0, bottom at z=0.
+
+Subtractive features:
+- Cut a centered vertical through hole along +Z: diameter=None, depth=through (z=0 to z=40.0).
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: box_hole_0004
+Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered vertical hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of the block.
+- +Z is upward; X and Y define the base plane.
+
+Base geometry:
+- Create a block: X=90.0, Y=90.0, Z=30.0, bottom at z=0.
+
+Subtractive features:
+- Cut a centered vertical blind hole along +Z: diameter=14.0, depth=18.0.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: box_hole_0005
+Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered vertical hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of the block.
+- +Z is upward; X and Y define the base plane.
+
+Base geometry:
+- Create a block: X=110.0, Y=90.0, Z=45.0, bottom at z=0.
+
+Subtractive features:
+- Cut a centered vertical blind hole along +Z: diameter=18.0, depth=25.0.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: box_hole_0006
+Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered vertical hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of the block.
+- +Z is upward; X and Y define the base plane.
+
+Base geometry:
+- Create a block: X=140.0, Y=100.0, Z=50.0, bottom at z=0.
+
+Subtractive features:
+- Cut a centered vertical blind hole along +Z: diameter=22.0, depth=30.0.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: box_hole_0007
+Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered vertical hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of the block.
+- +Z is upward; X and Y define the base plane.
+
+Base geometry:
+- Create a block: X=100.0, Y=60.0, Z=30.0, bottom at z=0.
+
+Subtractive features:
+- Cut a centered vertical through hole along +Z: diameter=12.0, depth=through (z=0 to z=30.0).
+- Add a counterbore from the top face: counterbore diameter=20.0, counterbore depth=6.0.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: box_hole_0008
+Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered vertical hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of the block.
+- +Z is upward; X and Y define the base plane.
+
+Base geometry:
+- Create a block: X=120.0, Y=80.0, Z=40.0, bottom at z=0.
+
+Subtractive features:
+- Cut a centered vertical through hole along +Z: diameter=16.0, depth=through (z=0 to z=40.0).
+- Add a counterbore from the top face: counterbore diameter=26.0, counterbore depth=5.0.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: box_hole_0009
+Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered vertical hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of the block.
+- +Z is upward; X and Y define the base plane.
+
+Base geometry:
+- Create a block: X=150.0, Y=100.0, Z=50.0, bottom at z=0.
+
+Subtractive features:
+- Cut a centered vertical through hole along +Z: diameter=None, depth=through (z=0 to z=50.0).
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: box_hole_0010
+Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered vertical hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of the block.
+- +Z is upward; X and Y define the base plane.
+
+Base geometry:
+- Create a block: X=70.0, Y=50.0, Z=25.0, bottom at z=0.
+
+Subtractive features:
+- Cut a centered vertical through hole along +Z: diameter=None, depth=through (z=0 to z=25.0).
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: box_hole_0011
+Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered vertical hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of the block.
+- +Z is upward; X and Y define the base plane.
+
+Base geometry:
+- Create a block: X=95.0, Y=65.0, Z=28.0, bottom at z=0.
+
+Subtractive features:
+- Cut a centered vertical blind hole along +Z: diameter=13.0, depth=15.0.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: box_hole_0012
+Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered vertical hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of the block.
+- +Z is upward; X and Y define the base plane.
+
+Base geometry:
+- Create a block: X=130.0, Y=85.0, Z=42.0, bottom at z=0.
+
+Subtractive features:
+- Cut a centered vertical through hole along +Z: diameter=None, depth=through (z=0 to z=42.0).
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: stepped_shaft_0001
+Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step shaft with a keyway on the middle step
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at part center.
+- Shaft axis along Z.
+
+Base geometry:
+- Three coaxial steps along Z with total length L=120.0.
+- Step diameters: d1=20.0, d2=24.0, d3=18.0.
+- Step lengths: l1=40.0, l2=40.0, l3=40.0 (l1+l2+l3=L).
+
+Subtractive features:
+- Cut a keyway on step2 (middle step): width=6.0, depth=3.0.
+- Keyway centered at theta=0° on +X side, full length of step2.
+- Keyway ends are square.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: stepped_shaft_0002
+Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step shaft with a keyway on the middle step
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at part center.
+- Shaft axis along Z.
+
+Base geometry:
+- Three coaxial steps along Z with total length L=140.0.
+- Step diameters: d1=22.0, d2=28.0, d3=20.0.
+- Step lengths: l1=45.0, l2=50.0, l3=45.0 (l1+l2+l3=L).
+
+Subtractive features:
+- Cut a keyway on step2 (middle step): width=6.0, depth=3.0.
+- Keyway centered at theta=0° on +X side, full length of step2.
+- Keyway ends are square.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: stepped_shaft_0003
+Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step shaft with a keyway on the middle step
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at part center.
+- Shaft axis along Z.
+
+Base geometry:
+- Three coaxial steps along Z with total length L=160.0.
+- Step diameters: d1=25.0, d2=30.0, d3=22.0.
+- Step lengths: l1=50.0, l2=60.0, l3=50.0 (l1+l2+l3=L).
+
+Subtractive features:
+- Cut a keyway on step2 (middle step): width=8.0, depth=3.5.
+- Keyway centered at theta=0° on +X side, full length of step2.
+- Keyway ends are square.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: stepped_shaft_0004
+Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step shaft with a keyway on the middle step
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at part center.
+- Shaft axis along Z.
+
+Base geometry:
+- Three coaxial steps along Z with total length L=130.0.
+- Step diameters: d1=18.0, d2=26.0, d3=18.0.
+- Step lengths: l1=35.0, l2=60.0, l3=35.0 (l1+l2+l3=L).
+
+Subtractive features:
+- Cut a keyway on step2 (middle step): width=6.0, depth=2.5.
+- Keyway centered at theta=0° on +X side, full length of step2.
+- Keyway ends are square.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: stepped_shaft_0005
+Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step shaft with a keyway on the middle step
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at part center.
+- Shaft axis along Z.
+
+Base geometry:
+- Three coaxial steps along Z with total length L=150.0.
+- Step diameters: d1=24.0, d2=32.0, d3=24.0.
+- Step lengths: l1=40.0, l2=70.0, l3=40.0 (l1+l2+l3=L).
+
+Subtractive features:
+- Cut a keyway on step2 (middle step): width=8.0, depth=4.0.
+- Keyway centered at theta=0° on +X side, full length of step2.
+- Keyway ends are square.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: stepped_shaft_0006
+Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step shaft with a keyway on the middle step
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at part center.
+- Shaft axis along Z.
+
+Base geometry:
+- Three coaxial steps along Z with total length L=180.0.
+- Step diameters: d1=28.0, d2=36.0, d3=28.0.
+- Step lengths: l1=50.0, l2=80.0, l3=50.0 (l1+l2+l3=L).
+
+Subtractive features:
+- Cut a keyway on step2 (middle step): width=10.0, depth=4.0.
+- Keyway centered at theta=0° on +X side, full length of step2.
+- Keyway ends are square.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: stepped_shaft_0007
+Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step shaft with a keyway on the middle step
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at part center.
+- Shaft axis along Z.
+
+Base geometry:
+- Three coaxial steps along Z with total length L=110.0.
+- Step diameters: d1=16.0, d2=22.0, d3=16.0.
+- Step lengths: l1=30.0, l2=50.0, l3=30.0 (l1+l2+l3=L).
+
+Subtractive features:
+- Cut a keyway on step2 (middle step): width=5.0, depth=2.5.
+- Keyway centered at theta=0° on +X side, full length of step2.
+- Keyway ends are square.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: stepped_shaft_0008
+Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step shaft with a keyway on the middle step
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at part center.
+- Shaft axis along Z.
+
+Base geometry:
+- Three coaxial steps along Z with total length L=170.0.
+- Step diameters: d1=26.0, d2=34.0, d3=26.0.
+- Step lengths: l1=45.0, l2=80.0, l3=45.0 (l1+l2+l3=L).
+
+Subtractive features:
+- Cut a keyway on step2 (middle step): width=8.0, depth=4.0.
+- Keyway centered at theta=0° on +X side, full length of step2.
+- Keyway ends are square.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: stepped_shaft_0009
+Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step shaft with a keyway on the middle step
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at part center.
+- Shaft axis along Z.
+
+Base geometry:
+- Three coaxial steps along Z with total length L=200.0.
+- Step diameters: d1=30.0, d2=40.0, d3=30.0.
+- Step lengths: l1=60.0, l2=80.0, l3=60.0 (l1+l2+l3=L).
+
+Subtractive features:
+- Cut a keyway on step2 (middle step): width=10.0, depth=5.0.
+- Keyway centered at theta=0° on +X side, full length of step2.
+- Keyway ends are square.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: stepped_shaft_0010
+Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step shaft with a keyway on the middle step
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at part center.
+- Shaft axis along Z.
+
+Base geometry:
+- Three coaxial steps along Z with total length L=145.0.
+- Step diameters: d1=20.0, d2=27.0, d3=20.0.
+- Step lengths: l1=40.0, l2=65.0, l3=40.0 (l1+l2+l3=L).
+
+Subtractive features:
+- Cut a keyway on step2 (middle step): width=6.0, depth=3.0.
+- Keyway centered at theta=0° on +X side, full length of step2.
+- Keyway ends are square.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: stepped_shaft_0011
+Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step shaft with a keyway on the middle step
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at part center.
+- Shaft axis along Z.
+
+Base geometry:
+- Three coaxial steps along Z with total length L=155.0.
+- Step diameters: d1=22.0, d2=30.0, d3=22.0.
+- Step lengths: l1=45.0, l2=65.0, l3=45.0 (l1+l2+l3=L).
+
+Subtractive features:
+- Cut a keyway on step2 (middle step): width=8.0, depth=3.0.
+- Keyway centered at theta=0° on +X side, full length of step2.
+- Keyway ends are square.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: stepped_shaft_0012
+Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step shaft with a keyway on the middle step
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at part center.
+- Shaft axis along Z.
+
+Base geometry:
+- Three coaxial steps along Z with total length L=125.0.
+- Step diameters: d1=18.0, d2=24.0, d3=18.0.
+- Step lengths: l1=35.0, l2=55.0, l3=35.0 (l1+l2+l3=L).
+
+Subtractive features:
+- Cut a keyway on step2 (middle step): width=6.0, depth=3.0.
+- Keyway centered at theta=0° on +X side, full length of step2.
+- Keyway ends are square.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: flange_0001
+Create a single connected mechanical CAD part.
+
+Part identity:
+Flange with hub and bolt circle
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Flange disk: outer diameter D=100.0, thickness t=12.0.
+- Hub: diameter=50.0, length=20.0 on top face.
+- Central bore: diameter=20.0, through all.
+- Bolt circle: PCD=75.0, holes n=4, hole diameter=10.0, through flange thickness.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: flange_0002
+Create a single connected mechanical CAD part.
+
+Part identity:
+Flange with hub and bolt circle
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Flange disk: outer diameter D=120.0, thickness t=14.0.
+- Hub: diameter=60.0, length=24.0 on top face.
+- Central bore: diameter=25.0, through all.
+- Bolt circle: PCD=90.0, holes n=4, hole diameter=12.0, through flange thickness.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: flange_0003
+Create a single connected mechanical CAD part.
+
+Part identity:
+Flange with hub and bolt circle
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Flange disk: outer diameter D=140.0, thickness t=16.0.
+- Hub: diameter=70.0, length=28.0 on top face.
+- Central bore: diameter=30.0, through all.
+- Bolt circle: PCD=105.0, holes n=6, hole diameter=12.0, through flange thickness.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: flange_0004
+Create a single connected mechanical CAD part.
+
+Part identity:
+Flange with hub and bolt circle
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Flange disk: outer diameter D=90.0, thickness t=10.0.
+- Hub: diameter=45.0, length=18.0 on top face.
+- Central bore: diameter=18.0, through all.
+- Bolt circle: PCD=68.0, holes n=4, hole diameter=9.0, through flange thickness.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: flange_0005
+Create a single connected mechanical CAD part.
+
+Part identity:
+Flange with hub and bolt circle
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Flange disk: outer diameter D=160.0, thickness t=18.0.
+- Hub: diameter=80.0, length=30.0 on top face.
+- Central bore: diameter=35.0, through all.
+- Bolt circle: PCD=120.0, holes n=8, hole diameter=14.0, through flange thickness.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: flange_0006
+Create a single connected mechanical CAD part.
+
+Part identity:
+Flange with hub and bolt circle
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Flange disk: outer diameter D=110.0, thickness t=12.0.
+- Hub: diameter=55.0, length=20.0 on top face.
+- Central bore: diameter=22.0, through all.
+- Bolt circle: PCD=82.0, holes n=6, hole diameter=10.0, through flange thickness.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: flange_0007
+Create a single connected mechanical CAD part.
+
+Part identity:
+Flange with hub and bolt circle
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Flange disk: outer diameter D=130.0, thickness t=15.0.
+- Hub: diameter=65.0, length=24.0 on top face.
+- Central bore: diameter=28.0, through all.
+- Bolt circle: PCD=98.0, holes n=6, hole diameter=11.0, through flange thickness.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: flange_0008
+Create a single connected mechanical CAD part.
+
+Part identity:
+Flange with hub and bolt circle
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Flange disk: outer diameter D=150.0, thickness t=18.0.
+- Hub: diameter=75.0, length=28.0 on top face.
+- Central bore: diameter=32.0, through all.
+- Bolt circle: PCD=112.0, holes n=8, hole diameter=13.0, through flange thickness.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: flange_0009
+Create a single connected mechanical CAD part.
+
+Part identity:
+Flange with hub and bolt circle
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Flange disk: outer diameter D=180.0, thickness t=20.0.
+- Hub: diameter=90.0, length=34.0 on top face.
+- Central bore: diameter=40.0, through all.
+- Bolt circle: PCD=135.0, holes n=8, hole diameter=16.0, through flange thickness.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: flange_0010
+Create a single connected mechanical CAD part.
+
+Part identity:
+Flange with hub and bolt circle
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Flange disk: outer diameter D=95.0, thickness t=10.0.
+- Hub: diameter=48.0, length=16.0 on top face.
+- Central bore: diameter=16.0, through all.
+- Bolt circle: PCD=70.0, holes n=4, hole diameter=8.0, through flange thickness.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: flange_0011
+Create a single connected mechanical CAD part.
+
+Part identity:
+Flange with hub and bolt circle
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Flange disk: outer diameter D=125.0, thickness t=14.0.
+- Hub: diameter=62.0, length=22.0 on top face.
+- Central bore: diameter=24.0, through all.
+- Bolt circle: PCD=94.0, holes n=6, hole diameter=10.0, through flange thickness.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: flange_0012
+Create a single connected mechanical CAD part.
+
+Part identity:
+Flange with hub and bolt circle
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Flange disk: outer diameter D=145.0, thickness t=16.0.
+- Hub: diameter=72.0, length=26.0 on top face.
+- Central bore: diameter=30.0, through all.
+- Bolt circle: PCD=108.0, holes n=6, hole diameter=12.0, through flange thickness.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: ribbed_bracket_0001
+Create a single connected mechanical CAD part.
+
+Part identity:
+Ribbed L-bracket with hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of base plate.
+- +Z is upward.
+
+Base geometry:
+- Base plate: L=100.0, W=60.0, T=10.0.
+- Vertical leg: height=80.0, thickness=10.0 at +X edge.
+- Ribs: count=2, thickness=6.0 between base and leg.
+- Hole in leg: diameter=12.0, through leg thickness.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: ribbed_bracket_0002
+Create a single connected mechanical CAD part.
+
+Part identity:
+Ribbed L-bracket with hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of base plate.
+- +Z is upward.
+
+Base geometry:
+- Base plate: L=120.0, W=70.0, T=12.0.
+- Vertical leg: height=90.0, thickness=12.0 at +X edge.
+- Ribs: count=2, thickness=6.0 between base and leg.
+- Hole in leg: diameter=14.0, through leg thickness.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: ribbed_bracket_0003
+Create a single connected mechanical CAD part.
+
+Part identity:
+Ribbed L-bracket with hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of base plate.
+- +Z is upward.
+
+Base geometry:
+- Base plate: L=140.0, W=80.0, T=12.0.
+- Vertical leg: height=100.0, thickness=12.0 at +X edge.
+- Ribs: count=3, thickness=6.0 between base and leg.
+- Hole in leg: diameter=16.0, through leg thickness.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: ribbed_bracket_0004
+Create a single connected mechanical CAD part.
+
+Part identity:
+Ribbed L-bracket with hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of base plate.
+- +Z is upward.
+
+Base geometry:
+- Base plate: L=90.0, W=55.0, T=8.0.
+- Vertical leg: height=70.0, thickness=8.0 at +X edge.
+- Ribs: count=2, thickness=5.0 between base and leg.
+- Hole in leg: diameter=10.0, through leg thickness.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: ribbed_bracket_0005
+Create a single connected mechanical CAD part.
+
+Part identity:
+Ribbed L-bracket with hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of base plate.
+- +Z is upward.
+
+Base geometry:
+- Base plate: L=160.0, W=90.0, T=14.0.
+- Vertical leg: height=110.0, thickness=14.0 at +X edge.
+- Ribs: count=3, thickness=8.0 between base and leg.
+- Hole in leg: diameter=18.0, through leg thickness.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: ribbed_bracket_0006
+Create a single connected mechanical CAD part.
+
+Part identity:
+Ribbed L-bracket with hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of base plate.
+- +Z is upward.
+
+Base geometry:
+- Base plate: L=110.0, W=65.0, T=10.0.
+- Vertical leg: height=85.0, thickness=10.0 at +X edge.
+- Ribs: count=2, thickness=6.0 between base and leg.
+- Hole in leg: diameter=12.0, through leg thickness.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: ribbed_bracket_0007
+Create a single connected mechanical CAD part.
+
+Part identity:
+Ribbed L-bracket with hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of base plate.
+- +Z is upward.
+
+Base geometry:
+- Base plate: L=130.0, W=75.0, T=12.0.
+- Vertical leg: height=95.0, thickness=12.0 at +X edge.
+- Ribs: count=3, thickness=6.0 between base and leg.
+- Hole in leg: diameter=14.0, through leg thickness.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: ribbed_bracket_0008
+Create a single connected mechanical CAD part.
+
+Part identity:
+Ribbed L-bracket with hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of base plate.
+- +Z is upward.
+
+Base geometry:
+- Base plate: L=150.0, W=85.0, T=14.0.
+- Vertical leg: height=105.0, thickness=14.0 at +X edge.
+- Ribs: count=3, thickness=8.0 between base and leg.
+- Hole in leg: diameter=16.0, through leg thickness.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: ribbed_bracket_0009
+Create a single connected mechanical CAD part.
+
+Part identity:
+Ribbed L-bracket with hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of base plate.
+- +Z is upward.
+
+Base geometry:
+- Base plate: L=170.0, W=95.0, T=16.0.
+- Vertical leg: height=120.0, thickness=16.0 at +X edge.
+- Ribs: count=4, thickness=8.0 between base and leg.
+- Hole in leg: diameter=20.0, through leg thickness.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: ribbed_bracket_0010
+Create a single connected mechanical CAD part.
+
+Part identity:
+Ribbed L-bracket with hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of base plate.
+- +Z is upward.
+
+Base geometry:
+- Base plate: L=100.0, W=60.0, T=9.0.
+- Vertical leg: height=75.0, thickness=9.0 at +X edge.
+- Ribs: count=2, thickness=5.0 between base and leg.
+- Hole in leg: diameter=11.0, through leg thickness.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: ribbed_bracket_0011
+Create a single connected mechanical CAD part.
+
+Part identity:
+Ribbed L-bracket with hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of base plate.
+- +Z is upward.
+
+Base geometry:
+- Base plate: L=125.0, W=72.0, T=11.0.
+- Vertical leg: height=92.0, thickness=11.0 at +X edge.
+- Ribs: count=3, thickness=6.0 between base and leg.
+- Hole in leg: diameter=13.0, through leg thickness.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: ribbed_bracket_0012
+Create a single connected mechanical CAD part.
+
+Part identity:
+Ribbed L-bracket with hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of base plate.
+- +Z is upward.
+
+Base geometry:
+- Base plate: L=145.0, W=82.0, T=13.0.
+- Vertical leg: height=102.0, thickness=13.0 at +X edge.
+- Ribs: count=3, thickness=7.0 between base and leg.
+- Hole in leg: diameter=15.0, through leg thickness.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: shell_enclosure_0001
+Create a single connected mechanical CAD part.
+
+Part identity:
+Open-top shell enclosure with standoffs and vent slots
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Outer box: L=120.0, W=80.0, H=50.0.
+- Wall thickness: t=3.0. Open top.
+- Standoffs: count=4, diameter=8.0, height=12.0 on floor.
+- Vent slots: count=6, size=20.0x3.0 on side wall.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: shell_enclosure_0002
+Create a single connected mechanical CAD part.
+
+Part identity:
+Open-top shell enclosure with standoffs and vent slots
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Outer box: L=140.0, W=90.0, H=55.0.
+- Wall thickness: t=3.0. Open top.
+- Standoffs: count=4, diameter=8.0, height=14.0 on floor.
+- Vent slots: count=8, size=22.0x3.0 on side wall.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: shell_enclosure_0003
+Create a single connected mechanical CAD part.
+
+Part identity:
+Open-top shell enclosure with standoffs and vent slots
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Outer box: L=160.0, W=100.0, H=60.0.
+- Wall thickness: t=3.5. Open top.
+- Standoffs: count=4, diameter=10.0, height=15.0 on floor.
+- Vent slots: count=10, size=24.0x3.0 on side wall.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: shell_enclosure_0004
+Create a single connected mechanical CAD part.
+
+Part identity:
+Open-top shell enclosure with standoffs and vent slots
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Outer box: L=110.0, W=75.0, H=45.0.
+- Wall thickness: t=2.5. Open top.
+- Standoffs: count=4, diameter=7.0, height=10.0 on floor.
+- Vent slots: count=4, size=18.0x2.5 on side wall.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: shell_enclosure_0005
+Create a single connected mechanical CAD part.
+
+Part identity:
+Open-top shell enclosure with standoffs and vent slots
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Outer box: L=180.0, W=120.0, H=70.0.
+- Wall thickness: t=4.0. Open top.
+- Standoffs: count=6, diameter=10.0, height=16.0 on floor.
+- Vent slots: count=12, size=26.0x4.0 on side wall.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: shell_enclosure_0006
+Create a single connected mechanical CAD part.
+
+Part identity:
+Open-top shell enclosure with standoffs and vent slots
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Outer box: L=130.0, W=85.0, H=52.0.
+- Wall thickness: t=3.0. Open top.
+- Standoffs: count=4, diameter=8.0, height=12.0 on floor.
+- Vent slots: count=6, size=20.0x3.0 on side wall.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: shell_enclosure_0007
+Create a single connected mechanical CAD part.
+
+Part identity:
+Open-top shell enclosure with standoffs and vent slots
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Outer box: L=150.0, W=95.0, H=58.0.
+- Wall thickness: t=3.5. Open top.
+- Standoffs: count=4, diameter=9.0, height=14.0 on floor.
+- Vent slots: count=8, size=22.0x3.0 on side wall.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: shell_enclosure_0008
+Create a single connected mechanical CAD part.
+
+Part identity:
+Open-top shell enclosure with standoffs and vent slots
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Outer box: L=170.0, W=110.0, H=65.0.
+- Wall thickness: t=4.0. Open top.
+- Standoffs: count=6, diameter=10.0, height=15.0 on floor.
+- Vent slots: count=10, size=24.0x4.0 on side wall.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: shell_enclosure_0009
+Create a single connected mechanical CAD part.
+
+Part identity:
+Open-top shell enclosure with standoffs and vent slots
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Outer box: L=200.0, W=130.0, H=80.0.
+- Wall thickness: t=4.0. Open top.
+- Standoffs: count=6, diameter=12.0, height=18.0 on floor.
+- Vent slots: count=12, size=28.0x4.0 on side wall.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: shell_enclosure_0010
+Create a single connected mechanical CAD part.
+
+Part identity:
+Open-top shell enclosure with standoffs and vent slots
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Outer box: L=115.0, W=78.0, H=48.0.
+- Wall thickness: t=2.5. Open top.
+- Standoffs: count=4, diameter=7.0, height=11.0 on floor.
+- Vent slots: count=5, size=18.0x2.5 on side wall.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: shell_enclosure_0011
+Create a single connected mechanical CAD part.
+
+Part identity:
+Open-top shell enclosure with standoffs and vent slots
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Outer box: L=145.0, W=92.0, H=56.0.
+- Wall thickness: t=3.0. Open top.
+- Standoffs: count=4, diameter=8.0, height=13.0 on floor.
+- Vent slots: count=7, size=21.0x3.0 on side wall.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: shell_enclosure_0012
+Create a single connected mechanical CAD part.
+
+Part identity:
+Open-top shell enclosure with standoffs and vent slots
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Outer box: L=165.0, W=105.0, H=62.0.
+- Wall thickness: t=3.5. Open top.
+- Standoffs: count=6, diameter=9.0, height=15.0 on floor.
+- Vent slots: count=9, size=23.0x3.5 on side wall.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: manifold_block_0001
+Create a single connected mechanical CAD part.
+
+Part identity:
+Manifold block with orthogonal channels
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Block: L=96.0, W=120.0, H=116.0.
+
+Subtractive features:
+- Through hole along Z at center: diameter=16.0.
+- Through hole along X at center: diameter=20.0.
+- Through hole along Y at center: diameter=20.0.
+- Blind top port: diameter=18.0, depth=22.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: manifold_block_0002
+Create a single connected mechanical CAD part.
+
+Part identity:
+Manifold block with orthogonal channels
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Block: L=110.0, W=90.0, H=70.0.
+
+Subtractive features:
+- Through hole along Z at center: diameter=12.0.
+- Through hole along X at center: diameter=16.0.
+- Through hole along Y at center: diameter=14.0.
+- Blind top port: diameter=14.0, depth=18.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: manifold_block_0003
+Create a single connected mechanical CAD part.
+
+Part identity:
+Manifold block with orthogonal channels
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Block: L=130.0, W=100.0, H=80.0.
+
+Subtractive features:
+- Through hole along Z at center: diameter=14.0.
+- Through hole along X at center: diameter=18.0.
+- Through hole along Y at center: diameter=18.0.
+- Blind top port: diameter=16.0, depth=20.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: manifold_block_0004
+Create a single connected mechanical CAD part.
+
+Part identity:
+Manifold block with orthogonal channels
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Block: L=150.0, W=110.0, H=90.0.
+
+Subtractive features:
+- Through hole along Z at center: diameter=16.0.
+- Through hole along X at center: diameter=22.0.
+- Through hole along Y at center: diameter=20.0.
+- Blind top port: diameter=18.0, depth=24.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: manifold_block_0005
+Create a single connected mechanical CAD part.
+
+Part identity:
+Manifold block with orthogonal channels
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Block: L=170.0, W=120.0, H=100.0.
+
+Subtractive features:
+- Through hole along Z at center: diameter=18.0.
+- Through hole along X at center: diameter=24.0.
+- Through hole along Y at center: diameter=22.0.
+- Blind top port: diameter=20.0, depth=26.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: manifold_block_0006
+Create a single connected mechanical CAD part.
+
+Part identity:
+Manifold block with orthogonal channels
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Block: L=140.0, W=85.0, H=75.0.
+
+Subtractive features:
+- Through hole along Z at center: diameter=12.0.
+- Through hole along X at center: diameter=20.0.
+- Through hole along Y at center: diameter=16.0.
+- Blind top port: diameter=14.0, depth=20.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: manifold_block_0007
+Create a single connected mechanical CAD part.
+
+Part identity:
+Manifold block with orthogonal channels
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Block: L=160.0, W=95.0, H=85.0.
+
+Subtractive features:
+- Through hole along Z at center: diameter=14.0.
+- Through hole along X at center: diameter=22.0.
+- Through hole along Y at center: diameter=18.0.
+- Blind top port: diameter=16.0, depth=22.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: manifold_block_0008
+Create a single connected mechanical CAD part.
+
+Part identity:
+Manifold block with orthogonal channels
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Block: L=180.0, W=105.0, H=95.0.
+
+Subtractive features:
+- Through hole along Z at center: diameter=16.0.
+- Through hole along X at center: diameter=24.0.
+- Through hole along Y at center: diameter=20.0.
+- Blind top port: diameter=18.0, depth=24.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: manifold_block_0009
+Create a single connected mechanical CAD part.
+
+Part identity:
+Manifold block with orthogonal channels
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Block: L=200.0, W=120.0, H=110.0.
+
+Subtractive features:
+- Through hole along Z at center: diameter=20.0.
+- Through hole along X at center: diameter=28.0.
+- Through hole along Y at center: diameter=24.0.
+- Blind top port: diameter=22.0, depth=28.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: manifold_block_0010
+Create a single connected mechanical CAD part.
+
+Part identity:
+Manifold block with orthogonal channels
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Block: L=120.0, W=80.0, H=60.0.
+
+Subtractive features:
+- Through hole along Z at center: diameter=10.0.
+- Through hole along X at center: diameter=14.0.
+- Through hole along Y at center: diameter=14.0.
+- Blind top port: diameter=12.0, depth=16.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: cbore_csk_plate_0001
+Create a single connected mechanical CAD part.
+
+Part identity:
+Plate with hole pattern and counterbore/countersink
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Plate: L=120.0, W=80.0, T=12.0.
+- Hole pattern: count=4, through diameter=8.0.
+- Top feature: cbore diameter=14.0, depth=4.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: cbore_csk_plate_0002
+Create a single connected mechanical CAD part.
+
+Part identity:
+Plate with hole pattern and counterbore/countersink
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Plate: L=140.0, W=90.0, T=12.0.
+- Hole pattern: count=4, through diameter=10.0.
+- Top feature: cbore diameter=18.0, depth=5.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: cbore_csk_plate_0003
+Create a single connected mechanical CAD part.
+
+Part identity:
+Plate with hole pattern and counterbore/countersink
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Plate: L=160.0, W=100.0, T=14.0.
+- Hole pattern: count=6, through diameter=8.0.
+- Top feature: csk diameter=16.0, depth=4.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: cbore_csk_plate_0004
+Create a single connected mechanical CAD part.
+
+Part identity:
+Plate with hole pattern and counterbore/countersink
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Plate: L=180.0, W=110.0, T=14.0.
+- Hole pattern: count=6, through diameter=10.0.
+- Top feature: csk diameter=20.0, depth=5.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: cbore_csk_plate_0005
+Create a single connected mechanical CAD part.
+
+Part identity:
+Plate with hole pattern and counterbore/countersink
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Plate: L=100.0, W=70.0, T=10.0.
+- Hole pattern: count=4, through diameter=6.0.
+- Top feature: cbore diameter=12.0, depth=3.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: cbore_csk_plate_0006
+Create a single connected mechanical CAD part.
+
+Part identity:
+Plate with hole pattern and counterbore/countersink
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Plate: L=150.0, W=95.0, T=12.0.
+- Hole pattern: count=8, through diameter=8.0.
+- Top feature: mixed 4, 4 diameter=8.0, depth=3.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: cbore_csk_plate_0007
+Create a single connected mechanical CAD part.
+
+Part identity:
+Plate with hole pattern and counterbore/countersink
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Plate: L=200.0, W=120.0, T=16.0.
+- Hole pattern: count=8, through diameter=12.0.
+- Top feature: cbore diameter=12.0, depth=6.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: cbore_csk_plate_0008
+Create a single connected mechanical CAD part.
+
+Part identity:
+Plate with hole pattern and counterbore/countersink
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Plate: L=130.0, W=85.0, T=12.0.
+- Hole pattern: count=6, through diameter=6.0.
+- Top feature: csk diameter=6.0, depth=3.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: cbore_csk_plate_0009
+Create a single connected mechanical CAD part.
+
+Part identity:
+Plate with hole pattern and counterbore/countersink
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Plate: L=170.0, W=105.0, T=14.0.
+- Hole pattern: count=6, through diameter=10.0.
+- Top feature: cbore diameter=10.0, depth=5.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: cbore_csk_plate_0010
+Create a single connected mechanical CAD part.
+
+Part identity:
+Plate with hole pattern and counterbore/countersink
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Plate: L=110.0, W=75.0, T=10.0.
+- Hole pattern: count=4, through diameter=6.0.
+- Top feature: csk diameter=6.0, depth=3.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: threaded_proxy_0001
+Create a single connected mechanical CAD part.
+
+Part identity:
+Threaded parts proxy (male stud)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at base of part.
+- +Z is upward.
+
+Base geometry:
+- Shank: diameter=20.0, length=50.0.
+- Thread zone: diameter=18.0, length=30.0.
+- Head: diameter=30.0, length=10.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: threaded_proxy_0002
+Create a single connected mechanical CAD part.
+
+Part identity:
+Threaded parts proxy (male stud)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at base of part.
+- +Z is upward.
+
+Base geometry:
+- Shank: diameter=16.0, length=40.0.
+- Thread zone: diameter=14.0, length=24.0.
+- Head: diameter=24.0, length=8.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: threaded_proxy_0003
+Create a single connected mechanical CAD part.
+
+Part identity:
+Threaded parts proxy (male stud)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at base of part.
+- +Z is upward.
+
+Base geometry:
+- Shank: diameter=24.0, length=60.0.
+- Thread zone: diameter=22.0, length=36.0.
+- Head: diameter=36.0, length=12.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: off_axis_0001
+Create a single connected mechanical CAD part.
+
+Part identity:
+Block with off-axis feature
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Block: L=120.0, W=40.0, H=80.0.
+
+Subtractive/additive feature:
+- Feature: hole 14, oriented at angle=30.0° relative to +Z.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: off_axis_0002
+Create a single connected mechanical CAD part.
+
+Part identity:
+Block with off-axis feature
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Block: L=140.0, W=45.0, H=90.0.
+
+Subtractive/additive feature:
+- Feature: hole 16, oriented at angle=45.0° relative to +Z.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: off_axis_0003
+Create a single connected mechanical CAD part.
+
+Part identity:
+Block with off-axis feature
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Block: L=160.0, W=50.0, H=100.0.
+
+Subtractive/additive feature:
+- Feature: slot 12 wide, oriented at angle=25.0° relative to +Z.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: off_axis_0004
+Create a single connected mechanical CAD part.
+
+Part identity:
+Block with off-axis feature
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Block: L=110.0, W=35.0, H=70.0.
+
+Subtractive/additive feature:
+- Feature: pocket 30x20, oriented at angle=35.0° relative to +Z.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: off_axis_0005
+Create a single connected mechanical CAD part.
+
+Part identity:
+Block with off-axis feature
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Block: L=180.0, W=55.0, H=110.0.
+
+Subtractive/additive feature:
+- Feature: 2 holes 12, oriented at angle=None° relative to +Z.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: off_axis_0006
+Create a single connected mechanical CAD part.
+
+Part identity:
+Block with off-axis feature
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Block: L=130.0, W=40.0, H=85.0.
+
+Subtractive/additive feature:
+- Feature: boss 20, oriented at angle=None° relative to +Z.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: off_axis_0007
+Create a single connected mechanical CAD part.
+
+Part identity:
+Block with off-axis feature
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Block: L=150.0, W=48.0, H=95.0.
+
+Subtractive/additive feature:
+- Feature: csk hole, oriented at angle=40.0° relative to +Z.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: off_axis_0008
+Create a single connected mechanical CAD part.
+
+Part identity:
+Block with off-axis feature
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Block: L=170.0, W=52.0, H=105.0.
+
+Subtractive/additive feature:
+- Feature: rib, oriented at angle=None° relative to +Z.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: off_axis_0010
+Create a single connected mechanical CAD part.
+
+Part identity:
+Block with off-axis feature
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Block: L=100.0, W=30.0, H=65.0.
+
+Subtractive/additive feature:
+- Feature: off-axis slot 8 wide, oriented at angle=45.0° relative to +Z.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: gear_0001
+Create a single connected mechanical CAD part.
+
+Part identity:
+Spur gear (proxy teeth)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at gear center on bottom face.
+- +Z is upward.
+
+Base geometry:
+- Module=2.0, teeth=20, thickness=10.0, bore diameter=10.0.
+- Pitch diameter d = m*z = 40.0.
+- Outer diameter approx d_out = m*(z+2) = 44.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: gear_0002
+Create a single connected mechanical CAD part.
+
+Part identity:
+Spur gear (proxy teeth)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at gear center on bottom face.
+- +Z is upward.
+
+Base geometry:
+- Module=2.0, teeth=30, thickness=10.0, bore diameter=12.0.
+- Pitch diameter d = m*z = 60.0.
+- Outer diameter approx d_out = m*(z+2) = 64.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: gear_0003
+Create a single connected mechanical CAD part.
+
+Part identity:
+Spur gear (proxy teeth)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at gear center on bottom face.
+- +Z is upward.
+
+Base geometry:
+- Module=2.5, teeth=24, thickness=12.0, bore diameter=12.0.
+- Pitch diameter d = m*z = 60.0.
+- Outer diameter approx d_out = m*(z+2) = 65.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: gear_0004
+Create a single connected mechanical CAD part.
+
+Part identity:
+Spur gear (proxy teeth)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at gear center on bottom face.
+- +Z is upward.
+
+Base geometry:
+- Module=2.5, teeth=36, thickness=12.0, bore diameter=16.0.
+- Pitch diameter d = m*z = 90.0.
+- Outer diameter approx d_out = m*(z+2) = 95.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: gear_0005
+Create a single connected mechanical CAD part.
+
+Part identity:
+Spur gear (proxy teeth)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at gear center on bottom face.
+- +Z is upward.
+
+Base geometry:
+- Module=3.0, teeth=20, thickness=14.0, bore diameter=14.0.
+- Pitch diameter d = m*z = 60.0.
+- Outer diameter approx d_out = m*(z+2) = 66.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: gear_0006
+Create a single connected mechanical CAD part.
+
+Part identity:
+Spur gear (proxy teeth)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at gear center on bottom face.
+- +Z is upward.
+
+Base geometry:
+- Module=3.0, teeth=28, thickness=14.0, bore diameter=16.0.
+- Pitch diameter d = m*z = 84.0.
+- Outer diameter approx d_out = m*(z+2) = 90.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: gear_0007
+Create a single connected mechanical CAD part.
+
+Part identity:
+Spur gear (proxy teeth)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at gear center on bottom face.
+- +Z is upward.
+
+Base geometry:
+- Module=3.0, teeth=40, thickness=16.0, bore diameter=20.0.
+- Pitch diameter d = m*z = 120.0.
+- Outer diameter approx d_out = m*(z+2) = 126.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: gear_0008
+Create a single connected mechanical CAD part.
+
+Part identity:
+Spur gear (proxy teeth)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at gear center on bottom face.
+- +Z is upward.
+
+Base geometry:
+- Module=4.0, teeth=18, thickness=16.0, bore diameter=16.0.
+- Pitch diameter d = m*z = 72.0.
+- Outer diameter approx d_out = m*(z+2) = 80.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: gear_0009
+Create a single connected mechanical CAD part.
+
+Part identity:
+Spur gear (proxy teeth)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at gear center on bottom face.
+- +Z is upward.
+
+Base geometry:
+- Module=4.0, teeth=24, thickness=18.0, bore diameter=20.0.
+- Pitch diameter d = m*z = 96.0.
+- Outer diameter approx d_out = m*(z+2) = 104.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: gear_0010
+Create a single connected mechanical CAD part.
+
+Part identity:
+Spur gear (proxy teeth)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at gear center on bottom face.
+- +Z is upward.
+
+Base geometry:
+- Module=4.0, teeth=32, thickness=18.0, bore diameter=24.0.
+- Pitch diameter d = m*z = 128.0.
+- Outer diameter approx d_out = m*(z+2) = 136.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: gear_0011
+Create a single connected mechanical CAD part.
+
+Part identity:
+Spur gear (proxy teeth)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at gear center on bottom face.
+- +Z is upward.
+
+Base geometry:
+- Module=5.0, teeth=16, thickness=20.0, bore diameter=20.0.
+- Pitch diameter d = m*z = 80.0.
+- Outer diameter approx d_out = m*(z+2) = 90.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.
+
+------------------------------------------------------------------------
+
+Part ID: gear_0012
+Create a single connected mechanical CAD part.
+
+Part identity:
+Spur gear (proxy teeth)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at gear center on bottom face.
+- +Z is upward.
+
+Base geometry:
+- Module=5.0, teeth=24, thickness=22.0, bore diameter=25.0.
+- Pitch diameter d = m*z = 120.0.
+- Outer diameter approx d_out = m*(z+2) = 130.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly.

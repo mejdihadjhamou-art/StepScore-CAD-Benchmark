@@ -1,0 +1,217 @@
+/* General Styles */
+body {
+    font-family: sans-serif;
+    margin: 20px; /* Restore default margin */
+    padding: 0; /* Remove padding if margin is used */
+    background-color: #f8f9fa;
+    color: #333;
+    /* REMOVE flexbox centering */
+}
+
+h1, h2 {
+    color: #444;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    /* REMOVE width/max-width related to flex centering */
+    /* width: 100%; */
+    /* max-width: 1200px; */
+    /* box-sizing: border-box; */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* Loading/Error Indicators */
+#loading-indicator, #error-indicator {
+    text-align: center;
+    font-size: 1.2em;
+    padding: 20px;
+    display: none; /* Hidden by default */
+}
+
+#error-indicator {
+    color: #dc3545; /* Bootstrap danger color */
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+}
+
+/* Chart Styles */
+.charts-grid {
+    display: grid;
+    /* Set grid to 3 columns */
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-flow: dense;
+    gap: 20px;
+    /* Apply max-width and centering directly */
+    max-width: 100%; /* Adjust as needed */
+    margin: 20px auto 30px auto; /* Center horizontally, add vertical margins */
+}
+
+.chart-wrapper {
+    position: relative;
+    height: 350px; 
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    /* REMOVE overflow: hidden; */
+}
+
+.chart-wrapper canvas {
+    max-width: 100%; /* Keep this */
+    height: auto !important; /* Keep this */
+    width: auto !important; /* Keep this */
+}
+
+/* AG-Grid Styles */
+#grids-container {
+    /* Grids will be added here by JS */
+}
+
+.ag-theme-alpine {
+    /* Uses autoHeight, so no fixed height needed here */
+    margin-bottom: 30px; /* Space below each grid */
+     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+     border-radius: 8px;
+     overflow: hidden; /* Ensures rounded corners apply to header */
+}
+
+
+/* Custom Cell Styling */
+.cell-status-container {
+    display: flex;
+    align-items: center; /* Vertically center icon and text */
+    height: 100%;
+}
+
+.status-indicator {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 8px;
+    vertical-align: middle; /* Helps alignment if needed */
+}
+
+.status-success {
+    background-color: #28a745; /* Bootstrap success green */
+}
+
+.status-failure {
+    background-color: #dc3545; /* Bootstrap danger red */
+}
+
+.status-na {
+    background-color: #adb5bd; /* Bootstrap secondary gray */
+}
+
+/* Basic Table Styling */
+.results-table {
+    width: 100%;
+    border-collapse: collapse; /* Remove space between borders */
+    margin-bottom: 20px; /* Space between tables */
+    font-size: 0.9em; /* Adjust font size */
+    box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+}
+
+.results-table th,
+.results-table td {
+    border: 1px solid #ddd; /* Light grey border */
+    padding: 8px 12px; /* Padding inside cells */
+    text-align: left; /* Align text to the left */
+    vertical-align: middle; /* Center content vertically */
+}
+
+.results-table th {
+    background-color: #f2f2f2; /* Light grey background for header */
+    font-weight: bold;
+    position: sticky; /* Make header sticky if table scrolls */
+    top: 0;
+    z-index: 1;
+}
+
+.results-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Zebra striping for rows */
+}
+
+.results-table tbody tr:hover {
+    background-color: #f1f1f1; /* Highlight row on hover */
+}
+
+/* Styling for boolean status cells (based on classes added in JS) */
+.results-table td.status-success,
+.results-table td.status-yes {
+    background-color: #d4edda;
+    font-weight: normal;
+}
+
+.results-table td.status-failure,
+.results-table td.status-no {
+    background-color: #f8d7da;
+    font-weight: normal;
+}
+
+.results-table td.status-na {
+    background-color: #e2e3e5;
+    font-style: italic;
+}
+
+/* Add styles for the summary tables */
+.summary-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px; /* Space below table */
+    font-size: 0.9em;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+    background-color: #fff; /* White background */
+}
+
+.summary-table caption {
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 10px;
+    caption-side: top;
+    text-align: left;
+    color: #555;
+    background-color: #f8f9fa;
+    border-top-left-radius: 8px; /* Match table rounding */
+    border-top-right-radius: 8px;
+}
+
+.summary-table th,
+.summary-table td {
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.summary-table th {
+    background-color: #e9ecef; /* Slightly darker header */
+    font-weight: bold;
+}
+
+.summary-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.summary-table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* REMOVE explicit width control on main content sections */
+/* #charts-container,
+#summary-tables-container,
+#grids-container {
+    width: 100%; 
+    max-width: 1200px;
+    box-sizing: border-box;
+} */ 

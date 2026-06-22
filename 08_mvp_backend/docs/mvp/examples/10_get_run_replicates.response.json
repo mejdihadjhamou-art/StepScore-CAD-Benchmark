@@ -1,0 +1,47 @@
+{
+  "items": [
+    {
+      "id": "b2fa4ce0-73db-4d1b-bcb4-9d9d9528ef2d",
+      "run_id": "845bf8b3-fde2-4e61-a37e-d17d3722ac3e",
+      "replicate_index": 1,
+      "seed": 101,
+      "status": "SUCCEEDED",
+      "started_at": "2026-02-13T14:43:18.000Z",
+      "completed_at": "2026-02-13T14:44:10.000Z",
+      "error_message": null,
+      "checks": [
+        {
+          "check_key": "render",
+          "passed": true,
+          "measured_value": null,
+          "threshold_value": null,
+          "unit": null,
+          "details_json": {}
+        },
+        {
+          "check_key": "hausdorff_p95",
+          "passed": false,
+          "measured_value": 1.6848,
+          "threshold_value": 1,
+          "unit": "mm",
+          "details_json": {}
+        }
+      ],
+      "metrics": [
+        {
+          "metric_key": "chamfer_mean",
+          "value": 0.8882,
+          "unit": "mm",
+          "details_json": {}
+        },
+        {
+          "metric_key": "volume_delta_percent",
+          "value": 0.67,
+          "unit": "%",
+          "details_json": {}
+        }
+      ]
+    }
+  ]
+}
+

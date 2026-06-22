@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CadEval Dashboard</title>
+
+    <!-- AG-Grid CSS (Local) -->
+    <!-- <link rel="stylesheet" href="./ag-grid.css" /> -->
+    <!-- <link rel="stylesheet" href="./ag-theme-alpine.css" /> -->
+
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="dashboard.css">
+
+    <!-- Chart.js Library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- AG-Grid Library (Local) -->
+    <!-- <script src="./ag-grid-community.min.js"></script> -->
+    <!-- AG-Grid Library (CDN) -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/ag-grid-community/dist/ag-grid-community.min.noStyle.js"></script> -->
+
+</head>
+<body>
+    <header>
+        <h1 id="run-id">CadEval Dashboard</h1>
+    </header>
+
+    <div id="loading-indicator">Loading data...</div>
+    <div id="error-indicator" style="display: none; color: red;"></div>
+
+    <div id="charts-container" class="charts-grid" style="display: none;">
+        <div class="chart-wrapper"><canvas id="successRateChart"></canvas></div>
+        <div class="chart-wrapper"><canvas id="renderSuccessRateChart"></canvas></div>
+        <div class="chart-wrapper" id="checksRunWrapper"><canvas id="checksRunSuccessRateChart"></canvas></div>
+        <div class="chart-wrapper"><canvas id="avgTotalTimeChart"></canvas></div>
+        <div class="chart-wrapper"><canvas id="avgCostChart"></canvas></div>
+        <div class="chart-wrapper"><canvas id="checksPassedChart"></canvas></div>
+        <div class="chart-wrapper"><canvas id="avgSimilarityChart"></canvas></div>
+        <div class="chart-wrapper"><canvas id="avgHausdorffChart"></canvas></div>
+        <div class="chart-wrapper" style="display: none;"><canvas id="avgVolumeDiffChart"></canvas></div> <!-- Keep hidden -->
+        <div class="chart-wrapper"><canvas id="volumePassRateChart"></canvas></div>
+        <div class="chart-wrapper"><canvas id="hausdorffPassRateChart"></canvas></div>
+        <div class="chart-wrapper"><canvas id="taskSuccessRateChart"></canvas></div>
+        <div class="chart-wrapper" id="complexityWrapper" style="display: none;"><canvas id="complexityChart"></canvas></div>
+        <div class="chart-wrapper" id="taskChartWrapper" style="display: none;"><canvas id="taskChart"></canvas></div>
+    </div>
+
+    <div id="grids-container">
+        <!-- Tables will be generated here by JavaScript -->
+    </div>
+
+    <!-- Container for Summary Tables (Moved Here) -->
+    <div id="summary-tables-container" style="margin-top: 30px;">
+        <!-- Summary tables will be generated here -->
+    </div>
+
+    <!-- Load Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Load Dashboard Logic -->
+    <script src="dashboard.js"></script>
+</body>
+</html>

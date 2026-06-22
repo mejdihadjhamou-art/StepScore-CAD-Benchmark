@@ -1,0 +1,9 @@
+{
+  "run_id": "harness_exec_smoke",
+  "manifest": "/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/harness_manifest.smoke.csv",
+  "jobs_total": 1,
+  "jobs_success": 0,
+  "jobs_failed": 1,
+  "jobs_skipped_completed": 0,
+  "elapsed_seconds": 0.5343239307403564
+}

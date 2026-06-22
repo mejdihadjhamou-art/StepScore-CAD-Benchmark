@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CadEval MVP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container topbar-inner">
+        <div>
+          <h1>CadEval Platform</h1>
+          <p class="muted">Prompt-to-CAD evaluation with live run diagnostics</p>
+        </div>
+        <p class="version-chip">Dashboard v2 enabled</p>
+      </div>
+    </header>
+
+    <main class="container">
+      <div class="layout">
+        <div class="left-rail">
+      <section class="card">
+        <h2>Create Run</h2>
+        <p class="section-subtitle">Submit prompt + reference geometry for evaluation.</p>
+        <form id="run-form">
+          <label>
+            Project ID
+            <input id="project-id" required />
+          </label>
+          <label>
+            Prompt
+            <textarea id="prompt" rows="3" required>Create a mug with 160mm height and 120mm OD.</textarea>
+          </label>
+          <label>
+            Replicates
+            <input id="replicates" type="number" min="1" max="20" value="3" required />
+          </label>
+          <label>
+            Reference STL
+            <input id="reference-file" type="file" accept=".stl" />
+          </label>
+          <button type="submit">Create Run</button>
+        </form>
+        <p id="form-status" class="status"></p>
+      </section>
+
+      <section class="card">
+        <h2>Run Controls</h2>
+        <p class="section-subtitle">Load an existing run or follow progress live.</p>
+        <label>
+          Run ID
+          <input id="run-id" placeholder="Paste run id" />
+        </label>
+        <div class="row">
+          <button id="load-results" type="button">Load Results</button>
+          <button id="toggle-poll" type="button">Start Polling</button>
+        </div>
+      </section>
+        </div>
+
+        <div class="right-rail">
+      <section class="card">
+        <h2>Evaluation Dashboard</h2>
+        <div class="stats-grid">
+          <div class="stat">
+            <div class="stat-label">Run Status</div>
+            <div id="stat-status" class="stat-value">-</div>
+          </div>
+          <div class="stat">
+            <div class="stat-label">Pass Rate</div>
+            <div id="stat-pass-rate" class="stat-value">-</div>
+          </div>
+          <div class="stat">
+            <div class="stat-label">Replicates</div>
+            <div id="stat-replicates" class="stat-value">-</div>
+          </div>
+          <div class="stat">
+            <div class="stat-label">Advanced Metrics</div>
+            <div id="stat-advanced" class="stat-value">-</div>
+          </div>
+        </div>
+
+        <h3>Key Metrics</h3>
+        <table class="dash-table">
+          <thead>
+            <tr>
+              <th>Metric</th>
+              <th>Value</th>
+            </tr>
+          </thead>
+          <tbody id="key-metrics-body">
+            <tr><td colspan="2">No data yet.</td></tr>
+          </tbody>
+        </table>
+
+        <h3>All Metrics</h3>
+        <table class="dash-table">
+          <thead>
+            <tr>
+              <th>Metric</th>
+              <th>Avg</th>
+              <th>Min</th>
+              <th>Max</th>
+              <th>Count</th>
+            </tr>
+          </thead>
+          <tbody id="all-metrics-body">
+            <tr><td colspan="5">No data yet.</td></tr>
+          </tbody>
+        </table>
+
+        <h3>Check Pass Matrix</h3>
+        <table class="dash-table">
+          <thead>
+            <tr>
+              <th>Check</th>
+              <th>Pass</th>
+              <th>Fail</th>
+            </tr>
+          </thead>
+          <tbody id="checks-body">
+            <tr><td colspan="3">No data yet.</td></tr>
+          </tbody>
+        </table>
+
+        <h3>Replicate Summary</h3>
+        <table class="dash-table">
+          <thead>
+            <tr>
+              <th>Replicate</th>
+              <th>Status</th>
+              <th>Passed Checks</th>
+              <th>Total Checks</th>
+            </tr>
+          </thead>
+          <tbody id="replicates-body">
+            <tr><td colspan="4">No data yet.</td></tr>
+          </tbody>
+        </table>
+
+        <h3>LLM Judge</h3>
+        <div class="judge-controls">
+          <button id="run-judge" type="button">Run LLM Judge</button>
+          <div id="judge-status" class="status">No judgment yet.</div>
+        </div>
+        <table class="dash-table">
+          <tbody>
+            <tr><th>Verdict</th><td id="judge-verdict">-</td></tr>
+            <tr><th>Confidence</th><td id="judge-confidence">-</td></tr>
+            <tr><th>Judge Model</th><td id="judge-model">-</td></tr>
+            <tr><th>Reasons</th><td id="judge-reasons">-</td></tr>
+            <tr><th>Suggested Fixes</th><td id="judge-fixes">-</td></tr>
+          </tbody>
+        </table>
+
+        <details>
+          <summary>Raw JSON</summary>
+          <pre id="results" class="results">No results loaded.</pre>
+        </details>
+      </section>
+
+      <section class="card">
+        <h2>STL Preview</h2>
+        <p class="section-subtitle">Reference vs generated geometry snapshot.</p>
+        <div class="viewer-grid">
+          <div>
+            <h3>Reference STL</h3>
+            <div id="reference-viewer" class="viewer"></div>
+          </div>
+          <div>
+            <h3>Generated STL</h3>
+            <div id="generated-viewer" class="viewer"></div>
+          </div>
+        </div>
+      </section>
+        </div>
+      </div>
+    </main>
+
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>

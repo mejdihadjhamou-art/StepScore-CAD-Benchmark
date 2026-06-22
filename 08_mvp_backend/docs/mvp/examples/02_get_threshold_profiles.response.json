@@ -1,0 +1,23 @@
+{
+  "items": [
+    {
+      "id": "9b6e6f8f-1c4a-4bf9-b8da-6a3a9620f756",
+      "project_id": "a9e5fa9f-7193-4f13-ab97-01a7f3a68d4d",
+      "name": "default",
+      "is_default": true,
+      "config_json": {
+        "geometry_check": {
+          "bounding_box_tolerance_mm": 1,
+          "chamfer_threshold_mm": 1,
+          "hausdorff_threshold_mm": 1,
+          "volume_threshold_percent": 2
+        },
+        "topology_check": {
+          "expected_component_count": 1
+        }
+      },
+      "config_hash": "2f511840c819f8e3af23ca7f9a4fdd95fbeed092910f15ed2d5878f2dbf37240"
+    }
+  ]
+}
+

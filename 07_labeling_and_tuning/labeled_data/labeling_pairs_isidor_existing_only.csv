@@ -1,0 +1,371 @@
+part_id,family,reference_path,prompt_text
+box_hole_0002,box_hole,/Users/mejdi/Desktop/ISIDOR/reference_step files/box_hole_0002.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Box with centered hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Block: X=80.0, Y=60.0, Z=30.0, bottom at z=0.
+
+Subtractive features:
+- Centered hole along +Z: diameter=16.0, type=through., depth=through.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly."
+box_hole_0003,box_hole,/Users/mejdi/Desktop/ISIDOR/reference_step files/box_hole_0003.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Box with centered hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Block: X=120.0, Y=80.0, Z=40.0, bottom at z=0.
+
+Subtractive features:
+- Centered hole along +Z: diameter=20.0, type=through., depth=through.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly."
+box_hole_0004,box_hole,/Users/mejdi/Desktop/ISIDOR/reference_step files/box_hole_0004.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Box with centered hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Block: X=90.0, Y=90.0, Z=30.0, bottom at z=0.
+
+Subtractive features:
+- Centered hole along +Z: diameter=14.0, type=blind., depth=18.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly."
+box_hole_0005,box_hole,/Users/mejdi/Desktop/ISIDOR/reference_step files/box_hole_0005.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Box with centered hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Block: X=110.0, Y=90.0, Z=45.0, bottom at z=0.
+
+Subtractive features:
+- Centered hole along +Z: diameter=18.0, type=blind., depth=25.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly."
+box_hole_0006,box_hole,/Users/mejdi/Desktop/ISIDOR/reference_step files/box_hole_0006.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Box with centered hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Block: X=140.0, Y=100.0, Z=50.0, bottom at z=0.
+
+Subtractive features:
+- Centered hole along +Z: diameter=22.0, type=blind., depth=30.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly."
+box_hole_0007,box_hole,/Users/mejdi/Desktop/ISIDOR/reference_step files/box_hole_0007.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Box with centered hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Block: X=100.0, Y=60.0, Z=30.0, bottom at z=0.
+
+Subtractive features:
+- Centered hole along +Z: diameter=12.0, type=through., depth=6.0.
+- Counterbore: diameter=20.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly."
+box_hole_0008,box_hole,/Users/mejdi/Desktop/ISIDOR/reference_step files/box_hole_0008.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Box with centered hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Block: X=120.0, Y=80.0, Z=40.0, bottom at z=0.
+
+Subtractive features:
+- Centered hole along +Z: diameter=16.0, type=through., depth=5.0.
+- Countersink: diameter=26.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly."
+box_hole_0009,box_hole,/Users/mejdi/Desktop/ISIDOR/reference_step files/box_hole_0009.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Box with centered hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Block: X=150.0, Y=100.0, Z=50.0, bottom at z=0.
+
+Subtractive features:
+- Centered hole along +Z: diameter=24.0, type=through., depth=through.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly."
+box_hole_0010,box_hole,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_parametric/box_hole_0010.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Box with centered hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Block: X=70.0, Y=50.0, Z=25.0, bottom at z=0.
+
+Subtractive features:
+- Centered hole along +Z: diameter=10.0, type=through., depth=through.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly."
+stepped_shaft_0002,stepped_shaft,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_parametric/stepped_shaft_0002.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Stepped shaft with keyway
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at shaft center, Z along shaft axis.
+
+Base geometry:
+- Overall length L=140.0.
+- Steps: d1=22.0 for l1=45.0, d2=28.0 for l2=50.0, d3=20.0 for l3=45.0.
+
+Subtractive features:
+- Longitudinal keyway along +Z: width=6.0, depth=3.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly."
+stepped_shaft_0011,stepped_shaft,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_parametric/stepped_shaft_0011.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Stepped shaft with keyway
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at shaft center, Z along shaft axis.
+
+Base geometry:
+- Overall length L=155.0.
+- Steps: d1=22.0 for l1=45.0, d2=30.0 for l2=65.0, d3=22.0 for l3=45.0.
+
+Subtractive features:
+- Longitudinal keyway along +Z: width=8.0, depth=3.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly."
+flange_0003,flange,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_parametric/flange_0003.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Flange with hub and bolt circle
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Flange OD=140.0, thickness=16.0.
+- Hub OD=70.0, hub length=28.0.
+- Bore diameter=30.0.
+
+Subtractive features:
+- Bolt circle: PCD=105.0, count=6, hole diameter=12.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly."
+flange_0010,flange,/Users/mejdi/Desktop/ISIDOR/reference_step files/flange_0010.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Flange with hub and bolt circle
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Flange OD=95.0, thickness=10.0.
+- Hub OD=48.0, hub length=16.0.
+- Bore diameter=16.0.
+
+Subtractive features:
+- Bolt circle: PCD=70.0, count=4, hole diameter=8.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly."
+flange_0011,flange,/Users/mejdi/Desktop/ISIDOR/reference_step files/flange_0011.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Flange with hub and bolt circle
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Flange OD=125.0, thickness=14.0.
+- Hub OD=62.0, hub length=22.0.
+- Bore diameter=24.0.
+
+Subtractive features:
+- Bolt circle: PCD=94.0, count=6, hole diameter=10.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly."
+flange_0012,flange,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_parametric/flange_0012.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Flange with hub and bolt circle
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Flange OD=145.0, thickness=16.0.
+- Hub OD=72.0, hub length=26.0.
+- Bore diameter=30.0.
+
+Subtractive features:
+- Bolt circle: PCD=108.0, count=6, hole diameter=12.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly."
+ribbed_bracket_0006,ribbed_bracket,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_advanced_smoke/ribbed_bracket_0006.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ribbed bracket
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Base plate: L=110.0, W=65.0, T=10.0.
+- Vertical leg: height=85.0, thickness=10.0.
+- Ribs: count=2, thickness=10.0.
+
+Subtractive features:
+- Through hole: diameter=2.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly."
+counterbore_countersink_plate_0005,counterbore_countersink_plate,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_advanced_smoke/counterbore_countersink_plate_0005.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Plate with hole pattern and counterbore/countersink
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face.
+- +Z is upward.
+
+Base geometry:
+- Plate: L=100.0, W=70.0, T=10.0.
+- Hole pattern: count=4, through diameter=6.0.
+- Top feature: cbore diameter=12.0, depth=3.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly."
+threaded_parts_male_0002,threaded_parts,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_advanced_smoke/threaded_parts_male_0002.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+Threaded parts proxy (male stud)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at base of part.
+- +Z is upward.
+
+Base geometry:
+- Shank: diameter=16.0, length=40.0.
+- Thread zone: diameter=14.0, length=24.0.
+- Head: diameter=24.0, length=8.0.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions exactly."

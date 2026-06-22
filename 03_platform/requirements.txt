@@ -1,0 +1,10 @@
+numpy>=1.24
+scipy>=1.10
+trimesh>=4.0
+streamlit>=1.32
+pandas>=2.0
+scikit-image>=0.22
+plotly>=5.22
+cadquery>=2.4
+openai>=1.40
+anthropic>=0.34

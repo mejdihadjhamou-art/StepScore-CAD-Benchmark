@@ -1,0 +1,9 @@
+{
+  "run_id": "parametric_claude_sonnet_v1",
+  "manifest": "/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/harness_manifest.parametric.csv",
+  "jobs_total": 200,
+  "jobs_success": 96,
+  "jobs_failed": 1,
+  "jobs_skipped_completed": 103,
+  "elapsed_seconds": 401.7567002773285
+}

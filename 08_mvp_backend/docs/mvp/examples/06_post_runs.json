@@ -1,0 +1,35 @@
+{
+  "request": {
+    "project_id": "a9e5fa9f-7193-4f13-ab97-01a7f3a68d4d",
+    "model_id": "90e881ff-f080-4c40-ba16-616b93a7b3f8",
+    "threshold_profile_id": "9b6e6f8f-1c4a-4bf9-b8da-6a3a9620f756",
+    "prompt": "Create a mug with 160mm height and 120mm OD.",
+    "prompt_template": "default",
+    "requested_replicates": 3,
+    "reference_asset_id": "b9d34572-4dc7-4336-8f1d-87e8d0905072",
+    "run_config_json": {
+      "timeout_seconds": 300
+    },
+    "external_id": "mug-benchmark-001"
+  },
+  "response": {
+    "id": "845bf8b3-fde2-4e61-a37e-d17d3722ac3e",
+    "project_id": "a9e5fa9f-7193-4f13-ab97-01a7f3a68d4d",
+    "model_id": "90e881ff-f080-4c40-ba16-616b93a7b3f8",
+    "threshold_profile_id": "9b6e6f8f-1c4a-4bf9-b8da-6a3a9620f756",
+    "status": "QUEUED",
+    "prompt": "Create a mug with 160mm height and 120mm OD.",
+    "prompt_template": "default",
+    "requested_replicates": 3,
+    "reference_asset_id": "b9d34572-4dc7-4336-8f1d-87e8d0905072",
+    "run_config_json": {
+      "timeout_seconds": 300
+    },
+    "external_id": "mug-benchmark-001",
+    "created_at": "2026-02-13T14:43:10.000Z",
+    "started_at": null,
+    "completed_at": null,
+    "error_message": null
+  }
+}
+

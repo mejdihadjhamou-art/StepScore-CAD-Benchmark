@@ -1,0 +1,1581 @@
+part_id,family,reference_path,prompt_text
+manifold_block_0001,manifold_block,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/manifold_block/manifold_block_0001.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+manifold_block (manifold_block_0001)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- Lx=126, Ly=96, Lz=68, z_through_d=16, x_through_d=16, y_through_d=16, blind_d=16, blind_depth=22
+
+Design features:
+- Block with intersecting orthogonal channels (X/Y/Z through holes) plus one blind top port.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+threaded_parts_male_0002,threaded_parts_male,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/threaded_parts_male/threaded_parts_male_0002.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+threaded_parts_male (threaded_parts_male_0002)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- length=68, pitch=4, core_d=18, thread_depth=1.0619, thread_band_w=1.8, fallback_rings_used=0
+
+Design features:
+- Male threaded-like shaft: core cylinder with external thread-form relief (or robust ringed fallback), chamfered ends.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+threaded_parts_female_0003,threaded_parts_female,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/threaded_parts_female/threaded_parts_female_0003.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+threaded_parts_female (threaded_parts_female_0003)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- length=48, pitch=4, outer_d=42, bore_d=18, thread_depth=0.5076, thread_band_w=1.68
+
+Design features:
+- Female threaded-like sleeve: outer cylinder, through bore, internal thread-form helical groove.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+keyed_shaft_hub_0004,keyed_shaft_hub,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/keyed_shaft_hub/keyed_shaft_hub_0004.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+keyed_shaft_hub (keyed_shaft_hub_0004)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- shaft_d=24, shaft_l=122, hub_d=52, hub_l=26, key_w=8, key_d=4
+
+Design features:
+- Coaxial shaft + hub with one longitudinal keyway slot for torque transmission fit testing.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+counterbore_countersink_plate_0005,counterbore_countersink_plate,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/counterbore_countersink_plate/counterbore_countersink_plate_0005.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+counterbore_countersink_plate (counterbore_countersink_plate_0005)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- Lx=152, Ly=72, Lz=12, cbore_d=6, cbore_head_d=12, cbore_head_h=6, csk_d=10, csk_head_d=22, csk_angle=100, through_d=12
+
+Design features:
+- Plate with mixed hole standards: counterbore holes, countersink holes, plus central through hole.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+ribbed_bracket_0006,ribbed_bracket,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/ribbed_bracket/ribbed_bracket_0006.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+ribbed_bracket (ribbed_bracket_0006)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- base_l=146, base_w=62, base_t=10, wall_t=12, wall_h=68, rib_t=10, hole_d=8
+
+Design features:
+- Bracket with base + vertical wall + two reinforcing ribs; includes top mounting holes.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+shell_enclosure_0007,shell_enclosure,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/shell_enclosure/shell_enclosure_0007.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+shell_enclosure (shell_enclosure_0007)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- Lx=114, Ly=120, Lz=56, wall=4, boss_od=14, boss_hole=6, boss_h=18, side_cut_w=32, side_cut_h=18
+
+Design features:
+- Shelled enclosure body with 4 internal bosses, boss holes, and one side cutout.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+loft_transition_0008,loft_transition,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/loft_transition/loft_transition_0008.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+loft_transition (loft_transition_0008)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- height=86, base_radius=20, top_rect_x=60, top_rect_y=50
+
+Design features:
+- Non-prismatic loft transition from circular base profile to rectangular top profile.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+sweep_path_part_0009,sweep_path_part,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/sweep_path_part/sweep_path_part_0009.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+sweep_path_part (sweep_path_part_0009)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- span=170, rise=48, tube_r=4.4146
+
+Design features:
+- Tubular/handle-like swept part along a multi-arc 3D path.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+drafted_part_0010,drafted_part,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/drafted_part/drafted_part_0010.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+drafted_part (drafted_part_0010)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- Lx=64, Ly=60, H=62, draft_deg=6.5938, hole_d=14
+
+Design features:
+- Drafted prismatic part (tapered walls) with central through hole.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+helical_features_0011,helical_features,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/helical_features/helical_features_0011.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+helical_features (helical_features_0011)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- core_d=20, height=44, pitch=14, flight_t=2.7731, flight_h=7.7, radius=13.7304, turns_deg=1131.4286
+
+Design features:
+- Core shaft with helical flight-style external feature (auger/thread-like form).
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+chamfer_fillet_stress_cases_0012,chamfer_fillet_stress_cases,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/chamfer_fillet_stress_cases/chamfer_fillet_stress_cases_0012.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+chamfer_fillet_stress_cases (chamfer_fillet_stress_cases_0012)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- Lx=94, Ly=120, Lz=26, hole_d=12, fillet_r=2.0754, chamfer=1.8467
+
+Design features:
+- Prismatic stress part with multiple holes and many fillet/chamfer edge treatments.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+off_axis_features_0013,off_axis_features,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/off_axis_features/off_axis_features_0013.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+off_axis_features (off_axis_features_0013)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- Lx=138, Ly=116, Lz=64, boss_d=28, boss_h=28, boss_tilt_deg=19.6939, hole_d=8, hole_tilt_deg=28.8134
+
+Design features:
+- Part with transformed workplane features: tilted boss and off-axis drilled hole.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+manifold_block_0014,manifold_block,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/manifold_block/manifold_block_0014.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+manifold_block (manifold_block_0014)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- Lx=134, Ly=96, Lz=76, z_through_d=14, x_through_d=16, y_through_d=16, blind_d=10, blind_depth=32
+
+Design features:
+- Block with intersecting orthogonal channels (X/Y/Z through holes) plus one blind top port.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+threaded_parts_male_0015,threaded_parts_male,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/threaded_parts_male/threaded_parts_male_0015.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+threaded_parts_male (threaded_parts_male_0015)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- length=40, pitch=4, core_d=20, thread_depth=0.7701, thread_band_w=1.8, fallback_rings_used=0
+
+Design features:
+- Male threaded-like shaft: core cylinder with external thread-form relief (or robust ringed fallback), chamfered ends.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+threaded_parts_female_0016,threaded_parts_female,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/threaded_parts_female/threaded_parts_female_0016.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+threaded_parts_female (threaded_parts_female_0016)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- length=34, pitch=4, outer_d=46, bore_d=20, thread_depth=0.7692, thread_band_w=1.68
+
+Design features:
+- Female threaded-like sleeve: outer cylinder, through bore, internal thread-form helical groove.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+keyed_shaft_hub_0017,keyed_shaft_hub,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/keyed_shaft_hub/keyed_shaft_hub_0017.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+keyed_shaft_hub (keyed_shaft_hub_0017)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- shaft_d=18, shaft_l=156, hub_d=56, hub_l=26, key_w=10, key_d=2
+
+Design features:
+- Coaxial shaft + hub with one longitudinal keyway slot for torque transmission fit testing.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+counterbore_countersink_plate_0018,counterbore_countersink_plate,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/counterbore_countersink_plate/counterbore_countersink_plate_0018.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+counterbore_countersink_plate (counterbore_countersink_plate_0018)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- Lx=114, Ly=110, Lz=12, cbore_d=8, cbore_head_d=18, cbore_head_h=8, csk_d=8, csk_head_d=20, csk_angle=100, through_d=8
+
+Design features:
+- Plate with mixed hole standards: counterbore holes, countersink holes, plus central through hole.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+ribbed_bracket_0019,ribbed_bracket,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/ribbed_bracket/ribbed_bracket_0019.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+ribbed_bracket (ribbed_bracket_0019)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- base_l=82, base_w=88, base_t=12, wall_t=14, wall_h=48, rib_t=8, hole_d=12
+
+Design features:
+- Bracket with base + vertical wall + two reinforcing ribs; includes top mounting holes.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+shell_enclosure_0020,shell_enclosure,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/shell_enclosure/shell_enclosure_0020.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+shell_enclosure (shell_enclosure_0020)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- Lx=134, Ly=128, Lz=58, wall=4, boss_od=10, boss_hole=6, boss_h=20, side_cut_w=28, side_cut_h=12
+
+Design features:
+- Shelled enclosure body with 4 internal bosses, boss holes, and one side cutout.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+loft_transition_0021,loft_transition,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/loft_transition/loft_transition_0021.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+loft_transition (loft_transition_0021)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- height=70, base_radius=28, top_rect_x=76, top_rect_y=60
+
+Design features:
+- Non-prismatic loft transition from circular base profile to rectangular top profile.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+sweep_path_part_0022,sweep_path_part,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/sweep_path_part/sweep_path_part_0022.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+sweep_path_part (sweep_path_part_0022)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- span=164, rise=52, tube_r=6.7625
+
+Design features:
+- Tubular/handle-like swept part along a multi-arc 3D path.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+drafted_part_0023,drafted_part,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/drafted_part/drafted_part_0023.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+drafted_part (drafted_part_0023)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- Lx=114, Ly=76, H=46, draft_deg=6.228, hole_d=12
+
+Design features:
+- Drafted prismatic part (tapered walls) with central through hole.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+helical_features_0024,helical_features,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/helical_features/helical_features_0024.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+helical_features (helical_features_0024)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- core_d=12, height=46, pitch=12, flight_t=2.6485, flight_h=6.6, radius=12.8244, turns_deg=1380
+
+Design features:
+- Core shaft with helical flight-style external feature (auger/thread-like form).
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+chamfer_fillet_stress_cases_0025,chamfer_fillet_stress_cases,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/chamfer_fillet_stress_cases/chamfer_fillet_stress_cases_0025.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+chamfer_fillet_stress_cases (chamfer_fillet_stress_cases_0025)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- Lx=110, Ly=76, Lz=28, hole_d=8, fillet_r=1.6864, chamfer=1.8601
+
+Design features:
+- Prismatic stress part with multiple holes and many fillet/chamfer edge treatments.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+off_axis_features_0026,off_axis_features,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/off_axis_features/off_axis_features_0026.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+off_axis_features (off_axis_features_0026)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- Lx=96, Ly=90, Lz=70, boss_d=28, boss_h=18, boss_tilt_deg=15.0513, hole_d=8, hole_tilt_deg=27.9629
+
+Design features:
+- Part with transformed workplane features: tilted boss and off-axis drilled hole.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+manifold_block_0027,manifold_block,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/manifold_block/manifold_block_0027.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+manifold_block (manifold_block_0027)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- Lx=112, Ly=110, Lz=100, z_through_d=18, x_through_d=14, y_through_d=14, blind_d=14, blind_depth=32
+
+Design features:
+- Block with intersecting orthogonal channels (X/Y/Z through holes) plus one blind top port.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+threaded_parts_male_0028,threaded_parts_male,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/threaded_parts_male/threaded_parts_male_0028.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+threaded_parts_male (threaded_parts_male_0028)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- length=30, pitch=4, core_d=14, thread_depth=0.7614, thread_band_w=1.8, fallback_rings_used=0
+
+Design features:
+- Male threaded-like shaft: core cylinder with external thread-form relief (or robust ringed fallback), chamfered ends.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+threaded_parts_female_0029,threaded_parts_female,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/threaded_parts_female/threaded_parts_female_0029.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+threaded_parts_female (threaded_parts_female_0029)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- length=42, pitch=4, outer_d=28, bore_d=16, thread_depth=0.7654, thread_band_w=1.68
+
+Design features:
+- Female threaded-like sleeve: outer cylinder, through bore, internal thread-form helical groove.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+keyed_shaft_hub_0030,keyed_shaft_hub,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/keyed_shaft_hub/keyed_shaft_hub_0030.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+keyed_shaft_hub (keyed_shaft_hub_0030)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- shaft_d=26, shaft_l=114, hub_d=46, hub_l=46, key_w=6, key_d=4
+
+Design features:
+- Coaxial shaft + hub with one longitudinal keyway slot for torque transmission fit testing.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+counterbore_countersink_plate_0031,counterbore_countersink_plate,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/counterbore_countersink_plate/counterbore_countersink_plate_0031.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+counterbore_countersink_plate (counterbore_countersink_plate_0031)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- Lx=160, Ly=118, Lz=10, cbore_d=8, cbore_head_d=18, cbore_head_h=6, csk_d=8, csk_head_d=18, csk_angle=90, through_d=12
+
+Design features:
+- Plate with mixed hole standards: counterbore holes, countersink holes, plus central through hole.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+ribbed_bracket_0032,ribbed_bracket,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/ribbed_bracket/ribbed_bracket_0032.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+ribbed_bracket (ribbed_bracket_0032)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- base_l=146, base_w=62, base_t=10, wall_t=12, wall_h=52, rib_t=6, hole_d=12
+
+Design features:
+- Bracket with base + vertical wall + two reinforcing ribs; includes top mounting holes.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+shell_enclosure_0033,shell_enclosure,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/shell_enclosure/shell_enclosure_0033.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+shell_enclosure (shell_enclosure_0033)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- Lx=106, Ly=74, Lz=60, wall=6, boss_od=12, boss_hole=6, boss_h=20, side_cut_w=32, side_cut_h=18
+
+Design features:
+- Shelled enclosure body with 4 internal bosses, boss holes, and one side cutout.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+loft_transition_0034,loft_transition,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/loft_transition/loft_transition_0034.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+loft_transition (loft_transition_0034)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- height=60, base_radius=26, top_rect_x=50, top_rect_y=28
+
+Design features:
+- Non-prismatic loft transition from circular base profile to rectangular top profile.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+sweep_path_part_0035,sweep_path_part,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/sweep_path_part/sweep_path_part_0035.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+sweep_path_part (sweep_path_part_0035)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- span=160, rise=30, tube_r=6.96
+
+Design features:
+- Tubular/handle-like swept part along a multi-arc 3D path.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+drafted_part_0036,drafted_part,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/drafted_part/drafted_part_0036.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+drafted_part (drafted_part_0036)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- Lx=70, Ly=100, H=60, draft_deg=5.2564, hole_d=16
+
+Design features:
+- Drafted prismatic part (tapered walls) with central through hole.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+helical_features_0037,helical_features,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/helical_features/helical_features_0037.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+helical_features (helical_features_0037)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- core_d=12, height=52, pitch=14, flight_t=2.6293, flight_h=7.7, radius=10.6876, turns_deg=1337.1429
+
+Design features:
+- Core shaft with helical flight-style external feature (auger/thread-like form).
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+chamfer_fillet_stress_cases_0038,chamfer_fillet_stress_cases,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/chamfer_fillet_stress_cases/chamfer_fillet_stress_cases_0038.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+chamfer_fillet_stress_cases (chamfer_fillet_stress_cases_0038)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- Lx=144, Ly=104, Lz=46, hole_d=12, fillet_r=1.4937, chamfer=1.1331
+
+Design features:
+- Prismatic stress part with multiple holes and many fillet/chamfer edge treatments.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+off_axis_features_0039,off_axis_features,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/off_axis_features/off_axis_features_0039.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+off_axis_features (off_axis_features_0039)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- Lx=144, Ly=116, Lz=46, boss_d=24, boss_h=20, boss_tilt_deg=19.112, hole_d=10, hole_tilt_deg=31.261
+
+Design features:
+- Part with transformed workplane features: tilted boss and off-axis drilled hole.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+manifold_block_0040,manifold_block,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/manifold_block/manifold_block_0040.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+manifold_block (manifold_block_0040)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- Lx=136, Ly=72, Lz=118, z_through_d=22, x_through_d=12, y_through_d=14, blind_d=18, blind_depth=16
+
+Design features:
+- Block with intersecting orthogonal channels (X/Y/Z through holes) plus one blind top port.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+threaded_parts_male_0041,threaded_parts_male,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/threaded_parts_male/threaded_parts_male_0041.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+threaded_parts_male (threaded_parts_male_0041)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- length=44, pitch=4, core_d=24, thread_depth=0.7222, thread_band_w=1.8, fallback_rings_used=0
+
+Design features:
+- Male threaded-like shaft: core cylinder with external thread-form relief (or robust ringed fallback), chamfered ends.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+threaded_parts_female_0042,threaded_parts_female,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/threaded_parts_female/threaded_parts_female_0042.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+threaded_parts_female (threaded_parts_female_0042)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- length=40, pitch=4, outer_d=32, bore_d=18, thread_depth=0.9236, thread_band_w=1.68
+
+Design features:
+- Female threaded-like sleeve: outer cylinder, through bore, internal thread-form helical groove.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+keyed_shaft_hub_0043,keyed_shaft_hub,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/keyed_shaft_hub/keyed_shaft_hub_0043.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+keyed_shaft_hub (keyed_shaft_hub_0043)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- shaft_d=24, shaft_l=100, hub_d=42, hub_l=24, key_w=6, key_d=4
+
+Design features:
+- Coaxial shaft + hub with one longitudinal keyway slot for torque transmission fit testing.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+counterbore_countersink_plate_0044,counterbore_countersink_plate,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/counterbore_countersink_plate/counterbore_countersink_plate_0044.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+counterbore_countersink_plate (counterbore_countersink_plate_0044)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- Lx=130, Ly=96, Lz=16, cbore_d=8, cbore_head_d=18, cbore_head_h=6, csk_d=6, csk_head_d=20, csk_angle=100, through_d=6
+
+Design features:
+- Plate with mixed hole standards: counterbore holes, countersink holes, plus central through hole.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+ribbed_bracket_0045,ribbed_bracket,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/ribbed_bracket/ribbed_bracket_0045.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+ribbed_bracket (ribbed_bracket_0045)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- base_l=110, base_w=52, base_t=10, wall_t=12, wall_h=84, rib_t=6, hole_d=8
+
+Design features:
+- Bracket with base + vertical wall + two reinforcing ribs; includes top mounting holes.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+shell_enclosure_0046,shell_enclosure,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/shell_enclosure/shell_enclosure_0046.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+shell_enclosure (shell_enclosure_0046)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- Lx=142, Ly=100, Lz=56, wall=6, boss_od=14, boss_hole=6, boss_h=14, side_cut_w=34, side_cut_h=18
+
+Design features:
+- Shelled enclosure body with 4 internal bosses, boss holes, and one side cutout.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+loft_transition_0047,loft_transition,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/loft_transition/loft_transition_0047.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+loft_transition (loft_transition_0047)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- height=68, base_radius=20, top_rect_x=50, top_rect_y=32
+
+Design features:
+- Non-prismatic loft transition from circular base profile to rectangular top profile.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+drafted_part_0049,drafted_part,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/drafted_part/drafted_part_0049.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+drafted_part (drafted_part_0049)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- Lx=120, Ly=104, H=70, draft_deg=2.7265, hole_d=18
+
+Design features:
+- Drafted prismatic part (tapered walls) with central through hole.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+helical_features_0050,helical_features,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/helical_features/helical_features_0050.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+helical_features (helical_features_0050)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- core_d=12, height=62, pitch=12, flight_t=2.3054, flight_h=6.6, radius=12.3924, turns_deg=1860
+
+Design features:
+- Core shaft with helical flight-style external feature (auger/thread-like form).
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+chamfer_fillet_stress_cases_0051,chamfer_fillet_stress_cases,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/chamfer_fillet_stress_cases/chamfer_fillet_stress_cases_0051.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+chamfer_fillet_stress_cases (chamfer_fillet_stress_cases_0051)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- Lx=160, Ly=104, Lz=52, hole_d=6, fillet_r=1.5369, chamfer=0.9794
+
+Design features:
+- Prismatic stress part with multiple holes and many fillet/chamfer edge treatments.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+off_axis_features_0052,off_axis_features,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/off_axis_features/off_axis_features_0052.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+off_axis_features (off_axis_features_0052)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- Lx=90, Ly=106, Lz=56, boss_d=18, boss_h=26, boss_tilt_deg=19.9, hole_d=8, hole_tilt_deg=20.3702
+
+Design features:
+- Part with transformed workplane features: tilted boss and off-axis drilled hole.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+manifold_block_0053,manifold_block,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/manifold_block/manifold_block_0053.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+manifold_block (manifold_block_0053)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- Lx=114, Ly=122, Lz=78, z_through_d=20, x_through_d=10, y_through_d=12, blind_d=20, blind_depth=18
+
+Design features:
+- Block with intersecting orthogonal channels (X/Y/Z through holes) plus one blind top port.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+threaded_parts_male_0054,threaded_parts_male,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/threaded_parts_male/threaded_parts_male_0054.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+threaded_parts_male (threaded_parts_male_0054)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- length=44, pitch=4, core_d=16, thread_depth=1.0773, thread_band_w=1.8, fallback_rings_used=0
+
+Design features:
+- Male threaded-like shaft: core cylinder with external thread-form relief (or robust ringed fallback), chamfered ends.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+threaded_parts_female_0055,threaded_parts_female,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/threaded_parts_female/threaded_parts_female_0055.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+threaded_parts_female (threaded_parts_female_0055)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- length=52, pitch=4, outer_d=40, bore_d=18, thread_depth=0.7812, thread_band_w=1.68
+
+Design features:
+- Female threaded-like sleeve: outer cylinder, through bore, internal thread-form helical groove.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+keyed_shaft_hub_0056,keyed_shaft_hub,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/keyed_shaft_hub/keyed_shaft_hub_0056.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+keyed_shaft_hub (keyed_shaft_hub_0056)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- shaft_d=26, shaft_l=156, hub_d=60, hub_l=24, key_w=10, key_d=4
+
+Design features:
+- Coaxial shaft + hub with one longitudinal keyway slot for torque transmission fit testing.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+counterbore_countersink_plate_0057,counterbore_countersink_plate,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/counterbore_countersink_plate/counterbore_countersink_plate_0057.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+counterbore_countersink_plate (counterbore_countersink_plate_0057)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- Lx=94, Ly=116, Lz=14, cbore_d=6, cbore_head_d=14, cbore_head_h=8, csk_d=6, csk_head_d=20, csk_angle=82, through_d=10
+
+Design features:
+- Plate with mixed hole standards: counterbore holes, countersink holes, plus central through hole.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+ribbed_bracket_0058,ribbed_bracket,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/ribbed_bracket/ribbed_bracket_0058.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+ribbed_bracket (ribbed_bracket_0058)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- base_l=112, base_w=62, base_t=8, wall_t=8, wall_h=74, rib_t=10, hole_d=10
+
+Design features:
+- Bracket with base + vertical wall + two reinforcing ribs; includes top mounting holes.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+shell_enclosure_0059,shell_enclosure,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/shell_enclosure/shell_enclosure_0059.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+shell_enclosure (shell_enclosure_0059)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- Lx=156, Ly=112, Lz=50, wall=4, boss_od=12, boss_hole=6, boss_h=16, side_cut_w=32, side_cut_h=16
+
+Design features:
+- Shelled enclosure body with 4 internal bosses, boss holes, and one side cutout.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+loft_transition_0060,loft_transition,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/loft_transition/loft_transition_0060.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+loft_transition (loft_transition_0060)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- height=60, base_radius=30, top_rect_x=42, top_rect_y=50
+
+Design features:
+- Non-prismatic loft transition from circular base profile to rectangular top profile.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+sweep_path_part_0061,sweep_path_part,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/sweep_path_part/sweep_path_part_0061.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+sweep_path_part (sweep_path_part_0061)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- span=160, rise=56, tube_r=6.7657
+
+Design features:
+- Tubular/handle-like swept part along a multi-arc 3D path.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+drafted_part_0062,drafted_part,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/drafted_part/drafted_part_0062.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+drafted_part (drafted_part_0062)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- Lx=120, Ly=64, H=32, draft_deg=6.4603, hole_d=10
+
+Design features:
+- Drafted prismatic part (tapered walls) with central through hole.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+helical_features_0063,helical_features,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/helical_features/helical_features_0063.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+helical_features (helical_features_0063)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- core_d=22, height=62, pitch=16, flight_t=1.9543, flight_h=8.8, radius=17.5836, turns_deg=1395
+
+Design features:
+- Core shaft with helical flight-style external feature (auger/thread-like form).
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+chamfer_fillet_stress_cases_0064,chamfer_fillet_stress_cases,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/chamfer_fillet_stress_cases/chamfer_fillet_stress_cases_0064.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+chamfer_fillet_stress_cases (chamfer_fillet_stress_cases_0064)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- Lx=160, Ly=70, Lz=46, hole_d=10, fillet_r=1.3589, chamfer=1.8287
+
+Design features:
+- Prismatic stress part with multiple holes and many fillet/chamfer edge treatments.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+off_axis_features_0065,off_axis_features,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/off_axis_features/off_axis_features_0065.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+off_axis_features (off_axis_features_0065)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- Lx=106, Ly=66, Lz=40, boss_d=22, boss_h=18, boss_tilt_deg=21.1435, hole_d=10, hole_tilt_deg=20.66
+
+Design features:
+- Part with transformed workplane features: tilted boss and off-axis drilled hole.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+manifold_block_0066,manifold_block,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/manifold_block/manifold_block_0066.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+manifold_block (manifold_block_0066)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- Lx=158, Ly=128, Lz=94, z_through_d=22, x_through_d=14, y_through_d=12, blind_d=12, blind_depth=16
+
+Design features:
+- Block with intersecting orthogonal channels (X/Y/Z through holes) plus one blind top port.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+threaded_parts_male_0067,threaded_parts_male,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/threaded_parts_male/threaded_parts_male_0067.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+threaded_parts_male (threaded_parts_male_0067)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- length=70, pitch=4, core_d=14, thread_depth=0.7164, thread_band_w=1.8, fallback_rings_used=0
+
+Design features:
+- Male threaded-like shaft: core cylinder with external thread-form relief (or robust ringed fallback), chamfered ends.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+threaded_parts_female_0068,threaded_parts_female,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/threaded_parts_female/threaded_parts_female_0068.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+threaded_parts_female (threaded_parts_female_0068)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- length=44, pitch=4, outer_d=34, bore_d=18, thread_depth=0.9766, thread_band_w=1.68
+
+Design features:
+- Female threaded-like sleeve: outer cylinder, through bore, internal thread-form helical groove.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+keyed_shaft_hub_0069,keyed_shaft_hub,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/keyed_shaft_hub/keyed_shaft_hub_0069.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+keyed_shaft_hub (keyed_shaft_hub_0069)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- shaft_d=30, shaft_l=100, hub_d=62, hub_l=28, key_w=10, key_d=6
+
+Design features:
+- Coaxial shaft + hub with one longitudinal keyway slot for torque transmission fit testing.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+counterbore_countersink_plate_0070,counterbore_countersink_plate,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/counterbore_countersink_plate/counterbore_countersink_plate_0070.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+counterbore_countersink_plate (counterbore_countersink_plate_0070)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- Lx=152, Ly=116, Lz=22, cbore_d=8, cbore_head_d=14, cbore_head_h=4, csk_d=10, csk_head_d=22, csk_angle=100, through_d=12
+
+Design features:
+- Plate with mixed hole standards: counterbore holes, countersink holes, plus central through hole.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+ribbed_bracket_0071,ribbed_bracket,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/ribbed_bracket/ribbed_bracket_0071.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+ribbed_bracket (ribbed_bracket_0071)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- base_l=118, base_w=50, base_t=8, wall_t=10, wall_h=48, rib_t=8, hole_d=10
+
+Design features:
+- Bracket with base + vertical wall + two reinforcing ribs; includes top mounting holes.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+shell_enclosure_0072,shell_enclosure,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/shell_enclosure/shell_enclosure_0072.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+shell_enclosure (shell_enclosure_0072)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- Lx=138, Ly=112, Lz=80, wall=4, boss_od=10, boss_hole=6, boss_h=24, side_cut_w=42, side_cut_h=20
+
+Design features:
+- Shelled enclosure body with 4 internal bosses, boss holes, and one side cutout.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+loft_transition_0073,loft_transition,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/loft_transition/loft_transition_0073.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+loft_transition (loft_transition_0073)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- height=58, base_radius=22, top_rect_x=74, top_rect_y=40
+
+Design features:
+- Non-prismatic loft transition from circular base profile to rectangular top profile.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+sweep_path_part_0074,sweep_path_part,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/sweep_path_part/sweep_path_part_0074.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+sweep_path_part (sweep_path_part_0074)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- span=186, rise=60, tube_r=4.8627
+
+Design features:
+- Tubular/handle-like swept part along a multi-arc 3D path.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+drafted_part_0075,drafted_part,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/drafted_part/drafted_part_0075.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+drafted_part (drafted_part_0075)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- Lx=106, Ly=98, H=56, draft_deg=4.3635, hole_d=12
+
+Design features:
+- Drafted prismatic part (tapered walls) with central through hole.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+helical_features_0076,helical_features,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/helical_features/helical_features_0076.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+helical_features (helical_features_0076)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- core_d=18, height=44, pitch=14, flight_t=1.7049, flight_h=7.7, radius=15.5393, turns_deg=1131.4286
+
+Design features:
+- Core shaft with helical flight-style external feature (auger/thread-like form).
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+chamfer_fillet_stress_cases_0077,chamfer_fillet_stress_cases,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/chamfer_fillet_stress_cases/chamfer_fillet_stress_cases_0077.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+chamfer_fillet_stress_cases (chamfer_fillet_stress_cases_0077)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- Lx=128, Ly=74, Lz=50, hole_d=8, fillet_r=2.2246, chamfer=1.0269
+
+Design features:
+- Prismatic stress part with multiple holes and many fillet/chamfer edge treatments.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+off_axis_features_0078,off_axis_features,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/off_axis_features/off_axis_features_0078.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+off_axis_features (off_axis_features_0078)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- Lx=98, Ly=114, Lz=52, boss_d=22, boss_h=30, boss_tilt_deg=17.3271, hole_d=10, hole_tilt_deg=20.943
+
+Design features:
+- Part with transformed workplane features: tilted boss and off-axis drilled hole.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+manifold_block_0079,manifold_block,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/manifold_block/manifold_block_0079.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+manifold_block (manifold_block_0079)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- Lx=96, Ly=120, Lz=116, z_through_d=16, x_through_d=20, y_through_d=20, blind_d=18, blind_depth=22
+
+Design features:
+- Block with intersecting orthogonal channels (X/Y/Z through holes) plus one blind top port.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."
+threaded_parts_male_0080,threaded_parts_male,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/threaded_parts_male/threaded_parts_male_0080.step,"Create a single connected mechanical CAD part.
+
+Part identity:
+threaded_parts_male (threaded_parts_male_0080)
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face unless specified otherwise.
+- +Z is upward.
+
+Key dimensions:
+- length=42, pitch=4, core_d=16, thread_depth=0.7052, thread_band_w=1.8, fallback_rings_used=0
+
+Design features:
+- Male threaded-like shaft: core cylinder with external thread-form relief (or robust ringed fallback), chamfered ends.
+
+Topology/output constraints:
+- Single connected solid body.
+- Preserve all stated dimensions and feature counts exactly."

@@ -1,0 +1,3922 @@
+job_id,part_id,family,prompt_level,provider,model,generation_mode,reference_path,base_step_path,prompt_text,grading_profile,replicate,sample_points,voxel_pitch_mm,fast_mode,timeout_seconds,threshold_overrides_json,status,enabled,notes,harness_status,harness_run_id,harness_jobs,harness_success,harness_failed,harness_skipped_completed
+box_hole_0001__L2__anthropic__claude-sonnet-4-20250514__r1,box_hole_0001,box_hole,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/box_hole_0001.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered through hole
+Units:
+Millimeters (mm).
+Geometry:
+- Base block size: X=66, Y=80, Z=44.
+- Add one centered vertical through hole, diameter=24, axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+box_hole_0001__L3__anthropic__claude-sonnet-4-20250514__r1,box_hole_0001,box_hole,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/box_hole_0001.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with one centered vertical through-hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin: (0,0,0) at the center of the bottom outer face of the block.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create a rectangular solid with dimensions X=66, Y=80, Z=44.
+- Block is centered in X and Y, with bottom at z=0 and top at z=Z.
+
+Subtractive features:
+- Create one circular through-hole with diameter=24.
+- Hole center at (0,0) in XY and axis parallel to Z.
+- Hole cuts fully through from top to bottom.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+stepped_shaft_0002__L2__anthropic__claude-sonnet-4-20250514__r1,stepped_shaft_0002,stepped_shaft,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/stepped_shaft_0002.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft
+Units:
+Millimeters (mm).
+Geometry:
+- Segment 1: diameter=20, length=34.
+- Segment 2: diameter=36, length=42, attached coaxially after segment 1.
+- Segment 3: diameter=10, length=54, attached coaxially after segment 2.
+- Overall shaft length=130.
+- Shaft axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+stepped_shaft_0002__L3__anthropic__claude-sonnet-4-20250514__r1,stepped_shaft_0002,stepped_shaft,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/stepped_shaft_0002.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft with shoulders
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at the shaft center (midpoint of total length on Z-axis).
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/additive geometry:
+- Build three coaxial cylindrical segments along Z with diameters 20, 36, 10.
+- Segment lengths are 34, 42, 54 respectively.
+- Total length is 130.
+- Segment 1 spans z=-65 to z=-31.
+- Segment 2 spans z=-31 to z=11.
+- Segment 3 spans z=11 to z=65.
+- All segments are concentric on X=0, Y=0.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+flange_0003__L2__anthropic__claude-sonnet-4-20250514__r1,flange_0003,flange,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/flange_0003.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange with bore and bolt pattern
+Units:
+Millimeters (mm).
+Geometry:
+- Flange outer diameter=130, thickness=24.
+- Center through bore diameter=50.
+- Add 6 equally spaced through bolt holes, each diameter=8.
+- Bolt holes are on bolt circle diameter=72.8659.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+flange_0003__L3__anthropic__claude-sonnet-4-20250514__r1,flange_0003,flange,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/flange_0003.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange disk with central bore and equally spaced bolt holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom circular face; flange axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create a solid cylinder with outer diameter=130 and height=24.
+- Bottom at z=0 and top at z=height.
+
+Subtractive features:
+- Cut one centered through bore, diameter=50, axis=Z.
+- Cut 6 through bolt holes, diameter=8, equally spaced at 360/6 degrees.
+- Bolt hole centers lie on radius=36.433 from origin (bolt circle diameter=72.8659).
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+ring_spacer_0004__L2__anthropic__claude-sonnet-4-20250514__r1,ring_spacer_0004,ring_spacer,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/ring_spacer_0004.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (hollow cylinder)
+Units:
+Millimeters (mm).
+Geometry:
+- Outer diameter=46.
+- Inner diameter=16 (through bore).
+- Height=16.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+ring_spacer_0004__L3__anthropic__claude-sonnet-4-20250514__r1,ring_spacer_0004,ring_spacer,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/ring_spacer_0004.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (annular cylinder) with through bore
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom annular face, axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/subtractive geometry:
+- Create outer cylinder: diameter=46, height=16.
+- Subtract centered inner cylinder: diameter=16, same full height, axis=Z.
+- Resulting radial wall thickness=15.
+- Bottom at z=0, top at z=height.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+slotted_plate_0005__L2__anthropic__claude-sonnet-4-20250514__r1,slotted_plate_0005,slotted_plate,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/slotted_plate_0005.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular plate with a centered through slot
+Units:
+Millimeters (mm).
+Geometry:
+- Plate dimensions: X=102, Y=74, thickness Z=6.
+- One centered slot with rounded ends: length=66, width=30.
+- Slot goes fully through thickness.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+slotted_plate_0005__L3__anthropic__claude-sonnet-4-20250514__r1,slotted_plate_0005,slotted_plate,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/slotted_plate_0005.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Flat rectangular plate with one centered rounded-end through slot
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom plate face; +Z normal to plate.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create rectangular plate, X=102, Y=74, Z=6.
+- Plate centered on X and Y, bottom at z=0.
+
+Subtractive feature:
+- Cut one centered slot2D profile with overall length=66 and width=30.
+- Slot long axis along X.
+- Extrude/cut through full thickness so it is a through-slot.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+l_bracket_0006__L2__anthropic__claude-sonnet-4-20250514__r1,l_bracket_0006,l_bracket,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/l_bracket_0006.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket with base, vertical web, and holes
+Units:
+Millimeters (mm).
+Geometry:
+- Base plate: length=100, width=44, thickness=12.
+- Vertical web near one base edge: thickness=10, height=52, full base width.
+- Add two top through holes in the base, each diameter=8.
+- Add one side through hole in the web, diameter=8.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+l_bracket_0006__L3__anthropic__claude-sonnet-4-20250514__r1,l_bracket_0006,l_bracket,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/l_bracket_0006.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket: horizontal base plus one vertical web with mounting holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of base plate.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/additive geometry:
+- Base plate size: X=100, Y=44, Z=12; bottom at z=0.
+- Add one vertical web block with thickness X=10, width Y=44, height Z=52.
+- Place web near the -X side at web center x=-45 and rising from z=12.
+
+Subtractive features:
+- Two top through holes in base, diameter=8, positioned symmetrically at x=±28, y=0.
+- One side hole in web, diameter=8, normal to X direction, centered on web side face.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+pillow_block_0007__L2__anthropic__claude-sonnet-4-20250514__r1,pillow_block_0007,pillow_block,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/pillow_block_0007.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Pillow-block style mount with central bore and 4 mounting holes
+Units:
+Millimeters (mm).
+Geometry:
+- Block dimensions: X=146, Y=86, Z=30.
+- One centered vertical through bore, diameter=14.
+- Four mounting through holes, each diameter=6, arranged symmetrically on base footprint.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+pillow_block_0007__L3__anthropic__claude-sonnet-4-20250514__r1,pillow_block_0007,pillow_block,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/pillow_block_0007.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Pillow block: rectangular body with central bore and four corner mounting holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of the body.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create rectangular body X=146, Y=86, Z=30, bottom at z=0.
+
+Subtractive features:
+- Cut one centered vertical through bore, diameter=14, axis=Z.
+- Cut four mounting through holes, diameter=6, with XY centers at (±51.1, ±27.52).
+- Mounting holes are through the body along Z.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+pulley_0008__L2__anthropic__claude-sonnet-4-20250514__r1,pulley_0008,pulley,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/pulley_0008.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step pulley with centered through bore
+Units:
+Millimeters (mm).
+Geometry:
+- Coaxial step 1: radius=40, height=10.
+- Coaxial step 2 on top: radius=34, height=16.
+- Coaxial step 3 on top: radius=20, height=8.
+- Center through bore diameter=12.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+pulley_0008__L3__anthropic__claude-sonnet-4-20250514__r1,pulley_0008,pulley,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/pulley_0008.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Stepped pulley (three coaxial cylindrical steps) with through bore
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face; main axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Additive geometry:
+- Step 1: cylinder radius=40, height=10, from z=0 upward.
+- Step 2: centered on same axis, radius=34, height=16, stacked on step 1.
+- Step 3: centered on same axis, radius=20, height=8, stacked on step 2.
+- Total height=34.
+
+Subtractive feature:
+- One centered through bore diameter=12, axis=Z, through full height.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+u_channel_0009__L2__anthropic__claude-sonnet-4-20250514__r1,u_channel_0009,u_channel,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/u_channel_0009.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+U-channel with open top and two holes
+Units:
+Millimeters (mm).
+Geometry:
+- Outer envelope: X=84, Y=60, Z=36.
+- Hollow interior to form a U-channel: wall thickness=8, floor thickness=8, top open.
+- Two through holes on the top side, each diameter=6, mirrored along X.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+u_channel_0009__L3__anthropic__claude-sonnet-4-20250514__r1,u_channel_0009,u_channel,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/u_channel_0009.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Open-top U-channel with two top through-holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom outer face.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create outer rectangular solid X=84, Y=60, Z=36, bottom at z=0.
+
+Subtractive channel cavity:
+- Subtract inner rectangular volume X=68, Y=44, Z=28.
+- Offset the inner cut upward by floor thickness z=8.
+- This must leave the top open and preserve floor/walls.
+
+Subtractive holes:
+- Add two vertical through holes on the top side, diameter=6, at x=±29.4, y=0.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+box_hole_0010__L2__anthropic__claude-sonnet-4-20250514__r1,box_hole_0010,box_hole,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/box_hole_0010.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered through hole
+Units:
+Millimeters (mm).
+Geometry:
+- Base block size: X=102, Y=110, Z=44.
+- Add one centered vertical through hole, diameter=16, axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+box_hole_0010__L3__anthropic__claude-sonnet-4-20250514__r1,box_hole_0010,box_hole,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/box_hole_0010.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with one centered vertical through-hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin: (0,0,0) at the center of the bottom outer face of the block.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create a rectangular solid with dimensions X=102, Y=110, Z=44.
+- Block is centered in X and Y, with bottom at z=0 and top at z=Z.
+
+Subtractive features:
+- Create one circular through-hole with diameter=16.
+- Hole center at (0,0) in XY and axis parallel to Z.
+- Hole cuts fully through from top to bottom.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+stepped_shaft_0011__L2__anthropic__claude-sonnet-4-20250514__r1,stepped_shaft_0011,stepped_shaft,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/stepped_shaft_0011.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft
+Units:
+Millimeters (mm).
+Geometry:
+- Segment 1: diameter=16, length=58.
+- Segment 2: diameter=34, length=48, attached coaxially after segment 1.
+- Segment 3: diameter=14, length=44, attached coaxially after segment 2.
+- Overall shaft length=150.
+- Shaft axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+stepped_shaft_0011__L3__anthropic__claude-sonnet-4-20250514__r1,stepped_shaft_0011,stepped_shaft,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/stepped_shaft_0011.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft with shoulders
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at the shaft center (midpoint of total length on Z-axis).
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/additive geometry:
+- Build three coaxial cylindrical segments along Z with diameters 16, 34, 14.
+- Segment lengths are 58, 48, 44 respectively.
+- Total length is 150.
+- Segment 1 spans z=-75 to z=-17.
+- Segment 2 spans z=-17 to z=31.
+- Segment 3 spans z=31 to z=75.
+- All segments are concentric on X=0, Y=0.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+flange_0012__L2__anthropic__claude-sonnet-4-20250514__r1,flange_0012,flange,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/flange_0012.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange with bore and bolt pattern
+Units:
+Millimeters (mm).
+Geometry:
+- Flange outer diameter=128, thickness=16.
+- Center through bore diameter=38.
+- Add 8 equally spaced through bolt holes, each diameter=12.
+- Bolt holes are on bolt circle diameter=84.8115.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+flange_0012__L3__anthropic__claude-sonnet-4-20250514__r1,flange_0012,flange,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/flange_0012.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange disk with central bore and equally spaced bolt holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom circular face; flange axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create a solid cylinder with outer diameter=128 and height=16.
+- Bottom at z=0 and top at z=height.
+
+Subtractive features:
+- Cut one centered through bore, diameter=38, axis=Z.
+- Cut 8 through bolt holes, diameter=12, equally spaced at 360/8 degrees.
+- Bolt hole centers lie on radius=42.4058 from origin (bolt circle diameter=84.8115).
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+ring_spacer_0013__L2__anthropic__claude-sonnet-4-20250514__r1,ring_spacer_0013,ring_spacer,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/ring_spacer_0013.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (hollow cylinder)
+Units:
+Millimeters (mm).
+Geometry:
+- Outer diameter=40.
+- Inner diameter=30 (through bore).
+- Height=14.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+ring_spacer_0013__L3__anthropic__claude-sonnet-4-20250514__r1,ring_spacer_0013,ring_spacer,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/ring_spacer_0013.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (annular cylinder) with through bore
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom annular face, axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/subtractive geometry:
+- Create outer cylinder: diameter=40, height=14.
+- Subtract centered inner cylinder: diameter=30, same full height, axis=Z.
+- Resulting radial wall thickness=5.
+- Bottom at z=0, top at z=height.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+slotted_plate_0014__L2__anthropic__claude-sonnet-4-20250514__r1,slotted_plate_0014,slotted_plate,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/slotted_plate_0014.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular plate with a centered through slot
+Units:
+Millimeters (mm).
+Geometry:
+- Plate dimensions: X=188, Y=54, thickness Z=20.
+- One centered slot with rounded ends: length=72, width=20.
+- Slot goes fully through thickness.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+slotted_plate_0014__L3__anthropic__claude-sonnet-4-20250514__r1,slotted_plate_0014,slotted_plate,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/slotted_plate_0014.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Flat rectangular plate with one centered rounded-end through slot
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom plate face; +Z normal to plate.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create rectangular plate, X=188, Y=54, Z=20.
+- Plate centered on X and Y, bottom at z=0.
+
+Subtractive feature:
+- Cut one centered slot2D profile with overall length=72 and width=20.
+- Slot long axis along X.
+- Extrude/cut through full thickness so it is a through-slot.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+l_bracket_0015__L2__anthropic__claude-sonnet-4-20250514__r1,l_bracket_0015,l_bracket,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/l_bracket_0015.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket with base, vertical web, and holes
+Units:
+Millimeters (mm).
+Geometry:
+- Base plate: length=126, width=72, thickness=8.
+- Vertical web near one base edge: thickness=16, height=58, full base width.
+- Add two top through holes in the base, each diameter=10.
+- Add one side through hole in the web, diameter=6.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+l_bracket_0015__L3__anthropic__claude-sonnet-4-20250514__r1,l_bracket_0015,l_bracket,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/l_bracket_0015.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket: horizontal base plus one vertical web with mounting holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of base plate.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/additive geometry:
+- Base plate size: X=126, Y=72, Z=8; bottom at z=0.
+- Add one vertical web block with thickness X=16, width Y=72, height Z=58.
+- Place web near the -X side at web center x=-55 and rising from z=8.
+
+Subtractive features:
+- Two top through holes in base, diameter=10, positioned symmetrically at x=±35.28, y=0.
+- One side hole in web, diameter=6, normal to X direction, centered on web side face.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+pillow_block_0016__L2__anthropic__claude-sonnet-4-20250514__r1,pillow_block_0016,pillow_block,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/pillow_block_0016.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Pillow-block style mount with central bore and 4 mounting holes
+Units:
+Millimeters (mm).
+Geometry:
+- Block dimensions: X=142, Y=60, Z=34.
+- One centered vertical through bore, diameter=18.
+- Four mounting through holes, each diameter=12, arranged symmetrically on base footprint.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+pillow_block_0016__L3__anthropic__claude-sonnet-4-20250514__r1,pillow_block_0016,pillow_block,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/pillow_block_0016.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Pillow block: rectangular body with central bore and four corner mounting holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of the body.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create rectangular body X=142, Y=60, Z=34, bottom at z=0.
+
+Subtractive features:
+- Cut one centered vertical through bore, diameter=18, axis=Z.
+- Cut four mounting through holes, diameter=12, with XY centers at (±49.7, ±19.2).
+- Mounting holes are through the body along Z.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+pulley_0017__L2__anthropic__claude-sonnet-4-20250514__r1,pulley_0017,pulley,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/pulley_0017.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step pulley with centered through bore
+Units:
+Millimeters (mm).
+Geometry:
+- Coaxial step 1: radius=36, height=10.
+- Coaxial step 2 on top: radius=32, height=16.
+- Coaxial step 3 on top: radius=28, height=12.
+- Center through bore diameter=18.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+pulley_0017__L3__anthropic__claude-sonnet-4-20250514__r1,pulley_0017,pulley,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/pulley_0017.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Stepped pulley (three coaxial cylindrical steps) with through bore
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face; main axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Additive geometry:
+- Step 1: cylinder radius=36, height=10, from z=0 upward.
+- Step 2: centered on same axis, radius=32, height=16, stacked on step 1.
+- Step 3: centered on same axis, radius=28, height=12, stacked on step 2.
+- Total height=38.
+
+Subtractive feature:
+- One centered through bore diameter=18, axis=Z, through full height.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+u_channel_0018__L2__anthropic__claude-sonnet-4-20250514__r1,u_channel_0018,u_channel,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/u_channel_0018.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+U-channel with open top and two holes
+Units:
+Millimeters (mm).
+Geometry:
+- Outer envelope: X=120, Y=68, Z=46.
+- Hollow interior to form a U-channel: wall thickness=8, floor thickness=10, top open.
+- Two through holes on the top side, each diameter=8, mirrored along X.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+u_channel_0018__L3__anthropic__claude-sonnet-4-20250514__r1,u_channel_0018,u_channel,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/u_channel_0018.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Open-top U-channel with two top through-holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom outer face.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create outer rectangular solid X=120, Y=68, Z=46, bottom at z=0.
+
+Subtractive channel cavity:
+- Subtract inner rectangular volume X=104, Y=52, Z=36.
+- Offset the inner cut upward by floor thickness z=10.
+- This must leave the top open and preserve floor/walls.
+
+Subtractive holes:
+- Add two vertical through holes on the top side, diameter=8, at x=±42, y=0.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+box_hole_0019__L2__anthropic__claude-sonnet-4-20250514__r1,box_hole_0019,box_hole,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/box_hole_0019.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered through hole
+Units:
+Millimeters (mm).
+Geometry:
+- Base block size: X=106, Y=66, Z=30.
+- Add one centered vertical through hole, diameter=16, axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+box_hole_0019__L3__anthropic__claude-sonnet-4-20250514__r1,box_hole_0019,box_hole,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/box_hole_0019.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with one centered vertical through-hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin: (0,0,0) at the center of the bottom outer face of the block.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create a rectangular solid with dimensions X=106, Y=66, Z=30.
+- Block is centered in X and Y, with bottom at z=0 and top at z=Z.
+
+Subtractive features:
+- Create one circular through-hole with diameter=16.
+- Hole center at (0,0) in XY and axis parallel to Z.
+- Hole cuts fully through from top to bottom.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+stepped_shaft_0020__L2__anthropic__claude-sonnet-4-20250514__r1,stepped_shaft_0020,stepped_shaft,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/stepped_shaft_0020.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft
+Units:
+Millimeters (mm).
+Geometry:
+- Segment 1: diameter=10, length=58.
+- Segment 2: diameter=14, length=46, attached coaxially after segment 1.
+- Segment 3: diameter=8, length=52, attached coaxially after segment 2.
+- Overall shaft length=156.
+- Shaft axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+stepped_shaft_0020__L3__anthropic__claude-sonnet-4-20250514__r1,stepped_shaft_0020,stepped_shaft,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/stepped_shaft_0020.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft with shoulders
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at the shaft center (midpoint of total length on Z-axis).
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/additive geometry:
+- Build three coaxial cylindrical segments along Z with diameters 10, 14, 8.
+- Segment lengths are 58, 46, 52 respectively.
+- Total length is 156.
+- Segment 1 spans z=-78 to z=-20.
+- Segment 2 spans z=-20 to z=26.
+- Segment 3 spans z=26 to z=78.
+- All segments are concentric on X=0, Y=0.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+flange_0021__L2__anthropic__claude-sonnet-4-20250514__r1,flange_0021,flange,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/flange_0021.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange with bore and bolt pattern
+Units:
+Millimeters (mm).
+Geometry:
+- Flange outer diameter=122, thickness=20.
+- Center through bore diameter=24.
+- Add 6 equally spaced through bolt holes, each diameter=12.
+- Bolt holes are on bolt circle diameter=79.7064.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+flange_0021__L3__anthropic__claude-sonnet-4-20250514__r1,flange_0021,flange,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/flange_0021.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange disk with central bore and equally spaced bolt holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom circular face; flange axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create a solid cylinder with outer diameter=122 and height=20.
+- Bottom at z=0 and top at z=height.
+
+Subtractive features:
+- Cut one centered through bore, diameter=24, axis=Z.
+- Cut 6 through bolt holes, diameter=12, equally spaced at 360/6 degrees.
+- Bolt hole centers lie on radius=39.8532 from origin (bolt circle diameter=79.7064).
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+ring_spacer_0022__L2__anthropic__claude-sonnet-4-20250514__r1,ring_spacer_0022,ring_spacer,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/ring_spacer_0022.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (hollow cylinder)
+Units:
+Millimeters (mm).
+Geometry:
+- Outer diameter=100.
+- Inner diameter=68 (through bore).
+- Height=24.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+ring_spacer_0022__L3__anthropic__claude-sonnet-4-20250514__r1,ring_spacer_0022,ring_spacer,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/ring_spacer_0022.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (annular cylinder) with through bore
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom annular face, axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/subtractive geometry:
+- Create outer cylinder: diameter=100, height=24.
+- Subtract centered inner cylinder: diameter=68, same full height, axis=Z.
+- Resulting radial wall thickness=16.
+- Bottom at z=0, top at z=height.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+slotted_plate_0023__L2__anthropic__claude-sonnet-4-20250514__r1,slotted_plate_0023,slotted_plate,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/slotted_plate_0023.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular plate with a centered through slot
+Units:
+Millimeters (mm).
+Geometry:
+- Plate dimensions: X=174, Y=48, thickness Z=20.
+- One centered slot with rounded ends: length=78, width=14.
+- Slot goes fully through thickness.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+slotted_plate_0023__L3__anthropic__claude-sonnet-4-20250514__r1,slotted_plate_0023,slotted_plate,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/slotted_plate_0023.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Flat rectangular plate with one centered rounded-end through slot
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom plate face; +Z normal to plate.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create rectangular plate, X=174, Y=48, Z=20.
+- Plate centered on X and Y, bottom at z=0.
+
+Subtractive feature:
+- Cut one centered slot2D profile with overall length=78 and width=14.
+- Slot long axis along X.
+- Extrude/cut through full thickness so it is a through-slot.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+l_bracket_0024__L2__anthropic__claude-sonnet-4-20250514__r1,l_bracket_0024,l_bracket,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/l_bracket_0024.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket with base, vertical web, and holes
+Units:
+Millimeters (mm).
+Geometry:
+- Base plate: length=118, width=36, thickness=14.
+- Vertical web near one base edge: thickness=14, height=46, full base width.
+- Add two top through holes in the base, each diameter=10.
+- Add one side through hole in the web, diameter=6.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+l_bracket_0024__L3__anthropic__claude-sonnet-4-20250514__r1,l_bracket_0024,l_bracket,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/l_bracket_0024.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket: horizontal base plus one vertical web with mounting holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of base plate.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/additive geometry:
+- Base plate size: X=118, Y=36, Z=14; bottom at z=0.
+- Add one vertical web block with thickness X=14, width Y=36, height Z=46.
+- Place web near the -X side at web center x=-52 and rising from z=14.
+
+Subtractive features:
+- Two top through holes in base, diameter=10, positioned symmetrically at x=±33.04, y=0.
+- One side hole in web, diameter=6, normal to X direction, centered on web side face.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+pillow_block_0025__L2__anthropic__claude-sonnet-4-20250514__r1,pillow_block_0025,pillow_block,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/pillow_block_0025.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Pillow-block style mount with central bore and 4 mounting holes
+Units:
+Millimeters (mm).
+Geometry:
+- Block dimensions: X=134, Y=92, Z=56.
+- One centered vertical through bore, diameter=14.
+- Four mounting through holes, each diameter=12, arranged symmetrically on base footprint.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+pillow_block_0025__L3__anthropic__claude-sonnet-4-20250514__r1,pillow_block_0025,pillow_block,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/pillow_block_0025.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Pillow block: rectangular body with central bore and four corner mounting holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of the body.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create rectangular body X=134, Y=92, Z=56, bottom at z=0.
+
+Subtractive features:
+- Cut one centered vertical through bore, diameter=14, axis=Z.
+- Cut four mounting through holes, diameter=12, with XY centers at (±46.9, ±29.44).
+- Mounting holes are through the body along Z.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+pulley_0026__L2__anthropic__claude-sonnet-4-20250514__r1,pulley_0026,pulley,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/pulley_0026.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step pulley with centered through bore
+Units:
+Millimeters (mm).
+Geometry:
+- Coaxial step 1: radius=30, height=8.
+- Coaxial step 2 on top: radius=24, height=12.
+- Coaxial step 3 on top: radius=16, height=12.
+- Center through bore diameter=10.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+pulley_0026__L3__anthropic__claude-sonnet-4-20250514__r1,pulley_0026,pulley,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/pulley_0026.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Stepped pulley (three coaxial cylindrical steps) with through bore
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face; main axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Additive geometry:
+- Step 1: cylinder radius=30, height=8, from z=0 upward.
+- Step 2: centered on same axis, radius=24, height=12, stacked on step 1.
+- Step 3: centered on same axis, radius=16, height=12, stacked on step 2.
+- Total height=32.
+
+Subtractive feature:
+- One centered through bore diameter=10, axis=Z, through full height.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+u_channel_0027__L2__anthropic__claude-sonnet-4-20250514__r1,u_channel_0027,u_channel,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/u_channel_0027.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+U-channel with open top and two holes
+Units:
+Millimeters (mm).
+Geometry:
+- Outer envelope: X=138, Y=36, Z=26.
+- Hollow interior to form a U-channel: wall thickness=4, floor thickness=8, top open.
+- Two through holes on the top side, each diameter=10, mirrored along X.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+u_channel_0027__L3__anthropic__claude-sonnet-4-20250514__r1,u_channel_0027,u_channel,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/u_channel_0027.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Open-top U-channel with two top through-holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom outer face.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create outer rectangular solid X=138, Y=36, Z=26, bottom at z=0.
+
+Subtractive channel cavity:
+- Subtract inner rectangular volume X=130, Y=28, Z=18.
+- Offset the inner cut upward by floor thickness z=8.
+- This must leave the top open and preserve floor/walls.
+
+Subtractive holes:
+- Add two vertical through holes on the top side, diameter=10, at x=±48.3, y=0.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+box_hole_0028__L2__anthropic__claude-sonnet-4-20250514__r1,box_hole_0028,box_hole,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/box_hole_0028.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered through hole
+Units:
+Millimeters (mm).
+Geometry:
+- Base block size: X=120, Y=50, Z=52.
+- Add one centered vertical through hole, diameter=20, axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+box_hole_0028__L3__anthropic__claude-sonnet-4-20250514__r1,box_hole_0028,box_hole,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/box_hole_0028.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with one centered vertical through-hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin: (0,0,0) at the center of the bottom outer face of the block.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create a rectangular solid with dimensions X=120, Y=50, Z=52.
+- Block is centered in X and Y, with bottom at z=0 and top at z=Z.
+
+Subtractive features:
+- Create one circular through-hole with diameter=20.
+- Hole center at (0,0) in XY and axis parallel to Z.
+- Hole cuts fully through from top to bottom.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+stepped_shaft_0029__L2__anthropic__claude-sonnet-4-20250514__r1,stepped_shaft_0029,stepped_shaft,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/stepped_shaft_0029.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft
+Units:
+Millimeters (mm).
+Geometry:
+- Segment 1: diameter=14, length=60.
+- Segment 2: diameter=24, length=18, attached coaxially after segment 1.
+- Segment 3: diameter=8, length=52, attached coaxially after segment 2.
+- Overall shaft length=130.
+- Shaft axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+stepped_shaft_0029__L3__anthropic__claude-sonnet-4-20250514__r1,stepped_shaft_0029,stepped_shaft,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/stepped_shaft_0029.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft with shoulders
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at the shaft center (midpoint of total length on Z-axis).
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/additive geometry:
+- Build three coaxial cylindrical segments along Z with diameters 14, 24, 8.
+- Segment lengths are 60, 18, 52 respectively.
+- Total length is 130.
+- Segment 1 spans z=-65 to z=-5.
+- Segment 2 spans z=-5 to z=13.
+- Segment 3 spans z=13 to z=65.
+- All segments are concentric on X=0, Y=0.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+flange_0030__L2__anthropic__claude-sonnet-4-20250514__r1,flange_0030,flange,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/flange_0030.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange with bore and bolt pattern
+Units:
+Millimeters (mm).
+Geometry:
+- Flange outer diameter=94, thickness=20.
+- Center through bore diameter=16.
+- Add 4 equally spaced through bolt holes, each diameter=10.
+- Bolt holes are on bolt circle diameter=65.1341.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+flange_0030__L3__anthropic__claude-sonnet-4-20250514__r1,flange_0030,flange,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/flange_0030.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange disk with central bore and equally spaced bolt holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom circular face; flange axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create a solid cylinder with outer diameter=94 and height=20.
+- Bottom at z=0 and top at z=height.
+
+Subtractive features:
+- Cut one centered through bore, diameter=16, axis=Z.
+- Cut 4 through bolt holes, diameter=10, equally spaced at 360/4 degrees.
+- Bolt hole centers lie on radius=32.5671 from origin (bolt circle diameter=65.1341).
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+ring_spacer_0031__L2__anthropic__claude-sonnet-4-20250514__r1,ring_spacer_0031,ring_spacer,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/ring_spacer_0031.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (hollow cylinder)
+Units:
+Millimeters (mm).
+Geometry:
+- Outer diameter=110.
+- Inner diameter=74 (through bore).
+- Height=28.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+ring_spacer_0031__L3__anthropic__claude-sonnet-4-20250514__r1,ring_spacer_0031,ring_spacer,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/ring_spacer_0031.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (annular cylinder) with through bore
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom annular face, axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/subtractive geometry:
+- Create outer cylinder: diameter=110, height=28.
+- Subtract centered inner cylinder: diameter=74, same full height, axis=Z.
+- Resulting radial wall thickness=18.
+- Bottom at z=0, top at z=height.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+slotted_plate_0032__L2__anthropic__claude-sonnet-4-20250514__r1,slotted_plate_0032,slotted_plate,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/slotted_plate_0032.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular plate with a centered through slot
+Units:
+Millimeters (mm).
+Geometry:
+- Plate dimensions: X=182, Y=54, thickness Z=14.
+- One centered slot with rounded ends: length=92, width=16.
+- Slot goes fully through thickness.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+slotted_plate_0032__L3__anthropic__claude-sonnet-4-20250514__r1,slotted_plate_0032,slotted_plate,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/slotted_plate_0032.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Flat rectangular plate with one centered rounded-end through slot
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom plate face; +Z normal to plate.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create rectangular plate, X=182, Y=54, Z=14.
+- Plate centered on X and Y, bottom at z=0.
+
+Subtractive feature:
+- Cut one centered slot2D profile with overall length=92 and width=16.
+- Slot long axis along X.
+- Extrude/cut through full thickness so it is a through-slot.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+l_bracket_0033__L2__anthropic__claude-sonnet-4-20250514__r1,l_bracket_0033,l_bracket,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/l_bracket_0033.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket with base, vertical web, and holes
+Units:
+Millimeters (mm).
+Geometry:
+- Base plate: length=136, width=38, thickness=16.
+- Vertical web near one base edge: thickness=14, height=48, full base width.
+- Add two top through holes in the base, each diameter=6.
+- Add one side through hole in the web, diameter=8.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+l_bracket_0033__L3__anthropic__claude-sonnet-4-20250514__r1,l_bracket_0033,l_bracket,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/l_bracket_0033.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket: horizontal base plus one vertical web with mounting holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of base plate.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/additive geometry:
+- Base plate size: X=136, Y=38, Z=16; bottom at z=0.
+- Add one vertical web block with thickness X=14, width Y=38, height Z=48.
+- Place web near the -X side at web center x=-61 and rising from z=16.
+
+Subtractive features:
+- Two top through holes in base, diameter=6, positioned symmetrically at x=±38.08, y=0.
+- One side hole in web, diameter=8, normal to X direction, centered on web side face.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+pillow_block_0034__L2__anthropic__claude-sonnet-4-20250514__r1,pillow_block_0034,pillow_block,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/pillow_block_0034.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Pillow-block style mount with central bore and 4 mounting holes
+Units:
+Millimeters (mm).
+Geometry:
+- Block dimensions: X=100, Y=54, Z=46.
+- One centered vertical through bore, diameter=20.
+- Four mounting through holes, each diameter=10, arranged symmetrically on base footprint.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+pillow_block_0034__L3__anthropic__claude-sonnet-4-20250514__r1,pillow_block_0034,pillow_block,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/pillow_block_0034.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Pillow block: rectangular body with central bore and four corner mounting holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of the body.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create rectangular body X=100, Y=54, Z=46, bottom at z=0.
+
+Subtractive features:
+- Cut one centered vertical through bore, diameter=20, axis=Z.
+- Cut four mounting through holes, diameter=10, with XY centers at (±35, ±17.28).
+- Mounting holes are through the body along Z.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+pulley_0035__L2__anthropic__claude-sonnet-4-20250514__r1,pulley_0035,pulley,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/pulley_0035.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step pulley with centered through bore
+Units:
+Millimeters (mm).
+Geometry:
+- Coaxial step 1: radius=34, height=10.
+- Coaxial step 2 on top: radius=20, height=14.
+- Coaxial step 3 on top: radius=18, height=6.
+- Center through bore diameter=8.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+pulley_0035__L3__anthropic__claude-sonnet-4-20250514__r1,pulley_0035,pulley,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/pulley_0035.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Stepped pulley (three coaxial cylindrical steps) with through bore
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face; main axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Additive geometry:
+- Step 1: cylinder radius=34, height=10, from z=0 upward.
+- Step 2: centered on same axis, radius=20, height=14, stacked on step 1.
+- Step 3: centered on same axis, radius=18, height=6, stacked on step 2.
+- Total height=30.
+
+Subtractive feature:
+- One centered through bore diameter=8, axis=Z, through full height.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+u_channel_0036__L2__anthropic__claude-sonnet-4-20250514__r1,u_channel_0036,u_channel,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/u_channel_0036.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+U-channel with open top and two holes
+Units:
+Millimeters (mm).
+Geometry:
+- Outer envelope: X=130, Y=40, Z=26.
+- Hollow interior to form a U-channel: wall thickness=10, floor thickness=6, top open.
+- Two through holes on the top side, each diameter=10, mirrored along X.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+u_channel_0036__L3__anthropic__claude-sonnet-4-20250514__r1,u_channel_0036,u_channel,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/u_channel_0036.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Open-top U-channel with two top through-holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom outer face.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create outer rectangular solid X=130, Y=40, Z=26, bottom at z=0.
+
+Subtractive channel cavity:
+- Subtract inner rectangular volume X=110, Y=20, Z=20.
+- Offset the inner cut upward by floor thickness z=6.
+- This must leave the top open and preserve floor/walls.
+
+Subtractive holes:
+- Add two vertical through holes on the top side, diameter=10, at x=±45.5, y=0.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+box_hole_0037__L2__anthropic__claude-sonnet-4-20250514__r1,box_hole_0037,box_hole,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/box_hole_0037.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered through hole
+Units:
+Millimeters (mm).
+Geometry:
+- Base block size: X=96, Y=44, Z=14.
+- Add one centered vertical through hole, diameter=16, axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+box_hole_0037__L3__anthropic__claude-sonnet-4-20250514__r1,box_hole_0037,box_hole,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/box_hole_0037.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with one centered vertical through-hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin: (0,0,0) at the center of the bottom outer face of the block.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create a rectangular solid with dimensions X=96, Y=44, Z=14.
+- Block is centered in X and Y, with bottom at z=0 and top at z=Z.
+
+Subtractive features:
+- Create one circular through-hole with diameter=16.
+- Hole center at (0,0) in XY and axis parallel to Z.
+- Hole cuts fully through from top to bottom.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+stepped_shaft_0038__L2__anthropic__claude-sonnet-4-20250514__r1,stepped_shaft_0038,stepped_shaft,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/stepped_shaft_0038.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft
+Units:
+Millimeters (mm).
+Geometry:
+- Segment 1: diameter=18, length=48.
+- Segment 2: diameter=30, length=36, attached coaxially after segment 1.
+- Segment 3: diameter=12, length=26, attached coaxially after segment 2.
+- Overall shaft length=110.
+- Shaft axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+stepped_shaft_0038__L3__anthropic__claude-sonnet-4-20250514__r1,stepped_shaft_0038,stepped_shaft,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/stepped_shaft_0038.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft with shoulders
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at the shaft center (midpoint of total length on Z-axis).
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/additive geometry:
+- Build three coaxial cylindrical segments along Z with diameters 18, 30, 12.
+- Segment lengths are 48, 36, 26 respectively.
+- Total length is 110.
+- Segment 1 spans z=-55 to z=-7.
+- Segment 2 spans z=-7 to z=29.
+- Segment 3 spans z=29 to z=55.
+- All segments are concentric on X=0, Y=0.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+flange_0039__L2__anthropic__claude-sonnet-4-20250514__r1,flange_0039,flange,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/flange_0039.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange with bore and bolt pattern
+Units:
+Millimeters (mm).
+Geometry:
+- Flange outer diameter=124, thickness=22.
+- Center through bore diameter=48.
+- Add 8 equally spaced through bolt holes, each diameter=6.
+- Bolt holes are on bolt circle diameter=73.2565.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+flange_0039__L3__anthropic__claude-sonnet-4-20250514__r1,flange_0039,flange,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/flange_0039.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange disk with central bore and equally spaced bolt holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom circular face; flange axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create a solid cylinder with outer diameter=124 and height=22.
+- Bottom at z=0 and top at z=height.
+
+Subtractive features:
+- Cut one centered through bore, diameter=48, axis=Z.
+- Cut 8 through bolt holes, diameter=6, equally spaced at 360/8 degrees.
+- Bolt hole centers lie on radius=36.6282 from origin (bolt circle diameter=73.2565).
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+ring_spacer_0040__L2__anthropic__claude-sonnet-4-20250514__r1,ring_spacer_0040,ring_spacer,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/ring_spacer_0040.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (hollow cylinder)
+Units:
+Millimeters (mm).
+Geometry:
+- Outer diameter=102.
+- Inner diameter=38 (through bore).
+- Height=20.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+ring_spacer_0040__L3__anthropic__claude-sonnet-4-20250514__r1,ring_spacer_0040,ring_spacer,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/ring_spacer_0040.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (annular cylinder) with through bore
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom annular face, axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/subtractive geometry:
+- Create outer cylinder: diameter=102, height=20.
+- Subtract centered inner cylinder: diameter=38, same full height, axis=Z.
+- Resulting radial wall thickness=32.
+- Bottom at z=0, top at z=height.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+slotted_plate_0041__L2__anthropic__claude-sonnet-4-20250514__r1,slotted_plate_0041,slotted_plate,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/slotted_plate_0041.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular plate with a centered through slot
+Units:
+Millimeters (mm).
+Geometry:
+- Plate dimensions: X=170, Y=66, thickness Z=14.
+- One centered slot with rounded ends: length=98, width=16.
+- Slot goes fully through thickness.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+slotted_plate_0041__L3__anthropic__claude-sonnet-4-20250514__r1,slotted_plate_0041,slotted_plate,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/slotted_plate_0041.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Flat rectangular plate with one centered rounded-end through slot
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom plate face; +Z normal to plate.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create rectangular plate, X=170, Y=66, Z=14.
+- Plate centered on X and Y, bottom at z=0.
+
+Subtractive feature:
+- Cut one centered slot2D profile with overall length=98 and width=16.
+- Slot long axis along X.
+- Extrude/cut through full thickness so it is a through-slot.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+l_bracket_0042__L2__anthropic__claude-sonnet-4-20250514__r1,l_bracket_0042,l_bracket,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/l_bracket_0042.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket with base, vertical web, and holes
+Units:
+Millimeters (mm).
+Geometry:
+- Base plate: length=68, width=66, thickness=12.
+- Vertical web near one base edge: thickness=6, height=42, full base width.
+- Add two top through holes in the base, each diameter=12.
+- Add one side through hole in the web, diameter=6.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+l_bracket_0042__L3__anthropic__claude-sonnet-4-20250514__r1,l_bracket_0042,l_bracket,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/l_bracket_0042.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket: horizontal base plus one vertical web with mounting holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of base plate.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/additive geometry:
+- Base plate size: X=68, Y=66, Z=12; bottom at z=0.
+- Add one vertical web block with thickness X=6, width Y=66, height Z=42.
+- Place web near the -X side at web center x=-31 and rising from z=12.
+
+Subtractive features:
+- Two top through holes in base, diameter=12, positioned symmetrically at x=±19.04, y=0.
+- One side hole in web, diameter=6, normal to X direction, centered on web side face.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+pillow_block_0043__L2__anthropic__claude-sonnet-4-20250514__r1,pillow_block_0043,pillow_block,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/pillow_block_0043.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Pillow-block style mount with central bore and 4 mounting holes
+Units:
+Millimeters (mm).
+Geometry:
+- Block dimensions: X=86, Y=86, Z=60.
+- One centered vertical through bore, diameter=14.
+- Four mounting through holes, each diameter=10, arranged symmetrically on base footprint.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+pillow_block_0043__L3__anthropic__claude-sonnet-4-20250514__r1,pillow_block_0043,pillow_block,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/pillow_block_0043.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Pillow block: rectangular body with central bore and four corner mounting holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of the body.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create rectangular body X=86, Y=86, Z=60, bottom at z=0.
+
+Subtractive features:
+- Cut one centered vertical through bore, diameter=14, axis=Z.
+- Cut four mounting through holes, diameter=10, with XY centers at (±30.1, ±27.52).
+- Mounting holes are through the body along Z.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+pulley_0044__L2__anthropic__claude-sonnet-4-20250514__r1,pulley_0044,pulley,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/pulley_0044.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step pulley with centered through bore
+Units:
+Millimeters (mm).
+Geometry:
+- Coaxial step 1: radius=50, height=6.
+- Coaxial step 2 on top: radius=28, height=10.
+- Coaxial step 3 on top: radius=26, height=14.
+- Center through bore diameter=12.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+pulley_0044__L3__anthropic__claude-sonnet-4-20250514__r1,pulley_0044,pulley,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/pulley_0044.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Stepped pulley (three coaxial cylindrical steps) with through bore
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face; main axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Additive geometry:
+- Step 1: cylinder radius=50, height=6, from z=0 upward.
+- Step 2: centered on same axis, radius=28, height=10, stacked on step 1.
+- Step 3: centered on same axis, radius=26, height=14, stacked on step 2.
+- Total height=30.
+
+Subtractive feature:
+- One centered through bore diameter=12, axis=Z, through full height.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+u_channel_0045__L2__anthropic__claude-sonnet-4-20250514__r1,u_channel_0045,u_channel,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/u_channel_0045.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+U-channel with open top and two holes
+Units:
+Millimeters (mm).
+Geometry:
+- Outer envelope: X=146, Y=44, Z=30.
+- Hollow interior to form a U-channel: wall thickness=10, floor thickness=10, top open.
+- Two through holes on the top side, each diameter=6, mirrored along X.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+u_channel_0045__L3__anthropic__claude-sonnet-4-20250514__r1,u_channel_0045,u_channel,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/u_channel_0045.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Open-top U-channel with two top through-holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom outer face.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create outer rectangular solid X=146, Y=44, Z=30, bottom at z=0.
+
+Subtractive channel cavity:
+- Subtract inner rectangular volume X=126, Y=24, Z=20.
+- Offset the inner cut upward by floor thickness z=10.
+- This must leave the top open and preserve floor/walls.
+
+Subtractive holes:
+- Add two vertical through holes on the top side, diameter=6, at x=±51.1, y=0.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+box_hole_0046__L2__anthropic__claude-sonnet-4-20250514__r1,box_hole_0046,box_hole,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/box_hole_0046.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered through hole
+Units:
+Millimeters (mm).
+Geometry:
+- Base block size: X=100, Y=74, Z=40.
+- Add one centered vertical through hole, diameter=26, axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+box_hole_0046__L3__anthropic__claude-sonnet-4-20250514__r1,box_hole_0046,box_hole,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/box_hole_0046.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with one centered vertical through-hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin: (0,0,0) at the center of the bottom outer face of the block.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create a rectangular solid with dimensions X=100, Y=74, Z=40.
+- Block is centered in X and Y, with bottom at z=0 and top at z=Z.
+
+Subtractive features:
+- Create one circular through-hole with diameter=26.
+- Hole center at (0,0) in XY and axis parallel to Z.
+- Hole cuts fully through from top to bottom.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+stepped_shaft_0047__L2__anthropic__claude-sonnet-4-20250514__r1,stepped_shaft_0047,stepped_shaft,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/stepped_shaft_0047.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft
+Units:
+Millimeters (mm).
+Geometry:
+- Segment 1: diameter=16, length=40.
+- Segment 2: diameter=20, length=28, attached coaxially after segment 1.
+- Segment 3: diameter=12, length=40, attached coaxially after segment 2.
+- Overall shaft length=108.
+- Shaft axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+stepped_shaft_0047__L3__anthropic__claude-sonnet-4-20250514__r1,stepped_shaft_0047,stepped_shaft,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/stepped_shaft_0047.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft with shoulders
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at the shaft center (midpoint of total length on Z-axis).
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/additive geometry:
+- Build three coaxial cylindrical segments along Z with diameters 16, 20, 12.
+- Segment lengths are 40, 28, 40 respectively.
+- Total length is 108.
+- Segment 1 spans z=-54 to z=-14.
+- Segment 2 spans z=-14 to z=14.
+- Segment 3 spans z=14 to z=54.
+- All segments are concentric on X=0, Y=0.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+flange_0048__L2__anthropic__claude-sonnet-4-20250514__r1,flange_0048,flange,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/flange_0048.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange with bore and bolt pattern
+Units:
+Millimeters (mm).
+Geometry:
+- Flange outer diameter=82, thickness=16.
+- Center through bore diameter=26.
+- Add 6 equally spaced through bolt holes, each diameter=10.
+- Bolt holes are on bolt circle diameter=50.6378.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+flange_0048__L3__anthropic__claude-sonnet-4-20250514__r1,flange_0048,flange,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/flange_0048.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange disk with central bore and equally spaced bolt holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom circular face; flange axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create a solid cylinder with outer diameter=82 and height=16.
+- Bottom at z=0 and top at z=height.
+
+Subtractive features:
+- Cut one centered through bore, diameter=26, axis=Z.
+- Cut 6 through bolt holes, diameter=10, equally spaced at 360/6 degrees.
+- Bolt hole centers lie on radius=25.3189 from origin (bolt circle diameter=50.6378).
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+ring_spacer_0049__L2__anthropic__claude-sonnet-4-20250514__r1,ring_spacer_0049,ring_spacer,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/ring_spacer_0049.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (hollow cylinder)
+Units:
+Millimeters (mm).
+Geometry:
+- Outer diameter=58.
+- Inner diameter=32 (through bore).
+- Height=22.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+ring_spacer_0049__L3__anthropic__claude-sonnet-4-20250514__r1,ring_spacer_0049,ring_spacer,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/ring_spacer_0049.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (annular cylinder) with through bore
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom annular face, axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/subtractive geometry:
+- Create outer cylinder: diameter=58, height=22.
+- Subtract centered inner cylinder: diameter=32, same full height, axis=Z.
+- Resulting radial wall thickness=13.
+- Bottom at z=0, top at z=height.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+slotted_plate_0050__L2__anthropic__claude-sonnet-4-20250514__r1,slotted_plate_0050,slotted_plate,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/slotted_plate_0050.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular plate with a centered through slot
+Units:
+Millimeters (mm).
+Geometry:
+- Plate dimensions: X=152, Y=74, thickness Z=8.
+- One centered slot with rounded ends: length=86, width=24.
+- Slot goes fully through thickness.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+slotted_plate_0050__L3__anthropic__claude-sonnet-4-20250514__r1,slotted_plate_0050,slotted_plate,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/slotted_plate_0050.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Flat rectangular plate with one centered rounded-end through slot
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom plate face; +Z normal to plate.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create rectangular plate, X=152, Y=74, Z=8.
+- Plate centered on X and Y, bottom at z=0.
+
+Subtractive feature:
+- Cut one centered slot2D profile with overall length=86 and width=24.
+- Slot long axis along X.
+- Extrude/cut through full thickness so it is a through-slot.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+l_bracket_0051__L2__anthropic__claude-sonnet-4-20250514__r1,l_bracket_0051,l_bracket,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/l_bracket_0051.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket with base, vertical web, and holes
+Units:
+Millimeters (mm).
+Geometry:
+- Base plate: length=96, width=36, thickness=10.
+- Vertical web near one base edge: thickness=10, height=30, full base width.
+- Add two top through holes in the base, each diameter=6.
+- Add one side through hole in the web, diameter=8.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+l_bracket_0051__L3__anthropic__claude-sonnet-4-20250514__r1,l_bracket_0051,l_bracket,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/l_bracket_0051.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket: horizontal base plus one vertical web with mounting holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of base plate.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/additive geometry:
+- Base plate size: X=96, Y=36, Z=10; bottom at z=0.
+- Add one vertical web block with thickness X=10, width Y=36, height Z=30.
+- Place web near the -X side at web center x=-43 and rising from z=10.
+
+Subtractive features:
+- Two top through holes in base, diameter=6, positioned symmetrically at x=±26.88, y=0.
+- One side hole in web, diameter=8, normal to X direction, centered on web side face.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+pillow_block_0052__L2__anthropic__claude-sonnet-4-20250514__r1,pillow_block_0052,pillow_block,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/pillow_block_0052.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Pillow-block style mount with central bore and 4 mounting holes
+Units:
+Millimeters (mm).
+Geometry:
+- Block dimensions: X=122, Y=72, Z=60.
+- One centered vertical through bore, diameter=34.
+- Four mounting through holes, each diameter=8, arranged symmetrically on base footprint.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+pillow_block_0052__L3__anthropic__claude-sonnet-4-20250514__r1,pillow_block_0052,pillow_block,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/pillow_block_0052.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Pillow block: rectangular body with central bore and four corner mounting holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of the body.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create rectangular body X=122, Y=72, Z=60, bottom at z=0.
+
+Subtractive features:
+- Cut one centered vertical through bore, diameter=34, axis=Z.
+- Cut four mounting through holes, diameter=8, with XY centers at (±42.7, ±23.04).
+- Mounting holes are through the body along Z.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+pulley_0053__L2__anthropic__claude-sonnet-4-20250514__r1,pulley_0053,pulley,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/pulley_0053.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step pulley with centered through bore
+Units:
+Millimeters (mm).
+Geometry:
+- Coaxial step 1: radius=22, height=8.
+- Coaxial step 2 on top: radius=18, height=14.
+- Coaxial step 3 on top: radius=16, height=14.
+- Center through bore diameter=12.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+pulley_0053__L3__anthropic__claude-sonnet-4-20250514__r1,pulley_0053,pulley,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/pulley_0053.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Stepped pulley (three coaxial cylindrical steps) with through bore
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face; main axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Additive geometry:
+- Step 1: cylinder radius=22, height=8, from z=0 upward.
+- Step 2: centered on same axis, radius=18, height=14, stacked on step 1.
+- Step 3: centered on same axis, radius=16, height=14, stacked on step 2.
+- Total height=36.
+
+Subtractive feature:
+- One centered through bore diameter=12, axis=Z, through full height.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+u_channel_0054__L2__anthropic__claude-sonnet-4-20250514__r1,u_channel_0054,u_channel,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/u_channel_0054.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+U-channel with open top and two holes
+Units:
+Millimeters (mm).
+Geometry:
+- Outer envelope: X=148, Y=50, Z=28.
+- Hollow interior to form a U-channel: wall thickness=8, floor thickness=10, top open.
+- Two through holes on the top side, each diameter=8, mirrored along X.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+u_channel_0054__L3__anthropic__claude-sonnet-4-20250514__r1,u_channel_0054,u_channel,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/u_channel_0054.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Open-top U-channel with two top through-holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom outer face.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create outer rectangular solid X=148, Y=50, Z=28, bottom at z=0.
+
+Subtractive channel cavity:
+- Subtract inner rectangular volume X=132, Y=34, Z=18.
+- Offset the inner cut upward by floor thickness z=10.
+- This must leave the top open and preserve floor/walls.
+
+Subtractive holes:
+- Add two vertical through holes on the top side, diameter=8, at x=±51.8, y=0.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+box_hole_0055__L2__anthropic__claude-sonnet-4-20250514__r1,box_hole_0055,box_hole,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/box_hole_0055.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered through hole
+Units:
+Millimeters (mm).
+Geometry:
+- Base block size: X=122, Y=68, Z=48.
+- Add one centered vertical through hole, diameter=18, axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+box_hole_0055__L3__anthropic__claude-sonnet-4-20250514__r1,box_hole_0055,box_hole,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/box_hole_0055.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with one centered vertical through-hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin: (0,0,0) at the center of the bottom outer face of the block.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create a rectangular solid with dimensions X=122, Y=68, Z=48.
+- Block is centered in X and Y, with bottom at z=0 and top at z=Z.
+
+Subtractive features:
+- Create one circular through-hole with diameter=18.
+- Hole center at (0,0) in XY and axis parallel to Z.
+- Hole cuts fully through from top to bottom.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+stepped_shaft_0056__L2__anthropic__claude-sonnet-4-20250514__r1,stepped_shaft_0056,stepped_shaft,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/stepped_shaft_0056.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft
+Units:
+Millimeters (mm).
+Geometry:
+- Segment 1: diameter=20, length=56.
+- Segment 2: diameter=26, length=24, attached coaxially after segment 1.
+- Segment 3: diameter=18, length=24, attached coaxially after segment 2.
+- Overall shaft length=104.
+- Shaft axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+stepped_shaft_0056__L3__anthropic__claude-sonnet-4-20250514__r1,stepped_shaft_0056,stepped_shaft,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/stepped_shaft_0056.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft with shoulders
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at the shaft center (midpoint of total length on Z-axis).
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/additive geometry:
+- Build three coaxial cylindrical segments along Z with diameters 20, 26, 18.
+- Segment lengths are 56, 24, 24 respectively.
+- Total length is 104.
+- Segment 1 spans z=-52 to z=4.
+- Segment 2 spans z=4 to z=28.
+- Segment 3 spans z=28 to z=52.
+- All segments are concentric on X=0, Y=0.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+flange_0057__L2__anthropic__claude-sonnet-4-20250514__r1,flange_0057,flange,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/flange_0057.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange with bore and bolt pattern
+Units:
+Millimeters (mm).
+Geometry:
+- Flange outer diameter=94, thickness=12.
+- Center through bore diameter=42.
+- Add 6 equally spaced through bolt holes, each diameter=6.
+- Bolt holes are on bolt circle diameter=54.6335.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+flange_0057__L3__anthropic__claude-sonnet-4-20250514__r1,flange_0057,flange,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/flange_0057.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange disk with central bore and equally spaced bolt holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom circular face; flange axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create a solid cylinder with outer diameter=94 and height=12.
+- Bottom at z=0 and top at z=height.
+
+Subtractive features:
+- Cut one centered through bore, diameter=42, axis=Z.
+- Cut 6 through bolt holes, diameter=6, equally spaced at 360/6 degrees.
+- Bolt hole centers lie on radius=27.3167 from origin (bolt circle diameter=54.6335).
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+ring_spacer_0058__L2__anthropic__claude-sonnet-4-20250514__r1,ring_spacer_0058,ring_spacer,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/ring_spacer_0058.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (hollow cylinder)
+Units:
+Millimeters (mm).
+Geometry:
+- Outer diameter=44.
+- Inner diameter=24 (through bore).
+- Height=30.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+ring_spacer_0058__L3__anthropic__claude-sonnet-4-20250514__r1,ring_spacer_0058,ring_spacer,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/ring_spacer_0058.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (annular cylinder) with through bore
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom annular face, axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/subtractive geometry:
+- Create outer cylinder: diameter=44, height=30.
+- Subtract centered inner cylinder: diameter=24, same full height, axis=Z.
+- Resulting radial wall thickness=10.
+- Bottom at z=0, top at z=height.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+slotted_plate_0059__L2__anthropic__claude-sonnet-4-20250514__r1,slotted_plate_0059,slotted_plate,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/slotted_plate_0059.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular plate with a centered through slot
+Units:
+Millimeters (mm).
+Geometry:
+- Plate dimensions: X=114, Y=86, thickness Z=16.
+- One centered slot with rounded ends: length=46, width=24.
+- Slot goes fully through thickness.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+slotted_plate_0059__L3__anthropic__claude-sonnet-4-20250514__r1,slotted_plate_0059,slotted_plate,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/slotted_plate_0059.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Flat rectangular plate with one centered rounded-end through slot
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom plate face; +Z normal to plate.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create rectangular plate, X=114, Y=86, Z=16.
+- Plate centered on X and Y, bottom at z=0.
+
+Subtractive feature:
+- Cut one centered slot2D profile with overall length=46 and width=24.
+- Slot long axis along X.
+- Extrude/cut through full thickness so it is a through-slot.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+l_bracket_0060__L2__anthropic__claude-sonnet-4-20250514__r1,l_bracket_0060,l_bracket,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/l_bracket_0060.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket with base, vertical web, and holes
+Units:
+Millimeters (mm).
+Geometry:
+- Base plate: length=100, width=48, thickness=16.
+- Vertical web near one base edge: thickness=8, height=48, full base width.
+- Add two top through holes in the base, each diameter=8.
+- Add one side through hole in the web, diameter=6.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+l_bracket_0060__L3__anthropic__claude-sonnet-4-20250514__r1,l_bracket_0060,l_bracket,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/l_bracket_0060.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket: horizontal base plus one vertical web with mounting holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of base plate.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/additive geometry:
+- Base plate size: X=100, Y=48, Z=16; bottom at z=0.
+- Add one vertical web block with thickness X=8, width Y=48, height Z=48.
+- Place web near the -X side at web center x=-46 and rising from z=16.
+
+Subtractive features:
+- Two top through holes in base, diameter=8, positioned symmetrically at x=±28, y=0.
+- One side hole in web, diameter=6, normal to X direction, centered on web side face.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+pillow_block_0061__L2__anthropic__claude-sonnet-4-20250514__r1,pillow_block_0061,pillow_block,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/pillow_block_0061.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Pillow-block style mount with central bore and 4 mounting holes
+Units:
+Millimeters (mm).
+Geometry:
+- Block dimensions: X=114, Y=62, Z=30.
+- One centered vertical through bore, diameter=12.
+- Four mounting through holes, each diameter=10, arranged symmetrically on base footprint.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+pillow_block_0061__L3__anthropic__claude-sonnet-4-20250514__r1,pillow_block_0061,pillow_block,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/pillow_block_0061.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Pillow block: rectangular body with central bore and four corner mounting holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of the body.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create rectangular body X=114, Y=62, Z=30, bottom at z=0.
+
+Subtractive features:
+- Cut one centered vertical through bore, diameter=12, axis=Z.
+- Cut four mounting through holes, diameter=10, with XY centers at (±39.9, ±19.84).
+- Mounting holes are through the body along Z.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+pulley_0062__L2__anthropic__claude-sonnet-4-20250514__r1,pulley_0062,pulley,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/pulley_0062.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step pulley with centered through bore
+Units:
+Millimeters (mm).
+Geometry:
+- Coaxial step 1: radius=50, height=6.
+- Coaxial step 2 on top: radius=32, height=8.
+- Coaxial step 3 on top: radius=24, height=8.
+- Center through bore diameter=12.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+pulley_0062__L3__anthropic__claude-sonnet-4-20250514__r1,pulley_0062,pulley,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/pulley_0062.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Stepped pulley (three coaxial cylindrical steps) with through bore
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face; main axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Additive geometry:
+- Step 1: cylinder radius=50, height=6, from z=0 upward.
+- Step 2: centered on same axis, radius=32, height=8, stacked on step 1.
+- Step 3: centered on same axis, radius=24, height=8, stacked on step 2.
+- Total height=22.
+
+Subtractive feature:
+- One centered through bore diameter=12, axis=Z, through full height.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+u_channel_0063__L2__anthropic__claude-sonnet-4-20250514__r1,u_channel_0063,u_channel,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/u_channel_0063.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+U-channel with open top and two holes
+Units:
+Millimeters (mm).
+Geometry:
+- Outer envelope: X=82, Y=56, Z=28.
+- Hollow interior to form a U-channel: wall thickness=4, floor thickness=10, top open.
+- Two through holes on the top side, each diameter=10, mirrored along X.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+u_channel_0063__L3__anthropic__claude-sonnet-4-20250514__r1,u_channel_0063,u_channel,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/u_channel_0063.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Open-top U-channel with two top through-holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom outer face.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create outer rectangular solid X=82, Y=56, Z=28, bottom at z=0.
+
+Subtractive channel cavity:
+- Subtract inner rectangular volume X=74, Y=48, Z=18.
+- Offset the inner cut upward by floor thickness z=10.
+- This must leave the top open and preserve floor/walls.
+
+Subtractive holes:
+- Add two vertical through holes on the top side, diameter=10, at x=±28.7, y=0.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+box_hole_0064__L2__anthropic__claude-sonnet-4-20250514__r1,box_hole_0064,box_hole,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/box_hole_0064.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered through hole
+Units:
+Millimeters (mm).
+Geometry:
+- Base block size: X=124, Y=84, Z=32.
+- Add one centered vertical through hole, diameter=32, axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+box_hole_0064__L3__anthropic__claude-sonnet-4-20250514__r1,box_hole_0064,box_hole,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/box_hole_0064.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with one centered vertical through-hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin: (0,0,0) at the center of the bottom outer face of the block.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create a rectangular solid with dimensions X=124, Y=84, Z=32.
+- Block is centered in X and Y, with bottom at z=0 and top at z=Z.
+
+Subtractive features:
+- Create one circular through-hole with diameter=32.
+- Hole center at (0,0) in XY and axis parallel to Z.
+- Hole cuts fully through from top to bottom.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+stepped_shaft_0065__L2__anthropic__claude-sonnet-4-20250514__r1,stepped_shaft_0065,stepped_shaft,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/stepped_shaft_0065.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft
+Units:
+Millimeters (mm).
+Geometry:
+- Segment 1: diameter=18, length=40.
+- Segment 2: diameter=22, length=30, attached coaxially after segment 1.
+- Segment 3: diameter=14, length=56, attached coaxially after segment 2.
+- Overall shaft length=126.
+- Shaft axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+stepped_shaft_0065__L3__anthropic__claude-sonnet-4-20250514__r1,stepped_shaft_0065,stepped_shaft,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/stepped_shaft_0065.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft with shoulders
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at the shaft center (midpoint of total length on Z-axis).
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/additive geometry:
+- Build three coaxial cylindrical segments along Z with diameters 18, 22, 14.
+- Segment lengths are 40, 30, 56 respectively.
+- Total length is 126.
+- Segment 1 spans z=-63 to z=-23.
+- Segment 2 spans z=-23 to z=7.
+- Segment 3 spans z=7 to z=63.
+- All segments are concentric on X=0, Y=0.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+flange_0066__L2__anthropic__claude-sonnet-4-20250514__r1,flange_0066,flange,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/flange_0066.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange with bore and bolt pattern
+Units:
+Millimeters (mm).
+Geometry:
+- Flange outer diameter=120, thickness=22.
+- Center through bore diameter=20.
+- Add 8 equally spaced through bolt holes, each diameter=10.
+- Bolt holes are on bolt circle diameter=87.8712.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+flange_0066__L3__anthropic__claude-sonnet-4-20250514__r1,flange_0066,flange,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/flange_0066.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange disk with central bore and equally spaced bolt holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom circular face; flange axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create a solid cylinder with outer diameter=120 and height=22.
+- Bottom at z=0 and top at z=height.
+
+Subtractive features:
+- Cut one centered through bore, diameter=20, axis=Z.
+- Cut 8 through bolt holes, diameter=10, equally spaced at 360/8 degrees.
+- Bolt hole centers lie on radius=43.9356 from origin (bolt circle diameter=87.8712).
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+ring_spacer_0067__L2__anthropic__claude-sonnet-4-20250514__r1,ring_spacer_0067,ring_spacer,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/ring_spacer_0067.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (hollow cylinder)
+Units:
+Millimeters (mm).
+Geometry:
+- Outer diameter=68.
+- Inner diameter=36 (through bore).
+- Height=16.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+ring_spacer_0067__L3__anthropic__claude-sonnet-4-20250514__r1,ring_spacer_0067,ring_spacer,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/ring_spacer_0067.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (annular cylinder) with through bore
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom annular face, axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/subtractive geometry:
+- Create outer cylinder: diameter=68, height=16.
+- Subtract centered inner cylinder: diameter=36, same full height, axis=Z.
+- Resulting radial wall thickness=16.
+- Bottom at z=0, top at z=height.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+slotted_plate_0068__L2__anthropic__claude-sonnet-4-20250514__r1,slotted_plate_0068,slotted_plate,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/slotted_plate_0068.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular plate with a centered through slot
+Units:
+Millimeters (mm).
+Geometry:
+- Plate dimensions: X=136, Y=48, thickness Z=18.
+- One centered slot with rounded ends: length=92, width=14.
+- Slot goes fully through thickness.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+slotted_plate_0068__L3__anthropic__claude-sonnet-4-20250514__r1,slotted_plate_0068,slotted_plate,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/slotted_plate_0068.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Flat rectangular plate with one centered rounded-end through slot
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom plate face; +Z normal to plate.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create rectangular plate, X=136, Y=48, Z=18.
+- Plate centered on X and Y, bottom at z=0.
+
+Subtractive feature:
+- Cut one centered slot2D profile with overall length=92 and width=14.
+- Slot long axis along X.
+- Extrude/cut through full thickness so it is a through-slot.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+l_bracket_0069__L2__anthropic__claude-sonnet-4-20250514__r1,l_bracket_0069,l_bracket,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/l_bracket_0069.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket with base, vertical web, and holes
+Units:
+Millimeters (mm).
+Geometry:
+- Base plate: length=64, width=48, thickness=12.
+- Vertical web near one base edge: thickness=10, height=76, full base width.
+- Add two top through holes in the base, each diameter=12.
+- Add one side through hole in the web, diameter=6.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+l_bracket_0069__L3__anthropic__claude-sonnet-4-20250514__r1,l_bracket_0069,l_bracket,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/l_bracket_0069.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket: horizontal base plus one vertical web with mounting holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of base plate.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/additive geometry:
+- Base plate size: X=64, Y=48, Z=12; bottom at z=0.
+- Add one vertical web block with thickness X=10, width Y=48, height Z=76.
+- Place web near the -X side at web center x=-27 and rising from z=12.
+
+Subtractive features:
+- Two top through holes in base, diameter=12, positioned symmetrically at x=±17.92, y=0.
+- One side hole in web, diameter=6, normal to X direction, centered on web side face.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+pillow_block_0070__L2__anthropic__claude-sonnet-4-20250514__r1,pillow_block_0070,pillow_block,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/pillow_block_0070.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Pillow-block style mount with central bore and 4 mounting holes
+Units:
+Millimeters (mm).
+Geometry:
+- Block dimensions: X=118, Y=94, Z=52.
+- One centered vertical through bore, diameter=22.
+- Four mounting through holes, each diameter=10, arranged symmetrically on base footprint.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+pillow_block_0070__L3__anthropic__claude-sonnet-4-20250514__r1,pillow_block_0070,pillow_block,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/pillow_block_0070.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Pillow block: rectangular body with central bore and four corner mounting holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of the body.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create rectangular body X=118, Y=94, Z=52, bottom at z=0.
+
+Subtractive features:
+- Cut one centered vertical through bore, diameter=22, axis=Z.
+- Cut four mounting through holes, diameter=10, with XY centers at (±41.3, ±30.08).
+- Mounting holes are through the body along Z.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+pulley_0071__L2__anthropic__claude-sonnet-4-20250514__r1,pulley_0071,pulley,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/pulley_0071.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step pulley with centered through bore
+Units:
+Millimeters (mm).
+Geometry:
+- Coaxial step 1: radius=50, height=12.
+- Coaxial step 2 on top: radius=18, height=12.
+- Coaxial step 3 on top: radius=14, height=14.
+- Center through bore diameter=8.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+pulley_0071__L3__anthropic__claude-sonnet-4-20250514__r1,pulley_0071,pulley,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/pulley_0071.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Stepped pulley (three coaxial cylindrical steps) with through bore
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face; main axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Additive geometry:
+- Step 1: cylinder radius=50, height=12, from z=0 upward.
+- Step 2: centered on same axis, radius=18, height=12, stacked on step 1.
+- Step 3: centered on same axis, radius=14, height=14, stacked on step 2.
+- Total height=38.
+
+Subtractive feature:
+- One centered through bore diameter=8, axis=Z, through full height.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,0,1
+u_channel_0072__L2__anthropic__claude-sonnet-4-20250514__r1,u_channel_0072,u_channel,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/u_channel_0072.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+U-channel with open top and two holes
+Units:
+Millimeters (mm).
+Geometry:
+- Outer envelope: X=94, Y=46, Z=44.
+- Hollow interior to form a U-channel: wall thickness=4, floor thickness=4, top open.
+- Two through holes on the top side, each diameter=6, mirrored along X.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+u_channel_0072__L3__anthropic__claude-sonnet-4-20250514__r1,u_channel_0072,u_channel,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/u_channel_0072.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Open-top U-channel with two top through-holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom outer face.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create outer rectangular solid X=94, Y=46, Z=44, bottom at z=0.
+
+Subtractive channel cavity:
+- Subtract inner rectangular volume X=86, Y=38, Z=40.
+- Offset the inner cut upward by floor thickness z=4.
+- This must leave the top open and preserve floor/walls.
+
+Subtractive holes:
+- Add two vertical through holes on the top side, diameter=6, at x=±32.9, y=0.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+box_hole_0073__L2__anthropic__claude-sonnet-4-20250514__r1,box_hole_0073,box_hole,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/box_hole_0073.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered through hole
+Units:
+Millimeters (mm).
+Geometry:
+- Base block size: X=66, Y=106, Z=34.
+- Add one centered vertical through hole, diameter=28, axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+box_hole_0073__L3__anthropic__claude-sonnet-4-20250514__r1,box_hole_0073,box_hole,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/box_hole_0073.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with one centered vertical through-hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin: (0,0,0) at the center of the bottom outer face of the block.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create a rectangular solid with dimensions X=66, Y=106, Z=34.
+- Block is centered in X and Y, with bottom at z=0 and top at z=Z.
+
+Subtractive features:
+- Create one circular through-hole with diameter=28.
+- Hole center at (0,0) in XY and axis parallel to Z.
+- Hole cuts fully through from top to bottom.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+stepped_shaft_0074__L2__anthropic__claude-sonnet-4-20250514__r1,stepped_shaft_0074,stepped_shaft,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/stepped_shaft_0074.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft
+Units:
+Millimeters (mm).
+Geometry:
+- Segment 1: diameter=20, length=22.
+- Segment 2: diameter=32, length=44, attached coaxially after segment 1.
+- Segment 3: diameter=12, length=56, attached coaxially after segment 2.
+- Overall shaft length=122.
+- Shaft axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+stepped_shaft_0074__L3__anthropic__claude-sonnet-4-20250514__r1,stepped_shaft_0074,stepped_shaft,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/stepped_shaft_0074.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft with shoulders
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at the shaft center (midpoint of total length on Z-axis).
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/additive geometry:
+- Build three coaxial cylindrical segments along Z with diameters 20, 32, 12.
+- Segment lengths are 22, 44, 56 respectively.
+- Total length is 122.
+- Segment 1 spans z=-61 to z=-39.
+- Segment 2 spans z=-39 to z=5.
+- Segment 3 spans z=5 to z=61.
+- All segments are concentric on X=0, Y=0.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+flange_0075__L2__anthropic__claude-sonnet-4-20250514__r1,flange_0075,flange,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/flange_0075.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange with bore and bolt pattern
+Units:
+Millimeters (mm).
+Geometry:
+- Flange outer diameter=76, thickness=20.
+- Center through bore diameter=26.
+- Add 6 equally spaced through bolt holes, each diameter=10.
+- Bolt holes are on bolt circle diameter=46.1975.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+flange_0075__L3__anthropic__claude-sonnet-4-20250514__r1,flange_0075,flange,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/flange_0075.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange disk with central bore and equally spaced bolt holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom circular face; flange axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create a solid cylinder with outer diameter=76 and height=20.
+- Bottom at z=0 and top at z=height.
+
+Subtractive features:
+- Cut one centered through bore, diameter=26, axis=Z.
+- Cut 6 through bolt holes, diameter=10, equally spaced at 360/6 degrees.
+- Bolt hole centers lie on radius=23.0987 from origin (bolt circle diameter=46.1975).
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+ring_spacer_0076__L2__anthropic__claude-sonnet-4-20250514__r1,ring_spacer_0076,ring_spacer,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/ring_spacer_0076.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (hollow cylinder)
+Units:
+Millimeters (mm).
+Geometry:
+- Outer diameter=90.
+- Inner diameter=54 (through bore).
+- Height=14.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+ring_spacer_0076__L3__anthropic__claude-sonnet-4-20250514__r1,ring_spacer_0076,ring_spacer,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/ring_spacer_0076.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (annular cylinder) with through bore
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom annular face, axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/subtractive geometry:
+- Create outer cylinder: diameter=90, height=14.
+- Subtract centered inner cylinder: diameter=54, same full height, axis=Z.
+- Resulting radial wall thickness=18.
+- Bottom at z=0, top at z=height.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+slotted_plate_0077__L2__anthropic__claude-sonnet-4-20250514__r1,slotted_plate_0077,slotted_plate,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/slotted_plate_0077.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular plate with a centered through slot
+Units:
+Millimeters (mm).
+Geometry:
+- Plate dimensions: X=190, Y=54, thickness Z=8.
+- One centered slot with rounded ends: length=70, width=18.
+- Slot goes fully through thickness.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+slotted_plate_0077__L3__anthropic__claude-sonnet-4-20250514__r1,slotted_plate_0077,slotted_plate,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/slotted_plate_0077.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Flat rectangular plate with one centered rounded-end through slot
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom plate face; +Z normal to plate.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create rectangular plate, X=190, Y=54, Z=8.
+- Plate centered on X and Y, bottom at z=0.
+
+Subtractive feature:
+- Cut one centered slot2D profile with overall length=70 and width=18.
+- Slot long axis along X.
+- Extrude/cut through full thickness so it is a through-slot.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,failed,parametric_claude_sonnet_v1,1,0,1,0
+l_bracket_0078__L2__anthropic__claude-sonnet-4-20250514__r1,l_bracket_0078,l_bracket,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/l_bracket_0078.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket with base, vertical web, and holes
+Units:
+Millimeters (mm).
+Geometry:
+- Base plate: length=130, width=74, thickness=14.
+- Vertical web near one base edge: thickness=12, height=86, full base width.
+- Add two top through holes in the base, each diameter=8.
+- Add one side through hole in the web, diameter=6.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+l_bracket_0078__L3__anthropic__claude-sonnet-4-20250514__r1,l_bracket_0078,l_bracket,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/l_bracket_0078.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket: horizontal base plus one vertical web with mounting holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of base plate.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/additive geometry:
+- Base plate size: X=130, Y=74, Z=14; bottom at z=0.
+- Add one vertical web block with thickness X=12, width Y=74, height Z=86.
+- Place web near the -X side at web center x=-59 and rising from z=14.
+
+Subtractive features:
+- Two top through holes in base, diameter=8, positioned symmetrically at x=±36.4, y=0.
+- One side hole in web, diameter=6, normal to X direction, centered on web side face.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+pillow_block_0079__L2__anthropic__claude-sonnet-4-20250514__r1,pillow_block_0079,pillow_block,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/pillow_block_0079.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Pillow-block style mount with central bore and 4 mounting holes
+Units:
+Millimeters (mm).
+Geometry:
+- Block dimensions: X=110, Y=46, Z=28.
+- One centered vertical through bore, diameter=14.
+- Four mounting through holes, each diameter=10, arranged symmetrically on base footprint.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+pillow_block_0079__L3__anthropic__claude-sonnet-4-20250514__r1,pillow_block_0079,pillow_block,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/pillow_block_0079.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Pillow block: rectangular body with central bore and four corner mounting holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of the body.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create rectangular body X=110, Y=46, Z=28, bottom at z=0.
+
+Subtractive features:
+- Cut one centered vertical through bore, diameter=14, axis=Z.
+- Cut four mounting through holes, diameter=10, with XY centers at (±38.5, ±14.72).
+- Mounting holes are through the body along Z.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+pulley_0080__L2__anthropic__claude-sonnet-4-20250514__r1,pulley_0080,pulley,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/pulley_0080.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step pulley with centered through bore
+Units:
+Millimeters (mm).
+Geometry:
+- Coaxial step 1: radius=38, height=12.
+- Coaxial step 2 on top: radius=30, height=10.
+- Coaxial step 3 on top: radius=18, height=8.
+- Center through bore diameter=14.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+pulley_0080__L3__anthropic__claude-sonnet-4-20250514__r1,pulley_0080,pulley,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/pulley_0080.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Stepped pulley (three coaxial cylindrical steps) with through bore
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face; main axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Additive geometry:
+- Step 1: cylinder radius=38, height=12, from z=0 upward.
+- Step 2: centered on same axis, radius=30, height=10, stacked on step 1.
+- Step 3: centered on same axis, radius=18, height=8, stacked on step 2.
+- Total height=30.
+
+Subtractive feature:
+- One centered through bore diameter=14, axis=Z, through full height.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+u_channel_0081__L2__anthropic__claude-sonnet-4-20250514__r1,u_channel_0081,u_channel,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/u_channel_0081.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+U-channel with open top and two holes
+Units:
+Millimeters (mm).
+Geometry:
+- Outer envelope: X=102, Y=38, Z=44.
+- Hollow interior to form a U-channel: wall thickness=10, floor thickness=10, top open.
+- Two through holes on the top side, each diameter=10, mirrored along X.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+u_channel_0081__L3__anthropic__claude-sonnet-4-20250514__r1,u_channel_0081,u_channel,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/u_channel_0081.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Open-top U-channel with two top through-holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom outer face.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create outer rectangular solid X=102, Y=38, Z=44, bottom at z=0.
+
+Subtractive channel cavity:
+- Subtract inner rectangular volume X=82, Y=18, Z=34.
+- Offset the inner cut upward by floor thickness z=10.
+- This must leave the top open and preserve floor/walls.
+
+Subtractive holes:
+- Add two vertical through holes on the top side, diameter=10, at x=±35.7, y=0.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+box_hole_0082__L2__anthropic__claude-sonnet-4-20250514__r1,box_hole_0082,box_hole,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/box_hole_0082.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered through hole
+Units:
+Millimeters (mm).
+Geometry:
+- Base block size: X=84, Y=84, Z=52.
+- Add one centered vertical through hole, diameter=24, axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+box_hole_0082__L3__anthropic__claude-sonnet-4-20250514__r1,box_hole_0082,box_hole,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/box_hole_0082.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with one centered vertical through-hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin: (0,0,0) at the center of the bottom outer face of the block.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create a rectangular solid with dimensions X=84, Y=84, Z=52.
+- Block is centered in X and Y, with bottom at z=0 and top at z=Z.
+
+Subtractive features:
+- Create one circular through-hole with diameter=24.
+- Hole center at (0,0) in XY and axis parallel to Z.
+- Hole cuts fully through from top to bottom.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+stepped_shaft_0083__L2__anthropic__claude-sonnet-4-20250514__r1,stepped_shaft_0083,stepped_shaft,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/stepped_shaft_0083.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft
+Units:
+Millimeters (mm).
+Geometry:
+- Segment 1: diameter=22, length=24.
+- Segment 2: diameter=36, length=16, attached coaxially after segment 1.
+- Segment 3: diameter=14, length=34, attached coaxially after segment 2.
+- Overall shaft length=74.
+- Shaft axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+stepped_shaft_0083__L3__anthropic__claude-sonnet-4-20250514__r1,stepped_shaft_0083,stepped_shaft,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/stepped_shaft_0083.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft with shoulders
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at the shaft center (midpoint of total length on Z-axis).
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/additive geometry:
+- Build three coaxial cylindrical segments along Z with diameters 22, 36, 14.
+- Segment lengths are 24, 16, 34 respectively.
+- Total length is 74.
+- Segment 1 spans z=-37 to z=-13.
+- Segment 2 spans z=-13 to z=3.
+- Segment 3 spans z=3 to z=37.
+- All segments are concentric on X=0, Y=0.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+flange_0084__L2__anthropic__claude-sonnet-4-20250514__r1,flange_0084,flange,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/flange_0084.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange with bore and bolt pattern
+Units:
+Millimeters (mm).
+Geometry:
+- Flange outer diameter=120, thickness=10.
+- Center through bore diameter=26.
+- Add 8 equally spaced through bolt holes, each diameter=12.
+- Bolt holes are on bolt circle diameter=87.8906.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+flange_0084__L3__anthropic__claude-sonnet-4-20250514__r1,flange_0084,flange,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/flange_0084.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange disk with central bore and equally spaced bolt holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom circular face; flange axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create a solid cylinder with outer diameter=120 and height=10.
+- Bottom at z=0 and top at z=height.
+
+Subtractive features:
+- Cut one centered through bore, diameter=26, axis=Z.
+- Cut 8 through bolt holes, diameter=12, equally spaced at 360/8 degrees.
+- Bolt hole centers lie on radius=43.9453 from origin (bolt circle diameter=87.8906).
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+ring_spacer_0085__L2__anthropic__claude-sonnet-4-20250514__r1,ring_spacer_0085,ring_spacer,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/ring_spacer_0085.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (hollow cylinder)
+Units:
+Millimeters (mm).
+Geometry:
+- Outer diameter=88.
+- Inner diameter=58 (through bore).
+- Height=18.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+ring_spacer_0085__L3__anthropic__claude-sonnet-4-20250514__r1,ring_spacer_0085,ring_spacer,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/ring_spacer_0085.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (annular cylinder) with through bore
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom annular face, axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/subtractive geometry:
+- Create outer cylinder: diameter=88, height=18.
+- Subtract centered inner cylinder: diameter=58, same full height, axis=Z.
+- Resulting radial wall thickness=15.
+- Bottom at z=0, top at z=height.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+slotted_plate_0086__L2__anthropic__claude-sonnet-4-20250514__r1,slotted_plate_0086,slotted_plate,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/slotted_plate_0086.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular plate with a centered through slot
+Units:
+Millimeters (mm).
+Geometry:
+- Plate dimensions: X=120, Y=80, thickness Z=20.
+- One centered slot with rounded ends: length=60, width=18.
+- Slot goes fully through thickness.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+slotted_plate_0086__L3__anthropic__claude-sonnet-4-20250514__r1,slotted_plate_0086,slotted_plate,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/slotted_plate_0086.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Flat rectangular plate with one centered rounded-end through slot
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom plate face; +Z normal to plate.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create rectangular plate, X=120, Y=80, Z=20.
+- Plate centered on X and Y, bottom at z=0.
+
+Subtractive feature:
+- Cut one centered slot2D profile with overall length=60 and width=18.
+- Slot long axis along X.
+- Extrude/cut through full thickness so it is a through-slot.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+l_bracket_0087__L2__anthropic__claude-sonnet-4-20250514__r1,l_bracket_0087,l_bracket,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/l_bracket_0087.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket with base, vertical web, and holes
+Units:
+Millimeters (mm).
+Geometry:
+- Base plate: length=86, width=54, thickness=12.
+- Vertical web near one base edge: thickness=14, height=70, full base width.
+- Add two top through holes in the base, each diameter=10.
+- Add one side through hole in the web, diameter=10.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+l_bracket_0087__L3__anthropic__claude-sonnet-4-20250514__r1,l_bracket_0087,l_bracket,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/l_bracket_0087.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket: horizontal base plus one vertical web with mounting holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of base plate.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/additive geometry:
+- Base plate size: X=86, Y=54, Z=12; bottom at z=0.
+- Add one vertical web block with thickness X=14, width Y=54, height Z=70.
+- Place web near the -X side at web center x=-36 and rising from z=12.
+
+Subtractive features:
+- Two top through holes in base, diameter=10, positioned symmetrically at x=±24.08, y=0.
+- One side hole in web, diameter=10, normal to X direction, centered on web side face.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+pillow_block_0088__L2__anthropic__claude-sonnet-4-20250514__r1,pillow_block_0088,pillow_block,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/pillow_block_0088.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Pillow-block style mount with central bore and 4 mounting holes
+Units:
+Millimeters (mm).
+Geometry:
+- Block dimensions: X=140, Y=96, Z=46.
+- One centered vertical through bore, diameter=16.
+- Four mounting through holes, each diameter=8, arranged symmetrically on base footprint.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+pillow_block_0088__L3__anthropic__claude-sonnet-4-20250514__r1,pillow_block_0088,pillow_block,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/pillow_block_0088.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Pillow block: rectangular body with central bore and four corner mounting holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of the body.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create rectangular body X=140, Y=96, Z=46, bottom at z=0.
+
+Subtractive features:
+- Cut one centered vertical through bore, diameter=16, axis=Z.
+- Cut four mounting through holes, diameter=8, with XY centers at (±49, ±30.72).
+- Mounting holes are through the body along Z.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+pulley_0089__L2__anthropic__claude-sonnet-4-20250514__r1,pulley_0089,pulley,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/pulley_0089.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step pulley with centered through bore
+Units:
+Millimeters (mm).
+Geometry:
+- Coaxial step 1: radius=42, height=14.
+- Coaxial step 2 on top: radius=30, height=8.
+- Coaxial step 3 on top: radius=14, height=12.
+- Center through bore diameter=12.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+pulley_0089__L3__anthropic__claude-sonnet-4-20250514__r1,pulley_0089,pulley,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/pulley_0089.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Stepped pulley (three coaxial cylindrical steps) with through bore
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face; main axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Additive geometry:
+- Step 1: cylinder radius=42, height=14, from z=0 upward.
+- Step 2: centered on same axis, radius=30, height=8, stacked on step 1.
+- Step 3: centered on same axis, radius=14, height=12, stacked on step 2.
+- Total height=34.
+
+Subtractive feature:
+- One centered through bore diameter=12, axis=Z, through full height.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+u_channel_0090__L2__anthropic__claude-sonnet-4-20250514__r1,u_channel_0090,u_channel,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/u_channel_0090.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+U-channel with open top and two holes
+Units:
+Millimeters (mm).
+Geometry:
+- Outer envelope: X=84, Y=48, Z=26.
+- Hollow interior to form a U-channel: wall thickness=6, floor thickness=6, top open.
+- Two through holes on the top side, each diameter=10, mirrored along X.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+u_channel_0090__L3__anthropic__claude-sonnet-4-20250514__r1,u_channel_0090,u_channel,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/u_channel_0090.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Open-top U-channel with two top through-holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom outer face.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create outer rectangular solid X=84, Y=48, Z=26, bottom at z=0.
+
+Subtractive channel cavity:
+- Subtract inner rectangular volume X=72, Y=36, Z=20.
+- Offset the inner cut upward by floor thickness z=6.
+- This must leave the top open and preserve floor/walls.
+
+Subtractive holes:
+- Add two vertical through holes on the top side, diameter=10, at x=±29.4, y=0.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+box_hole_0091__L2__anthropic__claude-sonnet-4-20250514__r1,box_hole_0091,box_hole,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/box_hole_0091.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered through hole
+Units:
+Millimeters (mm).
+Geometry:
+- Base block size: X=84, Y=58, Z=58.
+- Add one centered vertical through hole, diameter=12, axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+box_hole_0091__L3__anthropic__claude-sonnet-4-20250514__r1,box_hole_0091,box_hole,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/box_hole_0091.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with one centered vertical through-hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin: (0,0,0) at the center of the bottom outer face of the block.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create a rectangular solid with dimensions X=84, Y=58, Z=58.
+- Block is centered in X and Y, with bottom at z=0 and top at z=Z.
+
+Subtractive features:
+- Create one circular through-hole with diameter=12.
+- Hole center at (0,0) in XY and axis parallel to Z.
+- Hole cuts fully through from top to bottom.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+stepped_shaft_0092__L2__anthropic__claude-sonnet-4-20250514__r1,stepped_shaft_0092,stepped_shaft,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/stepped_shaft_0092.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft
+Units:
+Millimeters (mm).
+Geometry:
+- Segment 1: diameter=24, length=34.
+- Segment 2: diameter=26, length=36, attached coaxially after segment 1.
+- Segment 3: diameter=16, length=54, attached coaxially after segment 2.
+- Overall shaft length=124.
+- Shaft axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+stepped_shaft_0092__L3__anthropic__claude-sonnet-4-20250514__r1,stepped_shaft_0092,stepped_shaft,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/stepped_shaft_0092.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step coaxial shaft with shoulders
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at the shaft center (midpoint of total length on Z-axis).
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/additive geometry:
+- Build three coaxial cylindrical segments along Z with diameters 24, 26, 16.
+- Segment lengths are 34, 36, 54 respectively.
+- Total length is 124.
+- Segment 1 spans z=-62 to z=-28.
+- Segment 2 spans z=-28 to z=8.
+- Segment 3 spans z=8 to z=62.
+- All segments are concentric on X=0, Y=0.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+flange_0093__L2__anthropic__claude-sonnet-4-20250514__r1,flange_0093,flange,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/flange_0093.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange with bore and bolt pattern
+Units:
+Millimeters (mm).
+Geometry:
+- Flange outer diameter=66, thickness=20.
+- Center through bore diameter=24.
+- Add 8 equally spaced through bolt holes, each diameter=12.
+- Bolt holes are on bolt circle diameter=47.679.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+flange_0093__L3__anthropic__claude-sonnet-4-20250514__r1,flange_0093,flange,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/flange_0093.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Circular flange disk with central bore and equally spaced bolt holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom circular face; flange axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create a solid cylinder with outer diameter=66 and height=20.
+- Bottom at z=0 and top at z=height.
+
+Subtractive features:
+- Cut one centered through bore, diameter=24, axis=Z.
+- Cut 8 through bolt holes, diameter=12, equally spaced at 360/8 degrees.
+- Bolt hole centers lie on radius=23.8395 from origin (bolt circle diameter=47.679).
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+ring_spacer_0094__L2__anthropic__claude-sonnet-4-20250514__r1,ring_spacer_0094,ring_spacer,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/ring_spacer_0094.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (hollow cylinder)
+Units:
+Millimeters (mm).
+Geometry:
+- Outer diameter=120.
+- Inner diameter=32 (through bore).
+- Height=22.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+ring_spacer_0094__L3__anthropic__claude-sonnet-4-20250514__r1,ring_spacer_0094,ring_spacer,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/ring_spacer_0094.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Ring spacer (annular cylinder) with through bore
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom annular face, axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/subtractive geometry:
+- Create outer cylinder: diameter=120, height=22.
+- Subtract centered inner cylinder: diameter=32, same full height, axis=Z.
+- Resulting radial wall thickness=44.
+- Bottom at z=0, top at z=height.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+slotted_plate_0095__L2__anthropic__claude-sonnet-4-20250514__r1,slotted_plate_0095,slotted_plate,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/slotted_plate_0095.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular plate with a centered through slot
+Units:
+Millimeters (mm).
+Geometry:
+- Plate dimensions: X=104, Y=50, thickness Z=8.
+- One centered slot with rounded ends: length=60, width=14.
+- Slot goes fully through thickness.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+slotted_plate_0095__L3__anthropic__claude-sonnet-4-20250514__r1,slotted_plate_0095,slotted_plate,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/slotted_plate_0095.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Flat rectangular plate with one centered rounded-end through slot
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom plate face; +Z normal to plate.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create rectangular plate, X=104, Y=50, Z=8.
+- Plate centered on X and Y, bottom at z=0.
+
+Subtractive feature:
+- Cut one centered slot2D profile with overall length=60 and width=14.
+- Slot long axis along X.
+- Extrude/cut through full thickness so it is a through-slot.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+l_bracket_0096__L2__anthropic__claude-sonnet-4-20250514__r1,l_bracket_0096,l_bracket,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/l_bracket_0096.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket with base, vertical web, and holes
+Units:
+Millimeters (mm).
+Geometry:
+- Base plate: length=130, width=46, thickness=10.
+- Vertical web near one base edge: thickness=6, height=78, full base width.
+- Add two top through holes in the base, each diameter=10.
+- Add one side through hole in the web, diameter=10.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+l_bracket_0096__L3__anthropic__claude-sonnet-4-20250514__r1,l_bracket_0096,l_bracket,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/l_bracket_0096.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+L-bracket: horizontal base plus one vertical web with mounting holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of base plate.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base/additive geometry:
+- Base plate size: X=130, Y=46, Z=10; bottom at z=0.
+- Add one vertical web block with thickness X=6, width Y=46, height Z=78.
+- Place web near the -X side at web center x=-62 and rising from z=10.
+
+Subtractive features:
+- Two top through holes in base, diameter=10, positioned symmetrically at x=±36.4, y=0.
+- One side hole in web, diameter=10, normal to X direction, centered on web side face.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+pillow_block_0097__L2__anthropic__claude-sonnet-4-20250514__r1,pillow_block_0097,pillow_block,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/pillow_block_0097.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Pillow-block style mount with central bore and 4 mounting holes
+Units:
+Millimeters (mm).
+Geometry:
+- Block dimensions: X=104, Y=56, Z=44.
+- One centered vertical through bore, diameter=16.
+- Four mounting through holes, each diameter=10, arranged symmetrically on base footprint.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+pillow_block_0097__L3__anthropic__claude-sonnet-4-20250514__r1,pillow_block_0097,pillow_block,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/pillow_block_0097.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Pillow block: rectangular body with central bore and four corner mounting holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face of the body.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create rectangular body X=104, Y=56, Z=44, bottom at z=0.
+
+Subtractive features:
+- Cut one centered vertical through bore, diameter=16, axis=Z.
+- Cut four mounting through holes, diameter=10, with XY centers at (±36.4, ±17.92).
+- Mounting holes are through the body along Z.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+pulley_0098__L2__anthropic__claude-sonnet-4-20250514__r1,pulley_0098,pulley,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/pulley_0098.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Three-step pulley with centered through bore
+Units:
+Millimeters (mm).
+Geometry:
+- Coaxial step 1: radius=32, height=12.
+- Coaxial step 2 on top: radius=22, height=12.
+- Coaxial step 3 on top: radius=12, height=6.
+- Center through bore diameter=10.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+pulley_0098__L3__anthropic__claude-sonnet-4-20250514__r1,pulley_0098,pulley,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/pulley_0098.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Stepped pulley (three coaxial cylindrical steps) with through bore
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom face; main axis along Z.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Additive geometry:
+- Step 1: cylinder radius=32, height=12, from z=0 upward.
+- Step 2: centered on same axis, radius=22, height=12, stacked on step 1.
+- Step 3: centered on same axis, radius=12, height=6, stacked on step 2.
+- Total height=30.
+
+Subtractive feature:
+- One centered through bore diameter=10, axis=Z, through full height.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+u_channel_0099__L2__anthropic__claude-sonnet-4-20250514__r1,u_channel_0099,u_channel,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/u_channel_0099.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+U-channel with open top and two holes
+Units:
+Millimeters (mm).
+Geometry:
+- Outer envelope: X=134, Y=58, Z=50.
+- Hollow interior to form a U-channel: wall thickness=10, floor thickness=10, top open.
+- Two through holes on the top side, each diameter=10, mirrored along X.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+u_channel_0099__L3__anthropic__claude-sonnet-4-20250514__r1,u_channel_0099,u_channel,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/u_channel_0099.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Open-top U-channel with two top through-holes
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin at center of bottom outer face.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create outer rectangular solid X=134, Y=58, Z=50, bottom at z=0.
+
+Subtractive channel cavity:
+- Subtract inner rectangular volume X=114, Y=38, Z=40.
+- Offset the inner cut upward by floor thickness z=10.
+- This must leave the top open and preserve floor/walls.
+
+Subtractive holes:
+- Add two vertical through holes on the top side, diameter=10, at x=±46.9, y=0.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+box_hole_0100__L2__anthropic__claude-sonnet-4-20250514__r1,box_hole_0100,box_hole,L2,anthropic,claude-sonnet-4-20250514,generate,references_parametric/box_hole_0100.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with a centered through hole
+Units:
+Millimeters (mm).
+Geometry:
+- Base block size: X=72, Y=106, Z=14.
+- Add one centered vertical through hole, diameter=14, axis along Z.
+
+Output constraints:
+- Exactly one solid body.
+- No floating or disconnected geometry.
+- Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
+box_hole_0100__L3__anthropic__claude-sonnet-4-20250514__r1,box_hole_0100,box_hole,L3,anthropic,claude-sonnet-4-20250514,generate,references_parametric/box_hole_0100.step,,"Create a single connected mechanical CAD part.
+
+Part identity:
+Rectangular block with one centered vertical through-hole
+
+Units and coordinate frame:
+- Units: millimeters.
+- Coordinate system: right-handed XYZ.
+- Origin: (0,0,0) at the center of the bottom outer face of the block.
+- +Z is the primary extrusion/height direction unless stated otherwise.
+
+Base geometry:
+- Create a rectangular solid with dimensions X=72, Y=106, Z=14.
+- Block is centered in X and Y, with bottom at z=0 and top at z=Z.
+
+Subtractive features:
+- Create one circular through-hole with diameter=14.
+- Hole center at (0,0) in XY and axis parallel to Z.
+- Hole cuts fully through from top to bottom.
+
+Topology/output constraints:
+- Return exactly one connected solid body.
+- No floating pieces, no non-manifold geometry.
+- Respect all stated dimensions and feature counts exactly.",full_44,1,10000,2.0,true,240,{},pending,true,parametric_batch_claude_sonnet,success,parametric_claude_sonnet_v1,1,1,0,0
