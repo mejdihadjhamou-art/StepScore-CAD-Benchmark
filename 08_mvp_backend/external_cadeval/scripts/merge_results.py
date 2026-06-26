@@ -8,7 +8,7 @@ old_run_id = "20250417_170208"
 new_sonnet_run_id = "20250418_093709"
 target_model_name = "claude-3-7-sonnet-20250219"
 # Use absolute base path
-workspace_root = "/Users/willpatrick/Documents/CadEval"
+workspace_root = "./external_cadeval"
 base_results_dir = os.path.join(workspace_root, "results")
 # --- End Configuration ---
 
