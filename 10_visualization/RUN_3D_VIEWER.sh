@@ -1,5 +1,5 @@
 #!/bin/bash
-cd "/Users/mejdi/Documents/New project/cad42_platform"
+cd "./cad42_platform"
 echo "🚀 Starting 3D CAD Viewer Server..."
 echo ""
 echo "After the server starts, open your browser to:"

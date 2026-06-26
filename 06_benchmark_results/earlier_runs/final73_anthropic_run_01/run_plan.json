@@ -1,7 +1,7 @@
 {
   "run_id": "final73_anthropic_run_01",
-  "manifest": "/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/packages/final_73_manifest_anthropic_fixed.csv",
-  "output_root": "/Users/mejdi/Documents/New project/cad42_platform/.stepscore_harness_runs",
+  "manifest": "./benchmark_v1/packages/final_73_manifest_anthropic_fixed.csv",
+  "output_root": "./.stepscore_harness_runs",
   "job_count": 146,
   "max_workers": 2,
   "max_retries": 1,

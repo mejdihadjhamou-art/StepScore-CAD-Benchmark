@@ -13,13 +13,13 @@ Provide a reproducible, buyer-facing benchmark that measures:
 This v1 is intentionally small and locked for fast iteration and proof-of-trainability.
 
 ## 2) Locked Task Pack
-- Task file: `/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/tasks_v1.csv`
+- Task file: `./benchmark_v1/tasks_v1.csv`
 - Task count: 24
 - Prompt levels: L2 and L3
 - Base part count used by tasks: 12
 
 Reference files are stored in:
-- `/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references`
+- `./benchmark_v1/references`
 
 ## 3) Run Protocol (Fixed)
 - Replicates per task/model: 3
@@ -34,7 +34,7 @@ Reference files are stored in:
 
 ## 4) Thresholds (Locked for v1)
 All 44 thresholds are the defaults in:
-- `/Users/mejdi/Documents/New project/cad42_platform/metric_engine.py`
+- `./metric_engine.py`
 - dictionary: `DEFAULT_THRESHOLDS`
 
 No per-run threshold editing is allowed in v1 reporting.

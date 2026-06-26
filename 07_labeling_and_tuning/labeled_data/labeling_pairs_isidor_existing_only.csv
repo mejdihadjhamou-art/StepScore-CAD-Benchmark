@@ -1,5 +1,5 @@
 part_id,family,reference_path,prompt_text
-box_hole_0002,box_hole,/Users/mejdi/Desktop/ISIDOR/reference_step files/box_hole_0002.step,"Create a single connected mechanical CAD part.
+box_hole_0002,box_hole,./reference_step files/box_hole_0002.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Box with centered hole
@@ -19,7 +19,7 @@ Subtractive features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions exactly."
-box_hole_0003,box_hole,/Users/mejdi/Desktop/ISIDOR/reference_step files/box_hole_0003.step,"Create a single connected mechanical CAD part.
+box_hole_0003,box_hole,./reference_step files/box_hole_0003.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Box with centered hole
@@ -39,7 +39,7 @@ Subtractive features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions exactly."
-box_hole_0004,box_hole,/Users/mejdi/Desktop/ISIDOR/reference_step files/box_hole_0004.step,"Create a single connected mechanical CAD part.
+box_hole_0004,box_hole,./reference_step files/box_hole_0004.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Box with centered hole
@@ -59,7 +59,7 @@ Subtractive features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions exactly."
-box_hole_0005,box_hole,/Users/mejdi/Desktop/ISIDOR/reference_step files/box_hole_0005.step,"Create a single connected mechanical CAD part.
+box_hole_0005,box_hole,./reference_step files/box_hole_0005.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Box with centered hole
@@ -79,7 +79,7 @@ Subtractive features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions exactly."
-box_hole_0006,box_hole,/Users/mejdi/Desktop/ISIDOR/reference_step files/box_hole_0006.step,"Create a single connected mechanical CAD part.
+box_hole_0006,box_hole,./reference_step files/box_hole_0006.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Box with centered hole
@@ -99,7 +99,7 @@ Subtractive features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions exactly."
-box_hole_0007,box_hole,/Users/mejdi/Desktop/ISIDOR/reference_step files/box_hole_0007.step,"Create a single connected mechanical CAD part.
+box_hole_0007,box_hole,./reference_step files/box_hole_0007.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Box with centered hole
@@ -120,7 +120,7 @@ Subtractive features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions exactly."
-box_hole_0008,box_hole,/Users/mejdi/Desktop/ISIDOR/reference_step files/box_hole_0008.step,"Create a single connected mechanical CAD part.
+box_hole_0008,box_hole,./reference_step files/box_hole_0008.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Box with centered hole
@@ -141,7 +141,7 @@ Subtractive features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions exactly."
-box_hole_0009,box_hole,/Users/mejdi/Desktop/ISIDOR/reference_step files/box_hole_0009.step,"Create a single connected mechanical CAD part.
+box_hole_0009,box_hole,./reference_step files/box_hole_0009.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Box with centered hole
@@ -161,7 +161,7 @@ Subtractive features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions exactly."
-box_hole_0010,box_hole,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_parametric/box_hole_0010.step,"Create a single connected mechanical CAD part.
+box_hole_0010,box_hole,./benchmark_v1/references_parametric/box_hole_0010.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Box with centered hole
@@ -181,7 +181,7 @@ Subtractive features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions exactly."
-stepped_shaft_0002,stepped_shaft,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_parametric/stepped_shaft_0002.step,"Create a single connected mechanical CAD part.
+stepped_shaft_0002,stepped_shaft,./benchmark_v1/references_parametric/stepped_shaft_0002.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Stepped shaft with keyway
@@ -201,7 +201,7 @@ Subtractive features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions exactly."
-stepped_shaft_0011,stepped_shaft,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_parametric/stepped_shaft_0011.step,"Create a single connected mechanical CAD part.
+stepped_shaft_0011,stepped_shaft,./benchmark_v1/references_parametric/stepped_shaft_0011.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Stepped shaft with keyway
@@ -221,7 +221,7 @@ Subtractive features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions exactly."
-flange_0003,flange,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_parametric/flange_0003.step,"Create a single connected mechanical CAD part.
+flange_0003,flange,./benchmark_v1/references_parametric/flange_0003.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Flange with hub and bolt circle
@@ -243,7 +243,7 @@ Subtractive features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions exactly."
-flange_0010,flange,/Users/mejdi/Desktop/ISIDOR/reference_step files/flange_0010.step,"Create a single connected mechanical CAD part.
+flange_0010,flange,./reference_step files/flange_0010.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Flange with hub and bolt circle
@@ -265,7 +265,7 @@ Subtractive features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions exactly."
-flange_0011,flange,/Users/mejdi/Desktop/ISIDOR/reference_step files/flange_0011.step,"Create a single connected mechanical CAD part.
+flange_0011,flange,./reference_step files/flange_0011.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Flange with hub and bolt circle
@@ -287,7 +287,7 @@ Subtractive features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions exactly."
-flange_0012,flange,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_parametric/flange_0012.step,"Create a single connected mechanical CAD part.
+flange_0012,flange,./benchmark_v1/references_parametric/flange_0012.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Flange with hub and bolt circle
@@ -309,7 +309,7 @@ Subtractive features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions exactly."
-ribbed_bracket_0006,ribbed_bracket,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_advanced_smoke/ribbed_bracket_0006.step,"Create a single connected mechanical CAD part.
+ribbed_bracket_0006,ribbed_bracket,./benchmark_v1/references_advanced_smoke/ribbed_bracket_0006.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Ribbed bracket
@@ -331,7 +331,7 @@ Subtractive features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions exactly."
-counterbore_countersink_plate_0005,counterbore_countersink_plate,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_advanced_smoke/counterbore_countersink_plate_0005.step,"Create a single connected mechanical CAD part.
+counterbore_countersink_plate_0005,counterbore_countersink_plate,./benchmark_v1/references_advanced_smoke/counterbore_countersink_plate_0005.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Plate with hole pattern and counterbore/countersink
@@ -350,7 +350,7 @@ Base geometry:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions exactly."
-threaded_parts_male_0002,threaded_parts,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_advanced_smoke/threaded_parts_male_0002.step,"Create a single connected mechanical CAD part.
+threaded_parts_male_0002,threaded_parts,./benchmark_v1/references_advanced_smoke/threaded_parts_male_0002.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Threaded parts proxy (male stud)

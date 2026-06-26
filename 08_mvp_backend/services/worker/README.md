@@ -5,11 +5,11 @@ This worker polls queued runs and processes replicates into stored checks, metri
 ## Run
 1. Install Node.js 18+.
 2. Ensure Postgres is running with schema from:
-   - `/Users/mejdi/Documents/New project/db/migrations/0001_init.up.sql`
+   - `./db/migrations/0001_init.up.sql`
 3. Set env:
    - `export DATABASE_URL=postgresql://postgres:postgres@localhost:5432/cadeval`
    - `export WORKER_POLL_MS=1500`
-4. From `/Users/mejdi/Documents/New project/services/worker` run:
+4. From `./services/worker` run:
    - `npm install`
    - `npm run start`
 

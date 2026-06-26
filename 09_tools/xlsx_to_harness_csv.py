@@ -9,13 +9,13 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 
 DEFAULT_XLSX_CANDIDATES = [
-    Path("/Users/mejdi/Documents/New project/FINAL.xlsx"),
-    Path("/Users/mejdi/Desktop/FINAL.xlsx"),
-    Path("/Users/mejdi/Desktop/ISIDOR/FINAL.xlsx"),
+    Path("./FINAL.xlsx"),
+    Path("./FINAL.xlsx"),
+    Path("./FINAL.xlsx"),
 ]
 
 DEFAULT_OUTPUT_CSV = Path(
-    "/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/packages/final_73_manifest.csv"
+    "./benchmark_v1/packages/final_73_manifest.csv"
 )
 
 

@@ -1,5 +1,5 @@
 job_id,part_id,family,prompt_level,provider,model,generation_mode,reference_path,base_step_path,prompt_text,grading_profile,replicate,sample_points,voxel_pitch_mm,fast_mode,timeout_seconds,threshold_overrides_json,status,enabled,notes
-box_hole_0001__L2__openai__gpt-5.2__r1,box_hole_0001,box_hole,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/box_hole_0001.step,,"Create a single connected mechanical CAD part.
+box_hole_0001__L2__openai__gpt-5.2__r1,box_hole_0001,box_hole,L2,openai,gpt-5.2,generate,./reference_step files/box_hole_0001.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular block with a centered through hole
@@ -13,7 +13,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-box_hole_0001__L2__openai__gpt-5.2__r1,box_hole_0001,box_hole,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/box_hole_0001.step,,"Create a single connected mechanical CAD part.
+box_hole_0001__L2__openai__gpt-5.2__r1,box_hole_0001,box_hole,L2,openai,gpt-5.2,generate,./reference_step files/box_hole_0001.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular block with a centered through hole
@@ -27,7 +27,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-stepped_shaft_0002__L2__openai__gpt-5.2__r1,stepped_shaft_0002,stepped_shaft,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0002.step,,"Create a single connected mechanical CAD part.
+stepped_shaft_0002__L2__openai__gpt-5.2__r1,stepped_shaft_0002,stepped_shaft,L2,openai,gpt-5.2,generate,./reference_step files/stepped_shaft_0002.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Three-step coaxial shaft
@@ -44,7 +44,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-stepped_shaft_0002__L2__openai__gpt-5.2__r1,stepped_shaft_0002,stepped_shaft,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0002.step,,"Create a single connected mechanical CAD part.
+stepped_shaft_0002__L2__openai__gpt-5.2__r1,stepped_shaft_0002,stepped_shaft,L2,openai,gpt-5.2,generate,./reference_step files/stepped_shaft_0002.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Three-step coaxial shaft
@@ -61,7 +61,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-flange_0003__L2__openai__gpt-5.2__r1,flange_0003,flange,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/flange_0003.step,,"Create a single connected mechanical CAD part.
+flange_0003__L2__openai__gpt-5.2__r1,flange_0003,flange,L2,openai,gpt-5.2,generate,./reference_step files/flange_0003.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Circular flange with bore and bolt pattern
@@ -77,7 +77,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-flange_0003__L2__openai__gpt-5.2__r1,flange_0003,flange,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/flange_0003.step,,"Create a single connected mechanical CAD part.
+flange_0003__L2__openai__gpt-5.2__r1,flange_0003,flange,L2,openai,gpt-5.2,generate,./reference_step files/flange_0003.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Circular flange with bore and bolt pattern
@@ -93,7 +93,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-ring_spacer_0004__L2__openai__gpt-5.2__r1,ring_spacer_0004,ring_spacer,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/ring_spacer_0004.step,,"Create a single connected mechanical CAD part.
+ring_spacer_0004__L2__openai__gpt-5.2__r1,ring_spacer_0004,ring_spacer,L2,openai,gpt-5.2,generate,./reference_step files/ring_spacer_0004.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Ring spacer (hollow cylinder)
@@ -108,7 +108,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-ring_spacer_0004__L2__openai__gpt-5.2__r1,ring_spacer_0004,ring_spacer,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/ring_spacer_0004.step,,"Create a single connected mechanical CAD part.
+ring_spacer_0004__L2__openai__gpt-5.2__r1,ring_spacer_0004,ring_spacer,L2,openai,gpt-5.2,generate,./reference_step files/ring_spacer_0004.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Ring spacer (hollow cylinder)
@@ -123,7 +123,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-slotted_plate_0005__L2__openai__gpt-5.2__r1,slotted_plate_0005,slotted_plate,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0005.step,,"Create a single connected mechanical CAD part.
+slotted_plate_0005__L2__openai__gpt-5.2__r1,slotted_plate_0005,slotted_plate,L2,openai,gpt-5.2,generate,./reference_step files/slotted_plate_0005.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular plate with a centered through slot
@@ -138,7 +138,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-slotted_plate_0005__L2__openai__gpt-5.2__r1,slotted_plate_0005,slotted_plate,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0005.step,,"Create a single connected mechanical CAD part.
+slotted_plate_0005__L2__openai__gpt-5.2__r1,slotted_plate_0005,slotted_plate,L2,openai,gpt-5.2,generate,./reference_step files/slotted_plate_0005.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular plate with a centered through slot
@@ -153,7 +153,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-l_bracket_0006__L2__openai__gpt-5.2__r1,l_bracket_0006,l_bracket,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/l_bracket_0006.step,,"Create a single connected mechanical CAD part.
+l_bracket_0006__L2__openai__gpt-5.2__r1,l_bracket_0006,l_bracket,L2,openai,gpt-5.2,generate,./reference_step files/l_bracket_0006.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 L-bracket with base, vertical web, and holes
@@ -169,7 +169,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-l_bracket_0006__L2__openai__gpt-5.2__r1,l_bracket_0006,l_bracket,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/l_bracket_0006.step,,"Create a single connected mechanical CAD part.
+l_bracket_0006__L2__openai__gpt-5.2__r1,l_bracket_0006,l_bracket,L2,openai,gpt-5.2,generate,./reference_step files/l_bracket_0006.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 L-bracket with base, vertical web, and holes
@@ -185,7 +185,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-pillow_block_0007__L2__openai__gpt-5.2__r1,pillow_block_0007,pillow_block,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pillow_block_0007.step,,"Create a single connected mechanical CAD part.
+pillow_block_0007__L2__openai__gpt-5.2__r1,pillow_block_0007,pillow_block,L2,openai,gpt-5.2,generate,./reference_step files/pillow_block_0007.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Pillow-block style mount with central bore and 4 mounting holes
@@ -200,7 +200,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-pillow_block_0007__L2__openai__gpt-5.2__r1,pillow_block_0007,pillow_block,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pillow_block_0007.step,,"Create a single connected mechanical CAD part.
+pillow_block_0007__L2__openai__gpt-5.2__r1,pillow_block_0007,pillow_block,L2,openai,gpt-5.2,generate,./reference_step files/pillow_block_0007.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Pillow-block style mount with central bore and 4 mounting holes
@@ -215,7 +215,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-pulley_0008__L2__openai__gpt-5.2__r1,pulley_0008,pulley,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pulley_0008.step,,"Create a single connected mechanical CAD part.
+pulley_0008__L2__openai__gpt-5.2__r1,pulley_0008,pulley,L2,openai,gpt-5.2,generate,./reference_step files/pulley_0008.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Three-step pulley with centered through bore
@@ -231,7 +231,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-pulley_0008__L2__openai__gpt-5.2__r1,pulley_0008,pulley,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pulley_0008.step,,"Create a single connected mechanical CAD part.
+pulley_0008__L2__openai__gpt-5.2__r1,pulley_0008,pulley,L2,openai,gpt-5.2,generate,./reference_step files/pulley_0008.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Three-step pulley with centered through bore
@@ -247,7 +247,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-u_channel_0009__L2__openai__gpt-5.2__r1,u_channel_0009,u_channel,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/u_channel_0009.step,,"Create a single connected mechanical CAD part.
+u_channel_0009__L2__openai__gpt-5.2__r1,u_channel_0009,u_channel,L2,openai,gpt-5.2,generate,./reference_step files/u_channel_0009.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 U-channel with open top and two holes
@@ -262,7 +262,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-u_channel_0009__L2__openai__gpt-5.2__r1,u_channel_0009,u_channel,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/u_channel_0009.step,,"Create a single connected mechanical CAD part.
+u_channel_0009__L2__openai__gpt-5.2__r1,u_channel_0009,u_channel,L2,openai,gpt-5.2,generate,./reference_step files/u_channel_0009.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 U-channel with open top and two holes
@@ -277,7 +277,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-box_hole_0010__L2__openai__gpt-5.2__r1,box_hole_0010,box_hole,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/box_hole_0010.step,,"Create a single connected mechanical CAD part.
+box_hole_0010__L2__openai__gpt-5.2__r1,box_hole_0010,box_hole,L2,openai,gpt-5.2,generate,./reference_step files/box_hole_0010.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular block with a centered through hole
@@ -291,7 +291,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-box_hole_0010__L2__openai__gpt-5.2__r1,box_hole_0010,box_hole,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/box_hole_0010.step,,"Create a single connected mechanical CAD part.
+box_hole_0010__L2__openai__gpt-5.2__r1,box_hole_0010,box_hole,L2,openai,gpt-5.2,generate,./reference_step files/box_hole_0010.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular block with a centered through hole
@@ -305,7 +305,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-stepped_shaft_0011__L2__openai__gpt-5.2__r1,stepped_shaft_0011,stepped_shaft,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0011.step,,"Create a single connected mechanical CAD part.
+stepped_shaft_0011__L2__openai__gpt-5.2__r1,stepped_shaft_0011,stepped_shaft,L2,openai,gpt-5.2,generate,./reference_step files/stepped_shaft_0011.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Three-step coaxial shaft
@@ -322,7 +322,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-stepped_shaft_0011__L2__openai__gpt-5.2__r1,stepped_shaft_0011,stepped_shaft,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0011.step,,"Create a single connected mechanical CAD part.
+stepped_shaft_0011__L2__openai__gpt-5.2__r1,stepped_shaft_0011,stepped_shaft,L2,openai,gpt-5.2,generate,./reference_step files/stepped_shaft_0011.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Three-step coaxial shaft
@@ -339,7 +339,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-flange_0012__L2__openai__gpt-5.2__r1,flange_0012,flange,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/flange_0012.step,,"Create a single connected mechanical CAD part.
+flange_0012__L2__openai__gpt-5.2__r1,flange_0012,flange,L2,openai,gpt-5.2,generate,./reference_step files/flange_0012.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Circular flange with bore and bolt pattern
@@ -355,7 +355,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-flange_0012__L2__openai__gpt-5.2__r1,flange_0012,flange,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/flange_0012.step,,"Create a single connected mechanical CAD part.
+flange_0012__L2__openai__gpt-5.2__r1,flange_0012,flange,L2,openai,gpt-5.2,generate,./reference_step files/flange_0012.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Circular flange with bore and bolt pattern
@@ -371,7 +371,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-ring_spacer_0013__L2__openai__gpt-5.2__r1,ring_spacer_0013,ring_spacer,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/ring_spacer_0013.step,,"Create a single connected mechanical CAD part.
+ring_spacer_0013__L2__openai__gpt-5.2__r1,ring_spacer_0013,ring_spacer,L2,openai,gpt-5.2,generate,./reference_step files/ring_spacer_0013.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Ring spacer (hollow cylinder)
@@ -386,7 +386,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-ring_spacer_0013__L2__openai__gpt-5.2__r1,ring_spacer_0013,ring_spacer,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/ring_spacer_0013.step,,"Create a single connected mechanical CAD part.
+ring_spacer_0013__L2__openai__gpt-5.2__r1,ring_spacer_0013,ring_spacer,L2,openai,gpt-5.2,generate,./reference_step files/ring_spacer_0013.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Ring spacer (hollow cylinder)
@@ -401,7 +401,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-slotted_plate_0014__L2__openai__gpt-5.2__r1,slotted_plate_0014,slotted_plate,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0014.step,,"Create a single connected mechanical CAD part.
+slotted_plate_0014__L2__openai__gpt-5.2__r1,slotted_plate_0014,slotted_plate,L2,openai,gpt-5.2,generate,./reference_step files/slotted_plate_0014.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular plate with a centered through slot
@@ -416,7 +416,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-slotted_plate_0014__L2__openai__gpt-5.2__r1,slotted_plate_0014,slotted_plate,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0014.step,,"Create a single connected mechanical CAD part.
+slotted_plate_0014__L2__openai__gpt-5.2__r1,slotted_plate_0014,slotted_plate,L2,openai,gpt-5.2,generate,./reference_step files/slotted_plate_0014.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular plate with a centered through slot
@@ -431,7 +431,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-l_bracket_0015__L2__openai__gpt-5.2__r1,l_bracket_0015,l_bracket,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/l_bracket_0015.step,,"Create a single connected mechanical CAD part.
+l_bracket_0015__L2__openai__gpt-5.2__r1,l_bracket_0015,l_bracket,L2,openai,gpt-5.2,generate,./reference_step files/l_bracket_0015.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 L-bracket with base, vertical web, and holes
@@ -447,7 +447,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-l_bracket_0015__L2__openai__gpt-5.2__r1,l_bracket_0015,l_bracket,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/l_bracket_0015.step,,"Create a single connected mechanical CAD part.
+l_bracket_0015__L2__openai__gpt-5.2__r1,l_bracket_0015,l_bracket,L2,openai,gpt-5.2,generate,./reference_step files/l_bracket_0015.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 L-bracket with base, vertical web, and holes
@@ -463,7 +463,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-pillow_block_0016__L2__openai__gpt-5.2__r1,pillow_block_0016,pillow_block,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pillow_block_0016.step,,"Create a single connected mechanical CAD part.
+pillow_block_0016__L2__openai__gpt-5.2__r1,pillow_block_0016,pillow_block,L2,openai,gpt-5.2,generate,./reference_step files/pillow_block_0016.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Pillow-block style mount with central bore and 4 mounting holes
@@ -478,7 +478,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-pillow_block_0016__L2__openai__gpt-5.2__r1,pillow_block_0016,pillow_block,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pillow_block_0016.step,,"Create a single connected mechanical CAD part.
+pillow_block_0016__L2__openai__gpt-5.2__r1,pillow_block_0016,pillow_block,L2,openai,gpt-5.2,generate,./reference_step files/pillow_block_0016.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Pillow-block style mount with central bore and 4 mounting holes
@@ -493,7 +493,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-pulley_0017__L2__openai__gpt-5.2__r1,pulley_0017,pulley,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pulley_0017.step,,"Create a single connected mechanical CAD part.
+pulley_0017__L2__openai__gpt-5.2__r1,pulley_0017,pulley,L2,openai,gpt-5.2,generate,./reference_step files/pulley_0017.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Three-step pulley with centered through bore
@@ -509,7 +509,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-pulley_0017__L2__openai__gpt-5.2__r1,pulley_0017,pulley,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pulley_0017.step,,"Create a single connected mechanical CAD part.
+pulley_0017__L2__openai__gpt-5.2__r1,pulley_0017,pulley,L2,openai,gpt-5.2,generate,./reference_step files/pulley_0017.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Three-step pulley with centered through bore
@@ -525,7 +525,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-u_channel_0018__L2__openai__gpt-5.2__r1,u_channel_0018,u_channel,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/u_channel_0018.step,,"Create a single connected mechanical CAD part.
+u_channel_0018__L2__openai__gpt-5.2__r1,u_channel_0018,u_channel,L2,openai,gpt-5.2,generate,./reference_step files/u_channel_0018.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 U-channel with open top and two holes
@@ -540,7 +540,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-u_channel_0018__L2__openai__gpt-5.2__r1,u_channel_0018,u_channel,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/u_channel_0018.step,,"Create a single connected mechanical CAD part.
+u_channel_0018__L2__openai__gpt-5.2__r1,u_channel_0018,u_channel,L2,openai,gpt-5.2,generate,./reference_step files/u_channel_0018.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 U-channel with open top and two holes
@@ -555,7 +555,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-box_hole_0019__L2__openai__gpt-5.2__r1,box_hole_0019,box_hole,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/box_hole_0019.step,,"Create a single connected mechanical CAD part.
+box_hole_0019__L2__openai__gpt-5.2__r1,box_hole_0019,box_hole,L2,openai,gpt-5.2,generate,./reference_step files/box_hole_0019.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular block with a centered through hole
@@ -569,7 +569,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-box_hole_0019__L2__openai__gpt-5.2__r1,box_hole_0019,box_hole,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/box_hole_0019.step,,"Create a single connected mechanical CAD part.
+box_hole_0019__L2__openai__gpt-5.2__r1,box_hole_0019,box_hole,L2,openai,gpt-5.2,generate,./reference_step files/box_hole_0019.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular block with a centered through hole
@@ -583,7 +583,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-stepped_shaft_0020__L2__openai__gpt-5.2__r1,stepped_shaft_0020,stepped_shaft,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0020.step,,"Create a single connected mechanical CAD part.
+stepped_shaft_0020__L2__openai__gpt-5.2__r1,stepped_shaft_0020,stepped_shaft,L2,openai,gpt-5.2,generate,./reference_step files/stepped_shaft_0020.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Three-step coaxial shaft
@@ -600,7 +600,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-stepped_shaft_0020__L2__openai__gpt-5.2__r1,stepped_shaft_0020,stepped_shaft,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0020.step,,"Create a single connected mechanical CAD part.
+stepped_shaft_0020__L2__openai__gpt-5.2__r1,stepped_shaft_0020,stepped_shaft,L2,openai,gpt-5.2,generate,./reference_step files/stepped_shaft_0020.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Three-step coaxial shaft
@@ -617,7 +617,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-flange_0021__L2__openai__gpt-5.2__r1,flange_0021,flange,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/flange_0021.step,,"Create a single connected mechanical CAD part.
+flange_0021__L2__openai__gpt-5.2__r1,flange_0021,flange,L2,openai,gpt-5.2,generate,./reference_step files/flange_0021.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Circular flange with bore and bolt pattern
@@ -633,7 +633,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-flange_0021__L2__openai__gpt-5.2__r1,flange_0021,flange,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/flange_0021.step,,"Create a single connected mechanical CAD part.
+flange_0021__L2__openai__gpt-5.2__r1,flange_0021,flange,L2,openai,gpt-5.2,generate,./reference_step files/flange_0021.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Circular flange with bore and bolt pattern
@@ -649,7 +649,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-ring_spacer_0022__L2__openai__gpt-5.2__r1,ring_spacer_0022,ring_spacer,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/ring_spacer_0022.step,,"Create a single connected mechanical CAD part.
+ring_spacer_0022__L2__openai__gpt-5.2__r1,ring_spacer_0022,ring_spacer,L2,openai,gpt-5.2,generate,./reference_step files/ring_spacer_0022.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Ring spacer (hollow cylinder)
@@ -664,7 +664,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-ring_spacer_0022__L2__openai__gpt-5.2__r1,ring_spacer_0022,ring_spacer,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/ring_spacer_0022.step,,"Create a single connected mechanical CAD part.
+ring_spacer_0022__L2__openai__gpt-5.2__r1,ring_spacer_0022,ring_spacer,L2,openai,gpt-5.2,generate,./reference_step files/ring_spacer_0022.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Ring spacer (hollow cylinder)
@@ -679,7 +679,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-slotted_plate_0023__L2__openai__gpt-5.2__r1,slotted_plate_0023,slotted_plate,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0023.step,,"Create a single connected mechanical CAD part.
+slotted_plate_0023__L2__openai__gpt-5.2__r1,slotted_plate_0023,slotted_plate,L2,openai,gpt-5.2,generate,./reference_step files/slotted_plate_0023.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular plate with a centered through slot
@@ -694,7 +694,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-slotted_plate_0023__L2__openai__gpt-5.2__r1,slotted_plate_0023,slotted_plate,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0023.step,,"Create a single connected mechanical CAD part.
+slotted_plate_0023__L2__openai__gpt-5.2__r1,slotted_plate_0023,slotted_plate,L2,openai,gpt-5.2,generate,./reference_step files/slotted_plate_0023.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular plate with a centered through slot
@@ -709,7 +709,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-l_bracket_0024__L2__openai__gpt-5.2__r1,l_bracket_0024,l_bracket,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/l_bracket_0024.step,,"Create a single connected mechanical CAD part.
+l_bracket_0024__L2__openai__gpt-5.2__r1,l_bracket_0024,l_bracket,L2,openai,gpt-5.2,generate,./reference_step files/l_bracket_0024.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 L-bracket with base, vertical web, and holes
@@ -725,7 +725,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-l_bracket_0024__L2__openai__gpt-5.2__r1,l_bracket_0024,l_bracket,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/l_bracket_0024.step,,"Create a single connected mechanical CAD part.
+l_bracket_0024__L2__openai__gpt-5.2__r1,l_bracket_0024,l_bracket,L2,openai,gpt-5.2,generate,./reference_step files/l_bracket_0024.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 L-bracket with base, vertical web, and holes
@@ -741,7 +741,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-pillow_block_0025__L2__openai__gpt-5.2__r1,pillow_block_0025,pillow_block,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pillow_block_0025.step,,"Create a single connected mechanical CAD part.
+pillow_block_0025__L2__openai__gpt-5.2__r1,pillow_block_0025,pillow_block,L2,openai,gpt-5.2,generate,./reference_step files/pillow_block_0025.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Pillow-block style mount with central bore and 4 mounting holes
@@ -756,7 +756,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-pillow_block_0025__L2__openai__gpt-5.2__r1,pillow_block_0025,pillow_block,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pillow_block_0025.step,,"Create a single connected mechanical CAD part.
+pillow_block_0025__L2__openai__gpt-5.2__r1,pillow_block_0025,pillow_block,L2,openai,gpt-5.2,generate,./reference_step files/pillow_block_0025.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Pillow-block style mount with central bore and 4 mounting holes
@@ -771,7 +771,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-pulley_0026__L2__openai__gpt-5.2__r1,pulley_0026,pulley,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pulley_0026.step,,"Create a single connected mechanical CAD part.
+pulley_0026__L2__openai__gpt-5.2__r1,pulley_0026,pulley,L2,openai,gpt-5.2,generate,./reference_step files/pulley_0026.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Three-step pulley with centered through bore
@@ -787,7 +787,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-pulley_0026__L2__openai__gpt-5.2__r1,pulley_0026,pulley,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pulley_0026.step,,"Create a single connected mechanical CAD part.
+pulley_0026__L2__openai__gpt-5.2__r1,pulley_0026,pulley,L2,openai,gpt-5.2,generate,./reference_step files/pulley_0026.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Three-step pulley with centered through bore
@@ -803,7 +803,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-u_channel_0027__L2__openai__gpt-5.2__r1,u_channel_0027,u_channel,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/u_channel_0027.step,,"Create a single connected mechanical CAD part.
+u_channel_0027__L2__openai__gpt-5.2__r1,u_channel_0027,u_channel,L2,openai,gpt-5.2,generate,./reference_step files/u_channel_0027.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 U-channel with open top and two holes
@@ -818,7 +818,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-u_channel_0027__L2__openai__gpt-5.2__r1,u_channel_0027,u_channel,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/u_channel_0027.step,,"Create a single connected mechanical CAD part.
+u_channel_0027__L2__openai__gpt-5.2__r1,u_channel_0027,u_channel,L2,openai,gpt-5.2,generate,./reference_step files/u_channel_0027.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 U-channel with open top and two holes
@@ -833,7 +833,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-box_hole_0028__L2__openai__gpt-5.2__r1,box_hole_0028,box_hole,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/box_hole_0028.step,,"Create a single connected mechanical CAD part.
+box_hole_0028__L2__openai__gpt-5.2__r1,box_hole_0028,box_hole,L2,openai,gpt-5.2,generate,./reference_step files/box_hole_0028.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular block with a centered through hole
@@ -847,7 +847,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-box_hole_0028__L2__openai__gpt-5.2__r1,box_hole_0028,box_hole,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/box_hole_0028.step,,"Create a single connected mechanical CAD part.
+box_hole_0028__L2__openai__gpt-5.2__r1,box_hole_0028,box_hole,L2,openai,gpt-5.2,generate,./reference_step files/box_hole_0028.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular block with a centered through hole
@@ -861,7 +861,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-stepped_shaft_0029__L2__openai__gpt-5.2__r1,stepped_shaft_0029,stepped_shaft,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0029.step,,"Create a single connected mechanical CAD part.
+stepped_shaft_0029__L2__openai__gpt-5.2__r1,stepped_shaft_0029,stepped_shaft,L2,openai,gpt-5.2,generate,./reference_step files/stepped_shaft_0029.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Three-step coaxial shaft
@@ -878,7 +878,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-stepped_shaft_0029__L2__openai__gpt-5.2__r1,stepped_shaft_0029,stepped_shaft,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0029.step,,"Create a single connected mechanical CAD part.
+stepped_shaft_0029__L2__openai__gpt-5.2__r1,stepped_shaft_0029,stepped_shaft,L2,openai,gpt-5.2,generate,./reference_step files/stepped_shaft_0029.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Three-step coaxial shaft
@@ -895,7 +895,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-flange_0030__L2__openai__gpt-5.2__r1,flange_0030,flange,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/flange_0030.step,,"Create a single connected mechanical CAD part.
+flange_0030__L2__openai__gpt-5.2__r1,flange_0030,flange,L2,openai,gpt-5.2,generate,./reference_step files/flange_0030.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Circular flange with bore and bolt pattern
@@ -911,7 +911,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-flange_0030__L2__openai__gpt-5.2__r1,flange_0030,flange,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/flange_0030.step,,"Create a single connected mechanical CAD part.
+flange_0030__L2__openai__gpt-5.2__r1,flange_0030,flange,L2,openai,gpt-5.2,generate,./reference_step files/flange_0030.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Circular flange with bore and bolt pattern
@@ -927,7 +927,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-ring_spacer_0031__L2__openai__gpt-5.2__r1,ring_spacer_0031,ring_spacer,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/ring_spacer_0031.step,,"Create a single connected mechanical CAD part.
+ring_spacer_0031__L2__openai__gpt-5.2__r1,ring_spacer_0031,ring_spacer,L2,openai,gpt-5.2,generate,./reference_step files/ring_spacer_0031.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Ring spacer (hollow cylinder)
@@ -942,7 +942,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-ring_spacer_0031__L2__openai__gpt-5.2__r1,ring_spacer_0031,ring_spacer,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/ring_spacer_0031.step,,"Create a single connected mechanical CAD part.
+ring_spacer_0031__L2__openai__gpt-5.2__r1,ring_spacer_0031,ring_spacer,L2,openai,gpt-5.2,generate,./reference_step files/ring_spacer_0031.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Ring spacer (hollow cylinder)
@@ -957,7 +957,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-slotted_plate_0032__L2__openai__gpt-5.2__r1,slotted_plate_0032,slotted_plate,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0032.step,,"Create a single connected mechanical CAD part.
+slotted_plate_0032__L2__openai__gpt-5.2__r1,slotted_plate_0032,slotted_plate,L2,openai,gpt-5.2,generate,./reference_step files/slotted_plate_0032.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular plate with a centered through slot
@@ -972,7 +972,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-slotted_plate_0032__L2__openai__gpt-5.2__r1,slotted_plate_0032,slotted_plate,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0032.step,,"Create a single connected mechanical CAD part.
+slotted_plate_0032__L2__openai__gpt-5.2__r1,slotted_plate_0032,slotted_plate,L2,openai,gpt-5.2,generate,./reference_step files/slotted_plate_0032.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular plate with a centered through slot
@@ -987,7 +987,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-l_bracket_0033__L2__openai__gpt-5.2__r1,l_bracket_0033,l_bracket,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/l_bracket_0033.step,,"Create a single connected mechanical CAD part.
+l_bracket_0033__L2__openai__gpt-5.2__r1,l_bracket_0033,l_bracket,L2,openai,gpt-5.2,generate,./reference_step files/l_bracket_0033.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 L-bracket with base, vertical web, and holes
@@ -1003,7 +1003,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-l_bracket_0033__L2__openai__gpt-5.2__r1,l_bracket_0033,l_bracket,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/l_bracket_0033.step,,"Create a single connected mechanical CAD part.
+l_bracket_0033__L2__openai__gpt-5.2__r1,l_bracket_0033,l_bracket,L2,openai,gpt-5.2,generate,./reference_step files/l_bracket_0033.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 L-bracket with base, vertical web, and holes
@@ -1019,7 +1019,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-pillow_block_0034__L2__openai__gpt-5.2__r1,pillow_block_0034,pillow_block,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pillow_block_0034.step,,"Create a single connected mechanical CAD part.
+pillow_block_0034__L2__openai__gpt-5.2__r1,pillow_block_0034,pillow_block,L2,openai,gpt-5.2,generate,./reference_step files/pillow_block_0034.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Pillow-block style mount with central bore and 4 mounting holes
@@ -1034,7 +1034,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-pillow_block_0034__L2__openai__gpt-5.2__r1,pillow_block_0034,pillow_block,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pillow_block_0034.step,,"Create a single connected mechanical CAD part.
+pillow_block_0034__L2__openai__gpt-5.2__r1,pillow_block_0034,pillow_block,L2,openai,gpt-5.2,generate,./reference_step files/pillow_block_0034.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Pillow-block style mount with central bore and 4 mounting holes
@@ -1049,7 +1049,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-pulley_0035__L2__openai__gpt-5.2__r1,pulley_0035,pulley,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pulley_0035.step,,"Create a single connected mechanical CAD part.
+pulley_0035__L2__openai__gpt-5.2__r1,pulley_0035,pulley,L2,openai,gpt-5.2,generate,./reference_step files/pulley_0035.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Three-step pulley with centered through bore
@@ -1065,7 +1065,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-pulley_0035__L2__openai__gpt-5.2__r1,pulley_0035,pulley,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pulley_0035.step,,"Create a single connected mechanical CAD part.
+pulley_0035__L2__openai__gpt-5.2__r1,pulley_0035,pulley,L2,openai,gpt-5.2,generate,./reference_step files/pulley_0035.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Three-step pulley with centered through bore
@@ -1081,7 +1081,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-u_channel_0036__L2__openai__gpt-5.2__r1,u_channel_0036,u_channel,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/u_channel_0036.step,,"Create a single connected mechanical CAD part.
+u_channel_0036__L2__openai__gpt-5.2__r1,u_channel_0036,u_channel,L2,openai,gpt-5.2,generate,./reference_step files/u_channel_0036.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 U-channel with open top and two holes
@@ -1096,7 +1096,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-u_channel_0036__L2__openai__gpt-5.2__r1,u_channel_0036,u_channel,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/u_channel_0036.step,,"Create a single connected mechanical CAD part.
+u_channel_0036__L2__openai__gpt-5.2__r1,u_channel_0036,u_channel,L2,openai,gpt-5.2,generate,./reference_step files/u_channel_0036.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 U-channel with open top and two holes
@@ -1111,7 +1111,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-box_hole_0037__L2__openai__gpt-5.2__r1,box_hole_0037,box_hole,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/box_hole_0037.step,,"Create a single connected mechanical CAD part.
+box_hole_0037__L2__openai__gpt-5.2__r1,box_hole_0037,box_hole,L2,openai,gpt-5.2,generate,./reference_step files/box_hole_0037.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular block with a centered through hole
@@ -1125,7 +1125,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-box_hole_0037__L2__openai__gpt-5.2__r1,box_hole_0037,box_hole,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/box_hole_0037.step,,"Create a single connected mechanical CAD part.
+box_hole_0037__L2__openai__gpt-5.2__r1,box_hole_0037,box_hole,L2,openai,gpt-5.2,generate,./reference_step files/box_hole_0037.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular block with a centered through hole
@@ -1139,7 +1139,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-stepped_shaft_0038__L2__openai__gpt-5.2__r1,stepped_shaft_0038,stepped_shaft,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0038.step,,"Create a single connected mechanical CAD part.
+stepped_shaft_0038__L2__openai__gpt-5.2__r1,stepped_shaft_0038,stepped_shaft,L2,openai,gpt-5.2,generate,./reference_step files/stepped_shaft_0038.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Three-step coaxial shaft
@@ -1156,7 +1156,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-stepped_shaft_0038__L2__openai__gpt-5.2__r1,stepped_shaft_0038,stepped_shaft,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0038.step,,"Create a single connected mechanical CAD part.
+stepped_shaft_0038__L2__openai__gpt-5.2__r1,stepped_shaft_0038,stepped_shaft,L2,openai,gpt-5.2,generate,./reference_step files/stepped_shaft_0038.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Three-step coaxial shaft
@@ -1173,7 +1173,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-flange_0039__L2__openai__gpt-5.2__r1,flange_0039,flange,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/flange_0039.step,,"Create a single connected mechanical CAD part.
+flange_0039__L2__openai__gpt-5.2__r1,flange_0039,flange,L2,openai,gpt-5.2,generate,./reference_step files/flange_0039.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Circular flange with bore and bolt pattern
@@ -1189,7 +1189,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-flange_0039__L2__openai__gpt-5.2__r1,flange_0039,flange,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/flange_0039.step,,"Create a single connected mechanical CAD part.
+flange_0039__L2__openai__gpt-5.2__r1,flange_0039,flange,L2,openai,gpt-5.2,generate,./reference_step files/flange_0039.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Circular flange with bore and bolt pattern
@@ -1205,7 +1205,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-ring_spacer_0040__L2__openai__gpt-5.2__r1,ring_spacer_0040,ring_spacer,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/ring_spacer_0040.step,,"Create a single connected mechanical CAD part.
+ring_spacer_0040__L2__openai__gpt-5.2__r1,ring_spacer_0040,ring_spacer,L2,openai,gpt-5.2,generate,./reference_step files/ring_spacer_0040.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Ring spacer (hollow cylinder)
@@ -1220,7 +1220,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-ring_spacer_0040__L2__openai__gpt-5.2__r1,ring_spacer_0040,ring_spacer,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/ring_spacer_0040.step,,"Create a single connected mechanical CAD part.
+ring_spacer_0040__L2__openai__gpt-5.2__r1,ring_spacer_0040,ring_spacer,L2,openai,gpt-5.2,generate,./reference_step files/ring_spacer_0040.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Ring spacer (hollow cylinder)
@@ -1235,7 +1235,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-slotted_plate_0041__L2__openai__gpt-5.2__r1,slotted_plate_0041,slotted_plate,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0041.step,,"Create a single connected mechanical CAD part.
+slotted_plate_0041__L2__openai__gpt-5.2__r1,slotted_plate_0041,slotted_plate,L2,openai,gpt-5.2,generate,./reference_step files/slotted_plate_0041.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular plate with a centered through slot
@@ -1250,7 +1250,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-slotted_plate_0041__L2__openai__gpt-5.2__r1,slotted_plate_0041,slotted_plate,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0041.step,,"Create a single connected mechanical CAD part.
+slotted_plate_0041__L2__openai__gpt-5.2__r1,slotted_plate_0041,slotted_plate,L2,openai,gpt-5.2,generate,./reference_step files/slotted_plate_0041.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular plate with a centered through slot
@@ -1265,7 +1265,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-l_bracket_0042__L2__openai__gpt-5.2__r1,l_bracket_0042,l_bracket,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/l_bracket_0042.step,,"Create a single connected mechanical CAD part.
+l_bracket_0042__L2__openai__gpt-5.2__r1,l_bracket_0042,l_bracket,L2,openai,gpt-5.2,generate,./reference_step files/l_bracket_0042.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 L-bracket with base, vertical web, and holes
@@ -1281,7 +1281,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-l_bracket_0042__L2__openai__gpt-5.2__r1,l_bracket_0042,l_bracket,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/l_bracket_0042.step,,"Create a single connected mechanical CAD part.
+l_bracket_0042__L2__openai__gpt-5.2__r1,l_bracket_0042,l_bracket,L2,openai,gpt-5.2,generate,./reference_step files/l_bracket_0042.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 L-bracket with base, vertical web, and holes
@@ -1297,7 +1297,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-pillow_block_0043__L2__openai__gpt-5.2__r1,pillow_block_0043,pillow_block,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pillow_block_0043.step,,"Create a single connected mechanical CAD part.
+pillow_block_0043__L2__openai__gpt-5.2__r1,pillow_block_0043,pillow_block,L2,openai,gpt-5.2,generate,./reference_step files/pillow_block_0043.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Pillow-block style mount with central bore and 4 mounting holes
@@ -1312,7 +1312,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-pillow_block_0043__L2__openai__gpt-5.2__r1,pillow_block_0043,pillow_block,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pillow_block_0043.step,,"Create a single connected mechanical CAD part.
+pillow_block_0043__L2__openai__gpt-5.2__r1,pillow_block_0043,pillow_block,L2,openai,gpt-5.2,generate,./reference_step files/pillow_block_0043.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Pillow-block style mount with central bore and 4 mounting holes
@@ -1327,7 +1327,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-pulley_0044__L2__openai__gpt-5.2__r1,pulley_0044,pulley,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pulley_0044.step,,"Create a single connected mechanical CAD part.
+pulley_0044__L2__openai__gpt-5.2__r1,pulley_0044,pulley,L2,openai,gpt-5.2,generate,./reference_step files/pulley_0044.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Three-step pulley with centered through bore
@@ -1343,7 +1343,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-pulley_0044__L2__openai__gpt-5.2__r1,pulley_0044,pulley,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pulley_0044.step,,"Create a single connected mechanical CAD part.
+pulley_0044__L2__openai__gpt-5.2__r1,pulley_0044,pulley,L2,openai,gpt-5.2,generate,./reference_step files/pulley_0044.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Three-step pulley with centered through bore
@@ -1359,7 +1359,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-u_channel_0045__L2__openai__gpt-5.2__r1,u_channel_0045,u_channel,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/u_channel_0045.step,,"Create a single connected mechanical CAD part.
+u_channel_0045__L2__openai__gpt-5.2__r1,u_channel_0045,u_channel,L2,openai,gpt-5.2,generate,./reference_step files/u_channel_0045.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 U-channel with open top and two holes
@@ -1374,7 +1374,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-u_channel_0045__L2__openai__gpt-5.2__r1,u_channel_0045,u_channel,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/u_channel_0045.step,,"Create a single connected mechanical CAD part.
+u_channel_0045__L2__openai__gpt-5.2__r1,u_channel_0045,u_channel,L2,openai,gpt-5.2,generate,./reference_step files/u_channel_0045.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 U-channel with open top and two holes
@@ -1389,7 +1389,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-box_hole_0046__L2__openai__gpt-5.2__r1,box_hole_0046,box_hole,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/box_hole_0046.step,,"Create a single connected mechanical CAD part.
+box_hole_0046__L2__openai__gpt-5.2__r1,box_hole_0046,box_hole,L2,openai,gpt-5.2,generate,./reference_step files/box_hole_0046.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular block with a centered through hole
@@ -1403,7 +1403,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-box_hole_0046__L2__openai__gpt-5.2__r1,box_hole_0046,box_hole,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/box_hole_0046.step,,"Create a single connected mechanical CAD part.
+box_hole_0046__L2__openai__gpt-5.2__r1,box_hole_0046,box_hole,L2,openai,gpt-5.2,generate,./reference_step files/box_hole_0046.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular block with a centered through hole
@@ -1417,7 +1417,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-stepped_shaft_0047__L2__openai__gpt-5.2__r1,stepped_shaft_0047,stepped_shaft,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0047.step,,"Create a single connected mechanical CAD part.
+stepped_shaft_0047__L2__openai__gpt-5.2__r1,stepped_shaft_0047,stepped_shaft,L2,openai,gpt-5.2,generate,./reference_step files/stepped_shaft_0047.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Three-step coaxial shaft
@@ -1434,7 +1434,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-stepped_shaft_0047__L2__openai__gpt-5.2__r1,stepped_shaft_0047,stepped_shaft,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0047.step,,"Create a single connected mechanical CAD part.
+stepped_shaft_0047__L2__openai__gpt-5.2__r1,stepped_shaft_0047,stepped_shaft,L2,openai,gpt-5.2,generate,./reference_step files/stepped_shaft_0047.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Three-step coaxial shaft
@@ -1451,7 +1451,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-flange_0048__L2__openai__gpt-5.2__r1,flange_0048,flange,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/flange_0048.step,,"Create a single connected mechanical CAD part.
+flange_0048__L2__openai__gpt-5.2__r1,flange_0048,flange,L2,openai,gpt-5.2,generate,./reference_step files/flange_0048.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Circular flange with bore and bolt pattern
@@ -1467,7 +1467,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-flange_0048__L2__openai__gpt-5.2__r1,flange_0048,flange,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/flange_0048.step,,"Create a single connected mechanical CAD part.
+flange_0048__L2__openai__gpt-5.2__r1,flange_0048,flange,L2,openai,gpt-5.2,generate,./reference_step files/flange_0048.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Circular flange with bore and bolt pattern
@@ -1483,7 +1483,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-ring_spacer_0049__L2__openai__gpt-5.2__r1,ring_spacer_0049,ring_spacer,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/ring_spacer_0049.step,,"Create a single connected mechanical CAD part.
+ring_spacer_0049__L2__openai__gpt-5.2__r1,ring_spacer_0049,ring_spacer,L2,openai,gpt-5.2,generate,./reference_step files/ring_spacer_0049.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Ring spacer (hollow cylinder)
@@ -1498,7 +1498,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-ring_spacer_0049__L2__openai__gpt-5.2__r1,ring_spacer_0049,ring_spacer,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/ring_spacer_0049.step,,"Create a single connected mechanical CAD part.
+ring_spacer_0049__L2__openai__gpt-5.2__r1,ring_spacer_0049,ring_spacer,L2,openai,gpt-5.2,generate,./reference_step files/ring_spacer_0049.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Ring spacer (hollow cylinder)
@@ -1513,7 +1513,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-slotted_plate_0050__L2__openai__gpt-5.2__r1,slotted_plate_0050,slotted_plate,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0050.step,,"Create a single connected mechanical CAD part.
+slotted_plate_0050__L2__openai__gpt-5.2__r1,slotted_plate_0050,slotted_plate,L2,openai,gpt-5.2,generate,./reference_step files/slotted_plate_0050.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular plate with a centered through slot
@@ -1528,7 +1528,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-slotted_plate_0050__L2__openai__gpt-5.2__r1,slotted_plate_0050,slotted_plate,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0050.step,,"Create a single connected mechanical CAD part.
+slotted_plate_0050__L2__openai__gpt-5.2__r1,slotted_plate_0050,slotted_plate,L2,openai,gpt-5.2,generate,./reference_step files/slotted_plate_0050.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular plate with a centered through slot
@@ -1543,7 +1543,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-l_bracket_0051__L2__openai__gpt-5.2__r1,l_bracket_0051,l_bracket,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/l_bracket_0051.step,,"Create a single connected mechanical CAD part.
+l_bracket_0051__L2__openai__gpt-5.2__r1,l_bracket_0051,l_bracket,L2,openai,gpt-5.2,generate,./reference_step files/l_bracket_0051.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 L-bracket with base, vertical web, and holes
@@ -1559,7 +1559,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-l_bracket_0051__L2__openai__gpt-5.2__r1,l_bracket_0051,l_bracket,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/l_bracket_0051.step,,"Create a single connected mechanical CAD part.
+l_bracket_0051__L2__openai__gpt-5.2__r1,l_bracket_0051,l_bracket,L2,openai,gpt-5.2,generate,./reference_step files/l_bracket_0051.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 L-bracket with base, vertical web, and holes
@@ -1575,7 +1575,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-pillow_block_0052__L2__openai__gpt-5.2__r1,pillow_block_0052,pillow_block,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pillow_block_0052.step,,"Create a single connected mechanical CAD part.
+pillow_block_0052__L2__openai__gpt-5.2__r1,pillow_block_0052,pillow_block,L2,openai,gpt-5.2,generate,./reference_step files/pillow_block_0052.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Pillow-block style mount with central bore and 4 mounting holes
@@ -1590,7 +1590,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-pillow_block_0052__L2__openai__gpt-5.2__r1,pillow_block_0052,pillow_block,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pillow_block_0052.step,,"Create a single connected mechanical CAD part.
+pillow_block_0052__L2__openai__gpt-5.2__r1,pillow_block_0052,pillow_block,L2,openai,gpt-5.2,generate,./reference_step files/pillow_block_0052.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Pillow-block style mount with central bore and 4 mounting holes
@@ -1605,7 +1605,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-pulley_0053__L2__openai__gpt-5.2__r1,pulley_0053,pulley,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pulley_0053.step,,"Create a single connected mechanical CAD part.
+pulley_0053__L2__openai__gpt-5.2__r1,pulley_0053,pulley,L2,openai,gpt-5.2,generate,./reference_step files/pulley_0053.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Three-step pulley with centered through bore
@@ -1621,7 +1621,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-pulley_0053__L2__openai__gpt-5.2__r1,pulley_0053,pulley,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pulley_0053.step,,"Create a single connected mechanical CAD part.
+pulley_0053__L2__openai__gpt-5.2__r1,pulley_0053,pulley,L2,openai,gpt-5.2,generate,./reference_step files/pulley_0053.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Three-step pulley with centered through bore
@@ -1637,7 +1637,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-u_channel_0054__L2__openai__gpt-5.2__r1,u_channel_0054,u_channel,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/u_channel_0054.step,,"Create a single connected mechanical CAD part.
+u_channel_0054__L2__openai__gpt-5.2__r1,u_channel_0054,u_channel,L2,openai,gpt-5.2,generate,./reference_step files/u_channel_0054.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 U-channel with open top and two holes
@@ -1652,7 +1652,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-u_channel_0054__L2__openai__gpt-5.2__r1,u_channel_0054,u_channel,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/u_channel_0054.step,,"Create a single connected mechanical CAD part.
+u_channel_0054__L2__openai__gpt-5.2__r1,u_channel_0054,u_channel,L2,openai,gpt-5.2,generate,./reference_step files/u_channel_0054.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 U-channel with open top and two holes
@@ -1667,7 +1667,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-box_hole_0055__L2__openai__gpt-5.2__r1,box_hole_0055,box_hole,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/box_hole_0055.step,,"Create a single connected mechanical CAD part.
+box_hole_0055__L2__openai__gpt-5.2__r1,box_hole_0055,box_hole,L2,openai,gpt-5.2,generate,./reference_step files/box_hole_0055.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular block with a centered through hole
@@ -1681,7 +1681,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-box_hole_0055__L2__openai__gpt-5.2__r1,box_hole_0055,box_hole,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/box_hole_0055.step,,"Create a single connected mechanical CAD part.
+box_hole_0055__L2__openai__gpt-5.2__r1,box_hole_0055,box_hole,L2,openai,gpt-5.2,generate,./reference_step files/box_hole_0055.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular block with a centered through hole
@@ -1695,7 +1695,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-stepped_shaft_0056__L2__openai__gpt-5.2__r1,stepped_shaft_0056,stepped_shaft,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0056.step,,"Create a single connected mechanical CAD part.
+stepped_shaft_0056__L2__openai__gpt-5.2__r1,stepped_shaft_0056,stepped_shaft,L2,openai,gpt-5.2,generate,./reference_step files/stepped_shaft_0056.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Three-step coaxial shaft
@@ -1712,7 +1712,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-stepped_shaft_0056__L2__openai__gpt-5.2__r1,stepped_shaft_0056,stepped_shaft,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0056.step,,"Create a single connected mechanical CAD part.
+stepped_shaft_0056__L2__openai__gpt-5.2__r1,stepped_shaft_0056,stepped_shaft,L2,openai,gpt-5.2,generate,./reference_step files/stepped_shaft_0056.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Three-step coaxial shaft
@@ -1729,7 +1729,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-flange_0057__L2__openai__gpt-5.2__r1,flange_0057,flange,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/flange_0057.step,,"Create a single connected mechanical CAD part.
+flange_0057__L2__openai__gpt-5.2__r1,flange_0057,flange,L2,openai,gpt-5.2,generate,./reference_step files/flange_0057.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Circular flange with bore and bolt pattern
@@ -1745,7 +1745,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-flange_0057__L2__openai__gpt-5.2__r1,flange_0057,flange,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/flange_0057.step,,"Create a single connected mechanical CAD part.
+flange_0057__L2__openai__gpt-5.2__r1,flange_0057,flange,L2,openai,gpt-5.2,generate,./reference_step files/flange_0057.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Circular flange with bore and bolt pattern
@@ -1761,7 +1761,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-ring_spacer_0058__L2__openai__gpt-5.2__r1,ring_spacer_0058,ring_spacer,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/ring_spacer_0058.step,,"Create a single connected mechanical CAD part.
+ring_spacer_0058__L2__openai__gpt-5.2__r1,ring_spacer_0058,ring_spacer,L2,openai,gpt-5.2,generate,./reference_step files/ring_spacer_0058.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Ring spacer (hollow cylinder)
@@ -1776,7 +1776,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-ring_spacer_0058__L2__openai__gpt-5.2__r1,ring_spacer_0058,ring_spacer,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/ring_spacer_0058.step,,"Create a single connected mechanical CAD part.
+ring_spacer_0058__L2__openai__gpt-5.2__r1,ring_spacer_0058,ring_spacer,L2,openai,gpt-5.2,generate,./reference_step files/ring_spacer_0058.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Ring spacer (hollow cylinder)
@@ -1791,7 +1791,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-slotted_plate_0059__L2__openai__gpt-5.2__r1,slotted_plate_0059,slotted_plate,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0059.step,,"Create a single connected mechanical CAD part.
+slotted_plate_0059__L2__openai__gpt-5.2__r1,slotted_plate_0059,slotted_plate,L2,openai,gpt-5.2,generate,./reference_step files/slotted_plate_0059.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular plate with a centered through slot
@@ -1806,7 +1806,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-slotted_plate_0059__L2__openai__gpt-5.2__r1,slotted_plate_0059,slotted_plate,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0059.step,,"Create a single connected mechanical CAD part.
+slotted_plate_0059__L2__openai__gpt-5.2__r1,slotted_plate_0059,slotted_plate,L2,openai,gpt-5.2,generate,./reference_step files/slotted_plate_0059.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular plate with a centered through slot
@@ -1821,7 +1821,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-l_bracket_0060__L2__openai__gpt-5.2__r1,l_bracket_0060,l_bracket,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/l_bracket_0060.step,,"Create a single connected mechanical CAD part.
+l_bracket_0060__L2__openai__gpt-5.2__r1,l_bracket_0060,l_bracket,L2,openai,gpt-5.2,generate,./reference_step files/l_bracket_0060.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 L-bracket with base, vertical web, and holes
@@ -1837,7 +1837,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-l_bracket_0060__L2__openai__gpt-5.2__r1,l_bracket_0060,l_bracket,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/l_bracket_0060.step,,"Create a single connected mechanical CAD part.
+l_bracket_0060__L2__openai__gpt-5.2__r1,l_bracket_0060,l_bracket,L2,openai,gpt-5.2,generate,./reference_step files/l_bracket_0060.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 L-bracket with base, vertical web, and holes
@@ -1853,7 +1853,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-pillow_block_0061__L2__openai__gpt-5.2__r1,pillow_block_0061,pillow_block,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pillow_block_0061.step,,"Create a single connected mechanical CAD part.
+pillow_block_0061__L2__openai__gpt-5.2__r1,pillow_block_0061,pillow_block,L2,openai,gpt-5.2,generate,./reference_step files/pillow_block_0061.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Pillow-block style mount with central bore and 4 mounting holes
@@ -1868,7 +1868,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-pillow_block_0061__L2__openai__gpt-5.2__r1,pillow_block_0061,pillow_block,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pillow_block_0061.step,,"Create a single connected mechanical CAD part.
+pillow_block_0061__L2__openai__gpt-5.2__r1,pillow_block_0061,pillow_block,L2,openai,gpt-5.2,generate,./reference_step files/pillow_block_0061.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Pillow-block style mount with central bore and 4 mounting holes
@@ -1883,7 +1883,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-pulley_0062__L2__openai__gpt-5.2__r1,pulley_0062,pulley,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pulley_0062.step,,"Create a single connected mechanical CAD part.
+pulley_0062__L2__openai__gpt-5.2__r1,pulley_0062,pulley,L2,openai,gpt-5.2,generate,./reference_step files/pulley_0062.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Three-step pulley with centered through bore
@@ -1899,7 +1899,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-pulley_0062__L2__openai__gpt-5.2__r1,pulley_0062,pulley,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pulley_0062.step,,"Create a single connected mechanical CAD part.
+pulley_0062__L2__openai__gpt-5.2__r1,pulley_0062,pulley,L2,openai,gpt-5.2,generate,./reference_step files/pulley_0062.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Three-step pulley with centered through bore
@@ -1915,7 +1915,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-u_channel_0063__L2__openai__gpt-5.2__r1,u_channel_0063,u_channel,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/u_channel_0063.step,,"Create a single connected mechanical CAD part.
+u_channel_0063__L2__openai__gpt-5.2__r1,u_channel_0063,u_channel,L2,openai,gpt-5.2,generate,./reference_step files/u_channel_0063.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 U-channel with open top and two holes
@@ -1930,7 +1930,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-u_channel_0063__L2__openai__gpt-5.2__r1,u_channel_0063,u_channel,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/u_channel_0063.step,,"Create a single connected mechanical CAD part.
+u_channel_0063__L2__openai__gpt-5.2__r1,u_channel_0063,u_channel,L2,openai,gpt-5.2,generate,./reference_step files/u_channel_0063.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 U-channel with open top and two holes
@@ -1945,7 +1945,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-box_hole_0064__L2__openai__gpt-5.2__r1,box_hole_0064,box_hole,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/box_hole_0064.step,,"Create a single connected mechanical CAD part.
+box_hole_0064__L2__openai__gpt-5.2__r1,box_hole_0064,box_hole,L2,openai,gpt-5.2,generate,./reference_step files/box_hole_0064.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular block with a centered through hole
@@ -1959,7 +1959,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-box_hole_0064__L2__openai__gpt-5.2__r1,box_hole_0064,box_hole,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/box_hole_0064.step,,"Create a single connected mechanical CAD part.
+box_hole_0064__L2__openai__gpt-5.2__r1,box_hole_0064,box_hole,L2,openai,gpt-5.2,generate,./reference_step files/box_hole_0064.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular block with a centered through hole
@@ -1973,7 +1973,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-stepped_shaft_0065__L2__openai__gpt-5.2__r1,stepped_shaft_0065,stepped_shaft,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0065.step,,"Create a single connected mechanical CAD part.
+stepped_shaft_0065__L2__openai__gpt-5.2__r1,stepped_shaft_0065,stepped_shaft,L2,openai,gpt-5.2,generate,./reference_step files/stepped_shaft_0065.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Three-step coaxial shaft
@@ -1990,7 +1990,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-stepped_shaft_0065__L2__openai__gpt-5.2__r1,stepped_shaft_0065,stepped_shaft,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0065.step,,"Create a single connected mechanical CAD part.
+stepped_shaft_0065__L2__openai__gpt-5.2__r1,stepped_shaft_0065,stepped_shaft,L2,openai,gpt-5.2,generate,./reference_step files/stepped_shaft_0065.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Three-step coaxial shaft
@@ -2007,7 +2007,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-flange_0066__L2__openai__gpt-5.2__r1,flange_0066,flange,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/flange_0066.step,,"Create a single connected mechanical CAD part.
+flange_0066__L2__openai__gpt-5.2__r1,flange_0066,flange,L2,openai,gpt-5.2,generate,./reference_step files/flange_0066.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Circular flange with bore and bolt pattern
@@ -2023,7 +2023,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-flange_0066__L2__openai__gpt-5.2__r1,flange_0066,flange,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/flange_0066.step,,"Create a single connected mechanical CAD part.
+flange_0066__L2__openai__gpt-5.2__r1,flange_0066,flange,L2,openai,gpt-5.2,generate,./reference_step files/flange_0066.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Circular flange with bore and bolt pattern
@@ -2039,7 +2039,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-ring_spacer_0067__L2__openai__gpt-5.2__r1,ring_spacer_0067,ring_spacer,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/ring_spacer_0067.step,,"Create a single connected mechanical CAD part.
+ring_spacer_0067__L2__openai__gpt-5.2__r1,ring_spacer_0067,ring_spacer,L2,openai,gpt-5.2,generate,./reference_step files/ring_spacer_0067.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Ring spacer (hollow cylinder)
@@ -2054,7 +2054,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-ring_spacer_0067__L2__openai__gpt-5.2__r1,ring_spacer_0067,ring_spacer,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/ring_spacer_0067.step,,"Create a single connected mechanical CAD part.
+ring_spacer_0067__L2__openai__gpt-5.2__r1,ring_spacer_0067,ring_spacer,L2,openai,gpt-5.2,generate,./reference_step files/ring_spacer_0067.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Ring spacer (hollow cylinder)
@@ -2069,7 +2069,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-slotted_plate_0068__L2__openai__gpt-5.2__r1,slotted_plate_0068,slotted_plate,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0068.step,,"Create a single connected mechanical CAD part.
+slotted_plate_0068__L2__openai__gpt-5.2__r1,slotted_plate_0068,slotted_plate,L2,openai,gpt-5.2,generate,./reference_step files/slotted_plate_0068.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular plate with a centered through slot
@@ -2084,7 +2084,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-slotted_plate_0068__L2__openai__gpt-5.2__r1,slotted_plate_0068,slotted_plate,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0068.step,,"Create a single connected mechanical CAD part.
+slotted_plate_0068__L2__openai__gpt-5.2__r1,slotted_plate_0068,slotted_plate,L2,openai,gpt-5.2,generate,./reference_step files/slotted_plate_0068.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular plate with a centered through slot
@@ -2099,7 +2099,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-l_bracket_0069__L2__openai__gpt-5.2__r1,l_bracket_0069,l_bracket,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/l_bracket_0069.step,,"Create a single connected mechanical CAD part.
+l_bracket_0069__L2__openai__gpt-5.2__r1,l_bracket_0069,l_bracket,L2,openai,gpt-5.2,generate,./reference_step files/l_bracket_0069.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 L-bracket with base, vertical web, and holes
@@ -2115,7 +2115,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-l_bracket_0069__L2__openai__gpt-5.2__r1,l_bracket_0069,l_bracket,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/l_bracket_0069.step,,"Create a single connected mechanical CAD part.
+l_bracket_0069__L2__openai__gpt-5.2__r1,l_bracket_0069,l_bracket,L2,openai,gpt-5.2,generate,./reference_step files/l_bracket_0069.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 L-bracket with base, vertical web, and holes
@@ -2131,7 +2131,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-pillow_block_0070__L2__openai__gpt-5.2__r1,pillow_block_0070,pillow_block,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pillow_block_0070.step,,"Create a single connected mechanical CAD part.
+pillow_block_0070__L2__openai__gpt-5.2__r1,pillow_block_0070,pillow_block,L2,openai,gpt-5.2,generate,./reference_step files/pillow_block_0070.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Pillow-block style mount with central bore and 4 mounting holes
@@ -2146,7 +2146,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-pillow_block_0070__L2__openai__gpt-5.2__r1,pillow_block_0070,pillow_block,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pillow_block_0070.step,,"Create a single connected mechanical CAD part.
+pillow_block_0070__L2__openai__gpt-5.2__r1,pillow_block_0070,pillow_block,L2,openai,gpt-5.2,generate,./reference_step files/pillow_block_0070.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Pillow-block style mount with central bore and 4 mounting holes
@@ -2161,7 +2161,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-pulley_0071__L2__openai__gpt-5.2__r1,pulley_0071,pulley,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pulley_0071.step,,"Create a single connected mechanical CAD part.
+pulley_0071__L2__openai__gpt-5.2__r1,pulley_0071,pulley,L2,openai,gpt-5.2,generate,./reference_step files/pulley_0071.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Three-step pulley with centered through bore
@@ -2177,7 +2177,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-pulley_0071__L2__openai__gpt-5.2__r1,pulley_0071,pulley,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pulley_0071.step,,"Create a single connected mechanical CAD part.
+pulley_0071__L2__openai__gpt-5.2__r1,pulley_0071,pulley,L2,openai,gpt-5.2,generate,./reference_step files/pulley_0071.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Three-step pulley with centered through bore
@@ -2193,7 +2193,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-u_channel_0072__L2__openai__gpt-5.2__r1,u_channel_0072,u_channel,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/u_channel_0072.step,,"Create a single connected mechanical CAD part.
+u_channel_0072__L2__openai__gpt-5.2__r1,u_channel_0072,u_channel,L2,openai,gpt-5.2,generate,./reference_step files/u_channel_0072.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 U-channel with open top and two holes
@@ -2208,7 +2208,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-u_channel_0072__L2__openai__gpt-5.2__r1,u_channel_0072,u_channel,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/u_channel_0072.step,,"Create a single connected mechanical CAD part.
+u_channel_0072__L2__openai__gpt-5.2__r1,u_channel_0072,u_channel,L2,openai,gpt-5.2,generate,./reference_step files/u_channel_0072.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 U-channel with open top and two holes
@@ -2223,7 +2223,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-box_hole_0073__L2__openai__gpt-5.2__r1,box_hole_0073,box_hole,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/box_hole_0073.step,,"Create a single connected mechanical CAD part.
+box_hole_0073__L2__openai__gpt-5.2__r1,box_hole_0073,box_hole,L2,openai,gpt-5.2,generate,./reference_step files/box_hole_0073.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular block with a centered through hole
@@ -2237,7 +2237,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-box_hole_0073__L2__openai__gpt-5.2__r1,box_hole_0073,box_hole,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/box_hole_0073.step,,"Create a single connected mechanical CAD part.
+box_hole_0073__L2__openai__gpt-5.2__r1,box_hole_0073,box_hole,L2,openai,gpt-5.2,generate,./reference_step files/box_hole_0073.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular block with a centered through hole
@@ -2251,7 +2251,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-stepped_shaft_0074__L2__openai__gpt-5.2__r1,stepped_shaft_0074,stepped_shaft,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0074.step,,"Create a single connected mechanical CAD part.
+stepped_shaft_0074__L2__openai__gpt-5.2__r1,stepped_shaft_0074,stepped_shaft,L2,openai,gpt-5.2,generate,./reference_step files/stepped_shaft_0074.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Three-step coaxial shaft
@@ -2268,7 +2268,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-stepped_shaft_0074__L2__openai__gpt-5.2__r1,stepped_shaft_0074,stepped_shaft,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0074.step,,"Create a single connected mechanical CAD part.
+stepped_shaft_0074__L2__openai__gpt-5.2__r1,stepped_shaft_0074,stepped_shaft,L2,openai,gpt-5.2,generate,./reference_step files/stepped_shaft_0074.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Three-step coaxial shaft
@@ -2285,7 +2285,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-flange_0075__L2__openai__gpt-5.2__r1,flange_0075,flange,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/flange_0075.step,,"Create a single connected mechanical CAD part.
+flange_0075__L2__openai__gpt-5.2__r1,flange_0075,flange,L2,openai,gpt-5.2,generate,./reference_step files/flange_0075.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Circular flange with bore and bolt pattern
@@ -2301,7 +2301,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-flange_0075__L2__openai__gpt-5.2__r1,flange_0075,flange,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/flange_0075.step,,"Create a single connected mechanical CAD part.
+flange_0075__L2__openai__gpt-5.2__r1,flange_0075,flange,L2,openai,gpt-5.2,generate,./reference_step files/flange_0075.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Circular flange with bore and bolt pattern
@@ -2317,7 +2317,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-ring_spacer_0076__L2__openai__gpt-5.2__r1,ring_spacer_0076,ring_spacer,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/ring_spacer_0076.step,,"Create a single connected mechanical CAD part.
+ring_spacer_0076__L2__openai__gpt-5.2__r1,ring_spacer_0076,ring_spacer,L2,openai,gpt-5.2,generate,./reference_step files/ring_spacer_0076.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Ring spacer (hollow cylinder)
@@ -2332,7 +2332,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-ring_spacer_0076__L2__openai__gpt-5.2__r1,ring_spacer_0076,ring_spacer,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/ring_spacer_0076.step,,"Create a single connected mechanical CAD part.
+ring_spacer_0076__L2__openai__gpt-5.2__r1,ring_spacer_0076,ring_spacer,L2,openai,gpt-5.2,generate,./reference_step files/ring_spacer_0076.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Ring spacer (hollow cylinder)
@@ -2347,7 +2347,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-slotted_plate_0077__L2__openai__gpt-5.2__r1,slotted_plate_0077,slotted_plate,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0077.step,,"Create a single connected mechanical CAD part.
+slotted_plate_0077__L2__openai__gpt-5.2__r1,slotted_plate_0077,slotted_plate,L2,openai,gpt-5.2,generate,./reference_step files/slotted_plate_0077.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular plate with a centered through slot
@@ -2362,7 +2362,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-slotted_plate_0077__L2__openai__gpt-5.2__r1,slotted_plate_0077,slotted_plate,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0077.step,,"Create a single connected mechanical CAD part.
+slotted_plate_0077__L2__openai__gpt-5.2__r1,slotted_plate_0077,slotted_plate,L2,openai,gpt-5.2,generate,./reference_step files/slotted_plate_0077.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular plate with a centered through slot
@@ -2377,7 +2377,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-l_bracket_0078__L2__openai__gpt-5.2__r1,l_bracket_0078,l_bracket,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/l_bracket_0078.step,,"Create a single connected mechanical CAD part.
+l_bracket_0078__L2__openai__gpt-5.2__r1,l_bracket_0078,l_bracket,L2,openai,gpt-5.2,generate,./reference_step files/l_bracket_0078.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 L-bracket with base, vertical web, and holes
@@ -2393,7 +2393,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-l_bracket_0078__L2__openai__gpt-5.2__r1,l_bracket_0078,l_bracket,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/l_bracket_0078.step,,"Create a single connected mechanical CAD part.
+l_bracket_0078__L2__openai__gpt-5.2__r1,l_bracket_0078,l_bracket,L2,openai,gpt-5.2,generate,./reference_step files/l_bracket_0078.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 L-bracket with base, vertical web, and holes
@@ -2409,7 +2409,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-pillow_block_0079__L2__openai__gpt-5.2__r1,pillow_block_0079,pillow_block,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pillow_block_0079.step,,"Create a single connected mechanical CAD part.
+pillow_block_0079__L2__openai__gpt-5.2__r1,pillow_block_0079,pillow_block,L2,openai,gpt-5.2,generate,./reference_step files/pillow_block_0079.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Pillow-block style mount with central bore and 4 mounting holes
@@ -2424,7 +2424,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-pillow_block_0079__L2__openai__gpt-5.2__r1,pillow_block_0079,pillow_block,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pillow_block_0079.step,,"Create a single connected mechanical CAD part.
+pillow_block_0079__L2__openai__gpt-5.2__r1,pillow_block_0079,pillow_block,L2,openai,gpt-5.2,generate,./reference_step files/pillow_block_0079.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Pillow-block style mount with central bore and 4 mounting holes
@@ -2439,7 +2439,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-pulley_0080__L2__openai__gpt-5.2__r1,pulley_0080,pulley,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pulley_0080.step,,"Create a single connected mechanical CAD part.
+pulley_0080__L2__openai__gpt-5.2__r1,pulley_0080,pulley,L2,openai,gpt-5.2,generate,./reference_step files/pulley_0080.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Three-step pulley with centered through bore
@@ -2455,7 +2455,7 @@ Output constraints:
 - Exactly one solid body.
 - No floating or disconnected geometry.
 - Preserve all dimensions exactly.",full_44,1,10000,2.0,true,240,{},pending,true,auto_generated_from_golden_prompts
-pulley_0080__L2__openai__gpt-5.2__r1,pulley_0080,pulley,L2,openai,gpt-5.2,generate,/Users/mejdi/Desktop/reference_step files/pulley_0080.step,,"Create a single connected mechanical CAD part.
+pulley_0080__L2__openai__gpt-5.2__r1,pulley_0080,pulley,L2,openai,gpt-5.2,generate,./reference_step files/pulley_0080.step,,"Create a single connected mechanical CAD part.
 
 Part identity:
 Three-step pulley with centered through bore

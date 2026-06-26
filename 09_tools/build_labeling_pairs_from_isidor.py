@@ -511,21 +511,21 @@ def main() -> int:
     out_dir.mkdir(parents=True, exist_ok=True)
 
     ref_dirs = [
-        Path("/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_basic"),
-        Path("/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_parametric"),
-        Path("/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_advanced"),
-        Path("/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_advanced_smoke"),
+        Path("./benchmark_v1/references_basic"),
+        Path("./benchmark_v1/references_parametric"),
+        Path("./benchmark_v1/references_advanced"),
+        Path("./benchmark_v1/references_advanced_smoke"),
     ]
     ref_map = _build_ref_map(ref_dirs)
 
     # Optional external reference sets (copied into workspace if used)
     external_dirs = [
-        Path("/Users/mejdi/Desktop/reference_step files"),
-        Path("/Users/mejdi/Desktop/ISIDOR/reference_step files"),
+        Path("./reference_step files"),
+        Path("./reference_step files"),
     ]
     external_map = _build_ref_map_recursive(external_dirs)
     workspace_ref_dir = Path(
-        "/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor"
+        "./benchmark_v1/references_isidor"
     )
     workspace_ref_dir.mkdir(parents=True, exist_ok=True)
 

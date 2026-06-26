@@ -216,7 +216,7 @@ def main() -> int:
 
     rows = parse_key_dims_xlsx(xlsx)
 
-    ref_root = Path("/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all")
+    ref_root = Path("./benchmark_v1/references_isidor_all")
     ref_root.mkdir(parents=True, exist_ok=True)
     ref_stl_root = ref_root / "references_parametric_stl"
     ref_stl_root.mkdir(parents=True, exist_ok=True)

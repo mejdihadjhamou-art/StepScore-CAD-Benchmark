@@ -1,7 +1,7 @@
 {
   "run_id": "harness_exec_smoke2",
-  "manifest": "/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/harness_manifest.smoke.csv",
-  "output_root": "/Users/mejdi/Documents/New project/cad42_platform/.stepscore_harness_runs",
+  "manifest": "./benchmark_v1/harness_manifest.smoke.csv",
+  "output_root": "./.stepscore_harness_runs",
   "job_count": 1,
   "max_workers": 1,
   "max_retries": 0,

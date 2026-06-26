@@ -25,7 +25,7 @@ Local dashboard with three workflows:
 
 ## Option 1: Run with Conda
 ```bash
-cd "/Users/mejdi/Documents/New project/cad42_platform"
+cd "./cad42_platform"
 conda create -n cad42 python=3.11 -y
 conda activate cad42
 pip install -r requirements.txt
@@ -35,7 +35,7 @@ Open: `http://localhost:8501`
 
 ## Option 2: Run with Docker Compose
 ```bash
-cd "/Users/mejdi/Documents/New project/cad42_platform"
+cd "./cad42_platform"
 docker compose up --build
 ```
 Open: `http://localhost:8501`

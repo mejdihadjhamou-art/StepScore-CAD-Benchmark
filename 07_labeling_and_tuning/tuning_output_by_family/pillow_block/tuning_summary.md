@@ -1,7 +1,7 @@
 # Threshold Tuning Summary
 
 - Generated at (UTC): `2026-03-25T12:27:11.993829+00:00`
-- Input CSV: `/Users/mejdi/Documents/New project/cad42_platform/threshold_tuning/output_by_family/pillow_block/pairs.csv`
+- Input CSV: `./threshold_tuning/output_by_family/pillow_block/pairs.csv`
 - Objective: `cost`
 - FP cost: `5.0`
 - FN cost: `1.0`

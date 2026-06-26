@@ -44,7 +44,7 @@ python -c "import flask, flask_cors; print('✅ Ready')"
 ### Step 1: Open Terminal
 
 ```bash
-cd "/Users/mejdi/Documents/New project/cad42_platform"
+cd "./cad42_platform"
 ```
 
 ### Step 2: Run the Server

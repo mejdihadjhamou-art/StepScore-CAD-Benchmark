@@ -1,5 +1,5 @@
 part_id,family,reference_path,prompt_text
-manifold_block_0001,manifold_block,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/manifold_block/manifold_block_0001.step,"Create a single connected mechanical CAD part.
+manifold_block_0001,manifold_block,./benchmark_v1/references_isidor_all/manifold_block/manifold_block_0001.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 manifold_block (manifold_block_0001)
@@ -19,7 +19,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-threaded_parts_male_0002,threaded_parts_male,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/threaded_parts_male/threaded_parts_male_0002.step,"Create a single connected mechanical CAD part.
+threaded_parts_male_0002,threaded_parts_male,./benchmark_v1/references_isidor_all/threaded_parts_male/threaded_parts_male_0002.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 threaded_parts_male (threaded_parts_male_0002)
@@ -39,7 +39,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-threaded_parts_female_0003,threaded_parts_female,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/threaded_parts_female/threaded_parts_female_0003.step,"Create a single connected mechanical CAD part.
+threaded_parts_female_0003,threaded_parts_female,./benchmark_v1/references_isidor_all/threaded_parts_female/threaded_parts_female_0003.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 threaded_parts_female (threaded_parts_female_0003)
@@ -59,7 +59,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-keyed_shaft_hub_0004,keyed_shaft_hub,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/keyed_shaft_hub/keyed_shaft_hub_0004.step,"Create a single connected mechanical CAD part.
+keyed_shaft_hub_0004,keyed_shaft_hub,./benchmark_v1/references_isidor_all/keyed_shaft_hub/keyed_shaft_hub_0004.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 keyed_shaft_hub (keyed_shaft_hub_0004)
@@ -79,7 +79,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-counterbore_countersink_plate_0005,counterbore_countersink_plate,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/counterbore_countersink_plate/counterbore_countersink_plate_0005.step,"Create a single connected mechanical CAD part.
+counterbore_countersink_plate_0005,counterbore_countersink_plate,./benchmark_v1/references_isidor_all/counterbore_countersink_plate/counterbore_countersink_plate_0005.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 counterbore_countersink_plate (counterbore_countersink_plate_0005)
@@ -99,7 +99,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-ribbed_bracket_0006,ribbed_bracket,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/ribbed_bracket/ribbed_bracket_0006.step,"Create a single connected mechanical CAD part.
+ribbed_bracket_0006,ribbed_bracket,./benchmark_v1/references_isidor_all/ribbed_bracket/ribbed_bracket_0006.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 ribbed_bracket (ribbed_bracket_0006)
@@ -119,7 +119,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-shell_enclosure_0007,shell_enclosure,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/shell_enclosure/shell_enclosure_0007.step,"Create a single connected mechanical CAD part.
+shell_enclosure_0007,shell_enclosure,./benchmark_v1/references_isidor_all/shell_enclosure/shell_enclosure_0007.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 shell_enclosure (shell_enclosure_0007)
@@ -139,7 +139,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-loft_transition_0008,loft_transition,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/loft_transition/loft_transition_0008.step,"Create a single connected mechanical CAD part.
+loft_transition_0008,loft_transition,./benchmark_v1/references_isidor_all/loft_transition/loft_transition_0008.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 loft_transition (loft_transition_0008)
@@ -159,7 +159,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-sweep_path_part_0009,sweep_path_part,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/sweep_path_part/sweep_path_part_0009.step,"Create a single connected mechanical CAD part.
+sweep_path_part_0009,sweep_path_part,./benchmark_v1/references_isidor_all/sweep_path_part/sweep_path_part_0009.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 sweep_path_part (sweep_path_part_0009)
@@ -179,7 +179,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-drafted_part_0010,drafted_part,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/drafted_part/drafted_part_0010.step,"Create a single connected mechanical CAD part.
+drafted_part_0010,drafted_part,./benchmark_v1/references_isidor_all/drafted_part/drafted_part_0010.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 drafted_part (drafted_part_0010)
@@ -199,7 +199,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-helical_features_0011,helical_features,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/helical_features/helical_features_0011.step,"Create a single connected mechanical CAD part.
+helical_features_0011,helical_features,./benchmark_v1/references_isidor_all/helical_features/helical_features_0011.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 helical_features (helical_features_0011)
@@ -219,7 +219,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-chamfer_fillet_stress_cases_0012,chamfer_fillet_stress_cases,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/chamfer_fillet_stress_cases/chamfer_fillet_stress_cases_0012.step,"Create a single connected mechanical CAD part.
+chamfer_fillet_stress_cases_0012,chamfer_fillet_stress_cases,./benchmark_v1/references_isidor_all/chamfer_fillet_stress_cases/chamfer_fillet_stress_cases_0012.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 chamfer_fillet_stress_cases (chamfer_fillet_stress_cases_0012)
@@ -239,7 +239,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-off_axis_features_0013,off_axis_features,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/off_axis_features/off_axis_features_0013.step,"Create a single connected mechanical CAD part.
+off_axis_features_0013,off_axis_features,./benchmark_v1/references_isidor_all/off_axis_features/off_axis_features_0013.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 off_axis_features (off_axis_features_0013)
@@ -259,7 +259,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-manifold_block_0014,manifold_block,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/manifold_block/manifold_block_0014.step,"Create a single connected mechanical CAD part.
+manifold_block_0014,manifold_block,./benchmark_v1/references_isidor_all/manifold_block/manifold_block_0014.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 manifold_block (manifold_block_0014)
@@ -279,7 +279,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-threaded_parts_male_0015,threaded_parts_male,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/threaded_parts_male/threaded_parts_male_0015.step,"Create a single connected mechanical CAD part.
+threaded_parts_male_0015,threaded_parts_male,./benchmark_v1/references_isidor_all/threaded_parts_male/threaded_parts_male_0015.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 threaded_parts_male (threaded_parts_male_0015)
@@ -299,7 +299,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-threaded_parts_female_0016,threaded_parts_female,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/threaded_parts_female/threaded_parts_female_0016.step,"Create a single connected mechanical CAD part.
+threaded_parts_female_0016,threaded_parts_female,./benchmark_v1/references_isidor_all/threaded_parts_female/threaded_parts_female_0016.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 threaded_parts_female (threaded_parts_female_0016)
@@ -319,7 +319,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-keyed_shaft_hub_0017,keyed_shaft_hub,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/keyed_shaft_hub/keyed_shaft_hub_0017.step,"Create a single connected mechanical CAD part.
+keyed_shaft_hub_0017,keyed_shaft_hub,./benchmark_v1/references_isidor_all/keyed_shaft_hub/keyed_shaft_hub_0017.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 keyed_shaft_hub (keyed_shaft_hub_0017)
@@ -339,7 +339,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-counterbore_countersink_plate_0018,counterbore_countersink_plate,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/counterbore_countersink_plate/counterbore_countersink_plate_0018.step,"Create a single connected mechanical CAD part.
+counterbore_countersink_plate_0018,counterbore_countersink_plate,./benchmark_v1/references_isidor_all/counterbore_countersink_plate/counterbore_countersink_plate_0018.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 counterbore_countersink_plate (counterbore_countersink_plate_0018)
@@ -359,7 +359,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-ribbed_bracket_0019,ribbed_bracket,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/ribbed_bracket/ribbed_bracket_0019.step,"Create a single connected mechanical CAD part.
+ribbed_bracket_0019,ribbed_bracket,./benchmark_v1/references_isidor_all/ribbed_bracket/ribbed_bracket_0019.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 ribbed_bracket (ribbed_bracket_0019)
@@ -379,7 +379,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-shell_enclosure_0020,shell_enclosure,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/shell_enclosure/shell_enclosure_0020.step,"Create a single connected mechanical CAD part.
+shell_enclosure_0020,shell_enclosure,./benchmark_v1/references_isidor_all/shell_enclosure/shell_enclosure_0020.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 shell_enclosure (shell_enclosure_0020)
@@ -399,7 +399,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-loft_transition_0021,loft_transition,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/loft_transition/loft_transition_0021.step,"Create a single connected mechanical CAD part.
+loft_transition_0021,loft_transition,./benchmark_v1/references_isidor_all/loft_transition/loft_transition_0021.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 loft_transition (loft_transition_0021)
@@ -419,7 +419,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-sweep_path_part_0022,sweep_path_part,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/sweep_path_part/sweep_path_part_0022.step,"Create a single connected mechanical CAD part.
+sweep_path_part_0022,sweep_path_part,./benchmark_v1/references_isidor_all/sweep_path_part/sweep_path_part_0022.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 sweep_path_part (sweep_path_part_0022)
@@ -439,7 +439,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-drafted_part_0023,drafted_part,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/drafted_part/drafted_part_0023.step,"Create a single connected mechanical CAD part.
+drafted_part_0023,drafted_part,./benchmark_v1/references_isidor_all/drafted_part/drafted_part_0023.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 drafted_part (drafted_part_0023)
@@ -459,7 +459,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-helical_features_0024,helical_features,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/helical_features/helical_features_0024.step,"Create a single connected mechanical CAD part.
+helical_features_0024,helical_features,./benchmark_v1/references_isidor_all/helical_features/helical_features_0024.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 helical_features (helical_features_0024)
@@ -479,7 +479,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-chamfer_fillet_stress_cases_0025,chamfer_fillet_stress_cases,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/chamfer_fillet_stress_cases/chamfer_fillet_stress_cases_0025.step,"Create a single connected mechanical CAD part.
+chamfer_fillet_stress_cases_0025,chamfer_fillet_stress_cases,./benchmark_v1/references_isidor_all/chamfer_fillet_stress_cases/chamfer_fillet_stress_cases_0025.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 chamfer_fillet_stress_cases (chamfer_fillet_stress_cases_0025)
@@ -499,7 +499,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-off_axis_features_0026,off_axis_features,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/off_axis_features/off_axis_features_0026.step,"Create a single connected mechanical CAD part.
+off_axis_features_0026,off_axis_features,./benchmark_v1/references_isidor_all/off_axis_features/off_axis_features_0026.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 off_axis_features (off_axis_features_0026)
@@ -519,7 +519,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-manifold_block_0027,manifold_block,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/manifold_block/manifold_block_0027.step,"Create a single connected mechanical CAD part.
+manifold_block_0027,manifold_block,./benchmark_v1/references_isidor_all/manifold_block/manifold_block_0027.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 manifold_block (manifold_block_0027)
@@ -539,7 +539,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-threaded_parts_male_0028,threaded_parts_male,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/threaded_parts_male/threaded_parts_male_0028.step,"Create a single connected mechanical CAD part.
+threaded_parts_male_0028,threaded_parts_male,./benchmark_v1/references_isidor_all/threaded_parts_male/threaded_parts_male_0028.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 threaded_parts_male (threaded_parts_male_0028)
@@ -559,7 +559,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-threaded_parts_female_0029,threaded_parts_female,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/threaded_parts_female/threaded_parts_female_0029.step,"Create a single connected mechanical CAD part.
+threaded_parts_female_0029,threaded_parts_female,./benchmark_v1/references_isidor_all/threaded_parts_female/threaded_parts_female_0029.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 threaded_parts_female (threaded_parts_female_0029)
@@ -579,7 +579,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-keyed_shaft_hub_0030,keyed_shaft_hub,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/keyed_shaft_hub/keyed_shaft_hub_0030.step,"Create a single connected mechanical CAD part.
+keyed_shaft_hub_0030,keyed_shaft_hub,./benchmark_v1/references_isidor_all/keyed_shaft_hub/keyed_shaft_hub_0030.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 keyed_shaft_hub (keyed_shaft_hub_0030)
@@ -599,7 +599,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-counterbore_countersink_plate_0031,counterbore_countersink_plate,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/counterbore_countersink_plate/counterbore_countersink_plate_0031.step,"Create a single connected mechanical CAD part.
+counterbore_countersink_plate_0031,counterbore_countersink_plate,./benchmark_v1/references_isidor_all/counterbore_countersink_plate/counterbore_countersink_plate_0031.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 counterbore_countersink_plate (counterbore_countersink_plate_0031)
@@ -619,7 +619,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-ribbed_bracket_0032,ribbed_bracket,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/ribbed_bracket/ribbed_bracket_0032.step,"Create a single connected mechanical CAD part.
+ribbed_bracket_0032,ribbed_bracket,./benchmark_v1/references_isidor_all/ribbed_bracket/ribbed_bracket_0032.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 ribbed_bracket (ribbed_bracket_0032)
@@ -639,7 +639,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-shell_enclosure_0033,shell_enclosure,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/shell_enclosure/shell_enclosure_0033.step,"Create a single connected mechanical CAD part.
+shell_enclosure_0033,shell_enclosure,./benchmark_v1/references_isidor_all/shell_enclosure/shell_enclosure_0033.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 shell_enclosure (shell_enclosure_0033)
@@ -659,7 +659,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-loft_transition_0034,loft_transition,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/loft_transition/loft_transition_0034.step,"Create a single connected mechanical CAD part.
+loft_transition_0034,loft_transition,./benchmark_v1/references_isidor_all/loft_transition/loft_transition_0034.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 loft_transition (loft_transition_0034)
@@ -679,7 +679,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-sweep_path_part_0035,sweep_path_part,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/sweep_path_part/sweep_path_part_0035.step,"Create a single connected mechanical CAD part.
+sweep_path_part_0035,sweep_path_part,./benchmark_v1/references_isidor_all/sweep_path_part/sweep_path_part_0035.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 sweep_path_part (sweep_path_part_0035)
@@ -699,7 +699,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-drafted_part_0036,drafted_part,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/drafted_part/drafted_part_0036.step,"Create a single connected mechanical CAD part.
+drafted_part_0036,drafted_part,./benchmark_v1/references_isidor_all/drafted_part/drafted_part_0036.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 drafted_part (drafted_part_0036)
@@ -719,7 +719,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-helical_features_0037,helical_features,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/helical_features/helical_features_0037.step,"Create a single connected mechanical CAD part.
+helical_features_0037,helical_features,./benchmark_v1/references_isidor_all/helical_features/helical_features_0037.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 helical_features (helical_features_0037)
@@ -739,7 +739,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-chamfer_fillet_stress_cases_0038,chamfer_fillet_stress_cases,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/chamfer_fillet_stress_cases/chamfer_fillet_stress_cases_0038.step,"Create a single connected mechanical CAD part.
+chamfer_fillet_stress_cases_0038,chamfer_fillet_stress_cases,./benchmark_v1/references_isidor_all/chamfer_fillet_stress_cases/chamfer_fillet_stress_cases_0038.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 chamfer_fillet_stress_cases (chamfer_fillet_stress_cases_0038)
@@ -759,7 +759,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-off_axis_features_0039,off_axis_features,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/off_axis_features/off_axis_features_0039.step,"Create a single connected mechanical CAD part.
+off_axis_features_0039,off_axis_features,./benchmark_v1/references_isidor_all/off_axis_features/off_axis_features_0039.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 off_axis_features (off_axis_features_0039)
@@ -779,7 +779,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-manifold_block_0040,manifold_block,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/manifold_block/manifold_block_0040.step,"Create a single connected mechanical CAD part.
+manifold_block_0040,manifold_block,./benchmark_v1/references_isidor_all/manifold_block/manifold_block_0040.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 manifold_block (manifold_block_0040)
@@ -799,7 +799,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-threaded_parts_male_0041,threaded_parts_male,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/threaded_parts_male/threaded_parts_male_0041.step,"Create a single connected mechanical CAD part.
+threaded_parts_male_0041,threaded_parts_male,./benchmark_v1/references_isidor_all/threaded_parts_male/threaded_parts_male_0041.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 threaded_parts_male (threaded_parts_male_0041)
@@ -819,7 +819,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-threaded_parts_female_0042,threaded_parts_female,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/threaded_parts_female/threaded_parts_female_0042.step,"Create a single connected mechanical CAD part.
+threaded_parts_female_0042,threaded_parts_female,./benchmark_v1/references_isidor_all/threaded_parts_female/threaded_parts_female_0042.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 threaded_parts_female (threaded_parts_female_0042)
@@ -839,7 +839,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-keyed_shaft_hub_0043,keyed_shaft_hub,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/keyed_shaft_hub/keyed_shaft_hub_0043.step,"Create a single connected mechanical CAD part.
+keyed_shaft_hub_0043,keyed_shaft_hub,./benchmark_v1/references_isidor_all/keyed_shaft_hub/keyed_shaft_hub_0043.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 keyed_shaft_hub (keyed_shaft_hub_0043)
@@ -859,7 +859,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-counterbore_countersink_plate_0044,counterbore_countersink_plate,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/counterbore_countersink_plate/counterbore_countersink_plate_0044.step,"Create a single connected mechanical CAD part.
+counterbore_countersink_plate_0044,counterbore_countersink_plate,./benchmark_v1/references_isidor_all/counterbore_countersink_plate/counterbore_countersink_plate_0044.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 counterbore_countersink_plate (counterbore_countersink_plate_0044)
@@ -879,7 +879,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-ribbed_bracket_0045,ribbed_bracket,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/ribbed_bracket/ribbed_bracket_0045.step,"Create a single connected mechanical CAD part.
+ribbed_bracket_0045,ribbed_bracket,./benchmark_v1/references_isidor_all/ribbed_bracket/ribbed_bracket_0045.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 ribbed_bracket (ribbed_bracket_0045)
@@ -899,7 +899,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-shell_enclosure_0046,shell_enclosure,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/shell_enclosure/shell_enclosure_0046.step,"Create a single connected mechanical CAD part.
+shell_enclosure_0046,shell_enclosure,./benchmark_v1/references_isidor_all/shell_enclosure/shell_enclosure_0046.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 shell_enclosure (shell_enclosure_0046)
@@ -919,7 +919,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-loft_transition_0047,loft_transition,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/loft_transition/loft_transition_0047.step,"Create a single connected mechanical CAD part.
+loft_transition_0047,loft_transition,./benchmark_v1/references_isidor_all/loft_transition/loft_transition_0047.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 loft_transition (loft_transition_0047)
@@ -939,7 +939,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-drafted_part_0049,drafted_part,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/drafted_part/drafted_part_0049.step,"Create a single connected mechanical CAD part.
+drafted_part_0049,drafted_part,./benchmark_v1/references_isidor_all/drafted_part/drafted_part_0049.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 drafted_part (drafted_part_0049)
@@ -959,7 +959,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-helical_features_0050,helical_features,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/helical_features/helical_features_0050.step,"Create a single connected mechanical CAD part.
+helical_features_0050,helical_features,./benchmark_v1/references_isidor_all/helical_features/helical_features_0050.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 helical_features (helical_features_0050)
@@ -979,7 +979,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-chamfer_fillet_stress_cases_0051,chamfer_fillet_stress_cases,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/chamfer_fillet_stress_cases/chamfer_fillet_stress_cases_0051.step,"Create a single connected mechanical CAD part.
+chamfer_fillet_stress_cases_0051,chamfer_fillet_stress_cases,./benchmark_v1/references_isidor_all/chamfer_fillet_stress_cases/chamfer_fillet_stress_cases_0051.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 chamfer_fillet_stress_cases (chamfer_fillet_stress_cases_0051)
@@ -999,7 +999,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-off_axis_features_0052,off_axis_features,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/off_axis_features/off_axis_features_0052.step,"Create a single connected mechanical CAD part.
+off_axis_features_0052,off_axis_features,./benchmark_v1/references_isidor_all/off_axis_features/off_axis_features_0052.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 off_axis_features (off_axis_features_0052)
@@ -1019,7 +1019,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-manifold_block_0053,manifold_block,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/manifold_block/manifold_block_0053.step,"Create a single connected mechanical CAD part.
+manifold_block_0053,manifold_block,./benchmark_v1/references_isidor_all/manifold_block/manifold_block_0053.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 manifold_block (manifold_block_0053)
@@ -1039,7 +1039,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-threaded_parts_male_0054,threaded_parts_male,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/threaded_parts_male/threaded_parts_male_0054.step,"Create a single connected mechanical CAD part.
+threaded_parts_male_0054,threaded_parts_male,./benchmark_v1/references_isidor_all/threaded_parts_male/threaded_parts_male_0054.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 threaded_parts_male (threaded_parts_male_0054)
@@ -1059,7 +1059,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-threaded_parts_female_0055,threaded_parts_female,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/threaded_parts_female/threaded_parts_female_0055.step,"Create a single connected mechanical CAD part.
+threaded_parts_female_0055,threaded_parts_female,./benchmark_v1/references_isidor_all/threaded_parts_female/threaded_parts_female_0055.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 threaded_parts_female (threaded_parts_female_0055)
@@ -1079,7 +1079,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-keyed_shaft_hub_0056,keyed_shaft_hub,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/keyed_shaft_hub/keyed_shaft_hub_0056.step,"Create a single connected mechanical CAD part.
+keyed_shaft_hub_0056,keyed_shaft_hub,./benchmark_v1/references_isidor_all/keyed_shaft_hub/keyed_shaft_hub_0056.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 keyed_shaft_hub (keyed_shaft_hub_0056)
@@ -1099,7 +1099,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-counterbore_countersink_plate_0057,counterbore_countersink_plate,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/counterbore_countersink_plate/counterbore_countersink_plate_0057.step,"Create a single connected mechanical CAD part.
+counterbore_countersink_plate_0057,counterbore_countersink_plate,./benchmark_v1/references_isidor_all/counterbore_countersink_plate/counterbore_countersink_plate_0057.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 counterbore_countersink_plate (counterbore_countersink_plate_0057)
@@ -1119,7 +1119,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-ribbed_bracket_0058,ribbed_bracket,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/ribbed_bracket/ribbed_bracket_0058.step,"Create a single connected mechanical CAD part.
+ribbed_bracket_0058,ribbed_bracket,./benchmark_v1/references_isidor_all/ribbed_bracket/ribbed_bracket_0058.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 ribbed_bracket (ribbed_bracket_0058)
@@ -1139,7 +1139,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-shell_enclosure_0059,shell_enclosure,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/shell_enclosure/shell_enclosure_0059.step,"Create a single connected mechanical CAD part.
+shell_enclosure_0059,shell_enclosure,./benchmark_v1/references_isidor_all/shell_enclosure/shell_enclosure_0059.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 shell_enclosure (shell_enclosure_0059)
@@ -1159,7 +1159,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-loft_transition_0060,loft_transition,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/loft_transition/loft_transition_0060.step,"Create a single connected mechanical CAD part.
+loft_transition_0060,loft_transition,./benchmark_v1/references_isidor_all/loft_transition/loft_transition_0060.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 loft_transition (loft_transition_0060)
@@ -1179,7 +1179,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-sweep_path_part_0061,sweep_path_part,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/sweep_path_part/sweep_path_part_0061.step,"Create a single connected mechanical CAD part.
+sweep_path_part_0061,sweep_path_part,./benchmark_v1/references_isidor_all/sweep_path_part/sweep_path_part_0061.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 sweep_path_part (sweep_path_part_0061)
@@ -1199,7 +1199,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-drafted_part_0062,drafted_part,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/drafted_part/drafted_part_0062.step,"Create a single connected mechanical CAD part.
+drafted_part_0062,drafted_part,./benchmark_v1/references_isidor_all/drafted_part/drafted_part_0062.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 drafted_part (drafted_part_0062)
@@ -1219,7 +1219,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-helical_features_0063,helical_features,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/helical_features/helical_features_0063.step,"Create a single connected mechanical CAD part.
+helical_features_0063,helical_features,./benchmark_v1/references_isidor_all/helical_features/helical_features_0063.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 helical_features (helical_features_0063)
@@ -1239,7 +1239,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-chamfer_fillet_stress_cases_0064,chamfer_fillet_stress_cases,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/chamfer_fillet_stress_cases/chamfer_fillet_stress_cases_0064.step,"Create a single connected mechanical CAD part.
+chamfer_fillet_stress_cases_0064,chamfer_fillet_stress_cases,./benchmark_v1/references_isidor_all/chamfer_fillet_stress_cases/chamfer_fillet_stress_cases_0064.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 chamfer_fillet_stress_cases (chamfer_fillet_stress_cases_0064)
@@ -1259,7 +1259,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-off_axis_features_0065,off_axis_features,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/off_axis_features/off_axis_features_0065.step,"Create a single connected mechanical CAD part.
+off_axis_features_0065,off_axis_features,./benchmark_v1/references_isidor_all/off_axis_features/off_axis_features_0065.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 off_axis_features (off_axis_features_0065)
@@ -1279,7 +1279,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-manifold_block_0066,manifold_block,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/manifold_block/manifold_block_0066.step,"Create a single connected mechanical CAD part.
+manifold_block_0066,manifold_block,./benchmark_v1/references_isidor_all/manifold_block/manifold_block_0066.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 manifold_block (manifold_block_0066)
@@ -1299,7 +1299,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-threaded_parts_male_0067,threaded_parts_male,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/threaded_parts_male/threaded_parts_male_0067.step,"Create a single connected mechanical CAD part.
+threaded_parts_male_0067,threaded_parts_male,./benchmark_v1/references_isidor_all/threaded_parts_male/threaded_parts_male_0067.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 threaded_parts_male (threaded_parts_male_0067)
@@ -1319,7 +1319,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-threaded_parts_female_0068,threaded_parts_female,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/threaded_parts_female/threaded_parts_female_0068.step,"Create a single connected mechanical CAD part.
+threaded_parts_female_0068,threaded_parts_female,./benchmark_v1/references_isidor_all/threaded_parts_female/threaded_parts_female_0068.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 threaded_parts_female (threaded_parts_female_0068)
@@ -1339,7 +1339,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-keyed_shaft_hub_0069,keyed_shaft_hub,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/keyed_shaft_hub/keyed_shaft_hub_0069.step,"Create a single connected mechanical CAD part.
+keyed_shaft_hub_0069,keyed_shaft_hub,./benchmark_v1/references_isidor_all/keyed_shaft_hub/keyed_shaft_hub_0069.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 keyed_shaft_hub (keyed_shaft_hub_0069)
@@ -1359,7 +1359,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-counterbore_countersink_plate_0070,counterbore_countersink_plate,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/counterbore_countersink_plate/counterbore_countersink_plate_0070.step,"Create a single connected mechanical CAD part.
+counterbore_countersink_plate_0070,counterbore_countersink_plate,./benchmark_v1/references_isidor_all/counterbore_countersink_plate/counterbore_countersink_plate_0070.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 counterbore_countersink_plate (counterbore_countersink_plate_0070)
@@ -1379,7 +1379,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-ribbed_bracket_0071,ribbed_bracket,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/ribbed_bracket/ribbed_bracket_0071.step,"Create a single connected mechanical CAD part.
+ribbed_bracket_0071,ribbed_bracket,./benchmark_v1/references_isidor_all/ribbed_bracket/ribbed_bracket_0071.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 ribbed_bracket (ribbed_bracket_0071)
@@ -1399,7 +1399,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-shell_enclosure_0072,shell_enclosure,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/shell_enclosure/shell_enclosure_0072.step,"Create a single connected mechanical CAD part.
+shell_enclosure_0072,shell_enclosure,./benchmark_v1/references_isidor_all/shell_enclosure/shell_enclosure_0072.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 shell_enclosure (shell_enclosure_0072)
@@ -1419,7 +1419,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-loft_transition_0073,loft_transition,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/loft_transition/loft_transition_0073.step,"Create a single connected mechanical CAD part.
+loft_transition_0073,loft_transition,./benchmark_v1/references_isidor_all/loft_transition/loft_transition_0073.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 loft_transition (loft_transition_0073)
@@ -1439,7 +1439,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-sweep_path_part_0074,sweep_path_part,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/sweep_path_part/sweep_path_part_0074.step,"Create a single connected mechanical CAD part.
+sweep_path_part_0074,sweep_path_part,./benchmark_v1/references_isidor_all/sweep_path_part/sweep_path_part_0074.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 sweep_path_part (sweep_path_part_0074)
@@ -1459,7 +1459,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-drafted_part_0075,drafted_part,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/drafted_part/drafted_part_0075.step,"Create a single connected mechanical CAD part.
+drafted_part_0075,drafted_part,./benchmark_v1/references_isidor_all/drafted_part/drafted_part_0075.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 drafted_part (drafted_part_0075)
@@ -1479,7 +1479,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-helical_features_0076,helical_features,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/helical_features/helical_features_0076.step,"Create a single connected mechanical CAD part.
+helical_features_0076,helical_features,./benchmark_v1/references_isidor_all/helical_features/helical_features_0076.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 helical_features (helical_features_0076)
@@ -1499,7 +1499,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-chamfer_fillet_stress_cases_0077,chamfer_fillet_stress_cases,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/chamfer_fillet_stress_cases/chamfer_fillet_stress_cases_0077.step,"Create a single connected mechanical CAD part.
+chamfer_fillet_stress_cases_0077,chamfer_fillet_stress_cases,./benchmark_v1/references_isidor_all/chamfer_fillet_stress_cases/chamfer_fillet_stress_cases_0077.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 chamfer_fillet_stress_cases (chamfer_fillet_stress_cases_0077)
@@ -1519,7 +1519,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-off_axis_features_0078,off_axis_features,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/off_axis_features/off_axis_features_0078.step,"Create a single connected mechanical CAD part.
+off_axis_features_0078,off_axis_features,./benchmark_v1/references_isidor_all/off_axis_features/off_axis_features_0078.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 off_axis_features (off_axis_features_0078)
@@ -1539,7 +1539,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-manifold_block_0079,manifold_block,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/manifold_block/manifold_block_0079.step,"Create a single connected mechanical CAD part.
+manifold_block_0079,manifold_block,./benchmark_v1/references_isidor_all/manifold_block/manifold_block_0079.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 manifold_block (manifold_block_0079)
@@ -1559,7 +1559,7 @@ Design features:
 Topology/output constraints:
 - Single connected solid body.
 - Preserve all stated dimensions and feature counts exactly."
-threaded_parts_male_0080,threaded_parts_male,/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/references_isidor_all/threaded_parts_male/threaded_parts_male_0080.step,"Create a single connected mechanical CAD part.
+threaded_parts_male_0080,threaded_parts_male,./benchmark_v1/references_isidor_all/threaded_parts_male/threaded_parts_male_0080.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 threaded_parts_male (threaded_parts_male_0080)

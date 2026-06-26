@@ -32,8 +32,8 @@ def parse_args() -> argparse.Namespace:
         action="append",
         type=Path,
         default=[
-            Path("/Users/mejdi/Desktop/reference_step files/golden_prompts/golden_prompts_l2_l3.csv"),
-            Path("/Users/mejdi/Desktop/reference_step files/golden_prompts_advanced/golden_prompts_l2_l3.csv"),
+            Path("./reference_step files/golden_prompts/golden_prompts_l2_l3.csv"),
+            Path("./reference_step files/golden_prompts_advanced/golden_prompts_l2_l3.csv"),
         ],
         help="Input golden prompt CSV(s), each with part_id,family,step_path,prompt_l2,prompt_l3.",
     )
@@ -46,7 +46,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--selected-step-dir",
         type=Path,
-        default=Path("/Users/mejdi/Desktop/reference_step files/package_600/reference_steps_150"),
+        default=Path("./reference_step files/package_600/reference_steps_150"),
         help="Destination folder for selected STEP references.",
     )
     parser.add_argument(

@@ -43,7 +43,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--golden-prompts-csv",
         type=Path,
-        default=Path("/Users/mejdi/Desktop/reference_step files/golden_prompts/golden_prompts_l2_l3.csv"),
+        default=Path("./reference_step files/golden_prompts/golden_prompts_l2_l3.csv"),
         help="CSV containing part_id,family,step_path,prompt_l2,prompt_l3.",
     )
     parser.add_argument(

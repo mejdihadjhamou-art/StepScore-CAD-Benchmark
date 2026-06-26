@@ -1,7 +1,7 @@
 # API Example Payloads
 
 These files provide request/response payloads for each MVP endpoint in:
-- `/Users/mejdi/Documents/New project/docs/mvp/api_contract.yaml`
+- `./docs/mvp/api_contract.yaml`
 
 ## Coverage
 - `01_get_models.response.json` -> `GET /v1/models`

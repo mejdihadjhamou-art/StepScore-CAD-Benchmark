@@ -20,7 +20,7 @@ This tool focuses on **metrics visualization** (not 3D rendering) because:
 ### Option 1: View a Specific Pair
 
 ```bash
-cd "/Users/mejdi/Documents/New project/cad42_platform"
+cd "./cad42_platform"
 python step_visualizer.py 0      # View pair #1
 python step_visualizer.py 45     # View pair #46 
 ```
@@ -204,7 +204,7 @@ This pair has most metrics BAD → **Label as NEGATIVE** ❌
 ### "Excel file not found"
 Make sure you're in the correct directory:
 ```bash
-cd "/Users/mejdi/Documents/New project/cad42_platform"
+cd "./cad42_platform"
 ```
 
 ### "Invalid pair index"

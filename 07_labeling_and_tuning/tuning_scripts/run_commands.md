@@ -3,7 +3,7 @@
 Run from:
 
 ```bash
-cd "/Users/mejdi/Documents/New project/cad42_platform"
+cd "./cad42_platform"
 conda activate stepscore
 ```
 

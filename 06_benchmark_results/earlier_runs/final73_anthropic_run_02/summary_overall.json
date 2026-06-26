@@ -1,6 +1,6 @@
 {
   "run_id": "final73_anthropic_run_02",
-  "manifest": "/Users/mejdi/Documents/New project/cad42_platform/benchmark_v1/packages/final_73_manifest_anthropic_fixed.csv",
+  "manifest": "./benchmark_v1/packages/final_73_manifest_anthropic_fixed.csv",
   "jobs_total": 146,
   "jobs_success": 146,
   "jobs_failed": 0,

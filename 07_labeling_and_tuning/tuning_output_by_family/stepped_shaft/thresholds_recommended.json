@@ -1,7 +1,7 @@
 {
   "generated_at_utc": "2026-03-25T12:27:12.158168+00:00",
-  "input_csv": "/Users/mejdi/Documents/New project/cad42_platform/threshold_tuning/output_by_family/stepped_shaft/pairs.csv",
-  "input_meta_json": "/Users/mejdi/Documents/New project/cad42_platform/threshold_tuning/metrics_meta.json",
+  "input_csv": "./threshold_tuning/output_by_family/stepped_shaft/pairs.csv",
+  "input_meta_json": "./threshold_tuning/metrics_meta.json",
   "objective": "cost",
   "fp_cost": 5.0,
   "fn_cost": 1.0,

@@ -1,5 +1,5 @@
 part_id,family,step_path,prompt_l2,prompt_l3
-box_hole_0001,box_hole,/Users/mejdi/Desktop/reference_step files/box_hole_0001.step,"Create a single connected mechanical CAD part.
+box_hole_0001,box_hole,./reference_step files/box_hole_0001.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular block with a centered through hole
@@ -36,7 +36,7 @@ Topology/output constraints:
 - Return exactly one connected solid body.
 - No floating pieces, no non-manifold geometry.
 - Respect all stated dimensions and feature counts exactly."
-stepped_shaft_0046,stepped_shaft,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0002.step,"Create a single connected mechanical CAD part.
+stepped_shaft_0046,stepped_shaft,./reference_step files/stepped_shaft_0002.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Three-step coaxial shaft
@@ -76,7 +76,7 @@ Topology/output constraints:
 - Return exactly one connected solid body.
 - No floating pieces, no non-manifold geometry.
 - Respect all stated dimensions and feature counts exactly."
-flange_0010,flange,/Users/mejdi/Desktop/reference_step files/flange_0003.step,"Create a single connected mechanical CAD part.
+flange_0010,flange,./reference_step files/flange_0003.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Circular flange with bore and bolt pattern
@@ -115,7 +115,7 @@ Topology/output constraints:
 - Return exactly one connected solid body.
 - No floating pieces, no non-manifold geometry.
 - Respect all stated dimensions and feature counts exactly."
-ring_spacer_0028,ring_spacer,/Users/mejdi/Desktop/reference_step files/ring_spacer_0004.step,"Create a single connected mechanical CAD part.
+ring_spacer_0028,ring_spacer,./reference_step files/ring_spacer_0004.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Ring spacer (hollow cylinder)
@@ -150,7 +150,7 @@ Topology/output constraints:
 - Return exactly one connected solid body.
 - No floating pieces, no non-manifold geometry.
 - Respect all stated dimensions and feature counts exactly."
-slotted_plate_0037,slotted_plate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0005.step,"Create a single connected mechanical CAD part.
+slotted_plate_0037,slotted_plate,./reference_step files/slotted_plate_0005.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular plate with a centered through slot
@@ -188,7 +188,7 @@ Topology/output constraints:
 - Return exactly one connected solid body.
 - No floating pieces, no non-manifold geometry.
 - Respect all stated dimensions and feature counts exactly."
-l_bracket_0019,l_bracket,/Users/mejdi/Desktop/reference_step files/l_bracket_0006.step,"Create a single connected mechanical CAD part.
+l_bracket_0019,l_bracket,./reference_step files/l_bracket_0006.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 L-bracket with base, vertical web, and holes
@@ -230,7 +230,7 @@ Topology/output constraints:
 ,,,,
 ,,,,
 ,,,,
-box_hole_0002,box_hole,/Users/mejdi/Desktop/reference_step files/box_hole_0010.step,"Create a single connected mechanical CAD part.
+box_hole_0002,box_hole,./reference_step files/box_hole_0010.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular block with a centered through hole
@@ -267,7 +267,7 @@ Topology/output constraints:
 - Return exactly one connected solid body.
 - No floating pieces, no non-manifold geometry.
 - Respect all stated dimensions and feature counts exactly."
-stepped_shaft_0047,stepped_shaft,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0011.step,"Create a single connected mechanical CAD part.
+stepped_shaft_0047,stepped_shaft,./reference_step files/stepped_shaft_0011.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Three-step coaxial shaft
@@ -307,7 +307,7 @@ Topology/output constraints:
 - Return exactly one connected solid body.
 - No floating pieces, no non-manifold geometry.
 - Respect all stated dimensions and feature counts exactly."
-flange_0011,flange,/Users/mejdi/Desktop/reference_step files/flange_0012.step,"Create a single connected mechanical CAD part.
+flange_0011,flange,./reference_step files/flange_0012.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Circular flange with bore and bolt pattern
@@ -346,7 +346,7 @@ Topology/output constraints:
 - Return exactly one connected solid body.
 - No floating pieces, no non-manifold geometry.
 - Respect all stated dimensions and feature counts exactly."
-ring_spacer_0029,ring_spacer,/Users/mejdi/Desktop/reference_step files/ring_spacer_0013.step,"Create a single connected mechanical CAD part.
+ring_spacer_0029,ring_spacer,./reference_step files/ring_spacer_0013.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Ring spacer (hollow cylinder)
@@ -381,7 +381,7 @@ Topology/output constraints:
 - Return exactly one connected solid body.
 - No floating pieces, no non-manifold geometry.
 - Respect all stated dimensions and feature counts exactly."
-slotted_plate_0038,slotted_plate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0014.step,"Create a single connected mechanical CAD part.
+slotted_plate_0038,slotted_plate,./reference_step files/slotted_plate_0014.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular plate with a centered through slot
@@ -419,7 +419,7 @@ Topology/output constraints:
 - Return exactly one connected solid body.
 - No floating pieces, no non-manifold geometry.
 - Respect all stated dimensions and feature counts exactly."
-l_bracket_0020,l_bracket,/Users/mejdi/Desktop/reference_step files/l_bracket_0015.step,"Create a single connected mechanical CAD part.
+l_bracket_0020,l_bracket,./reference_step files/l_bracket_0015.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 L-bracket with base, vertical web, and holes
@@ -461,7 +461,7 @@ Topology/output constraints:
 ,,,,
 ,,,,
 ,,,,
-box_hole_0003,box_hole,/Users/mejdi/Desktop/reference_step files/box_hole_0019.step,"Create a single connected mechanical CAD part.
+box_hole_0003,box_hole,./reference_step files/box_hole_0019.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular block with a centered through hole
@@ -498,7 +498,7 @@ Topology/output constraints:
 - Return exactly one connected solid body.
 - No floating pieces, no non-manifold geometry.
 - Respect all stated dimensions and feature counts exactly."
-stepped_shaft_0048,stepped_shaft,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0020.step,"Create a single connected mechanical CAD part.
+stepped_shaft_0048,stepped_shaft,./reference_step files/stepped_shaft_0020.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Three-step coaxial shaft
@@ -538,7 +538,7 @@ Topology/output constraints:
 - Return exactly one connected solid body.
 - No floating pieces, no non-manifold geometry.
 - Respect all stated dimensions and feature counts exactly."
-flange_0012,flange,/Users/mejdi/Desktop/reference_step files/flange_0021.step,"Create a single connected mechanical CAD part.
+flange_0012,flange,./reference_step files/flange_0021.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Circular flange with bore and bolt pattern
@@ -577,7 +577,7 @@ Topology/output constraints:
 - Return exactly one connected solid body.
 - No floating pieces, no non-manifold geometry.
 - Respect all stated dimensions and feature counts exactly."
-ring_spacer_0030,ring_spacer,/Users/mejdi/Desktop/reference_step files/ring_spacer_0022.step,"Create a single connected mechanical CAD part.
+ring_spacer_0030,ring_spacer,./reference_step files/ring_spacer_0022.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Ring spacer (hollow cylinder)
@@ -612,7 +612,7 @@ Topology/output constraints:
 - Return exactly one connected solid body.
 - No floating pieces, no non-manifold geometry.
 - Respect all stated dimensions and feature counts exactly."
-slotted_plate_0039,slotted_plate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0023.step,"Create a single connected mechanical CAD part.
+slotted_plate_0039,slotted_plate,./reference_step files/slotted_plate_0023.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular plate with a centered through slot
@@ -650,7 +650,7 @@ Topology/output constraints:
 - Return exactly one connected solid body.
 - No floating pieces, no non-manifold geometry.
 - Respect all stated dimensions and feature counts exactly."
-l_bracket_0021,l_bracket,/Users/mejdi/Desktop/reference_step files/l_bracket_0024.step,"Create a single connected mechanical CAD part.
+l_bracket_0021,l_bracket,./reference_step files/l_bracket_0024.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 L-bracket with base, vertical web, and holes
@@ -692,7 +692,7 @@ Topology/output constraints:
 ,,,,
 ,,,,
 ,,,,
-box_hole_0004,box_hole,/Users/mejdi/Desktop/reference_step files/box_hole_0028.step,"Create a single connected mechanical CAD part.
+box_hole_0004,box_hole,./reference_step files/box_hole_0028.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular block with a centered through hole
@@ -729,7 +729,7 @@ Topology/output constraints:
 - Return exactly one connected solid body.
 - No floating pieces, no non-manifold geometry.
 - Respect all stated dimensions and feature counts exactly."
-stepped_shaft_0049,stepped_shaft,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0029.step,"Create a single connected mechanical CAD part.
+stepped_shaft_0049,stepped_shaft,./reference_step files/stepped_shaft_0029.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Three-step coaxial shaft
@@ -769,7 +769,7 @@ Topology/output constraints:
 - Return exactly one connected solid body.
 - No floating pieces, no non-manifold geometry.
 - Respect all stated dimensions and feature counts exactly."
-flange_0013,flange,/Users/mejdi/Desktop/reference_step files/flange_0030.step,"Create a single connected mechanical CAD part.
+flange_0013,flange,./reference_step files/flange_0030.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Circular flange with bore and bolt pattern
@@ -808,7 +808,7 @@ Topology/output constraints:
 - Return exactly one connected solid body.
 - No floating pieces, no non-manifold geometry.
 - Respect all stated dimensions and feature counts exactly."
-ring_spacer_0031,ring_spacer,/Users/mejdi/Desktop/reference_step files/ring_spacer_0031.step,"Create a single connected mechanical CAD part.
+ring_spacer_0031,ring_spacer,./reference_step files/ring_spacer_0031.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Ring spacer (hollow cylinder)
@@ -843,7 +843,7 @@ Topology/output constraints:
 - Return exactly one connected solid body.
 - No floating pieces, no non-manifold geometry.
 - Respect all stated dimensions and feature counts exactly."
-slotted_plate_0040,slotted_plate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0032.step,"Create a single connected mechanical CAD part.
+slotted_plate_0040,slotted_plate,./reference_step files/slotted_plate_0032.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular plate with a centered through slot
@@ -881,7 +881,7 @@ Topology/output constraints:
 - Return exactly one connected solid body.
 - No floating pieces, no non-manifold geometry.
 - Respect all stated dimensions and feature counts exactly."
-l_bracket_0022,l_bracket,/Users/mejdi/Desktop/reference_step files/l_bracket_0033.step,"Create a single connected mechanical CAD part.
+l_bracket_0022,l_bracket,./reference_step files/l_bracket_0033.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 L-bracket with base, vertical web, and holes
@@ -923,7 +923,7 @@ Topology/output constraints:
 ,,,,
 ,,,,
 ,,,,
-box_hole_0005,box_hole,/Users/mejdi/Desktop/reference_step files/box_hole_0037.step,"Create a single connected mechanical CAD part.
+box_hole_0005,box_hole,./reference_step files/box_hole_0037.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular block with a centered through hole
@@ -960,7 +960,7 @@ Topology/output constraints:
 - Return exactly one connected solid body.
 - No floating pieces, no non-manifold geometry.
 - Respect all stated dimensions and feature counts exactly."
-stepped_shaft_0050,stepped_shaft,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0038.step,"Create a single connected mechanical CAD part.
+stepped_shaft_0050,stepped_shaft,./reference_step files/stepped_shaft_0038.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Three-step coaxial shaft
@@ -1000,7 +1000,7 @@ Topology/output constraints:
 - Return exactly one connected solid body.
 - No floating pieces, no non-manifold geometry.
 - Respect all stated dimensions and feature counts exactly."
-flange_0014,flange,/Users/mejdi/Desktop/reference_step files/flange_0039.step,"Create a single connected mechanical CAD part.
+flange_0014,flange,./reference_step files/flange_0039.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Circular flange with bore and bolt pattern
@@ -1039,7 +1039,7 @@ Topology/output constraints:
 - Return exactly one connected solid body.
 - No floating pieces, no non-manifold geometry.
 - Respect all stated dimensions and feature counts exactly."
-ring_spacer_0032,ring_spacer,/Users/mejdi/Desktop/reference_step files/ring_spacer_0040.step,"Create a single connected mechanical CAD part.
+ring_spacer_0032,ring_spacer,./reference_step files/ring_spacer_0040.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Ring spacer (hollow cylinder)
@@ -1074,7 +1074,7 @@ Topology/output constraints:
 - Return exactly one connected solid body.
 - No floating pieces, no non-manifold geometry.
 - Respect all stated dimensions and feature counts exactly."
-slotted_plate_0041,slotted_plate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0041.step,"Create a single connected mechanical CAD part.
+slotted_plate_0041,slotted_plate,./reference_step files/slotted_plate_0041.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular plate with a centered through slot
@@ -1112,7 +1112,7 @@ Topology/output constraints:
 - Return exactly one connected solid body.
 - No floating pieces, no non-manifold geometry.
 - Respect all stated dimensions and feature counts exactly."
-l_bracket_0023,l_bracket,/Users/mejdi/Desktop/reference_step files/l_bracket_0042.step,"Create a single connected mechanical CAD part.
+l_bracket_0023,l_bracket,./reference_step files/l_bracket_0042.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 L-bracket with base, vertical web, and holes
@@ -1154,7 +1154,7 @@ Topology/output constraints:
 ,,,,
 ,,,,
 ,,,,
-box_hole_0006,box_hole,/Users/mejdi/Desktop/reference_step files/box_hole_0046.step,"Create a single connected mechanical CAD part.
+box_hole_0006,box_hole,./reference_step files/box_hole_0046.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular block with a centered through hole
@@ -1191,7 +1191,7 @@ Topology/output constraints:
 - Return exactly one connected solid body.
 - No floating pieces, no non-manifold geometry.
 - Respect all stated dimensions and feature counts exactly."
-stepped_shaft_0051,stepped_shaft,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0047.step,"Create a single connected mechanical CAD part.
+stepped_shaft_0051,stepped_shaft,./reference_step files/stepped_shaft_0047.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Three-step coaxial shaft
@@ -1231,7 +1231,7 @@ Topology/output constraints:
 - Return exactly one connected solid body.
 - No floating pieces, no non-manifold geometry.
 - Respect all stated dimensions and feature counts exactly."
-flange_0015,flange,/Users/mejdi/Desktop/reference_step files/flange_0048.step,"Create a single connected mechanical CAD part.
+flange_0015,flange,./reference_step files/flange_0048.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Circular flange with bore and bolt pattern
@@ -1270,7 +1270,7 @@ Topology/output constraints:
 - Return exactly one connected solid body.
 - No floating pieces, no non-manifold geometry.
 - Respect all stated dimensions and feature counts exactly."
-ring_spacer_0033,ring_spacer,/Users/mejdi/Desktop/reference_step files/ring_spacer_0049.step,"Create a single connected mechanical CAD part.
+ring_spacer_0033,ring_spacer,./reference_step files/ring_spacer_0049.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Ring spacer (hollow cylinder)
@@ -1305,7 +1305,7 @@ Topology/output constraints:
 - Return exactly one connected solid body.
 - No floating pieces, no non-manifold geometry.
 - Respect all stated dimensions and feature counts exactly."
-slotted_plate_0042,slotted_plate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0050.step,"Create a single connected mechanical CAD part.
+slotted_plate_0042,slotted_plate,./reference_step files/slotted_plate_0050.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular plate with a centered through slot
@@ -1343,7 +1343,7 @@ Topology/output constraints:
 - Return exactly one connected solid body.
 - No floating pieces, no non-manifold geometry.
 - Respect all stated dimensions and feature counts exactly."
-l_bracket_0024,l_bracket,/Users/mejdi/Desktop/reference_step files/l_bracket_0051.step,"Create a single connected mechanical CAD part.
+l_bracket_0024,l_bracket,./reference_step files/l_bracket_0051.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 L-bracket with base, vertical web, and holes
@@ -1385,7 +1385,7 @@ Topology/output constraints:
 ,,,,
 ,,,,
 ,,,,
-box_hole_0007,box_hole,/Users/mejdi/Desktop/reference_step files/box_hole_0055.step,"Create a single connected mechanical CAD part.
+box_hole_0007,box_hole,./reference_step files/box_hole_0055.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular block with a centered through hole
@@ -1422,7 +1422,7 @@ Topology/output constraints:
 - Return exactly one connected solid body.
 - No floating pieces, no non-manifold geometry.
 - Respect all stated dimensions and feature counts exactly."
-stepped_shaft_0052,stepped_shaft,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0056.step,"Create a single connected mechanical CAD part.
+stepped_shaft_0052,stepped_shaft,./reference_step files/stepped_shaft_0056.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Three-step coaxial shaft
@@ -1462,7 +1462,7 @@ Topology/output constraints:
 - Return exactly one connected solid body.
 - No floating pieces, no non-manifold geometry.
 - Respect all stated dimensions and feature counts exactly."
-flange_0016,flange,/Users/mejdi/Desktop/reference_step files/flange_0057.step,"Create a single connected mechanical CAD part.
+flange_0016,flange,./reference_step files/flange_0057.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Circular flange with bore and bolt pattern
@@ -1501,7 +1501,7 @@ Topology/output constraints:
 - Return exactly one connected solid body.
 - No floating pieces, no non-manifold geometry.
 - Respect all stated dimensions and feature counts exactly."
-ring_spacer_0034,ring_spacer,/Users/mejdi/Desktop/reference_step files/ring_spacer_0058.step,"Create a single connected mechanical CAD part.
+ring_spacer_0034,ring_spacer,./reference_step files/ring_spacer_0058.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Ring spacer (hollow cylinder)
@@ -1536,7 +1536,7 @@ Topology/output constraints:
 - Return exactly one connected solid body.
 - No floating pieces, no non-manifold geometry.
 - Respect all stated dimensions and feature counts exactly."
-slotted_plate_0043,slotted_plate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0059.step,"Create a single connected mechanical CAD part.
+slotted_plate_0043,slotted_plate,./reference_step files/slotted_plate_0059.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular plate with a centered through slot
@@ -1574,7 +1574,7 @@ Topology/output constraints:
 - Return exactly one connected solid body.
 - No floating pieces, no non-manifold geometry.
 - Respect all stated dimensions and feature counts exactly."
-l_bracket_0025,l_bracket,/Users/mejdi/Desktop/reference_step files/l_bracket_0060.step,"Create a single connected mechanical CAD part.
+l_bracket_0025,l_bracket,./reference_step files/l_bracket_0060.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 L-bracket with base, vertical web, and holes
@@ -1616,7 +1616,7 @@ Topology/output constraints:
 ,,,,
 ,,,,
 ,,,,
-box_hole_0008,box_hole,/Users/mejdi/Desktop/reference_step files/box_hole_0064.step,"Create a single connected mechanical CAD part.
+box_hole_0008,box_hole,./reference_step files/box_hole_0064.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular block with a centered through hole
@@ -1653,7 +1653,7 @@ Topology/output constraints:
 - Return exactly one connected solid body.
 - No floating pieces, no non-manifold geometry.
 - Respect all stated dimensions and feature counts exactly."
-stepped_shaft_0053,stepped_shaft,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0065.step,"Create a single connected mechanical CAD part.
+stepped_shaft_0053,stepped_shaft,./reference_step files/stepped_shaft_0065.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Three-step coaxial shaft
@@ -1693,7 +1693,7 @@ Topology/output constraints:
 - Return exactly one connected solid body.
 - No floating pieces, no non-manifold geometry.
 - Respect all stated dimensions and feature counts exactly."
-flange_0017,flange,/Users/mejdi/Desktop/reference_step files/flange_0066.step,"Create a single connected mechanical CAD part.
+flange_0017,flange,./reference_step files/flange_0066.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Circular flange with bore and bolt pattern
@@ -1732,7 +1732,7 @@ Topology/output constraints:
 - Return exactly one connected solid body.
 - No floating pieces, no non-manifold geometry.
 - Respect all stated dimensions and feature counts exactly."
-ring_spacer_0035,ring_spacer,/Users/mejdi/Desktop/reference_step files/ring_spacer_0067.step,"Create a single connected mechanical CAD part.
+ring_spacer_0035,ring_spacer,./reference_step files/ring_spacer_0067.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Ring spacer (hollow cylinder)
@@ -1767,7 +1767,7 @@ Topology/output constraints:
 - Return exactly one connected solid body.
 - No floating pieces, no non-manifold geometry.
 - Respect all stated dimensions and feature counts exactly."
-slotted_plate_0044,slotted_plate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0068.step,"Create a single connected mechanical CAD part.
+slotted_plate_0044,slotted_plate,./reference_step files/slotted_plate_0068.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular plate with a centered through slot
@@ -1805,7 +1805,7 @@ Topology/output constraints:
 - Return exactly one connected solid body.
 - No floating pieces, no non-manifold geometry.
 - Respect all stated dimensions and feature counts exactly."
-l_bracket_0026,l_bracket,/Users/mejdi/Desktop/reference_step files/l_bracket_0069.step,"Create a single connected mechanical CAD part.
+l_bracket_0026,l_bracket,./reference_step files/l_bracket_0069.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 L-bracket with base, vertical web, and holes
@@ -1847,7 +1847,7 @@ Topology/output constraints:
 ,,,,
 ,,,,
 ,,,,
-box_hole_0009,box_hole,/Users/mejdi/Desktop/reference_step files/box_hole_0073.step,"Create a single connected mechanical CAD part.
+box_hole_0009,box_hole,./reference_step files/box_hole_0073.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular block with a centered through hole
@@ -1884,7 +1884,7 @@ Topology/output constraints:
 - Return exactly one connected solid body.
 - No floating pieces, no non-manifold geometry.
 - Respect all stated dimensions and feature counts exactly."
-stepped_shaft_0054,stepped_shaft,/Users/mejdi/Desktop/reference_step files/stepped_shaft_0074.step,"Create a single connected mechanical CAD part.
+stepped_shaft_0054,stepped_shaft,./reference_step files/stepped_shaft_0074.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Three-step coaxial shaft
@@ -1924,7 +1924,7 @@ Topology/output constraints:
 - Return exactly one connected solid body.
 - No floating pieces, no non-manifold geometry.
 - Respect all stated dimensions and feature counts exactly."
-flange_0018,flange,/Users/mejdi/Desktop/reference_step files/flange_0075.step,"Create a single connected mechanical CAD part.
+flange_0018,flange,./reference_step files/flange_0075.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Circular flange with bore and bolt pattern
@@ -1963,7 +1963,7 @@ Topology/output constraints:
 - Return exactly one connected solid body.
 - No floating pieces, no non-manifold geometry.
 - Respect all stated dimensions and feature counts exactly."
-ring_spacer_0036,ring_spacer,/Users/mejdi/Desktop/reference_step files/ring_spacer_0076.step,"Create a single connected mechanical CAD part.
+ring_spacer_0036,ring_spacer,./reference_step files/ring_spacer_0076.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Ring spacer (hollow cylinder)
@@ -1998,7 +1998,7 @@ Topology/output constraints:
 - Return exactly one connected solid body.
 - No floating pieces, no non-manifold geometry.
 - Respect all stated dimensions and feature counts exactly."
-slotted_plate_0045,slotted_plate,/Users/mejdi/Desktop/reference_step files/slotted_plate_0077.step,"Create a single connected mechanical CAD part.
+slotted_plate_0045,slotted_plate,./reference_step files/slotted_plate_0077.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 Rectangular plate with a centered through slot
@@ -2036,7 +2036,7 @@ Topology/output constraints:
 - Return exactly one connected solid body.
 - No floating pieces, no non-manifold geometry.
 - Respect all stated dimensions and feature counts exactly."
-l_bracket_0027,l_bracket,/Users/mejdi/Desktop/reference_step files/l_bracket_0078.step,"Create a single connected mechanical CAD part.
+l_bracket_0027,l_bracket,./reference_step files/l_bracket_0078.step,"Create a single connected mechanical CAD part.
 
 Part identity:
 L-bracket with base, vertical web, and holes

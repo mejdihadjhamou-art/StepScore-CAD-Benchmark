@@ -1,5 +1,5 @@
 {
-  "runs_root": "/Users/mejdi/Documents/New project/cad42_platform/.stepscore_harness_runs/parametric_claude_sonnet_v1/jobs",
+  "runs_root": "./.stepscore_harness_runs/parametric_claude_sonnet_v1/jobs",
   "rows_written": 199,
   "metric_names": [
     "valid_cad_rate",
