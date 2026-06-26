@@ -476,19 +476,29 @@ New geometry extractors needed: wall thickness analysis, draft angle detection, 
 
 ## How to Run
 
-### Prerequisites
+### Quick Setup
 
 ```bash
-pip install -r 03_platform/requirements.txt
+git clone https://github.com/mejdihadjhamou-art/StepScore-CAD-Benchmark.git
+cd StepScore-CAD-Benchmark
+bash setup.sh
 ```
 
-Key dependencies: CadQuery, Open3D, NumPy, SciPy, trimesh, Streamlit
+The setup script creates a conda environment, installs dependencies, and sets up data symlinks. After setup, edit `03_platform/.env` with your API keys (copy from `.env.example`).
+
+### Prerequisites
+
+- Python 3.11+
+- Conda (recommended) or pip
+- API keys: Anthropic (`ANTHROPIC_API_KEY`) and/or OpenAI (`OPENAI_API_KEY`)
+
+Key Python dependencies (installed by setup.sh): CadQuery, Open3D, NumPy, SciPy, trimesh, Streamlit
 
 ### Compare Two STEP Files
 
 ```bash
 cd 03_platform/
-python stepscore_cli.py compare --reference path/to/ref.step --generated path/to/gen.step
+python stepscore_cli.py compare --reference references_parametric/box_hole_0001.step --generated path/to/gen.step
 ```
 
 ### Run the Dashboard
@@ -503,7 +513,7 @@ streamlit run app.py
 ```bash
 cd 03_platform/
 python harness_runner.py \
-  --manifest ../05_benchmark_design/harness_manifests/harness_manifest.parametric.csv \
+  --manifest benchmark_v1/harness_manifest.parametric.csv \
   --run-id my_run \
   --max-workers 2 \
   --resume
@@ -513,21 +523,25 @@ python harness_runner.py \
 
 ```bash
 cd 03_platform/
-python labeling_app.py --csv ../07_labeling_and_tuning/labeled_data/pairs_for_labeling.csv --port 8510
+python labeling_app.py --csv labeled_data/pairs_for_labeling.csv --port 8510
 ```
 
 ### Tune Thresholds
 
 ```bash
-cd 07_labeling_and_tuning/tuning_scripts/
-python auto_tune_thresholds.py \
-  --pairs-csv ../labeled_data/pairs_for_labeling.csv \
-  --metrics-meta-json ../labeled_data/metrics_meta.json \
+cd 03_platform/
+python ../07_labeling_and_tuning/tuning_scripts/auto_tune_thresholds.py \
+  --pairs-csv labeled_data/pairs_for_labeling.csv \
+  --metrics-meta-json labeled_data/metrics_meta.json \
   --objective balanced \
   --fp-cost 5.0 \
   --fn-cost 1.0 \
-  --output-dir ../tuning_output_global/
+  --output-dir tuning_output_global/
 ```
+
+### Repo Structure Note
+
+All platform code lives in `03_platform/`. Symlinks inside that folder point to datasets (`04_datasets/`), labeling data (`07_labeling_and_tuning/`), and benchmark manifests (`05_benchmark_design/`) so that all commands work from the `03_platform/` directory without absolute paths. The numbered top-level folders organise the project by phase for documentation purposes.
 
 ---
 

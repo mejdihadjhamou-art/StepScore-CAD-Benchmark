@@ -32,6 +32,8 @@ def _load_tuned_thresholds() -> tuple[dict, str]:
         candidates.append(Path(env_path))
 
     # 2) latest tuning outputs (prefer cleaned if present)
+    candidates.append(Path("tuning_output_global/threshold_overrides_cleaned.json"))
+    candidates.append(Path("tuning_output_global/threshold_overrides.json"))
     candidates.append(Path("threshold_tuning/output_global/threshold_overrides_cleaned.json"))
     candidates.append(Path("threshold_tuning/output_global/threshold_overrides.json"))
 
